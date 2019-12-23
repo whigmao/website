@@ -6,20 +6,22 @@
     <description>Recent content in Posts on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 23 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Good News Is Unplanned</title>
+      <link>/2019/12/23/good-news-is-unplanned/</link>
+      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/2019/12/23/good-news-is-unplanned/</guid>
+      <description>Author: Ronald Bailey
+Translator: Guanghua Mao
+Source: Reason, https://reason.com/archives/2015/10/30/good-news-is-unplanned
+好事无需规划 Incremental, bottom-up, trial-and-error innovation yields moral progress, superior technologies, and greater wealth. Top-down mandates from centralized authorities are more likely to produce ethical disasters, technological stagnation, and persistent poverty. “Bad news is man-made, top-down, purposed stuff, imposed on history,” Matt Ridley writes in The Evolution of Everything. “Good news is accidental, unplanned, emergent stuff that gradually evolves.”
+缓慢演进的、自下而上的、试错式的创新，产生了道德的进步、先进的技术和更多的财富。来自中央权威、自上而下的命令，更容易造成道德灾难、技术停滞和持续贫穷。“坏事都是人为的、自上而下的、刻意设计、故意强加给历史的东西，” Matt Ridley在《万物之进化》中写道。“好事都是意外的、未经计划的、缓慢演化的偶然事件。”</description>
     </item>
     
   </channel>
