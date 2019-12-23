@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="generator" content="Hugo 0.61.0" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light only">
+<meta name="supported-color-schemes" content="light only">
+
+
+  
+  
+    <title>A Plain Markdown Post &ndash; A Hugo website</title>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/core.min.e2023d4763f873f6f268252d7e1f78ab62990e861e438c7605022d4b5c816f825b7b3f62deebc4756f3033951e393922.css" integrity="sha384-4gI9R2P4c/byaCUtfh94q2KZDoYeQ4x2BQItS1yBb4Jbez9i3uvEdW8wM5UeOTki">
+<body>
+      <div class="base-body max-width"><section id="header" class="header max-body-width">
+  <p>
+    <a class="site-name" href="/">
+      
+        A Hugo website
+      
+    </a>
+    
+  </p>
+</section><div id="content" class="flex-body max-body-width">
+  
+  
+
+  <section class="article-header" >
+      <h1>A Plain Markdown Post</h1>
+      <p class="article-date">2016-12-30</p>
+  </section>
+
+  <article class="markdown-body" >
+    <p>This is a post written in plain Markdown (<code>*.md</code>) instead of R Markdown (<code>*.Rmd</code>). The major differences are:</p>
+<ol>
+<li>You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (<code>```{r}</code>);</li>
+<li>A plain Markdown post is rendered through <a href="https://gohugo.io/overview/configuration/">Blackfriday</a>, and an R Markdown document is compiled by <a href="http://rmarkdown.rstudio.com"><strong>rmarkdown</strong></a> and <a href="http://pandoc.org">Pandoc</a>.</li>
+</ol>
+<p>There are many differences in syntax between Blackfriday's Markdown and Pandoc's Markdown. For example, you can write a task list with Blackfriday but not with Pandoc:</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox">Write an R package.</li>
+<li><input disabled="" type="checkbox">Write a book.</li>
+<li><input disabled="" type="checkbox">&hellip;</li>
+<li><input disabled="" type="checkbox">Profit!</li>
+</ul>
+<p>Similarly, Blackfriday does not support LaTeX math and Pandoc does. I have added the MathJax support to this theme (<a href="https://github.com/yihui/hugo-lithium">hugo-lithium</a>) but there is a caveat for plain Markdown posts: you have to include math expressions in a pair of backticks (inline: <code>`$ $`</code>; display style: <code>`$$ $$`</code>), e.g., <code>$S_n = \sum_{i=1}^n X_i$</code>.^[This is because we have to protect the math expressions from being interpreted as Markdown. You may not need the backticks if your math expression does not contain any special Markdown syntax such as underscores or asterisks, but it is always a safer choice to use backticks. When you happen to have a pair of literal dollar signs inside the same element, you can escape one dollar sign, e.g., <code>\$50 and $100</code> renders &ldquo;$50 and $100&rdquo;.] For R Markdown posts, you do not need the backticks, because Pandoc can identify and process math expressions.</p>
+<p>When creating a new post, you have to decide whether the post format is Markdown or R Markdown, and this can be done via the <code>ext</code> argument of the function <code>blogdown::new_post()</code>, e.g.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">blogdown<span style="color:#f92672">::</span><span style="color:#a6e22e">new_post</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Post Title&#34;</span>, ext <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;</span><span style="color:#e6db74">.Rmd&#39;</span>)
+</code></pre></div>
+  </article>
+  
+
+  
+  
+
+  
+
+  
+    <section class="article-navigation">
+      <ul>
+        
+
+        
+          <li>
+            <a href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a>
+            
+                
+                <a class="article-category" href=/categories/r/>R</a>
+            
+            
+                
+                <a class="article-tag" href=/tags/r-markdown/>R Markdown</a>
+            
+                
+                <a class="article-tag" href=/tags/plot/>plot</a>
+            
+                
+                <a class="article-tag" href=/tags/regression/>regression</a>
+            
+          </li>
+        
+      </ul>
+    </section>
+  
+
+  
+
+
+        </div><section id="footer" class="footer max-body-width">
+  
+  
+    
+  
+  <p>A Hugo website</p>
+  <p>
+    <span>Powered by</span>
+    <a href="https://gohugo.io">Hugo</a>
+    <span>and the</span>
+    <a href="https://themes.gohugo.io/hugo-notepadium/">Notepadium</a>
+  </p>
+</section>
+
+
+
+
+</div>
+    </body>
+</html>
