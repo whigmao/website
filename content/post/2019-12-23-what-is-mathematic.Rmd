@@ -8,6 +8,15 @@ categories:
 tags:
   - Math
 ---
+
+Author: Richard Courant & Herbert Robbins
+
+Translator: Guanghua Mao
+
+Source: *WHAT IS MATHEMATICS* (2nd Edition)
+
+# 什么是数学
+
 Mathematics as an expression of the human mind reflects the active will, the contemplative reason, and the desire for aesthetic perfection. Its basic elements are logic and intuition, analysis and construction,generality and individuality. Though different traditions may emphasize different aspects, it is only the interplay of these antithetic forces and the struggle for their synthesis that constitute the life, usefulness, and supreme value of mathematical science.
 
 Without a doubt, all mathematical development has its psychological roots in more or less practical requirements. But once started under the pressure of necessary applications, it inevitably gains momentum in itself and transcends the confines of immediate utility. This trend from applied to theoretical science appears in ancient history as well as in many contributions to modern mathematics by engineers and physicists.
