@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NUMBERS on Guanghua Mao&#39;s website</title>
+    <link>/tags/numbers/</link>
+    <description>Recent content in NUMBERS on Guanghua Mao&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/numbers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CHAPTER 1 - THE NATURAL NUMBER (1)</title>
+      <link>/2019/12/30/the-natural-number/</link>
+      <pubDate>Mon, 30 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/12/30/the-natural-number/</guid>
+      <description>TOC:
+INTRODUCTION
+CALCULATION WITH INTEGERS
+-1.Laws of Arithmetic
+-2.The Representation of Integers
+-3.Computation in Systems Other than the Decimal
+INTRODUCTION Number is the basis of modern mathematics. But what is number? What does it mean to say that \(\frac{1}{2}+\frac{1}{2}=1\), \(\frac{1}{2} \cdot \frac{1}{2}=\frac{1}{4}\), and \((-1)(-1)=1\)? We learned in school the mechanics of fractions and negative numbers, but for a real understanding of the number system we must go back to simpler elements.</description>
+    </item>
+    
+  </channel>
+</rss>

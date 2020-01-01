@@ -1,0 +1,129 @@
+---
+title: CHAPTER 1 - THE NATURAL NUMBER (1)
+subtitle: CALCUALTION WITH INTEGERS
+author: Guanghua Mao
+date: '2019-12-30'
+slug: the-natural-number
+categories:
+  - MATHMATICS
+tags:
+  - Math
+  - NUMBERS
+---
+
+**TOC**:  
+INTRODUCTION  
+CALCULATION WITH INTEGERS  
+  -1.Laws of Arithmetic  
+  -2.The Representation of Integers  
+  -3.Computation in Systems Other than the Decimal  
+
+
+# INTRODUCTION
+Number is the basis of modern mathematics. But what is number? What does it mean to say that $\frac{1}{2}+\frac{1}{2}=1$, $\frac{1}{2} \cdot \frac{1}{2}=\frac{1}{4}$, and $(-1)(-1)=1$? We learned in school the mechanics of fractions and negative numbers, but for a real understanding of the number system we must go back to simpler elements. We shall accept the natural numbers as given, together with the two fundamental operations, **addition and multiplication**, by which they may be combined.
+
+---
+
+# CALCULATION WITH INTEGERS
+
+---
+
+## 1.Laws of Arithmetic
+The mathematical theory of the natural numbers or $positive \ integers$ is known as $arithmetic$. It is based on the fact that the addition and multiplication of integers are governed by certain laws. We shall denote integers symbolically by letters $a,b,c,…$. With this agreement we may state five fundamental laws of arithmetic:
+
+1.$a+b=b+a$
+
+2.$ab=ba$
+
+3.$a+(b+c)=(a+b)+c$
+
+4.$a(bc)=(ab)c$
+
+5.$a(b+c)=ab+ac$
+
+The first two of these, the $commulative$ laws of addition and multiplication, state that one may interchange the order of the elements involved in addition and multiplication. The third, the $associative$ law of addition, states that addition of three numbers gives the same result whether we add to the first the sum of the second and third, or to the third the sum of the first and second. The fourth is the $associative$ law of multiplication. The last, the $distributive$ law, expresses the fact that to muliply a sum by an integer we may multiply each term of the sum by this integer and then add the products.
+These laws of arithemetic are very simple, and may seem obvious. But the might not be applicable to entities other than integers. If $a$ and $b$ are symbols not for integers but for chemical substances, and if "addition" is uded in a colloquial sense, it is evident that the commutative law will not alwasy hold.
+On the basis of the definition of addition of two integers we may define the relation of $inequality$. Each of the equivalen statements, $a < b$ (read, "$a$ is less than $b$") and $b > a$ (read, "$b$ is greater than $a$"), means that box $b$ may be obtained from box $a$ by the addition of a properly chosen third box $c$, so that $b=a+c$.
+Addition and subtraction are said to be $inverse \ operations$, since if the addition of the integer $d$ to the integer $a$ is followed by the subtraction of the integer $d$, the result is the original integer $a$:
+$(a+d)-d=a$.
+It should be noted that the integer $b-a$ has been defined only when $b>a$. The interpretation of the symbol $b-a$ as a $negative \ integer$ when $b<a$ will be discussed later.
+
+---
+
+## 2.The Representation of Integers
+We must carefully distinguish between an integer and the symbol, $5,V,…$ used to represent it. It is very useful to have a way of indicating the result in perfect generality by a single formula. We may do this if we denote the different coefficients, $a,b,c,…,$ by the single letter $a$ with different "subscripts," $a_0, a_1, a_2, …,$ and indicate the fact that the powers of ten may be as large as necessary. Then th general method for representing an integer $z$ in the decimal system is to express $z$ in the form:
+$z=a_n \cdot 10^n+ a_{n-1} \cdot 10^{n-1}+…+a_1 \cdot 10+a_0$,
+and to represent it by the symbol
+$a_na_{n-1}a_{n-2}…a_1a_0$.
+In the decimal system the number ten is singled out to serve as a base. The layman may not realize that the selection of ten is not essential, and that any integer greater than one would serve that same purpose. For example, a $septimal$ system (base 7) could be used. In such a system, an integer would be expressed as 
+$b_n \cdot 7^n+b_{n-1} \cdot 7^{n-1}+…+b_1 \cdot 7+b_0$,
+where the $b$'s arc digits from zero to six.
+The general rule for passing from the base ten to any other base $B$ is to perform successive divisions of the number $z$ by $B$; the remainders will be the digits of the number in the system with base $B$. For exampel:
+109 (decimal system) = 214 (septimal system)
+
+---
+
+## 3.Computation in Systems Other than the Decimal
+The use of ten as a base goes back to the dawn of civilization, and is undoubtedly due to the fact that we have ten fingers on which to count. But the number words of many languages show remnants of the use of other bases, notably twelve and twenty.
+In a system other than the decimal the rules of arithmetic are the same, but one must use different tables for the addition and multiplication of digits.
+From a theoretical point of view, the positional system with the base 2 is singled out as the one with the smallest possible base. The only digits in this $dyadic \ system$ are 0 and 1; every other number $Z$ is represented by a row of these symbols. The addition and multiplication tables consist merely of the rules $1+1=10$ and $1 \cdot 1=1$. But the disadvantage of this system is obvious: long expressions are needed to represent small numbers. Thus $79$. which may be expressed as $1,001,111$.
+As an illystration of the simplicity of multiplication in the dyadic system, we shall multiply $7$ and $5$, which are respectively $111$ and $101$. Remembering that $1+1=10$ in this system, we have the result $100011$, which is $35$, as it should be.
+
+>Leibniz saw in his binary arithemetic the image of creation. He imageined that Unity represented God, and zero the void; that the Superme Being drew all beings from the void, just as unity and zero express all numbers in his system of numeration--Laplace.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
