@@ -6,10 +6,19 @@
     <description>Recent content on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CHAPTER 1 - THE NATURAL NUMBER (2)</title>
+      <link>/2019/12/31/chapter-1-the-natural-number-2/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/12/31/chapter-1-the-natural-number-2/</guid>
+      <description>THE INFINITUDE OF THE NUMBER SYSTEM. MATHEMATICAL INDUCTION 1. The Principle of Mathematical Induction For any interger \(n\) has been reached we may write the next integer, \(n+1\). We express this property of the sequence of integers by saying that there are \(infinitely\) many integers. The sequence of integers represents the simplest and most natural example of the mathematical infinite, which plays a dominant role in modern mathematics. The step by step procedure of passing from \(n\) to \(n+1\) which generates the infinite sequence of integers also forms the basis of one of the most fundamental patterns of mathematical reasoning, the principle of mathematical induction.</description>
+    </item>
     
     <item>
       <title>CHAPTER 1 - THE NATURAL NUMBER (1)</title>

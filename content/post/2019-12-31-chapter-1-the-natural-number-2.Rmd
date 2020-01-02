@@ -1,0 +1,176 @@
+---
+title: CHAPTER 1 - THE NATURAL NUMBER (2)
+author: Guanghua Mao
+date: '2019-12-31'
+slug: chapter-1-the-natural-number-2
+categories:
+  - MATHMATICS
+tags:
+  - Math
+  - NUMBERS
+---
+
+# THE INFINITUDE OF THE NUMBER SYSTEM. MATHEMATICAL INDUCTION
+
+---
+
+## 1. The Principle of Mathematical Induction
+
+For any interger $n$ has been reached we may write the next integer, $n+1$. We express this property of the sequence of integers by saying that there are $infinitely$ many integers. The sequence of integers represents the simplest and most natural example of the mathematical infinite, which plays a dominant role in modern mathematics.
+The step by step procedure of passing from $n$ to $n+1$ which generates the infinite sequence of integers also forms the basis of one of the most fundamental patterns of mathematical reasoning, **the principle of mathematical induction**.
+The essential idea in the preceeding arguments is to establish a general theorem $A$ for all values of $n$ by successively proving a sequence of special cases. The possibility of doing this depends on two things: 
+
+* There is a general method for showing that if any statement $A_r$ is true then the next statement, $A_{r+1}$, will also be true.
+
+* The first statement $A_1$ is known to be true. 
+
+That these two conditions are sufficient to establish the truth of all the statements $A_1, A_2, A_3, …$ is a logical principle which is as fundamental to mathematics as are the classical rules of $Aristotleian \ logic$.
+
+Often the principle of mathematical induction is applied without explicit mention, or is simply indicated by a casual "etc." or "and so on." This is especially frequent in elementary instruction. But the explicit use of an inductive argument is indispensable in more subtle proofs. We shall give a few illustrations of a simple but not quite trivial character.
+
+---
+
+## 2. The Arithmetical Progression
+For *every value* of $n$, the sum $1+2+3+…+n$ of the first $n$ integers is equal to $\frac{n(n+1)}{2}$. 
+
+(1) $1+2+3+…+n=\frac{n(n+1)}{2}$.
+
+Ordianrily this is shown by writing the sum $1+2+3+…+n$ in two forms:
+
+$S_n=1+2+3+…+(n-1)+n$
+
+and 
+
+$S_n=n+(n-1)+…+3+2+1$
+
+On adding, we can see that each pair of numbers in the same column yields the sum $n+1$, and, since there are $n$ columns in all, it follows that
+
+$2S_n=n(n+1)$,
+
+which proves the desired result.
+
+From (1) we may immediately derive the formula for the sum of the first $(n+1)$ terms of any *arithmetical progression*,
+
+(2) $P_n=a+(a+d)+(a+2d)+…+(a+nd)=\frac{(n+1) \cdot (2a+nd)}{2}$.
+
+---
+
+## 3. The Geometrical Progression
+
+One may treat the genetal geometrical progression in a similar way. We shall prove that for every value of $n$
+
+(3) $G_n=a+aq+aq^2+…+aq^n=a \cdot \frac{1-q^{n+1}}{1-q}$, for $q \neq 1$.
+
+In elementary textbooks the usual proof proceeds as follows. Set
+
+$G_n=a+aq+…+aq^n$,
+
+and multiply both side of this equation by $q$, obtaining
+
+$qG_n=aq+aq^2+…+aq^{n+1}$.
+
+Now subtract corresponding sides of this equation from the preceding equation, obtaining
+
+$G_n-qG_n=a-aq^{n+1}$,
+
+$(1-q)G_n=a(1-q^{n+1})$,
+
+$G_n=a \cdot \frac{1-q^{n+1}}{1-q}$.
+
+---
+
+## 4. The Sum of the First n Squares
+
+The further interesting application of the principle of mathematical induction refers to the sum of the first $n$ squares. By direct trial one finds that, at least for small values of $n$,
+
+(4) $1^2+2^2+3^2+…+n^2=\frac{n(n+1)(2n+1)}{6}$,
+
+The usual proof proceeds as follows. Starting with the binomial expansion of $(k-1)^3$:
+
+$$(k-1)^3=k^3-3k^2+3k-1,\\
+k^3-(k-1)^3=3k^2-3k+1,\\
+\sum_{k=1}^n[k^3-(k-1)^3]=\sum_{k=1}^n[3k^2-3k+1],\\
+let \ the \ left \ side \ yields \ n^3,\\
+n^3=3(\sum_{k=1}^nk^2)-3\frac{n(n+1)}{2}+n,\\
+3(\sum_{k=1}^nk^2)=n^3+3\frac{n(n+1)}{2}-n,\\
+\Longrightarrow \sum_{k=1}^nk^2=\frac{n(n+1)(2n+1)}{6}.
+$$,
+
+---
+
+## 5. An Important Inequality
+
+In a subsequent chapter we shall find use for the inequality:
+
+(6) $(1+p)^n \geq 1+np$,
+
+which holds for every number $p > -1$ and positive integer $n$.
+
+---
+
+## 6. The Binomial Theorem
+
+
+Frequently it is important to hava an explicit expression for the $n^{th}$ power of a binomial, $(a+b)^n$.
+
+![Diagram](/post/2019-12-31-chapter-1-the-natural-number-2_files/diagram.png)
+
+![Pascal's Triangle](/post/2019-12-31-chapter-1-the-natural-number-2_files/Pascal's triangle.png)
+
+$(a+b)^n=\sum_{k=0}^{n}{n \choose k}a^kb^{n-k}$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
