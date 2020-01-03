@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Book Review: R for Data Science</title>
+      <link>/2020/01/02/book-review-r-for-data-science/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/02/book-review-r-for-data-science/</guid>
+      <description>After reading the book: R for Data Science, I plan to write a book review to summary some important skills I learned from the book and shed new light on the future study direction. The book helps me understand the whole diagram about data science, and what role R plays in the diagram. However, the book is not a definitive guide. These are a lot of important topics, such as TensorFlow, model building and non-rectangular data, not appearing in the book.</description>
+    </item>
     
     <item>
       <title>CHAPTER 1 - THE NATURAL NUMBER (2)</title>

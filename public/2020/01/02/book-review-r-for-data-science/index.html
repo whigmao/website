@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.61.0" />
+
+
+<title>Book Review: R for Data Science - Guanghua Mao&#39;s website</title>
+<meta property="og:title" content="Book Review: R for Data Science - Guanghua Mao&#39;s website">
+
+
+  <link href='/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/My%20logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/categories/">Categories</a></li>
+    
+    <li><a href="https://github.com/whigmao">GitHub</a></li>
+    
+    <li><a href="/tags/">Tags</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">15 min read</span>
+    
+
+    <h1 class="article-title">Book Review: R for Data Science</h1>
+
+    
+    <span class="article-date">2020-01-02</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p>After reading the book: <em><a href="https://r4ds.had.co.nz/">R for Data Science</a></em>, I plan to write a book review to summary some important skills I learned from the book and shed new light on the future study direction. The book helps me understand the whole diagram about data science, and what role R plays in the diagram. However, the book is not a definitive guide. These are a lot of important topics, such as TensorFlow, model building and non-rectangular data, not appearing in the book. What motivates me to write the book review is that although the authors provide a clear workflow about data science, the book doesn’t follow the workflow, also, there is too much redundant content which will burden readers. Thus, I am going to reorganize the structure and briefly and concisely summary the important information.</p>
+<hr />
+<div id="saving-your-time" class="section level1">
+<h1>0. Saving Your Time</h1>
+<table>
+<colgroup>
+<col width="22%" />
+<col width="20%" />
+<col width="57%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Workflow</th>
+<th>Mission</th>
+<th>Argument &amp; Parameter</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Data Import</td>
+<td>Read data</td>
+<td>read_csv(file, skip=,comment=,na=,col_names=)</td>
+</tr>
+<tr class="even">
+<td>Data Import</td>
+<td>Parsing files</td>
+<td>parse_*(data,locale or col_types=cols(x=,y=))</td>
+</tr>
+<tr class="odd">
+<td>Tidy data</td>
+<td>gather columns into a new pair of variables</td>
+<td>gather(the initial columns, name of column (key), name of column (value))</td>
+</tr>
+<tr class="even">
+<td>Tidy data</td>
+<td>spread multiple rows into new pair of variables</td>
+<td>spread(the initial column(key), value column(value))</td>
+</tr>
+<tr class="odd">
+<td>Tidy data</td>
+<td>pulls apart one column into multiple columns</td>
+<td>separate(the initial column, new columns (into))</td>
+</tr>
+<tr class="even">
+<td>Tidy data</td>
+<td>combines multiple columns into a single column</td>
+<td>unite(new column’s name, the initial columns, sep)</td>
+</tr>
+<tr class="odd">
+<td>Data Transformation</td>
+<td>Filter rows</td>
+<td>filter(data, col_name == Values)</td>
+</tr>
+<tr class="even">
+<td>Data Transformation</td>
+<td>Reorder the rows</td>
+<td>arrange(data, desc(col_names))</td>
+</tr>
+<tr class="odd">
+<td>Data Transformation</td>
+<td>Select Columns</td>
+<td>select(data, col_names)</td>
+</tr>
+<tr class="even">
+<td>Data Transformation</td>
+<td>Add new variables</td>
+<td>mutate(data, new variables = existing columns(+-*/))</td>
+</tr>
+<tr class="odd">
+<td>Data Transformation</td>
+<td>Grouped summaries</td>
+<td>summarise(gropy_by(col_names),existing columns(STAT))</td>
+</tr>
+<tr class="even">
+<td>Data Transformation</td>
+<td>Rename colnames</td>
+<td>rename(data, new col_names = existing col_names)</td>
+</tr>
+<tr class="odd">
+<td>Data Transformation</td>
+<td>recode values</td>
+<td>recode(data, new value = old value)</td>
+</tr>
+<tr class="even">
+<td>Data Visualization</td>
+<td>visulaising your data</td>
+<td><strong>read the last code chunk</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="the-workflow" class="section level1">
+<h1>1. The Workflow</h1>
+<div class="figure">
+<img src="/post/2020-01-02-book-review-r-for-data-science_files/Data%20Science%20Workflow.png" alt="Data Science Workflow" />
+<p class="caption">Data Science Workflow</p>
+</div>
+<hr />
+</div>
+<div id="data-import" class="section level1">
+<h1>2. Data Import</h1>
+<p>In the section, I have learned how to read external data and parse a file.</p>
+<div id="read-external-data" class="section level2">
+<h2>1. Read External Data</h2>
+<p>In most case, we will import <em>CSV</em> file.</p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## ── Attaching packages ──────────────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ✓ ggplot2 3.2.1     ✓ purrr   0.3.3
+## ✓ tibble  2.1.3     ✓ dplyr   0.8.3
+## ✓ tidyr   1.0.0     ✓ stringr 1.4.0
+## ✓ readr   1.3.1     ✓ forcats 0.4.0</code></pre>
+<pre><code>## ── Conflicts ─────────────────────────────────────────────────── tidyverse_conflicts() ──
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>#the package I use is readr
+height &lt;- read_csv(&quot;the first line is metadata
+                   the second line is metadata
+                   #this is a comment
+                   a,b,c
+                   1,2,3
+                   A,B,.&quot;,
+                   skip=2,
+                   comment=&quot;#&quot;,
+                   na=&quot;.&quot;,
+                   col_names = c(&quot;x&quot;,&quot;y&quot;,&quot;z&quot;))
+height</code></pre>
+<pre><code>## # A tibble: 3 x 3
+##   x     y     z    
+##   &lt;chr&gt; &lt;chr&gt; &lt;chr&gt;
+## 1 a     b     c    
+## 2 1     2     3    
+## 3 A     B     &lt;NA&gt;</code></pre>
+<p>This is all you need to know to read <span class="math inline">\(75\)</span>% of <em>CSV</em> files that you’ll encounter in practice. If you want to know more, please visit <a href="https://cran.r-project.org/web/packages/readr/readr.pdf">readr</a>.</p>
+<p>Why I am not using <code>read.csv()</code> is the base R function will not produce tibble which is better than data frame and work less productive than <code>read_csv()</code>.</p>
+</div>
+<div id="parsing-a-file" class="section level2">
+<h2>2. Parsing a file</h2>
+<p><code>Parse_*()</code> functions take a character vertor and return a more specialised vector like a logical, integer, or date.</p>
+<pre class="r"><code>str(parse_logical(c(&quot;TRUE&quot;,&quot;FALSE&quot;,&quot;NA&quot;)))</code></pre>
+<pre><code>##  logi [1:3] TRUE FALSE NA</code></pre>
+<pre class="r"><code>str(parse_integer(c(&quot;1&quot;, &quot;2&quot;, &quot;3&quot;)))</code></pre>
+<pre><code>##  int [1:3] 1 2 3</code></pre>
+<pre class="r"><code>str(parse_date(c(&quot;2010-01-01&quot;, &quot;1979-10-14&quot;)))</code></pre>
+<pre><code>##  Date[1:2], format: &quot;2010-01-01&quot; &quot;1979-10-14&quot;</code></pre>
+<pre class="r"><code>parse_datetime(&quot;20101010&quot;)</code></pre>
+<pre><code>## [1] &quot;2010-10-10 UTC&quot;</code></pre>
+<pre class="r"><code>parse_date(&quot;1 janvier 2015&quot;, &quot;%d %B %Y&quot;, locale = locale(&quot;fr&quot;))</code></pre>
+<pre><code>## [1] &quot;2015-01-01&quot;</code></pre>
+<p>These functions are useful in their own right, but are also an important building block for readr. If parsing fails, you’ll get a warning:</p>
+<pre class="r"><code>x &lt;- parse_integer(c(&quot;123&quot;, &quot;345&quot;, &quot;abc&quot;, &quot;123.45&quot;))</code></pre>
+<pre><code>## Warning: 2 parsing failures.
+## row col               expected actual
+##   3  -- an integer                abc
+##   4  -- no trailing characters    .45</code></pre>
+<pre class="r"><code>problems(x)</code></pre>
+<pre><code>## # A tibble: 2 x 4
+##     row   col expected               actual
+##   &lt;int&gt; &lt;int&gt; &lt;chr&gt;                  &lt;chr&gt; 
+## 1     3    NA an integer             abc   
+## 2     4    NA no trailing characters .45</code></pre>
+<p>Let me give you more example:</p>
+<pre class="r"><code>parse_double(&quot;1,23&quot;)</code></pre>
+<pre><code>## Warning: 1 parsing failure.
+## row col               expected actual
+##   1  -- no trailing characters    ,23</code></pre>
+<pre><code>## [1] NA
+## attr(,&quot;problems&quot;)
+## # A tibble: 1 x 4
+##     row   col expected               actual
+##   &lt;int&gt; &lt;int&gt; &lt;chr&gt;                  &lt;chr&gt; 
+## 1     1    NA no trailing characters ,23</code></pre>
+<p>There is a little problem. You can use the argument <code>locale = locale(decimal_mark=&quot;&quot;)</code> to solve the problem.</p>
+<pre class="r"><code>parse_double(&quot;1,23&quot;,locale = locale(decimal_mark = &quot;,&quot;))</code></pre>
+<pre><code>## [1] 1.23</code></pre>
+<p>Also, we may want to ingore the mark, whether it is “.”, “,” or “`”.</p>
+<pre class="r"><code># Used in America
+parse_number(&quot;$123,456,789&quot;)</code></pre>
+<pre><code>## [1] 123456789</code></pre>
+<pre class="r"><code>#&gt; [1] 1.23e+08
+
+# Used in many parts of Europe
+parse_number(&quot;123.456.789&quot;, locale = locale(grouping_mark = &quot;.&quot;))</code></pre>
+<pre><code>## [1] 123456789</code></pre>
+<pre class="r"><code>#&gt; [1] 1.23e+08
+
+# Used in Switzerland
+parse_number(&quot;123&#39;456&#39;789&quot;, locale = locale(grouping_mark = &quot;&#39;&quot;))</code></pre>
+<pre><code>## [1] 123456789</code></pre>
+<pre class="r"><code>#&gt; [1] 1.23e+08</code></pre>
+<p>When we plan to parse characters, we may need to specify the encoding.</p>
+<pre class="r"><code>x1 &lt;- &quot;El Ni\xf1o was particularly bad this year&quot;
+x2 &lt;- &quot;\x82\xb1\x82\xf1\x82\xc9\x82\xbf\x82\xcd&quot;
+parse_character(x1, locale = locale(encoding = &quot;Latin1&quot;))</code></pre>
+<pre><code>## [1] &quot;El Niño was particularly bad this year&quot;</code></pre>
+<pre class="r"><code>parse_character(x2, locale = locale(encoding = &quot;Shift-JIS&quot;))</code></pre>
+<pre><code>## [1] &quot;こんにちは&quot;</code></pre>
+<p>In the first code chunk in the section, I give three examples on how to parse date and datetime, but in practice the situation is complicated. Therefore, I will write another article to fully explain how to prase date and datetime.</p>
+<p>Now we need to know how to parse a file.</p>
+<pre class="r"><code>challenge &lt;- read_csv(readr_example(&quot;challenge.csv&quot;))</code></pre>
+<pre><code>## Parsed with column specification:
+## cols(
+##   x = col_double(),
+##   y = col_logical()
+## )</code></pre>
+<pre><code>## Warning: 1000 parsing failures.
+##  row col           expected     actual                                                                                         file
+## 1001   y 1/0/T/F/TRUE/FALSE 2015-01-16 &#39;/Library/Frameworks/R.framework/Versions/3.6/Resources/library/readr/extdata/challenge.csv&#39;
+## 1002   y 1/0/T/F/TRUE/FALSE 2018-05-18 &#39;/Library/Frameworks/R.framework/Versions/3.6/Resources/library/readr/extdata/challenge.csv&#39;
+## 1003   y 1/0/T/F/TRUE/FALSE 2015-09-05 &#39;/Library/Frameworks/R.framework/Versions/3.6/Resources/library/readr/extdata/challenge.csv&#39;
+## 1004   y 1/0/T/F/TRUE/FALSE 2012-11-28 &#39;/Library/Frameworks/R.framework/Versions/3.6/Resources/library/readr/extdata/challenge.csv&#39;
+## 1005   y 1/0/T/F/TRUE/FALSE 2020-01-13 &#39;/Library/Frameworks/R.framework/Versions/3.6/Resources/library/readr/extdata/challenge.csv&#39;
+## .... ... .................. .......... ............................................................................................
+## See problems(...) for more details.</code></pre>
+<p>You can know that the type of y column is not logic but date, so we need to parse the column.</p>
+<pre class="r"><code>challenge &lt;- read_csv(
+  readr_example(&quot;challenge.csv&quot;), 
+  col_types = cols(
+    x = col_double(),
+    y = col_date()
+  )
+)
+tail(challenge)</code></pre>
+<pre><code>## # A tibble: 6 x 2
+##       x y         
+##   &lt;dbl&gt; &lt;date&gt;    
+## 1 0.805 2019-11-21
+## 2 0.164 2018-03-29
+## 3 0.472 2014-08-04
+## 4 0.718 2015-08-16
+## 5 0.270 2020-02-04
+## 6 0.608 2019-01-06</code></pre>
+<p>Now, it is correct.</p>
+<hr />
+</div>
+</div>
+<div id="tidy-data" class="section level1">
+<h1>3. Tidy Data</h1>
+<p>This chapter will give you a practical introduction to tidy data and the accompanying tools in the <em>tidyr</em> package.</p>
+<p>There are three interrelated rules which make a dataset tidy:</p>
+<ol style="list-style-type: decimal">
+<li><p>Each variable must have its own column.</p></li>
+<li><p>Each observation must have its own row.</p></li>
+<li><p>Each value must have its own cell.</p></li>
+</ol>
+<p>That interrelationship leads to an even simpler set of practical instructions:</p>
+<ol style="list-style-type: decimal">
+<li><p>Put each dataset in a tibble.</p></li>
+<li><p>Put each variable in a column.</p></li>
+</ol>
+<p>There are two groups of complement argument to perform tidying data.</p>
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>name</th>
+<th>usage</th>
+<th>parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>gather</td>
+<td>gather columns into a new pair of variables</td>
+<td>the initial columns, name of column (key), name of column (value)</td>
+</tr>
+<tr class="even">
+<td>spread</td>
+<td>spread multiple rows into new pair of variables</td>
+<td>the initial column(key), value column(value)</td>
+</tr>
+<tr class="odd">
+<td>seprarate</td>
+<td>pulls apart one column into multiple columns</td>
+<td>the initial column, new columns (into)</td>
+</tr>
+<tr class="even">
+<td>unite</td>
+<td>combines multiple columns into a single column</td>
+<td>new column’s name, the initial columns, sep</td>
+</tr>
+</tbody>
+</table>
+<p>If you just look at the table, it will make you confused, so I will give you examples one by one.</p>
+<pre class="r"><code>table4a</code></pre>
+<pre><code>## # A tibble: 3 x 3
+##   country     `1999` `2000`
+## * &lt;chr&gt;        &lt;int&gt;  &lt;int&gt;
+## 1 Afghanistan    745   2666
+## 2 Brazil       37737  80488
+## 3 China       212258 213766</code></pre>
+<pre class="r"><code># we want to gather 1999, 2000, because they are not variables but values.
+table4a %&gt;% gather(&#39;1999&#39;,&#39;2000&#39;,key = &quot;year&quot;,value = &quot;cases&quot;)</code></pre>
+<pre><code>## # A tibble: 6 x 3
+##   country     year   cases
+##   &lt;chr&gt;       &lt;chr&gt;  &lt;int&gt;
+## 1 Afghanistan 1999     745
+## 2 Brazil      1999   37737
+## 3 China       1999  212258
+## 4 Afghanistan 2000    2666
+## 5 Brazil      2000   80488
+## 6 China       2000  213766</code></pre>
+<p>We can use <code>gather()</code> to tidy <code>table4b</code> in a similar fashion. The only difference is the variable stored in the cell values:</p>
+<pre class="r"><code>table4b %&gt;%
+  gather(`1999`, `2000`, key = &quot;year&quot;, value = &quot;population&quot;)</code></pre>
+<pre><code>## # A tibble: 6 x 3
+##   country     year  population
+##   &lt;chr&gt;       &lt;chr&gt;      &lt;int&gt;
+## 1 Afghanistan 1999    19987071
+## 2 Brazil      1999   172006362
+## 3 China       1999  1272915272
+## 4 Afghanistan 2000    20595360
+## 5 Brazil      2000   174504898
+## 6 China       2000  1280428583</code></pre>
+<p>Spreading is the opposite of gathering.</p>
+<pre class="r"><code>head(table2)</code></pre>
+<pre><code>## # A tibble: 6 x 4
+##   country      year type           count
+##   &lt;chr&gt;       &lt;int&gt; &lt;chr&gt;          &lt;int&gt;
+## 1 Afghanistan  1999 cases            745
+## 2 Afghanistan  1999 population  19987071
+## 3 Afghanistan  2000 cases           2666
+## 4 Afghanistan  2000 population  20595360
+## 5 Brazil       1999 cases          37737
+## 6 Brazil       1999 population 172006362</code></pre>
+<pre class="r"><code>#type column contains two variables
+table2 %&gt;%
+  spread(key=&quot;type&quot;,value=&quot;count&quot;)</code></pre>
+<pre><code>## # A tibble: 6 x 4
+##   country      year  cases population
+##   &lt;chr&gt;       &lt;int&gt;  &lt;int&gt;      &lt;int&gt;
+## 1 Afghanistan  1999    745   19987071
+## 2 Afghanistan  2000   2666   20595360
+## 3 Brazil       1999  37737  172006362
+## 4 Brazil       2000  80488  174504898
+## 5 China        1999 212258 1272915272
+## 6 China        2000 213766 1280428583</code></pre>
+<p><code>Separate()</code> pulls apart one column into multiple columns, by splitting wherever a separator character appears.</p>
+<pre class="r"><code>head(table3)</code></pre>
+<pre><code>## # A tibble: 6 x 3
+##   country      year rate             
+##   &lt;chr&gt;       &lt;int&gt; &lt;chr&gt;            
+## 1 Afghanistan  1999 745/19987071     
+## 2 Afghanistan  2000 2666/20595360    
+## 3 Brazil       1999 37737/172006362  
+## 4 Brazil       2000 80488/174504898  
+## 5 China        1999 212258/1272915272
+## 6 China        2000 213766/1280428583</code></pre>
+<pre class="r"><code>#We want to separate &quot;rate&quot; column into &quot;cases&quot; and &quot;population&quot;
+table3 %&gt;%
+  separate(rate, into = c(&quot;cases&quot;,&quot;population&quot;),sep = &quot;/&quot;,convert = TRUE)</code></pre>
+<pre><code>## # A tibble: 6 x 4
+##   country      year  cases population
+##   &lt;chr&gt;       &lt;int&gt;  &lt;int&gt;      &lt;int&gt;
+## 1 Afghanistan  1999    745   19987071
+## 2 Afghanistan  2000   2666   20595360
+## 3 Brazil       1999  37737  172006362
+## 4 Brazil       2000  80488  174504898
+## 5 China        1999 212258 1272915272
+## 6 China        2000 213766 1280428583</code></pre>
+<p><code>unite()</code> is the inverse of <code>separate()</code>: it combines multiple columns into a single column.</p>
+<pre class="r"><code>head(table5)</code></pre>
+<pre><code>## # A tibble: 6 x 4
+##   country     century year  rate             
+##   &lt;chr&gt;       &lt;chr&gt;   &lt;chr&gt; &lt;chr&gt;            
+## 1 Afghanistan 19      99    745/19987071     
+## 2 Afghanistan 20      00    2666/20595360    
+## 3 Brazil      19      99    37737/172006362  
+## 4 Brazil      20      00    80488/174504898  
+## 5 China       19      99    212258/1272915272
+## 6 China       20      00    213766/1280428583</code></pre>
+<pre class="r"><code>#Obviously, we can combine century and year into a single column
+table5 %&gt;%
+  unite(year,century,year, sep = &quot;&quot;)</code></pre>
+<pre><code>## # A tibble: 6 x 3
+##   country     year  rate             
+##   &lt;chr&gt;       &lt;chr&gt; &lt;chr&gt;            
+## 1 Afghanistan 1999  745/19987071     
+## 2 Afghanistan 2000  2666/20595360    
+## 3 Brazil      1999  37737/172006362  
+## 4 Brazil      2000  80488/174504898  
+## 5 China       1999  212258/1272915272
+## 6 China       2000  213766/1280428583</code></pre>
+<p>You can use <code>na.rm=TRUE</code> to remove <em>NA</em> values.</p>
+<hr />
+</div>
+<div id="data-transformation" class="section level1">
+<h1>4. Data Transformation</h1>
+<p>Often we will need to create some new variables or summaries, or maybe you just want to rename the variables or reorder the observations in order to make the data a little easier to work with. I will use <em>dplyr</em> packages.</p>
+<table>
+<colgroup>
+<col width="34%" />
+<col width="21%" />
+<col width="43%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Argument</th>
+<th>Usage</th>
+<th>Parameters</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>filter()</td>
+<td>Filter rows</td>
+<td>filter(data, col_name == Values)</td>
+</tr>
+<tr class="even">
+<td>arrange()</td>
+<td>Reorder the rows</td>
+<td>arrange(data, desc(col_names))</td>
+</tr>
+<tr class="odd">
+<td>select()</td>
+<td>Select Columns</td>
+<td>select(data, col_names)</td>
+</tr>
+<tr class="even">
+<td>mutate()</td>
+<td>Add new variables</td>
+<td>mutate(data, new variables = existing columns(+-*/))</td>
+</tr>
+<tr class="odd">
+<td>summarise()</td>
+<td>Grouped summaries</td>
+<td>summarise(gropy_by(col_names),existing columns(STAT))</td>
+</tr>
+<tr class="even">
+<td>rename()</td>
+<td>Rename colnames</td>
+<td>rename(data, new col_names = existing col_names)</td>
+</tr>
+<tr class="odd">
+<td>recode()</td>
+<td>recode values</td>
+<td>recode(data, new value = old value)</td>
+</tr>
+</tbody>
+</table>
+<pre class="r"><code>library(nycflights13)
+head(flights)</code></pre>
+<pre><code>## # A tibble: 6 x 19
+##    year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##   &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+## 1  2013     1     1      517            515         2      830            819
+## 2  2013     1     1      533            529         4      850            830
+## 3  2013     1     1      542            540         2      923            850
+## 4  2013     1     1      544            545        -1     1004           1022
+## 5  2013     1     1      554            600        -6      812            837
+## 6  2013     1     1      554            558        -4      740            728
+## # … with 11 more variables: arr_delay &lt;dbl&gt;, carrier &lt;chr&gt;, flight &lt;int&gt;,
+## #   tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;, air_time &lt;dbl&gt;, distance &lt;dbl&gt;,
+## #   hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+<pre class="r"><code>#filer rows
+flights %&gt;%
+  filter(month == 1, day &gt;= 3)</code></pre>
+<pre><code>## # A tibble: 25,219 x 19
+##     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+##  1  2013     1     3       32           2359        33      504            442
+##  2  2013     1     3       50           2145       185      203           2311
+##  3  2013     1     3      235           2359       156      700            437
+##  4  2013     1     3      458            500        -2      650            650
+##  5  2013     1     3      520            525        -5      830            820
+##  6  2013     1     3      532            530         2      851            831
+##  7  2013     1     3      535            540        -5      835            850
+##  8  2013     1     3      543            545        -2     1009           1022
+##  9  2013     1     3      550            600       -10      843            846
+## 10  2013     1     3      552            600        -8      759            801
+## # … with 25,209 more rows, and 11 more variables: arr_delay &lt;dbl&gt;,
+## #   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;,
+## #   air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+<pre class="r"><code>#reorder the rows
+flights %&gt;%
+  arrange(desc(dep_delay))</code></pre>
+<pre><code>## # A tibble: 336,776 x 19
+##     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+##  1  2013     1     9      641            900      1301     1242           1530
+##  2  2013     6    15     1432           1935      1137     1607           2120
+##  3  2013     1    10     1121           1635      1126     1239           1810
+##  4  2013     9    20     1139           1845      1014     1457           2210
+##  5  2013     7    22      845           1600      1005     1044           1815
+##  6  2013     4    10     1100           1900       960     1342           2211
+##  7  2013     3    17     2321            810       911      135           1020
+##  8  2013     6    27      959           1900       899     1236           2226
+##  9  2013     7    22     2257            759       898      121           1026
+## 10  2013    12     5      756           1700       896     1058           2020
+## # … with 336,766 more rows, and 11 more variables: arr_delay &lt;dbl&gt;,
+## #   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;,
+## #   air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+<pre class="r"><code>#select columns
+flights %&gt;%
+  select(year, month, arr_time)</code></pre>
+<pre><code>## # A tibble: 336,776 x 3
+##     year month arr_time
+##    &lt;int&gt; &lt;int&gt;    &lt;int&gt;
+##  1  2013     1      830
+##  2  2013     1      850
+##  3  2013     1      923
+##  4  2013     1     1004
+##  5  2013     1      812
+##  6  2013     1      740
+##  7  2013     1      913
+##  8  2013     1      709
+##  9  2013     1      838
+## 10  2013     1      753
+## # … with 336,766 more rows</code></pre>
+<pre class="r"><code>#Add new variables
+flights %&gt;%
+  mutate(flying_time = arr_time-dep_time)</code></pre>
+<pre><code>## # A tibble: 336,776 x 20
+##     year month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+##  1  2013     1     1      517            515         2      830            819
+##  2  2013     1     1      533            529         4      850            830
+##  3  2013     1     1      542            540         2      923            850
+##  4  2013     1     1      544            545        -1     1004           1022
+##  5  2013     1     1      554            600        -6      812            837
+##  6  2013     1     1      554            558        -4      740            728
+##  7  2013     1     1      555            600        -5      913            854
+##  8  2013     1     1      557            600        -3      709            723
+##  9  2013     1     1      557            600        -3      838            846
+## 10  2013     1     1      558            600        -2      753            745
+## # … with 336,766 more rows, and 12 more variables: arr_delay &lt;dbl&gt;,
+## #   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;,
+## #   air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;,
+## #   flying_time &lt;int&gt;</code></pre>
+<pre class="r"><code>#Grouped summaries
+flights %&gt;%
+  group_by(year,month,day) %&gt;%
+  summarise(delay=mean(dep_delay,na.rm = TRUE))</code></pre>
+<pre><code>## # A tibble: 365 x 4
+## # Groups:   year, month [12]
+##     year month   day delay
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt; &lt;dbl&gt;
+##  1  2013     1     1 11.5 
+##  2  2013     1     2 13.9 
+##  3  2013     1     3 11.0 
+##  4  2013     1     4  8.95
+##  5  2013     1     5  5.73
+##  6  2013     1     6  7.15
+##  7  2013     1     7  5.42
+##  8  2013     1     8  2.55
+##  9  2013     1     9  2.28
+## 10  2013     1    10  2.84
+## # … with 355 more rows</code></pre>
+<pre class="r"><code>#rename colnames
+flights %&gt;%
+  rename(new=year)</code></pre>
+<pre><code>## # A tibble: 336,776 x 19
+##      new month   day dep_time sched_dep_time dep_delay arr_time sched_arr_time
+##    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;    &lt;int&gt;          &lt;int&gt;
+##  1  2013     1     1      517            515         2      830            819
+##  2  2013     1     1      533            529         4      850            830
+##  3  2013     1     1      542            540         2      923            850
+##  4  2013     1     1      544            545        -1     1004           1022
+##  5  2013     1     1      554            600        -6      812            837
+##  6  2013     1     1      554            558        -4      740            728
+##  7  2013     1     1      555            600        -5      913            854
+##  8  2013     1     1      557            600        -3      709            723
+##  9  2013     1     1      557            600        -3      838            846
+## 10  2013     1     1      558            600        -2      753            745
+## # … with 336,766 more rows, and 11 more variables: arr_delay &lt;dbl&gt;,
+## #   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;, origin &lt;chr&gt;, dest &lt;chr&gt;,
+## #   air_time &lt;dbl&gt;, distance &lt;dbl&gt;, hour &lt;dbl&gt;, minute &lt;dbl&gt;, time_hour &lt;dttm&gt;</code></pre>
+<pre class="r"><code>#recode values
+a &lt;- c(&#39;a&#39;,&#39;b&#39;,&#39;c&#39;)
+recode(a,&#39;a&#39;=&#39;apple&#39;)</code></pre>
+<pre><code>## [1] &quot;apple&quot; &quot;b&quot;     &quot;c&quot;</code></pre>
+<hr />
+</div>
+<div id="data-visualization" class="section level1">
+<h1>5. Data Visualization</h1>
+<blockquote>
+<p>“The simple graph has brought more information to the data analyst’s mind than any other device.” — John Tukey</p>
+</blockquote>
+<p>This chapter will teach you how to visualise your data using <em>ggplot2</em>. This chapter will teach you how to visualise your data using <em>ggplot2</em>. I will briefly cover key features of ggplot2. Later, I will introduce ggplot2 in detail.</p>
+<div id="aesthetic-mappings" class="section level2">
+<h2>1. Aesthetic mappings</h2>
+<pre class="r"><code>ggplot(mpg, aes(x=displ, y=hwy)) +
+  geom_point(aes(color=class))</code></pre>
+<p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/aes-1.png" width="672" /></p>
+<pre class="r"><code>#you can change &quot;color&quot; to &quot;size&quot;, &quot;alpha&quot; or &quot;shape&quot;
+ggplot(mpg, aes(x=displ, y=hwy)) +
+  geom_point(color=&quot;blue&quot;)</code></pre>
+<p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/aes-2.png" width="672" /></p>
+<pre class="r"><code>#pay attention to their difference</code></pre>
+</div>
+<div id="facets" class="section level2">
+<h2>2. Facets</h2>
+<pre class="r"><code>ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy,color=class)) + 
+  facet_wrap(~ class, nrow = 2)</code></pre>
+<p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/facets-1.png" width="672" /></p>
+<pre class="r"><code>ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy,color=class)) + 
+  facet_grid(drv ~ cyl)</code></pre>
+<p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/facets-2.png" width="672" /></p>
+</div>
+<div id="geometric-objects" class="section level2">
+<h2>3. Geometric objects</h2>
+<pre class="r"><code>ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy,color=class)) +
+    geom_smooth(mapping = aes(x = displ, y = hwy),se=FALSE)</code></pre>
+<pre><code>## `geom_smooth()` using method = &#39;loess&#39; and formula &#39;y ~ x&#39;</code></pre>
+<p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/geometric-1.png" width="672" /></p>
+</div>
+<div id="position-adjustments" class="section level2">
+<h2>4. Position adjustments</h2>
+<pre class="r"><code>ggplot(data = diamonds) + 
+  geom_bar(mapping = aes(x = cut, fill = clarity), position = &quot;dodge&quot;)</code></pre>
+<p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/position-1.png" width="672" /></p>
+</div>
+<div id="coordinate-system" class="section level2">
+<h2>5. Coordinate system</h2>
+<pre class="r"><code>bar &lt;- ggplot(data = diamonds) + 
+  geom_bar(
+    mapping = aes(x = cut, fill = cut), 
+    show.legend = FALSE,
+    width = 1
+  ) + 
+  theme(aspect.ratio = 1) +
+  labs(x = NULL, y = NULL)
+
+bar + coord_flip()</code></pre>
+<p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/coordinate-1.png" width="672" /></p>
+<pre class="r"><code>bar + coord_polar()</code></pre>
+<p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/coordinate-2.png" width="672" /></p>
+</div>
+<div id="conclusion" class="section level2">
+<h2>6. Conclusion</h2>
+<pre class="r"><code>ggplot(data = &lt;DATA&gt;) + 
+  &lt;GEOM_FUNCTION&gt;(
+     mapping = aes(&lt;MAPPINGS&gt;),
+     stat = &lt;STAT&gt;, 
+     position = &lt;POSITION&gt;
+  ) +
+  &lt;COORDINATE_FUNCTION&gt; +
+  &lt;FACET_FUNCTION&gt;</code></pre>
+</div>
+</div>
+<div id="model" class="section level1">
+<h1>6. Model</h1>
+<p>The book doesn’t include too much content about modelling, so I will find more resources to extend the part.</p>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
