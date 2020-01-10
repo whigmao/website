@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mac on Guanghua Mao&#39;s website</title>
-    <link>/tags/mac/</link>
-    <description>Recent content in Mac on Guanghua Mao&#39;s website</description>
+    <title>Python on Guanghua Mao&#39;s website</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,20 +18,6 @@
       
       <guid>/2020/01/09/the-fundamentals-of-programming/</guid>
       <description>Introduction Now more than ever, you hear about the importance of STEM education and the need for qualified computer programmers. This article is designed for you, someone who’s curious to pull back the curtains and explore the world of computer programming. I’ll walk you through your first line of code, explain the core concepts needed to write useful programs, and take a peek at several programming languages along the way.</description>
-    </item>
-    
-    <item>
-      <title>Hidden Shortcuts For Mac Users</title>
-      <link>/2020/01/03/hidden-shortcuts-for-mac-users/</link>
-      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/2020/01/03/hidden-shortcuts-for-mac-users/</guid>
-      <description>  Command-Z: Undo the previous command
- Shift-Command-Z: Redo
- Command-E: Eject the selected disk or volume
- Shift–C: Open the Computer window
- Command-Control-D: Look up a word in dictionary
-  </description>
     </item>
     
   </channel>
