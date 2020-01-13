@@ -6,10 +6,19 @@
     <description>Recent content in Mac on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Essentials of Python</title>
+      <link>/2020/01/12/the-essentials-of-python/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/12/the-essentials-of-python/</guid>
+      <description>1. About Python 3 Python is a modern, object-oriented scripting language. There’s a core philosophy behind the Python language, which includes the following statements: Beautiful is better than ugly. It’s always a good idea to make your code elegant and readable. Explicit is better than implicit. Don’t make your readers guess what your code does, make it obvious. Simple is better than complex. If you can make it simple, do.</description>
+    </item>
     
     <item>
       <title>The Fundamentals of Programming</title>

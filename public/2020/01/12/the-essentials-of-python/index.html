@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.61.0" />
+
+
+<title>The Essentials of Python - Guanghua Mao&#39;s website</title>
+<meta property="og:title" content="The Essentials of Python - Guanghua Mao&#39;s website">
+
+
+  <link href='/My%20logo.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/My%20logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/categories/">Categories</a></li>
+    
+    <li><a href="https://github.com/whigmao">GitHub</a></li>
+    
+    <li><a href="/tags/">Tags</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">9 min read</span>
+    
+
+    <h1 class="article-title">The Essentials of Python</h1>
+
+    
+    <span class="article-date">2020-01-12</span>
+    
+
+    <div class="article-content">
+      
+
+
+<div id="about-python-3" class="section level1">
+<h1>1. About Python 3</h1>
+<p>Python is a modern, object-oriented scripting language. There’s a core philosophy behind the Python language, which includes the following statements: Beautiful is better than ugly. It’s always a good idea to make your code elegant and readable. Explicit is better than implicit. Don’t make your readers guess what your code does, make it obvious. Simple is better than complex. If you can make it simple, do. Complex is better than complicated. If complexity is necessary, don’t complicate it. Readability counts. ython is a rich language, and it would be impossible for me to cover all of it. <a href="https://docs.python.org/3/">The online documentation</a> is both accessible and exhaustive. I recommend you become familiar with it. Python is a very powerful and versatile programming language, and is easy to learn.</p>
+<hr />
+</div>
+<div id="overview" class="section level1">
+<h1>2. Overview</h1>
+<p>Python does not look like a lot of other languages. It doesn’t use braces or semicolons, <strong>line endings and indentation</strong> are meaningful, and in Python, everything is an object. Before we delve into the details of language features, it can be useful to see how all the pieces fit together.</p>
+<pre class="python"><code>print(&#39;Hello World!&#39;)</code></pre>
+<pre><code>## Hello World!</code></pre>
+<p>The <em>Hello World program</em> is a traditional first step in learning a new language, but it’s actually more than that. The purpose of Hello World is to validate your development environment. Whenever you set up a new development environment, it’s a good idea to use a simple, minimal, and functional program to confirm that your development cycle functions as you expect, and that’s what Hello World is for.</p>
+<p>If you want to know the fundamentals of programming and basic elements of Python, you can read <a href="https://guanghuamao.netlify.com/2020/01/09/the-fundamentals-of-programming/">the article</a> I wrote before.</p>
+<hr />
+<hr />
+</div>
+<div id="types-and-values" class="section level1">
+<h1>3. Types and Values</h1>
+<p>There are just a few fundamental data types in Python. Python uses a form of dynamic typing sometimes called duck typing where the type of a value is determined by the value itself. In other words, if it walks like a duck, it’s a duck. I will show you what that means in the following scripts.</p>
+<pre class="python"><code>x = 7
+
+y = 7.0
+
+z = &quot;7.0&quot;
+
+#type is the built-in function
+print(type(x),type(y), type(z))</code></pre>
+<pre><code>## &lt;class &#39;int&#39;&gt; &lt;class &#39;float&#39;&gt; &lt;class &#39;str&#39;&gt;</code></pre>
+<div id="string-objects" class="section level2">
+<h2>3.1 String Objects</h2>
+<p>I’ll go into much more detail about string objects in a later chapter, but for now it’s good to understand a few common patterns. In Python, there is no difference between single quotes and double quotes.</p>
+<pre class="python"><code>x = &#39;seven&#39;
+
+y = &quot;seven&quot;
+
+z = &#39;&#39;&#39;
+
+seven
+
+&#39;&#39;&#39;
+
+print(x)</code></pre>
+<pre><code>## seven</code></pre>
+<pre class="python"><code>print(y)</code></pre>
+<pre><code>## seven</code></pre>
+<pre class="python"><code>print(z)</code></pre>
+<pre><code>## 
+## 
+## seven</code></pre>
+<p>You can use three single quotes. And if I save and run you’ll see there’s no difference. What that allows you to do, though, is to put things on several lines. So, using three quotes you can actually make a multi-line string.</p>
+<p>Now, as I mentioned, strings are objects, even literal strings. So, here I have a literal string, the seven in quotes, and it’s an object, so I can run methods on that object.</p>
+<pre class="python"><code># Capitalize the string
+x = &#39;seven&#39;.capitalize()
+
+print(x)
+
+# Uppercase</code></pre>
+<pre><code>## Seven</code></pre>
+<pre class="python"><code>y = &#39;seven&#39;.upper()
+
+print(y)
+
+#lowercase</code></pre>
+<pre><code>## SEVEN</code></pre>
+<pre class="python"><code>z = &#39;seven&#39;.lower()
+
+print(z)</code></pre>
+<pre><code>## seven</code></pre>
+<p>In fact, I can even put some placemarkers in it and use format.</p>
+<pre class="python"><code>#use placemarker
+x = &#39;seven {} {}&#39;.format(8,9)
+
+print(x)
+
+#change the place</code></pre>
+<pre><code>## seven 8 9</code></pre>
+<pre class="python"><code>y = &#39;seven {1} {0}&#39;.format(8,9)
+
+print(y)
+
+#another way to format</code></pre>
+<pre><code>## seven 9 8</code></pre>
+<pre class="python"><code>a = 8
+
+b = 9
+
+z = f&#39;seven {a:&lt;09} {b:&gt;9}&#39;
+
+print(z)</code></pre>
+<pre><code>## seven 800000000         9</code></pre>
+</div>
+<div id="numeric-types" class="section level2">
+<h2>3.2 Numeric Types</h2>
+<p>Python 3 has two basic numeric types, integer and floating point. There are other types derived from these including the built in complex type. In fact, because everything is an object in Python, you can derive your own types. Here we’re going to talk about integer and float.</p>
+<pre class="python"><code>x = 7 
+
+y = 2.0
+
+print(type(x),type(y))</code></pre>
+<pre><code>## &lt;class &#39;int&#39;&gt; &lt;class &#39;float&#39;&gt;</code></pre>
+<p>Here’s an interesting problem. If I say point one, plus point one, plus point one, minus point three, you would expect my result would be zero, but it is not.</p>
+<pre class="python"><code>x = 0.1 + 0.1 + 0.1 -0.3
+
+print(x)</code></pre>
+<pre><code>## 5.551115123125783e-17</code></pre>
+<p>This is the difference between <strong>accuracy and precision</strong>. Because of the way that the computers do floating point, they’re sacrificing accuracy for precision and so it may do this arithmetic correctly to 17 decimal places, which is the precision of the floating point processor inside the computer. But it is not accurate. Accuracy is the true value of a calculation.</p>
+<p>So how do we solve this problem?</p>
+<pre class="python"><code>from decimal import *
+
+a = Decimal(&#39;.10&#39;)
+
+b = Decimal(&#39;.30&#39;)
+
+x = a + a + a - b
+
+print(x)</code></pre>
+<pre><code>## 0.00</code></pre>
+<p>Understanding the numeric types can save you a great deal of trouble for many purposes.</p>
+</div>
+<div id="the-bool-type" class="section level2">
+<h2>3.3 The bool Type</h2>
+<p>The bool type is used for logical values and expressions. The bool type is used for logical values and expressions. None evaluates as false, zero evaluates as false, and an empty string evaluates as false.</p>
+<pre class="python"><code>x = True
+
+y = False
+
+print(type(x))</code></pre>
+<pre><code>## &lt;class &#39;bool&#39;&gt;</code></pre>
+<pre class="python"><code>print(type(y))</code></pre>
+<pre><code>## &lt;class &#39;bool&#39;&gt;</code></pre>
+</div>
+<div id="sequence-types" class="section level2">
+<h2>3.4 Sequence Types</h2>
+<p>Python provides some built-in sequence types, including <strong>lists, tuples, and dictionaries</strong>.</p>
+<p>A <strong>list</strong> is created with square brackets. A list is a mutable sequence, so I can reassign one of the values after I have assigned it.</p>
+<pre class="python"><code>x = [1,2,3]
+
+print(x,type(x))
+
+# list starts with zero</code></pre>
+<pre><code>## [1, 2, 3] &lt;class &#39;list&#39;&gt;</code></pre>
+<pre class="python"><code>x[0] = 4
+
+print(x)</code></pre>
+<pre><code>## [4, 2, 3]</code></pre>
+<p>On the other hand, a <strong>tuple</strong> is exactly like a list, only it’s immutable, and it’s indicated by parentheses.</p>
+<pre class="python"><code>x = (1,2,3)
+
+print(x,type(x))</code></pre>
+<pre><code>## (1, 2, 3) &lt;class &#39;tuple&#39;&gt;</code></pre>
+<p>I’ll tend to use the parentheses by default, and only use the square brackets when I know that I need to change something.</p>
+<p>You can also create a sequence using <strong>range</strong>. There’s actually three possible parameters for range. They’re start, end, and step, and if you specify a just two, it start and end, and if you specify just one, it’s just end. If I want a mutable list, I simply construct a list with the results from range using the list constructor.</p>
+<pre class="python"><code>
+x = range(3,10,2)
+
+print(type(x))</code></pre>
+<pre><code>## &lt;class &#39;range&#39;&gt;</code></pre>
+<pre class="python"><code>for i in x:
+  print(i)</code></pre>
+<pre><code>## 3
+## 5
+## 7
+## 9</code></pre>
+<p>A <strong>dictionary</strong> is a searchable sequence of key value pairs. Each of these values, the keys and the values can be any type, and the same is true for lists and tuples, any element can be any type. And dictionaries are mutable.</p>
+<pre class="python"><code>x = {&quot;a&quot;:1, &quot;b&quot;:2, &quot;c&quot;:3}
+
+print(x,type(x))
+
+# dictionary is mutable</code></pre>
+<pre><code>## {&#39;a&#39;: 1, &#39;b&#39;: 2, &#39;c&#39;: 3} &lt;class &#39;dict&#39;&gt;</code></pre>
+<pre class="python"><code>x[&quot;a&quot;] = 4
+
+print(x)</code></pre>
+<pre><code>## {&#39;a&#39;: 4, &#39;b&#39;: 2, &#39;c&#39;: 3}</code></pre>
+<p>These built-in sequence types are very useful, and flexible.</p>
+<hr />
+</div>
+</div>
+<div id="conditionals" class="section level1">
+<h1>4. Conditionals</h1>
+<div id="conditional-syntax" class="section level2">
+<h2>4.1 Conditional Syntax</h2>
+<p>The Python syntax for conditional statements is consistent with the rest of the language. The conditional statement in Python is simple and easy. It uses the familiar if, else, elif keywords, and the typical Python indented block syntax.</p>
+<pre class="python"><code>
+x = 5
+
+# conditional syntax
+
+if x == 0:
+  print(&#39;0 true&#39;)
+elif x == 1:
+  print(&#39;1 true&#39;)
+elif x == 2:
+  print(&#39;2 true&#39;)
+elif x == 5:
+  print(&#39;5 ture&#39;)
+else:
+  print(&#39;none true&#39;)</code></pre>
+<pre><code>## 5 ture</code></pre>
+</div>
+<div id="conditional-operators" class="section level2">
+<h2>4.2 Conditional Operators</h2>
+<table>
+<thead>
+<tr class="header">
+<th>Comparison Operators</th>
+<th>Logical Operators</th>
+<th>Identity Operators</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>==</td>
+<td>and</td>
+<td>x is y</td>
+</tr>
+<tr class="even">
+<td>!=</td>
+<td>or</td>
+<td>x is not y</td>
+</tr>
+<tr class="odd">
+<td>&lt;</td>
+<td>not</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>&gt;</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>&lt;=</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>&gt;=</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+</div>
+<div id="operators" class="section level1">
+<h1>5. Operators</h1>
+<table>
+<colgroup>
+<col width="27%" />
+<col width="22%" />
+<col width="27%" />
+<col width="22%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Arithmetic Operators</th>
+<th>Bitwise Operators</th>
+<th>Comparison Operators</th>
+<th>Boolean Operators</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>+ Addition</td>
+<td>&amp; And</td>
+<td>==</td>
+<td>and</td>
+</tr>
+<tr class="even">
+<td>- Subtraction</td>
+<td></td>
+<td>Or</td>
+<td>!=</td>
+</tr>
+<tr class="odd">
+<td>* Multiplocation</td>
+<td>^ Xor</td>
+<td>&lt;=</td>
+<td>not</td>
+</tr>
+<tr class="even">
+<td>/ Division</td>
+<td>&lt;&lt; Shift left</td>
+<td>&gt;=</td>
+<td>in</td>
+</tr>
+<tr class="odd">
+<td>// Integer Devision</td>
+<td>&gt;&gt; Shift right</td>
+<td>&gt;</td>
+<td>not in</td>
+</tr>
+<tr class="even">
+<td>% Remainder</td>
+<td></td>
+<td>&lt;</td>
+<td>is</td>
+</tr>
+<tr class="odd">
+<td>** Exponent</td>
+<td></td>
+<td></td>
+<td>is not</td>
+</tr>
+<tr class="even">
+<td>- Unary negative</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>+ Unary positive</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="loops" class="section level1">
+<h1>6. Loops</h1>
+<div id="loops-introduction" class="section level2">
+<h2>6.1 Loops Introduction</h2>
+<p>Python has two basic forms of loops, <strong>while loops and for loops</strong>.</p>
+<p>A while loop uses a conditional expression to control the loop. When the condition is true, the body of the loop is executed. When the body is complete, the condition is tested again. And if the condition is still true, the body is executed again. The loop continues as long as the condition is true, and when the condition is false, the loop ends and execution continues with the lines of code after the loop.</p>
+<div class="figure">
+<img src="/post/2020-01-12-the-essentials-of-python_files/while%20loop.png" alt="While Loop" />
+<p class="caption">While Loop</p>
+</div>
+<pre class="python"><code>a = 5
+
+b = 2
+
+while b &lt; a:
+  b = 2 * b
+else:
+  print(b)</code></pre>
+<pre><code>## 8</code></pre>
+<p>A for loop uses a sequence, like an iterator or a list, tuple, or other collection type to control the loop. The body of the loop is executed for each item in the sequence, and when the sequence is exhausted the loop ends.</p>
+<div class="figure">
+<img src="/post/2020-01-12-the-essentials-of-python_files/for%20loop.png" alt="For Loop" />
+<p class="caption">For Loop</p>
+</div>
+<pre class="python"><code>
+x = [1,2,3,4]
+
+for i in x:
+  print(&quot;i  is {}&quot;.format(i))</code></pre>
+<pre><code>## i  is 1
+## i  is 2
+## i  is 3
+## i  is 4</code></pre>
+</div>
+<div id="additional-loop-controls" class="section level2">
+<h2>6.2 Additional Loop Controls</h2>
+<div class="figure">
+<img src="/post/2020-01-12-the-essentials-of-python_files/Additional%20Loop%20Controls.png" alt="Additional Loop Controls" />
+<p class="caption">Additional Loop Controls</p>
+</div>
+<p>Both the while and for loops have some additional controls that are worth understanding. Three additional controls are available continue, break, and else. The continue clause is used to shortcut a loop and start it again as if it had reached the end of its body of code. The break clause is used to break out of a loop prematurely, execution will continue after the entire loop structure and the else control is not common in other languages so you may not have seen this before. The else block executes only if the loop ends normally. It will not execute if a break is used to end the loop. These same controls are available for both while and for loops.</p>
+<hr />
+</div>
+</div>
+<div id="functions" class="section level1">
+<h1>7. Functions</h1>
+<p>If you want to know the basic syntax of function of Python, you can read <a href="https://guanghuamao.netlify.com/2020/01/09/the-fundamentals-of-programming/">the article</a> I wrote before.</p>
+<pre class="python"><code>def main():
+  kitten(&#39;one&#39;,&#39;two&#39;,&#39;three&#39;)
+
+def kitten(*args):
+  if len(args):
+    for s in args:
+      print(s)
+  else: 
+    print(&#39;None&#39;)
+  
+main()</code></pre>
+<pre><code>## one
+## two
+## three</code></pre>
+<p>A <strong>generator</strong> is a special class of function that serves as an iterator instead of returning a single value the generator returns a stream of values.</p>
+<p>A <strong>decorator</strong> is a form of metaprogramming and it can be described as a special type of function that returns a wrapper function.</p>
+<pre class="python"><code>
+def f1(f):
+  def f2():
+    print(&#39;before&#39;)
+    f()
+    print(&#39;after&#39;)
+  return f2
+
+@f1 # this is decorator
+def f3():
+  print(&#39;f3&#39;)
+  
+f3()</code></pre>
+<pre><code>## before
+## f3
+## after</code></pre>
+</div>
+<div id="classes" class="section level1">
+<h1>8. Classes</h1>
+<p>A class is the basis of all data in Python, everything is an object in Python, and a class is how an object is defined.</p>
+<p>You may need to understand object-oriented programming first.</p>
+<hr />
+</div>
+<div id="string-objects-1" class="section level1">
+<h1>9. String Objects</h1>
+<div id="formatting" class="section level2">
+<h2>9.1 Formatting</h2>
+<p>I mentioned how to format string object before, so I will not repeat it here.</p>
+</div>
+<div id="splitting-and-joining" class="section level2">
+<h2>9.2 Splitting and Joining</h2>
+<p>Python allows you to easily split and join strings based on separator characters.</p>
+<pre class="python"><code>
+x = &#39;How to split and join a string&#39;
+
+print(x.split())</code></pre>
+<pre><code>## [&#39;How&#39;, &#39;to&#39;, &#39;split&#39;, &#39;and&#39;, &#39;join&#39;, &#39;a&#39;, &#39;string&#39;]</code></pre>
+<pre class="python"><code>print(x.split(&#39;o&#39;))</code></pre>
+<pre><code>## [&#39;H&#39;, &#39;w t&#39;, &#39; split and j&#39;, &#39;in a string&#39;]</code></pre>
+<pre class="python"><code>y = x.split()
+
+z = &#39;--&#39;.join(y)
+
+print(z)</code></pre>
+<pre><code>## How--to--split--and--join--a--string</code></pre>
+<hr />
+<p>In this article, my goal was to provide you with the basic knowledge you’ll need to write good, effective Python scripts. I’ve shown you the fundamentals and basic syntax of a typical Python script so you can be well prepared to construct your own scripts. How types and values work with python’s rich object system, how to construct conditionals and loops and how to use functions, generators and decorators. I’ve hope you’ve enjoyed this article as much as I’ve enjoyed creating it for you. So have fun, and create something wonderful with your own Python scripts.</p>
+</div>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+
