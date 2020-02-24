@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.61.0" />
+
+
+<title>A Brief Tour of Bayesian Inference and Decision Theory - Guanghua Mao&#39;s website</title>
+<meta property="og:title" content="A Brief Tour of Bayesian Inference and Decision Theory - Guanghua Mao&#39;s website">
+
+
+  <link href='/My%20logo.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/My%20logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/about/">About</a></li>
+    
+    <li><a href="/categories/">Categories</a></li>
+    
+    <li><a href="https://github.com/whigmao">GitHub</a></li>
+    
+    <li><a href="/tags/">Tags</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">6 min read</span>
+    
+
+    <h1 class="article-title">A Brief Tour of Bayesian Inference and Decision Theory</h1>
+
+    
+    <span class="article-date">2020-01-31</span>
+    
+
+    <div class="article-content">
+      
+
+
+<div id="introduction" class="section level1">
+<h1>Introduction</h1>
+<p>Bayesians view inference as belief dynamics. It uses evidence to update prior belief to posterior beliefs which serve as prior beliefs for future evidence.</p>
+<p>Decision theory is a formal theory of decision making under uncertainty. A decision problem consists of three parts:</p>
+<ol style="list-style-type: decimal">
+<li>Possible actions <span class="math inline">\(a\)</span></li>
+<li>States of the world <span class="math inline">\(s\)</span></li>
+<li>Possible consequences <span class="math inline">\(c\)</span></li>
+</ol>
+<p>The question is “what is the best action or decision?”</p>
+<p>If I want to answer the question, I need to measure the “goodness” of consequences with the <span class="math inline">\(utility\)</span> function <span class="math inline">\(u\)</span>, and likelihood of states with probability distribution <span class="math inline">\(p\)</span>. Then, I can choose the best action <strong>with respect to model</strong> maxmizes the expected utilities. How a model is for people depends on fidelity of model to their beliefs and perferences.</p>
+<hr />
+</div>
+<div id="decision-model" class="section level1">
+<h1>Decision Model</h1>
+<p>Let me give you an example: should a patient be treated for disease?</p>
+<ol style="list-style-type: decimal">
+<li>Possible action: <span class="math inline">\(a_T\)</span>(treat) or <span class="math inline">\(a_N\)</span>(don’t treat)</li>
+<li>States of the world: <span class="math inline">\(s_D\)</span>(Disease now) or <span class="math inline">\(s_W\)</span>(Well now)</li>
+<li>Possible consequences: <span class="math inline">\(c_{WN}\)</span>(well shortly, no side effects), <span class="math inline">\(c_{WS}\)</span>(well shortly, side effects), <span class="math inline">\(c_{DN}\)</span>(disease for a long time, no side effects)</li>
+</ol>
+<p>Likelihood of states:</p>
+<p><span class="math inline">\(p(s_D)=0.3\)</span></p>
+<p>Utilities of possible consequences:</p>
+<p><span class="math display">\[u_{WN}=100\\
+u_{WS}=90\\
+u_{DN}=0\]</span></p>
+<p>Expected utilites of possible actions:</p>
+<p><span class="math display">\[E(u_T) = p(s_D) \cdot u_{WS} + [1-p(s_D)] \cdot u_{WS} = 0.3 \times 90 + 0.7 \times 90 = 90 \\
+E(u_N) = p(s_D) \cdot u_{DN} + [1-p(s_D)] \cdot u_{WN} = 0.3 \times 0 + 0.7 \times 100 = 70\]</span></p>
+<p>Best decison:</p>
+<p><span class="math inline">\(a_T\)</span> because <span class="math inline">\(90\)</span> is greater than <span class="math inline">\(70\)</span>.</p>
+<hr />
+</div>
+<div id="bayesian-rule" class="section level1">
+<h1>Bayesian Rule</h1>
+<p>In the previous example, the probability of disease, <span class="math inline">\(p(s_D)\)</span>, is usually uncertain. In most case, I will use Bayesian inference to refine our estimate of the probability.</p>
+<p>Bayes Rule (odds likelihood form):</p>
+<p><span class="math display">\[\frac{P(H_i|E)}{P(H_j|E)}=\frac{P(E|H_i) \cdot P(H_i)}{P(E|H_j) \cdot P(H_j)}\\
+P(H_i|E)=\frac{P(H_i) \cap P(E)}{P(E)}=\frac{P(E|H_i) \cdot P(H_i)}{\sum_jP(E|H_j) \cdot P(H_j)}\]</span>
+Terminology:</p>
+<p><span class="math inline">\(P(H)\)</span>: The prior probability of <span class="math inline">\(H\)</span>.</p>
+<p><span class="math inline">\(P(E)\)</span>: The predictive probability of <span class="math inline">\(E\)</span>.</p>
+<p><span class="math inline">\(\frac{P(E|H_i)}{P(E|H_j)}\)</span>: The likelihood ratio for <span class="math inline">\(H_i\)</span> versue <span class="math inline">\(H_j\)</span>.</p>
+<p><span class="math inline">\(P(E|H)\)</span>: The likelihood for <span class="math inline">\(E\)</span> given <span class="math inline">\(H\)</span>.</p>
+<p><span class="math inline">\(P(H|E)\)</span>: The posterior probability of <span class="math inline">\(H\)</span> given <span class="math inline">\(E\)</span>.</p>
+<p><span class="math inline">\(\frac{P(H_i)}{P(H_j)}\)</span>: The prior odds ratio for <span class="math inline">\(H_i\)</span> versue <span class="math inline">\(H_j\)</span>.</p>
+<hr />
+<div id="refine-estimate" class="section level2">
+<h2>Refine estimate</h2>
+<p>Now I need to continue the previous example. In order to make better decision, I need to know more about the probability of states of the world. Therefore, I am going to perform a test.</p>
+<p>Test has two outcomes: <span class="math inline">\(t_p(positive)\)</span> and <span class="math inline">\(t_N(negative)\)</span>.</p>
+<p>Quality of test is characterized by two numbers:</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Sensitivity</strong>: Probability that test is positive if patient has disease — <span class="math inline">\(P(t_P|s_D)\)</span></p></li>
+<li><p><strong>Specificity</strong>: Probability that test is negative if patient does not have disease — <span class="math inline">\(P(t_N|s_W)\)</span></p></li>
+</ol>
+<p>In the example, let’s assume that <span class="math inline">\(P(t_P|s_D)=0.95\)</span> and <span class="math inline">\(P(t_N|s_W)=0.85\)</span>.</p>
+<p>How can I use the information to refine my estimate about probability?</p>
+<ol style="list-style-type: decimal">
+<li>If the test is <em>positive</em>,
+<span class="math display">\[P(s_D|t_P)=\frac{P(t_P|s_D) \cdot P(s_D)}{P(t_P|s_D) \cdot P(s_D) + P(t_P|s_W) \cdot P(s_W)}\\
+=\frac{0.95 \times 0.3}{0.95 \times 0.3 + 0.15 \times 0.7}\\
+=0.731\]</span></li>
+</ol>
+<p>Obviously, the best action is to treat.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>If the test is <em>negative</em>,
+<span class="math display">\[P(s_D|t_N)=\frac{P(t_N|s_D) \cdot P(s_D)}{P(t_N|s_D) \cdot P(s_D) + P(t_N|s_W) \cdot P(s_W)}\\
+=\frac{0.05 \times 0.3}{0.05 \times 0.3 + 0.85 \times 0.7}\\
+=0.025\]</span>
+Obviously, the best action is not to treat.</li>
+</ol>
+<p>Optimal policy is to treat if positive; don’t treat if negative. The decision or action is called Followtest(<span class="math inline">\(a_F\)</span>).</p>
+<p>The whole process combines the decision theory and Bayesian inference.</p>
+<hr />
+</div>
+</div>
+<div id="gather-information" class="section level1">
+<h1>Gather information?</h1>
+<p>Usually, performing a test requires a cost, so how can I determine whether it is worthy performing a test (or you can say gather additional information)?</p>
+<p>In this scenario, comapring the expected utilities is a good solution.</p>
+<p>If I don’t perform the test, the expected utilities (<span class="math inline">\(E(a_T)\)</span>) is <span class="math inline">\(90\)</span>.
+If I performe the test, the expected utilities, <span class="math inline">\(E(a_F)=P(t_P) \cdot E(a_T|t_P)+P(t_N) \cdot E(a_N|t_N)\)</span>, is <span class="math inline">\(94.575\)</span>.</p>
+<p>The expected utilities of <span class="math inline">\(a_F\)</span> is larger than <span class="math inline">\(a_T\)</span>, so it is a good idea to perform a test.</p>
+<p>The <em>Expected Value of Sample Information (EVSI)</em> is <span class="math inline">\(94.575 - 90 = 4.575\)</span>, and <em>Expected Value of Perfect Information (EVPI)</em> is <span class="math inline">\((0.3 \times 90 + 0.7 \times 100 =)97 - 90 =7\)</span>.</p>
+<p>As long as <strong>EVSI</strong> is greater than the cost of information, I will collect the information.</p>
+<p>To analyze decision of whether to collect information:</p>
+<p>• Find maximum expected utility option if we don’t collect information</p>
+<p>• Compute its expected utility <span class="math inline">\(U_o\)</span></p>
+<p>• Find EVPI</p>
+<p>• Compare EVPI with cost of information</p>
+<p>• If EVPI is too small in relation to cost then stop; otherwise, compute EVSI</p>
+<p>• Compare EVSI with cost of information</p>
+<p>• Collect information if expected utility gain is greater than cost of information</p>
+<hr />
+</div>
+<div id="what-if-a-probability-if-unknown" class="section level1">
+<h1>What if a Probability if unknown?</h1>
+<p>To model for the medical exampel, I rely on three probabilities:</p>
+<ol style="list-style-type: decimal">
+<li><p>Prior probability of disease</p></li>
+<li><p>Sensitivity of test</p></li>
+<li><p>Specificity of test</p></li>
+</ol>
+<p>How does a Bayesian combine data and expert judgment?</p>
+<p>• Use clinical judgment to quantify uncertainty about as a probability distribution</p>
+<p>• Gather data</p>
+<p>• Use Bayes rule to obtain posterior distribution for the unknown probability</p>
+<p>• If appropriate, use clinical judgment to adjust results of studies to apply to a particular patient</p>
+<hr />
+<p>Assign prior distribution to possible values of disease probability <span class="math inline">\(p\)</span>. Although <span class="math inline">\(p\)</span> can be any real number between zero and 1, we pretend there are only 20 equally spaced possible values. Our prior distribution is consistent with our estimate <span class="math inline">\(p=0.3\)</span>. Observe 10 <strong>independent and identically distributed (iid)</strong> cases. <span class="math inline">\((X_1, X_2, X_3, X_4, X_5, X_6, X_7, X_8, X_9, X_10) = (0, 1, 0, 0, 0, 0, 1, 0, 0, 1)\)</span>, Cases 2, 7, and 10 have disease; the rest do not.</p>
+<p>How do we find the posterior distribution of the unknown probability?</p>
+<pre class="r"><code># Unit 1 Bayesian Updating Example: Inference about an unknown probability
+# Calculate and plot prior and posterior distribution 
+# for disease probability:  Discretized prior; 
+# sample of 10 cases, 3 having disease
+
+# Assume the unknow probability p can take on one of 20 evenly spaced values 
+# between 0.025 and 0.975
+pVals &lt;- seq(length=20,from=0.025,to=0.975)
+
+# Prior distribution: choose a prior distribution centered around 0.3 
+priorDist &lt;- c(0.033, 0.071, 0.099, 0.116, 0.117, 0.113, 0.103, 
+               0.090, 0.074, 0.061, 0.045, 0.024, 0.016,
+               0.013, 0.009, 0.006, 0.004, 0.003, 0.002, 0.001)
+
+# Verify that the expected value of p is 0.3
+sum(priorDist*pVals)</code></pre>
+<pre><code>## [1] 0.3</code></pre>
+<pre class="r"><code># Plot the prior distribution as a bar chart 
+barplot(priorDist,main=&quot;Prior distribution for p&quot;,
+        xlab=&quot;p&quot;, ylab=&quot;Prior Probability&quot;,names.arg=pVals,
+        border=&quot;darkblue&quot;, col=&quot;lightblue&quot;,ylim=c(0,0.15))</code></pre>
+<p><img src="/post/2020-01-31-a-brief-tour-of-bayesian-inference-and-decision-theory_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<pre class="r"><code># Calculate the posterior distribution of p after observing sample of 
+# 10 cases, 3 having disease
+numobs=10    # Number of observations
+numd=3       # Number having the disease
+lik = pVals^numd*(1-pVals)^(numobs-numd)  # Likelihood of data given p
+pl &lt;- priorDist * lik                     # prior times likelihood
+postDist &lt;- pl/sum(pl)                    # result of Bayes rule
+
+# Plot the posterior distribution 
+barplot(postDist,main=&quot;Posterior distribution for p&quot;,
+xlab=&quot;p&quot;, ylab=&quot;Posterior Probability&quot;,names.arg=pVals,
+border=&quot;darkblue&quot;, col=&quot;lightblue&quot;)</code></pre>
+<p><img src="/post/2020-01-31-a-brief-tour-of-bayesian-inference-and-decision-theory_files/figure-html/unnamed-chunk-1-2.png" width="672" /></p>
+<pre class="r"><code># Expected value of p given the observations
+sum(pVals*postDist)</code></pre>
+<pre><code>## [1] 0.2992665</code></pre>
+<pre class="r"><code># Poterior cumulative distribution function
+cdf = cumsum(postDist)      # calculate cumulative sum
+round(rbind(pVals, cdf),4)  # print probability points and cdf at each point</code></pre>
+<pre><code>##         [,1]  [,2]   [,3]   [,4]   [,5]   [,6]   [,7]   [,8]  [,9]  [,10]
+## pVals 0.0250 0.075 0.1250 0.1750 0.2250 0.2750 0.3250 0.3750 0.425 0.4750
+## cdf   0.0003 0.013 0.0683 0.1862 0.3492 0.5296 0.6941 0.8229 0.909 0.9613
+##        [,11]  [,12]  [,13]  [,14]  [,15] [,16] [,17] [,18] [,19] [,20]
+## pVals 0.5250 0.5750 0.6250 0.6750 0.7250 0.775 0.825 0.875 0.925 0.975
+## cdf   0.9872 0.9955 0.9985 0.9996 0.9999 1.000 1.000 1.000 1.000 1.000</code></pre>
+<pre class="r"><code># Prior and posterior probability that disease probabilty is between 0.2 and 0.4
+indx = which(pVals&gt;=0.2 &amp; pVals&lt;=0.4)  # Indices for probs between 0.2 and 0.4
+sum(priorDist[indx])     # Prior prob that disease probability is between 0.2 and 0.4</code></pre>
+<pre><code>## [1] 0.423</code></pre>
+<pre class="r"><code>sum(postDist[indx])      # Posterior prob that disease probability is between 0.2 and 0.4</code></pre>
+<pre><code>## [1] 0.6367731</code></pre>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

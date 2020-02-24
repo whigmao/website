@@ -6,10 +6,22 @@
     <description>Recent content in Math on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A Brief Tour of Bayesian Inference and Decision Theory</title>
+      <link>/2020/01/31/a-brief-tour-of-bayesian-inference-and-decision-theory/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/01/31/a-brief-tour-of-bayesian-inference-and-decision-theory/</guid>
+      <description>Introduction Bayesians view inference as belief dynamics. It uses evidence to update prior belief to posterior beliefs which serve as prior beliefs for future evidence.
+Decision theory is a formal theory of decision making under uncertainty. A decision problem consists of three parts:
+Possible actions \(a\) States of the world \(s\) Possible consequences \(c\)  The question is “what is the best action or decision?”
+If I want to answer the question, I need to measure the “goodness” of consequences with the \(utility\) function \(u\), and likelihood of states with probability distribution \(p\).</description>
+    </item>
     
     <item>
       <title>SUPPLEMENT TO CHAPTER 1 THE THEORY OF NUMBERS</title>
