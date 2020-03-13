@@ -1,0 +1,149 @@
+---
+title: Bayesian Inference and Decision Theory 3
+author: Guanghua Mao
+date: '2020-03-02'
+slug: bayesian-inference-and-decision-theory-3
+categories:
+  - Decision Theory
+tags:
+  - Bayesian
+  - R
+  - Data Science
+---
+
+# Unit 3: Bayesian Inference with Conjugate Pairs: Single Parameter Models
+
+# Canonical Statistical Inference Problem
+
+1. Given: data set of $N$ observations $X_1, …, X_N$
+
+2. Assume: $X_i$ are a random (iid) sample from a probability distribution with unknown parameters.
+
+  * $X_i$ and paremeters can be univariate or multivariate
+  
+  * Set of possible values for $X$ and/or parameters can be finite, discrete infinite, or continuous
+  
+  * This unit considers univariate, continuous parameters
+  
+3. Objectives:
+
+  * Draw conclusions about the unknown parameter
+  
+  * Predict future $X_i$
+  
+  * Recommend action in a decision problem that depends on parameters and/or future $X_i$
+  
+
+# Bayesian Approach to Canonical Inference Problem
+
+
+For canonical inference problem, Bayesian approach use $N$ iid observations $X_1,…,X_N$ drawn from $f(x|unknown \ parameters)$ to draw inferences about unknown parameter. Inputs are prior distribution: $g(\theta)$ and likelihood function $f(\underline{X}|\theta)$. Outputs are posterior distribution: $g(\theta|\underline{X})$ and predictive distribution $f(x^{new}|\underline{X})$.
+
+## Bayes Rule for Continuous Distributions
+
+In many statistical models the parameter has a continuous range of possible values, Bayes rule is the same for continuous as for discrete distributions except that the denominator is an integral rather than a sum.
+
+$$
+g(\theta|x_1,…,x_n)=\frac{f(x_1|\theta)\cdot …\cdot f(x_n|\theta)g(\theta)}{\int_{\theta}f(\underline{x}|\theta)g(\theta)d\theta}
+$$
+
+But often we cannot find an exact expression for the posterior distribution because there is no exact expression for the integral.
+
+## Conjugate Pairs of Distributions
+
+**Conjugate pairs allow exact computation of posterior distributions**
+
+A gpdf family $g(\theta|\alpha)$ is conjugate to the gpdf family $f(x|\theta)$ if it is closed under sampling from $f(x|\theta)$, that is:
+
+IF, Data $X_1, …, X_n$ are a random sample from $f(x|\theta)$ AND prior distribution for unknown parameter is $g(\theta|\alpha)$
+
+THEN, Posterior distribution for parameter is $g(\theta|\alpha*)$, another member of the conjugate family
+
+
+There is a simple updating rule to find $\alpha*$ from $\alpha$ and the observations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
