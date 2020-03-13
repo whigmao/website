@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Economics on Guanghua Mao&#39;s website</title>
+    <link>/categories/economics/</link>
+    <description>Recent content in Economics on Guanghua Mao&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/economics/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Economics: How Market Works</title>
+      <link>/2020/03/13/economics-how-market-works/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/13/economics-how-market-works/</guid>
+      <description>1. The Market Forces of Supply and Demand Economists use the model of supply and demand to analyze competitive markets. In a competitive market, there are many buyers and sellers, each of whom has little or no influence on the market price.
+Whenever you go to a store to buy something, you are contributing to the demand for that item. Whenever you look for a job, you are contributing to the supply of labor services.</description>
+    </item>
+    
+    <item>
+      <title>Economics: Introduction</title>
+      <link>/2020/03/12/economics-introduction/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/12/economics-introduction/</guid>
+      <description>When I started learning economics, I thought economics can teach me to make more money because the word ‘economics’ implied money in my first look. Undoubtablely, my thought is wrong. Therefore, when I decide to write the introduction article, I need to illustrate what is economics indeed.
+Accrording to The Principle of Economics by Gregory Mankiw. Economics is the study of how society manages its scarce resources. Economists study how people make decisions.</description>
+    </item>
+    
+  </channel>
+</rss>

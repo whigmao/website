@@ -1,0 +1,20 @@
+---
+title: 'Economics: How Market Works'
+author: Guanghua Mao
+date: '2020-03-13'
+slug: economics-how-market-works
+categories:
+  - Economics
+tags:
+  - Economics
+---
+
+# 1. The Market Forces of Supply and Demand
+
+Economists use the model of supply and demand to analyze **competitive markets**. In a competitive market, there are many buyers and sellers, each of whom has little or no influence on the market price.
+
+Whenever you go to a store to buy something, you are contributing to the demand for that item. Whenever you look for a job, you are contributing to the supply of labor services. Because supply and demand are such pervasive economic phenomena, the model of supply and demand is a powerful tool for analysis.
+
+In any economic system, scarce resources have to be allocated among competing uses. Market economies harness the forces of supply and demand to serve that end. Sup- “Connecticut should pass its Senate Bill 60, which states that ply and demand together determine the prices of the economy’s during a ‘severe weather event emergency, no person within the many different goods and services; prices in turn are the signals chain of distribution of consumer goods and services shall sell that guide the allocation of resources.
+
+Economies are enormous groups of people engaged in a multitude of interdependent activities. What prevents decentralized decision making from degenerating into chaos? What coordinates the actions of the millions of people with their varying abilities and desires? What ensures that what needs to be done is in fact done? The answer, in a word, is prices. If an invisible hand guides market economies, as Adam Smith famously suggested, then the price system is the baton that the invisible hand uses to conduct the economic orchestra.

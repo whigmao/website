@@ -1,0 +1,58 @@
+---
+title: Bayesian Inference and Decision Theory 3
+author: Guanghua Mao
+date: '2020-03-02'
+slug: bayesian-inference-and-decision-theory-3
+categories:
+  - Decision Theory
+tags:
+  - Bayesian
+  - R
+  - Data Science
+---
+
+
+
+<div id="unit-3-bayesian-inference-with-conjugate-pairs-single-parameter-models" class="section level1">
+<h1>Unit 3: Bayesian Inference with Conjugate Pairs: Single Parameter Models</h1>
+</div>
+<div id="canonical-statistical-inference-problem" class="section level1">
+<h1>Canonical Statistical Inference Problem</h1>
+<ol style="list-style-type: decimal">
+<li><p>Given: data set of <span class="math inline">\(N\)</span> observations <span class="math inline">\(X_1, …, X_N\)</span></p></li>
+<li><p>Assume: <span class="math inline">\(X_i\)</span> are a random (iid) sample from a probability distribution with unknown parameters.</p></li>
+</ol>
+<ul>
+<li><p><span class="math inline">\(X_i\)</span> and paremeters can be univariate or multivariate</p></li>
+<li><p>Set of possible values for <span class="math inline">\(X\)</span> and/or parameters can be finite, discrete infinite, or continuous</p></li>
+<li><p>This unit considers univariate, continuous parameters</p></li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Objectives:</li>
+</ol>
+<ul>
+<li><p>Draw conclusions about the unknown parameter</p></li>
+<li><p>Predict future <span class="math inline">\(X_i\)</span></p></li>
+<li><p>Recommend action in a decision problem that depends on parameters and/or future <span class="math inline">\(X_i\)</span></p></li>
+</ul>
+</div>
+<div id="bayesian-approach-to-canonical-inference-problem" class="section level1">
+<h1>Bayesian Approach to Canonical Inference Problem</h1>
+<p>For canonical inference problem, Bayesian approach use <span class="math inline">\(N\)</span> iid observations <span class="math inline">\(X_1,…,X_N\)</span> drawn from <span class="math inline">\(f(x|unknown \ parameters)\)</span> to draw inferences about unknown parameter. Inputs are prior distribution: <span class="math inline">\(g(\theta)\)</span> and likelihood function <span class="math inline">\(f(\underline{X}|\theta)\)</span>. Outputs are posterior distribution: <span class="math inline">\(g(\theta|\underline{X})\)</span> and predictive distribution <span class="math inline">\(f(x^{new}|\underline{X})\)</span>.</p>
+<div id="bayes-rule-for-continuous-distributions" class="section level2">
+<h2>Bayes Rule for Continuous Distributions</h2>
+<p>In many statistical models the parameter has a continuous range of possible values, Bayes rule is the same for continuous as for discrete distributions except that the denominator is an integral rather than a sum.</p>
+<p><span class="math display">\[
+g(\theta|x_1,…,x_n)=\frac{f(x_1|\theta)\cdot …\cdot f(x_n|\theta)g(\theta)}{\int_{\theta}f(\underline{x}|\theta)g(\theta)d\theta}
+\]</span></p>
+<p>But often we cannot find an exact expression for the posterior distribution because there is no exact expression for the integral.</p>
+</div>
+<div id="conjugate-pairs-of-distributions" class="section level2">
+<h2>Conjugate Pairs of Distributions</h2>
+<p><strong>Conjugate pairs allow exact computation of posterior distributions</strong></p>
+<p>A gpdf family <span class="math inline">\(g(\theta|\alpha)\)</span> is conjugate to the gpdf family <span class="math inline">\(f(x|\theta)\)</span> if it is closed under sampling from <span class="math inline">\(f(x|\theta)\)</span>, that is:</p>
+<p>IF, Data <span class="math inline">\(X_1, …, X_n\)</span> are a random sample from <span class="math inline">\(f(x|\theta)\)</span> AND prior distribution for unknown parameter is <span class="math inline">\(g(\theta|\alpha)\)</span></p>
+<p>THEN, Posterior distribution for parameter is <span class="math inline">\(g(\theta|\alpha*)\)</span>, another member of the conjugate family</p>
+<p>There is a simple updating rule to find <span class="math inline">\(\alpha*\)</span> from <span class="math inline">\(\alpha\)</span> and the observations.</p>
+</div>
+</div>

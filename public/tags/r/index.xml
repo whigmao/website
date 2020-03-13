@@ -6,10 +6,34 @@
     <description>Recent content in R on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bayesian Inference and Decision Theory 2</title>
+      <link>/2020/03/02/bayesian-inference-and-decision-theory-2/</link>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/02/bayesian-inference-and-decision-theory-2/</guid>
+      <description>Unit 2: Random Variables, Parametric Models, and Inference from Observation  Random Variable and Distribution Functions A random variable is a function from the sample space Ω to a set of outcomes.
+ Cumulative distribution function (cdf) - Value of cdf at \(x\) is probability that the random variable is less than or equal to \(x\).
+ Probability mass function (pmf) - Maps each possible value of a discrete random variable to its probability</description>
+    </item>
+    
+    <item>
+      <title>Bayesian Inference and Decision Theory 3</title>
+      <link>/2020/03/02/bayesian-inference-and-decision-theory-3/</link>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/02/bayesian-inference-and-decision-theory-3/</guid>
+      <description>Unit 3: Bayesian Inference with Conjugate Pairs: Single Parameter Models  Canonical Statistical Inference Problem Given: data set of \(N\) observations \(X_1, …, X_N\)
+ Assume: \(X_i\) are a random (iid) sample from a probability distribution with unknown parameters.
+   \(X_i\) and paremeters can be univariate or multivariate
+ Set of possible values for \(X\) and/or parameters can be finite, discrete infinite, or continuous
+ This unit considers univariate, continuous parameters</description>
+    </item>
     
     <item>
       <title>A Brief Tour of Bayesian Inference and Decision Theory</title>

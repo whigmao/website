@@ -118,14 +118,37 @@ If I performe the test, the expected utilities, <span class="math inline">\(E(a_
 <li><p>Sensitivity of test</p></li>
 <li><p>Specificity of test</p></li>
 </ol>
+<p>Usually these probabilities are estimated from data and/or expert judgment:</p>
+<ul>
+<li><p>“Randomized clinical trials have established that Test T has sensitivity 0.95 and specificity 0.85 for Disease D”</p></li>
+<li><p>“Given the presenting symptoms and my clinical judgment, I estimate a 30% probability that the patient has Disease D”</p></li>
+</ul>
 <p>How does a Bayesian combine data and expert judgment?</p>
 <p>• Use clinical judgment to quantify uncertainty about as a probability distribution</p>
 <p>• Gather data</p>
 <p>• Use Bayes rule to obtain posterior distribution for the unknown probability</p>
 <p>• If appropriate, use clinical judgment to adjust results of studies to apply to a particular patient</p>
 <hr />
-<p>Assign prior distribution to possible values of disease probability <span class="math inline">\(p\)</span>. Although <span class="math inline">\(p\)</span> can be any real number between zero and 1, we pretend there are only 20 equally spaced possible values. Our prior distribution is consistent with our estimate <span class="math inline">\(p=0.3\)</span>. Observe 10 <strong>independent and identically distributed (iid)</strong> cases. <span class="math inline">\((X_1, X_2, X_3, X_4, X_5, X_6, X_7, X_8, X_9, X_10) = (0, 1, 0, 0, 0, 0, 1, 0, 0, 1)\)</span>, Cases 2, 7, and 10 have disease; the rest do not.</p>
+</div>
+<div id="example-bayesian-inference-about-a-probability" class="section level1">
+<h1>Example: Bayesian Inference about a Probability</h1>
+<p>Assign prior distribution to possible values of disease probability <span class="math inline">\(p\)</span>.</p>
+<ul>
+<li><p>Although <span class="math inline">\(p\)</span> can be any real number between zero and 1, we pretend there are only 20 equally spaced possible values.</p></li>
+<li><p>Our prior distribution is consistent with our estimate <span class="math inline">\(p=0.3\)</span>.</p></li>
+</ul>
+<p>Observe 10 <strong>independent and identically distributed (iid)</strong> cases. <span class="math inline">\((X_1, X_2, X_3, X_4, X_5, X_6, X_7, X_8, X_9, X_10) = (0, 1, 0, 0, 0, 0, 1, 0, 0, 1)\)</span>, Cases 2, 7, and 10 have disease; the rest do not.</p>
 <p>How do we find the posterior distribution of the unknown probability?</p>
+<div id="posterior-distribution-of-disease-parameter" class="section level2">
+<h2>Posterior Distribution of Disease Parameter</h2>
+<p>In the above example, I will apply Bayes rule in this way:</p>
+<ol style="list-style-type: decimal">
+<li><p>I oberverd 3 cases of disease in 10 trials.</p></li>
+<li><p>Likelihood of data is <span class="math inline">\(p^3(1-p)^7\)</span>.</p></li>
+<li><p>Multiply prior <span class="math inline">\(g(p)\)</span> times likelihood <span class="math inline">\(p^3(1-p)^7\)</span> and divide by sum:</p></li>
+</ol>
+<p><span class="math inline">\(g(p|x_1,…,x_{10})=\frac{g(p)p^3(1-p)^7}{\sum_{p^,}g(p^,){p^,}^3(1-p^,)^7}\)</span></p>
+<p>Notice that the posterior distribution depends only on the number of cases with and without the disease.</p>
 <pre class="r"><code># Unit 1 Bayesian Updating Example: Inference about an unknown probability
 # Calculate and plot prior and posterior distribution 
 # for disease probability:  Discretized prior; 
@@ -136,7 +159,7 @@ If I performe the test, the expected utilities, <span class="math inline">\(E(a_
 pVals &lt;- seq(length=20,from=0.025,to=0.975)
 
 # Prior distribution: choose a prior distribution centered around 0.3 
-priorDist &lt;- c(0.033, 0.071, 0.099, 0.116, 0.117, 0.113, 0.103, 
+priorDist &lt;- c(0.033, 0.071, 0.099, 0.116, 0.117, 0.113, 0.103,
                0.090, 0.074, 0.061, 0.045, 0.024, 0.016,
                0.013, 0.009, 0.006, 0.004, 0.003, 0.002, 0.001)
 
@@ -179,4 +202,47 @@ sum(priorDist[indx])     # Prior prob that disease probability is between 0.2 an
 <pre><code>## [1] 0.423</code></pre>
 <pre class="r"><code>sum(postDist[indx])      # Posterior prob that disease probability is between 0.2 and 0.4</code></pre>
 <pre><code>## [1] 0.6367731</code></pre>
+<hr />
+</div>
+</div>
+<div id="bayesian-learning-and-sample-size" class="section level1">
+<h1>Bayesian Learning and Sample Size</h1>
+<p>When the sample size is very large, the posterior distribution will be concentrated around the maximum likelihood estimate and is relatively insensitive to the prior distribution. We won’t go too far wrong if we act as if the parameter is equal to the maximum likelihood estimate.</p>
+<p>When the sample size is very small, the posterior distribution is highly dependent on the prior distribution. Reasonable people may disagree on the value of the parameter.</p>
+<p>When the sample size is moderate, Bayesian learning can be a big improvement on either expert judgment alone or data alone. However, achieving the benefit requires careful modeling. In the next series of articles, I will share methods for constructing Bayesian models.</p>
+<p>A powerful characteristic of the Bayesian approach is the flexibility to tailor results to moderatesized sub-populations. Bayesian estimate <strong>shrinks</strong> estimates of sub-population parameters toward population average. Amount of shrinkage depends on sample size and similarity of sub-population to overall population. Shrinkage improves estimates for small to moderate sized sub-populations.</p>
+<hr />
+</div>
+<div id="some-concepts-of-probability" class="section level1">
+<h1>Some Concepts of Probability</h1>
+<ul>
+<li><p>Classical - Probability is a ratio of favorable cases to total (equipossible) cases</p></li>
+<li><p>Frequency - Probability is the limiting value as the number of trials becomes infinite of the frequency of occurrence of a type of event</p></li>
+<li><p>Logical - Probability is a logical property of one’s state of information about a phenomenon</p></li>
+<li><p>Propensity - Probability is a propensity for certain kinds of physical event to occur</p></li>
+<li><p>Subjective - Probability is an ideal rational agent’s degree of belief about an uncertain event</p></li>
+<li><p>Algorithmic - The algorithmic probability of a finite sequence is the probability that a universal computer fed a random input will give the sequence as output</p></li>
+<li><p>Game Theoretic - Probability is an agent’s optimal “announced certainty” for an event in a multiagent game in which agents receive rewards that depend on both forecasts and outcomes</p></li>
+</ul>
+<hr />
+</div>
+<div id="why-be-a-bayesian" class="section level1">
+<h1>Why be a Bayesian?</h1>
+<p>Arguments from theory:</p>
+<ul>
+<li><p>A coherent decision maker uses probability to represent uncertainty, uses utility to represent value, and maximizes expected utility.</p></li>
+<li><p>If you are not coherent then someone can make “Dutch book” on you (turn you into a “money pump”)</p></li>
+</ul>
+<p>Pragmatic arguments:</p>
+<ul>
+<li><p>Useful and principled methodology for modeling inference, decision and learning</p></li>
+<li><p>Analyze engineering tradeoffs between accuracy, complexity and cost</p></li>
+<li><p>Represent and incorporate both empirical data and informed engineering judgment</p></li>
+<li><p>Handle small, moderate and large sample sizes and parameter sets</p></li>
+<li><p>Interpretability of results and understandability of model</p></li>
+</ul>
+<p>Arguments from experience:</p>
+<ul>
+<li>Successful applications attributed to decision theory</li>
+</ul>
 </div>
