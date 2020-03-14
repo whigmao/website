@@ -8,12 +8,12 @@
   </url>
   
   <url>
-    <loc>/categories/economics/</loc>
+    <loc>/tags/economics/</loc>
     <lastmod>2020-03-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/economics/</loc>
+    <loc>/categories/economics/</loc>
     <lastmod>2020-03-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,7 +33,22 @@
   </url>
   
   <url>
+    <loc>/tags/firm-behavior/</loc>
+    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/03/13/firm-behavior-and-the-organization-of-industry/</loc>
+    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
+    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/industrial-organization/</loc>
     <lastmod>2020-03-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -113,12 +128,12 @@
   </url>
   
   <url>
-    <loc>/tags/accounting/</loc>
+    <loc>/categories/accounting/</loc>
     <lastmod>2020-01-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/accounting/</loc>
+    <loc>/tags/accounting/</loc>
     <lastmod>2020-01-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,12 +158,12 @@
   </url>
   
   <url>
-    <loc>/categories/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>/categories/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
