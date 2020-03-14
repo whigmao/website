@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welfare on Guanghua Mao&#39;s website</title>
+    <link>/tags/welfare/</link>
+    <description>Recent content in Welfare on Guanghua Mao&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/welfare/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Economics: Markets and Welfare</title>
+      <link>/2020/03/13/economics-markets-and-welfare/</link>
+      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/13/economics-markets-and-welfare/</guid>
+      <description>Consumers, Producers, and the Efficiency of Markets 1. Consumer Surplus Consumer surplus equals buyers’ willingness to pay for a good minus the amount they actually pay, and it measures the benefit buyers get from participating in a market. Consumer surplus can be computed by finding the area below the demand curve and above the price.
+ 2. Producer Surplus Producer surplus equals the amount sellers receive for their goods minus their costs of production, and it measures the benefit sellers get from participating in a market.</description>
+    </item>
+    
+  </channel>
+</rss>
