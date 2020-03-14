@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Consumer on Guanghua Mao&#39;s website</title>
+    <link>/tags/consumer/</link>
+    <description>Recent content in Consumer on Guanghua Mao&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/consumer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Economics: The Theory of Consumer Choice and Other Topics</title>
+      <link>/2020/03/14/economics-the-theory-of-consumer-choice/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/03/14/economics-the-theory-of-consumer-choice/</guid>
+      <description>Consumer Choice A consumer’s budget constraint shows the possible combinations of different goods she can buy given her income and the prices of the goods. The slope of the budget constraint equals the relative price of the goods.
+The consumer’s indifference curves represent her preferences. An indifference curve shows the various bundles of goods that make the consumer equally happy. Points on higher indifference curves are preferred to points on lower indifference curves.</description>
+    </item>
+    
+  </channel>
+</rss>

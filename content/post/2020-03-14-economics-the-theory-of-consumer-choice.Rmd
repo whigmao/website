@@ -1,0 +1,73 @@
+---
+title: 'Economics: The Theory of Consumer Choice and Other Topics'
+author: Guanghua Mao
+date: '2020-03-14'
+slug: economics-the-theory-of-consumer-choice
+categories:
+  - Economics
+tags:
+  - Economics
+  - Consumer
+---
+
+# Consumer Choice
+
+A consumer’s budget constraint shows the possible combinations of different goods she can buy given her income and the prices of the goods. The slope of the budget constraint equals the relative price of the goods.
+
+The consumer’s indifference curves represent her preferences. An indifference curve shows the various bundles of goods that make the consumer equally happy. Points on higher indifference curves are preferred to points on lower indifference curves. The slope of an indifference curve at any point is the consumer’s marginal rate of substitution—the rate at which the consumer is willing to trade one good for the other. 
+
+The consumer optimizes by choosing the point on her budget constraint that lies on the highest indifference curve. At this point, the slope of the indifference curve (the marginal rate of substitution between the goods) equals the slope of the budget constraint (the relative price of the goods), and the consumer’s valuation of the two goods (measured by the marginal rate of substitution) equals the market’s valuation (measured by the relative price).
+
+When the price of a good falls, the impact on the consumer’s choices can be broken down into an income effect and a substitution effect. The income effect is the change in consumption that arises because a lower price makes the consumer better off. The substitution effect is the change in consumption that arises because a price change encourages greater consumption of the good that has become relatively cheaper. The income effect is reflected in the movement from a lower to a higher indifference curve, whereas the substitution effect is reflected by a movement along an indifference curve to a point with a different slope.
+
+The theory of consumer choice can be applied in many situations. It explains why demand curves can potentially slope upward, why higher wages could either increase or decrease the quantity of labor supplied, and why higher interest rates could either increase or decrease saving.
+
+---
+
+# Asymmetric Information
+
+In many economic transactions, information is asymmetric. When there are hidden actions, principals may be concerned that agents suffer from the problem of moral hazard. When there are hidden characteristics, buyers may be concerned about the problem of adverse selection among the sellers. Private markets sometimes deal with asymmetric information with signaling and screening.
+
+---
+
+# Political Economy
+
+Although government policy can sometimes improve market outcomes, governments are themselves imperfect institutions. The Condorcet paradox shows that majority rule fails to produce transitive preferences for society, and Arrow’s impossibility theorem shows that no voting system will be perfect. In many situations, democratic institutions will produce the outcome desired by the median voter, regardless of the preferences of the rest of the electorate. Moreover, the individuals who set government policy may be motivated by self-interest rather than the national interest. 
+
+---
+
+# Behavioral Economics
+
+The study of psychology and economics reveals that human decision making is more complex than is assumed in conventional economic theory. People are not always rational, they care about the fairness of economic outcomes (even to their own detriment), and they can be inconsistent over time.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
