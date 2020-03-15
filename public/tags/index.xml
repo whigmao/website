@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Book</title>
+      <link>/tags/book/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Consumer</title>
       <link>/tags/consumer/</link>
       <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
@@ -39,6 +48,15 @@
     </item>
     
     <item>
+      <title>Personal</title>
+      <link>/tags/personal/</link>
+      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Firm Behavior</title>
       <link>/tags/firm-behavior/</link>
       <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
@@ -53,15 +71,6 @@
       <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/industrial-organization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal</title>
-      <link>/tags/personal/</link>
-      <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/personal/</guid>
       <description></description>
     </item>
     
