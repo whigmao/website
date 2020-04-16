@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database on Guanghua Mao&#39;s website</title>
+    <link>/categories/database/</link>
+    <description>Recent content in Database on Guanghua Mao&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Database Management Essentials</title>
+      <link>/2020/04/15/database-management-essentials/</link>
+      <pubDate>Wed, 15 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020/04/15/database-management-essentials/</guid>
+      <description>1. Database System Good decisions require good information derived from raw facts. Users can manage data efficiently when it is stored in database in term of size, security, accuracy, ease of updating and redundance.
+Databases are shared, integrated computer structure that stores a collection of data.
+ End-user data: raw facts of interest to the end user
+ Metadata: data about data, description of data characteristics and relationships in data</description>
+    </item>
+    
+  </channel>
+</rss>
