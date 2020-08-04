@@ -1,0 +1,15 @@
+---
+title: Business Basics
+author: Guanghua Mao
+date: '2020-08-04'
+slug: business-basics
+categories:
+  - Business
+tags:
+  - Business
+  - Accounting
+  - Programming
+  - LInkedin Learning
+  - Firm Behavior
+---
+![Business Basics Mindmap](/post/2020-08-04-business-basics_files/ Basics.png){width=99%}
