@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Economics</title>
+      <link>/tags/economics/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolution</title>
+      <link>/tags/evolution/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Labor</title>
+      <link>/tags/labor/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/labor/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Personal</title>
@@ -111,24 +138,6 @@
     </item>
     
     <item>
-      <title>Economics</title>
-      <link>/tags/economics/</link>
-      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/economics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Labor</title>
-      <link>/tags/labor/</link>
-      <pubDate>Sat, 14 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/labor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Industrial Organization</title>
       <link>/tags/industrial-organization/</link>
       <pubDate>Fri, 13 Mar 2020 00:00:00 +0000</pubDate>
@@ -206,15 +215,6 @@
       <pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/numbers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evolution</title>
-      <link>/tags/evolution/</link>
-      <pubDate>Mon, 23 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/evolution/</guid>
       <description></description>
     </item>
     
