@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2020/09/06/a-blueprint-for-success/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/business/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/business/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/personal/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-09-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,27 +48,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/insights/</loc>
-    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/personal/</loc>
-    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-08-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-08-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,16 +83,6 @@
   </url>
   
   <url>
-    <loc>/categories/business/</loc>
-    <lastmod>2020-08-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/business/</loc>
-    <lastmod>2020-08-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2020/08/04/business-basics/</loc>
     <lastmod>2020-08-04T00:00:00+00:00</lastmod>
   </url>
@@ -108,12 +113,12 @@
   </url>
   
   <url>
-    <loc>/categories/linguistics/</loc>
+    <loc>/tags/linguistics/</loc>
     <lastmod>2020-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/linguistics/</loc>
+    <loc>/categories/linguistics/</loc>
     <lastmod>2020-07-16T00:00:00+00:00</lastmod>
   </url>
   
