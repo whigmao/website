@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Book</title>
+      <link>/tags/book/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Business</title>
       <link>/tags/business/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
@@ -21,20 +30,20 @@
     </item>
     
     <item>
+      <title>Evolution</title>
+      <link>/tags/evolution/</link>
+      <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/evolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Personal</title>
       <link>/tags/personal/</link>
       <pubDate>Sun, 06 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Evolution</title>
-      <link>/tags/evolution/</link>
-      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/evolution/</guid>
       <description></description>
     </item>
     
@@ -89,15 +98,6 @@
       <pubDate>Tue, 04 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Book</title>
-      <link>/tags/book/</link>
-      <pubDate>Thu, 16 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/book/</guid>
       <description></description>
     </item>
     
