@@ -33,12 +33,12 @@
   </url>
   
   <url>
-    <loc>/tags/sociology/</loc>
+    <loc>/categories/sociology/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/sociology/</loc>
+    <loc>/tags/sociology/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,6 +59,11 @@
   
   <url>
     <loc>/2020/09/18/1/</loc>
+    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/09/18/3/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -183,12 +188,12 @@
   </url>
   
   <url>
-    <loc>/tags/linguistics/</loc>
+    <loc>/categories/linguistics/</loc>
     <lastmod>2020-07-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/linguistics/</loc>
+    <loc>/tags/linguistics/</loc>
     <lastmod>2020-07-16T00:00:00+00:00</lastmod>
   </url>
   
