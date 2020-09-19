@@ -3,7 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/business/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/economics/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,6 +38,11 @@
   </url>
   
   <url>
+    <loc>/tags/personal/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
@@ -43,6 +58,11 @@
   </url>
   
   <url>
+    <loc>/2020/09/19/1/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2020/09/18/be-the-best-gold-digger-you-can-be/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
@@ -54,11 +74,6 @@
   
   <url>
     <loc>/categories/insights/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/personal/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,11 +133,6 @@
   </url>
   
   <url>
-    <loc>/tags/business/</loc>
-    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/business/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
@@ -134,11 +144,6 @@
   
   <url>
     <loc>/categories/decision-theory/</loc>
-    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/economics/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
   </url>
   
@@ -353,12 +358,12 @@
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>/categories/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
