@@ -6,10 +6,19 @@
     <description>Recent content in Categories on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Translation Articles</title>
+      <link>/categories/translation-articles/</link>
+      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/translation-articles/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Insights</title>
@@ -35,15 +44,6 @@
       <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/sociology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Translation Articles</title>
-      <link>/categories/translation-articles/</link>
-      <pubDate>Fri, 18 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/translation-articles/</guid>
       <description></description>
     </item>
     
