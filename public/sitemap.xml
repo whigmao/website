@@ -18,12 +18,12 @@
   </url>
   
   <url>
-    <loc>/categories/economics/</loc>
+    <loc>/tags/economics/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/economics/</loc>
+    <loc>/categories/economics/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -68,12 +68,12 @@
   </url>
   
   <url>
-    <loc>/tags/sociology/</loc>
+    <loc>/categories/sociology/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/sociology/</loc>
+    <loc>/tags/sociology/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -94,6 +94,11 @@
   
   <url>
     <loc>/2020/09/19/2/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/09/19/3/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
