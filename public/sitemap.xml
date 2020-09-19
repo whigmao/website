@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/2020/09/18/be-the-best-gold-digger-you-can-be/</loc>
+    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
@@ -38,12 +43,12 @@
   </url>
   
   <url>
-    <loc>/tags/psychology/</loc>
+    <loc>/categories/psychology/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/psychology/</loc>
+    <loc>/tags/psychology/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -343,12 +348,12 @@
   </url>
   
   <url>
-    <loc>/categories/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>/categories/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
