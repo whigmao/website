@@ -23,12 +23,12 @@
   </url>
   
   <url>
-    <loc>/tags/economics/</loc>
+    <loc>/categories/economics/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/economics/</loc>
+    <loc>/tags/economics/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -63,6 +63,11 @@
   </url>
   
   <url>
+    <loc>/tags/labor/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/linguistics/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
@@ -88,12 +93,17 @@
   </url>
   
   <url>
-    <loc>/categories/sociology/</loc>
+    <loc>/categories/psychology/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/sociology/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/sociology/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -119,6 +129,11 @@
   
   <url>
     <loc>/2020/09/19/2/</loc>
+    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/09/19/9/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -164,11 +179,6 @@
   
   <url>
     <loc>/2020/09/18/be-the-best-gold-digger-you-can-be/</loc>
-    <lastmod>2020-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/psychology/</loc>
     <lastmod>2020-09-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -244,11 +254,6 @@
   
   <url>
     <loc>/2020/08/13/everything-has-a-diminishing-marginal-utility/</loc>
-    <lastmod>2020-08-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/labor/</loc>
     <lastmod>2020-08-13T00:00:00+00:00</lastmod>
   </url>
   
