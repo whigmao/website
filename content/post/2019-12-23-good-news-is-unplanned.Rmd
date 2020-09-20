@@ -42,6 +42,7 @@ The University of British Columbia anthropologist **Joseph Henrich** and his col
 
 
 **Henrich** and his colleagues also speculate that “the peculiar institutions of monogamous marriage may help explain why democratic ideals and notions of equality and human rights first emerged in the West.” This egalitarian impulse, interestingly, may behind the evolving inclination toward including same-sex unions in the institution of marriage.
+
 Henrich和他同事们推断，“一夫一妻的婚姻制度也可能有助于解释为何民主的典范和平等与人权的概念首先出现在西方。”有趣的是，这种平等主义的冲动或许隐藏在这样一种进化倾向背后，即向包括同性结合的婚姻制度的进化。
 
 What about the evolution of economics? Prior to the 18th century, top-down extraction of wealth by elites from hapless serfs and peasants was the nearly universal form of economic and political organization among settled societies. The result was persistent and pervasive poverty.
@@ -50,6 +51,7 @@ What about the evolution of economics? Prior to the 18th century, top-down extra
 
 
 As the University of Groningen economist **Angus Maddison** has shown, economic growth proceeded at the stately pace of less than 0.1 percent per year in Western Europe for more than 18 centuries, rising in constant dollars from $425$ per year in AD 1 to $1,200$ in 1820. Towards the end of that period, a socioeconomic mutation—market liberalism—arose in Britain and the Netherlands.
+
 正如格罗宁根（Groningen）大学经济学家Angus Maddison所展示的，在长达18个世纪的时间里，西欧的经济增长都稳定在每年0.1%以下，以不变价美元计，从公元元年的425美元涨到了1820年的1200美元。到了这段时期的末尾，一个社会经济的巨变———市场自由主义——在英国和荷兰出现了。
 
 As it spread around the world, the mutation proved highly advantageous to the societies that accepted some degree of it, enabling them to prosper. This “great enrichment,” as the University of Illinois at Chicago economist **Deidre McCloskey** calls it, boosted average incomes 10- to 20-fold in those countries where the mutation took hold.
@@ -58,6 +60,7 @@ As it spread around the world, the mutation proved highly advantageous to the so
 
 
 **Ridley** cites the economists **Nick Hanauer** and **Eric Beinhocker**, who assert that unfettered commerce is “best understood as an evolutionary system, constantly creating and trying out new solutions to problems in a similar way to how evolution works in nature. Some solutions are ‘fitter’ than others. The fittest survive and propagate. The unfit die.”
+
 Ridley引用了经济学家Nick Hanauer 和 Eric Beinhocker的观点，他们认为最好将自由商业“理解为一个像自然进化那样不断创造、并发明出解决问题之新方法的系统。有些方法比其他方法更能“适应环境”。最适应环境的存活并增殖。不适应的就灭亡。”
 
 The consequence of competition is constant innovation, which the economist **Joseph Schumpeter** neatly summarized as “creative destruction.” After accounting for the contributions of labor and capital, economist **Robert Solow** calculated that nearly 90 percent of the improvements in living standards are due to technological progress.
@@ -125,4 +128,5 @@ As **Ridley** concludes, “It is a fair bet that the twenty-first century will 
 Ridley总结道，“很可能21世纪会被坏消息带来的震惊所笼罩，但是也会经历美好事物近乎无形的进步。”渐进的、不可阻挡的、无可避免的改变，会带给我们物质和精神的进步，使得我们孙辈的生活更富足、更健康、更幸福、更明智、更友善、更自由、更和平且更平等——这几乎全都是文化进化的偶然副产物。”
 
 **Ronald Bailey** is a science correspondent at *Reason magazine* and author of *The End of Doom* (July 2015).
+
 Ronald Bailey是《Reason》杂志的科学通讯记者，也是《末日终结》一书（2015年七月）的作者。
