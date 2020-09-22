@@ -6,26 +6,35 @@
     <description>Recent content in Categories on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Business</title>
+      <link>/categories/business/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/business/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Insights</title>
       <link>/categories/insights/</link>
-      <pubDate>Sun, 20 Sep 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/insights/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Business</title>
-      <link>/categories/business/</link>
-      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
+      <title>Translation Articles</title>
+      <link>/categories/translation-articles/</link>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/business/</guid>
+      <guid>/categories/translation-articles/</guid>
       <description></description>
     </item>
     
@@ -62,15 +71,6 @@
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/sociology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Translation Articles</title>
-      <link>/categories/translation-articles/</link>
-      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/translation-articles/</guid>
       <description></description>
     </item>
     
