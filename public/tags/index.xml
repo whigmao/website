@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>Personal</title>
+      <link>/tags/personal/</link>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Politics</title>
       <link>/tags/politics/</link>
       <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
@@ -39,11 +48,11 @@
     </item>
     
     <item>
-      <title>Personal</title>
-      <link>/tags/personal/</link>
-      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <title>Psychology</title>
+      <link>/tags/psychology/</link>
+      <pubDate>Mon, 28 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/personal/</guid>
+      <guid>/tags/psychology/</guid>
       <description></description>
     </item>
     
@@ -80,15 +89,6 @@
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/linguistics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Psychology</title>
-      <link>/tags/psychology/</link>
-      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/psychology/</guid>
       <description></description>
     </item>
     
