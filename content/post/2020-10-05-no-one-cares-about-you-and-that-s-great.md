@@ -1,0 +1,26 @@
+---
+title: No One Cares About You -- And That's Great
+author: Guanghua Mao
+date: '2020-10-05'
+slug: no-one-cares-about-you-and-that-s-great
+categories:
+  - Translation Articles
+tags:
+  - Personal
+---
+
+### Author: Brent Beshore
+
+### [Source](https://www.forbes.com/sites/brentbeshore/2013/03/26/no-one-cares-about-you-and-thats-great/#715f517421d3)
+
+You’re not the center of the universe. In fact, no one really cares about you. It’s harsh, but true. Sure, you have family and a few great friends. They will take particular interest in various parts of your life, helping you when needed. But they don’t care about you nearly as much as you care about yourself. Ultimately, you’re not top of mind to anyone but yourself. When properly understood, this is incredibly freeing and valuable.
+
+Early in my career, the fear of failure drove most of my decisions. How would I look? What would people think? I lived in a constant state of anxiety about the judgments of others. Would I ever get a second chance if I failed? If I did fail, how could I pass the blame to someone else? If not, could I blame circumstance? I was so fearful that I couldn’t even be honest with myself.
+
+This thinking led me to make consistently poor decisions about how I lived, what got my focus, and where my emotional energy was expended. My rule was simple: As long as it “looked good,” do it, because how I was perceived mattered most. I would run from meeting to meeting, from venture to venture, from friendship to friendship. I was busy as hell and accomplished nothing. In fact, it was worse than nothing. I was destructive. I squandered money, time, and relationships. I failed, repeatedly. I bought into my own BS; the alternative of honesty seemed too painful.
+
+After my umpteenth failure, an incredible realization washed over me: No one cared. No one remembered my mistakes. Here and there, people would have faint memories, but they quickly faded. I was free: free to try hard, fail, learn, rinse, and repeat. I could be reincarnated with each new endeavor.
+
+But soon after, my logic drove me into a ditch. If no one cared, did I matter? I had always lived for others: to make others like me, to impress them, to be heralded. I couldn’t figure out why I was never satisfied, regardless of the awards, congrats, or press clippings. It made me realize that true success must be self-defined. Only I know my real motivations. Only I know what makes me happy. Only I can carry the measuring stick.
+
+In the end, no one cares — and that’s great. Find what makes you happy, work hard, and live fearlessly. If you screw up, no one cares. Neither should you.

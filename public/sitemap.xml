@@ -3,12 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/business/</loc>
-    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-10-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/</loc>
+    <lastmod>2020-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/10/05/no-one-cares-about-you-and-that-s-great/</loc>
+    <lastmod>2020-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/personal/</loc>
+    <lastmod>2020-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/translation-articles/</loc>
+    <lastmod>2020-10-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/business/</loc>
     <lastmod>2020-09-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,17 +53,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2020/09/28/no-economic-mess-in-texas/</loc>
-    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/personal/</loc>
     <lastmod>2020-09-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,22 +63,7 @@
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/psychology/</loc>
-    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/translation-articles/</loc>
     <lastmod>2020-09-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -113,12 +118,12 @@
   </url>
   
   <url>
-    <loc>/tags/geography/</loc>
+    <loc>/categories/geography/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/geography/</loc>
+    <loc>/tags/geography/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
