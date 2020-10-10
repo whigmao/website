@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,16 +14,25 @@
     <item>
       <title>Insights</title>
       <link>/categories/insights/</link>
-      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/insights/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Sociology</title>
+      <link>/categories/sociology/</link>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/sociology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Translation Articles</title>
       <link>/categories/translation-articles/</link>
-      <pubDate>Mon, 05 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/translation-articles/</guid>
       <description></description>
@@ -62,15 +71,6 @@
       <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/psychology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sociology</title>
-      <link>/categories/sociology/</link>
-      <pubDate>Sat, 19 Sep 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/sociology/</guid>
       <description></description>
     </item>
     
