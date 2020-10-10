@@ -18,7 +18,22 @@
   </url>
   
   <url>
+    <loc>/categories/history/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/history/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/insights/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/politics/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,12 +68,12 @@
   </url>
   
   <url>
-    <loc>/tags/personal/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <loc>/2020/10/10/we-need-a-new-approach-to-teaching-modern-chinese-history-we-have-lazily-repeated-false-narratives-for-too-long/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/politics/</loc>
+    <loc>/tags/personal/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,12 +158,12 @@
   </url>
   
   <url>
-    <loc>/tags/geography/</loc>
+    <loc>/categories/geography/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/geography/</loc>
+    <loc>/tags/geography/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
