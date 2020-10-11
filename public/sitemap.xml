@@ -23,12 +23,12 @@
   </url>
   
   <url>
-    <loc>/tags/history/</loc>
+    <loc>/categories/history/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/history/</loc>
+    <loc>/tags/history/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -48,6 +48,16 @@
   </url>
   
   <url>
+    <loc>/categories/politics/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/politics/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
@@ -58,12 +68,12 @@
   </url>
   
   <url>
-    <loc>/tags/sociology/</loc>
+    <loc>/categories/sociology/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/sociology/</loc>
+    <loc>/tags/sociology/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -79,6 +89,16 @@
   
   <url>
     <loc>/categories/translation-articles/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/10/11/universal-suffrage-was-a-mistake/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/welfare/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -99,11 +119,6 @@
   
   <url>
     <loc>/tags/economics/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/politics/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -443,11 +458,6 @@
   </url>
   
   <url>
-    <loc>/tags/welfare/</loc>
-    <lastmod>2020-03-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2020/03/13/2020-3/</loc>
     <lastmod>2020-03-13T00:00:00+00:00</lastmod>
   </url>
@@ -508,12 +518,12 @@
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>/categories/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
