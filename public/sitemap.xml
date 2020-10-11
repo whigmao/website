@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>/tags/economics/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/economics/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
@@ -43,17 +53,22 @@
   </url>
   
   <url>
-    <loc>/tags/sociology/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/sociology/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>/tags/sociology/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/</loc>
+    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/10/10/the-lottery/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -94,11 +109,6 @@
   
   <url>
     <loc>/2020/09/28/discipline-equals-freedom/</loc>
-    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/economics/</loc>
     <lastmod>2020-09-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -144,11 +154,6 @@
   
   <url>
     <loc>/2020/09/19/bitter-pill-proving-causality-in-pharmaceutical-cases-can-be-difficult/</loc>
-    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/economics/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
