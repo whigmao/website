@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Economics</title>
+      <link>/categories/economics/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>History</title>
       <link>/categories/history/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
@@ -30,29 +39,20 @@
     </item>
     
     <item>
+      <title>Sociology</title>
+      <link>/categories/sociology/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/sociology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Translation Articles</title>
       <link>/categories/translation-articles/</link>
       <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/translation-articles/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Economics</title>
-      <link>/categories/economics/</link>
-      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/economics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sociology</title>
-      <link>/categories/sociology/</link>
-      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/sociology/</guid>
       <description></description>
     </item>
     
