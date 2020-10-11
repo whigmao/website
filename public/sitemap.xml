@@ -3,12 +3,62 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/book/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/tags/evolution/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/history/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/history/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/insights/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/sociology/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/translation-articles/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/10/11/2/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/book/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,47 +73,12 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/history/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/history/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/insights/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/politics/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/categories/sociology/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/sociology/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -74,11 +89,6 @@
   
   <url>
     <loc>/2020/10/10/the-world-is-doing-better-than-ever-here-s-why-you-never-hear-about-it/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/translation-articles/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -154,11 +164,6 @@
   
   <url>
     <loc>/2020/09/19/bitter-pill-proving-causality-in-pharmaceutical-cases-can-be-difficult/</loc>
-    <lastmod>2020-09-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/evolution/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -493,12 +498,12 @@
   </url>
   
   <url>
-    <loc>/categories/python/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/python/</loc>
+    <loc>/categories/python/</loc>
     <lastmod>2020-01-12T00:00:00+00:00</lastmod>
   </url>
   

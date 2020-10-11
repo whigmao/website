@@ -6,10 +6,37 @@
     <description>Recent content in Categories on Guanghua Mao&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>History</title>
+      <link>/categories/history/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Insights</title>
+      <link>/categories/insights/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/insights/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Translation Articles</title>
+      <link>/categories/translation-articles/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/translation-articles/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Economics</title>
@@ -21,38 +48,11 @@
     </item>
     
     <item>
-      <title>History</title>
-      <link>/categories/history/</link>
-      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/history/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Insights</title>
-      <link>/categories/insights/</link>
-      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/insights/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sociology</title>
       <link>/categories/sociology/</link>
       <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/sociology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Translation Articles</title>
-      <link>/categories/translation-articles/</link>
-      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/translation-articles/</guid>
       <description></description>
     </item>
     
