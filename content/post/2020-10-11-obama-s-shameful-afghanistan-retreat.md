@@ -35,3 +35,13 @@ A limited number of American forces with the right authorities could prevent the
 American forces with Afghan partners drove Al Qaeda almost entirely out of Afghanistan in 2002. U.S., Afghan and allied troops kept them out for a decade — the one enduring success against Al Qaeda President Obama had maintained.
 
 Now they're back. The President has thus put in danger even the most limited of the goals he had identified in Afghanistan.
+
+The emergence of fighters loyal to the Islamic State in Afghanistan is even more disturbing. The vast majority of them are local insurgents who had been fighting under other banners, so it's not as if new forces have invaded Afghanistan. But the ISIS brand is much more virulent, violent and extreme even than al Qaeda. It makes the Taliban look moderate.
+
+That such a group has drawn Afghans under its banner is proof of the failure of U.S. efforts against ISIS broadly. Success attracts followers. ISIS will likely radicalize those followers even further, while preparing to unleash greater violence against Afghan forces and U.S. troops. That will be further proof to potential recruits of its success and power, encouraging radicals elsewhere to join ISIS. It is a disaster in every respect.
+
+The Afghan security forces, meanwhile, are suffering badly. Losses and desertion rates are too high. They lack the equipment to prosecute a modern war against a serious enemy. We built those forces on the assumption that the U.S. and its allies would continue to provide meaningful and reliable air support, help with logistics, planning and intelligence and more. As we have withdrawn that support, they have faltered.
+
+All this was both predictable and avoidable. The President was warned that he had announced too aggressive a drawdown plan in 2009. He disdained recommendations to keep 20,000 or 30,000 troops in place after the drawdown. He is once again disregarding advice to maintain the current — inadequate — force level in favor of scheduling yet another unjustifiable withdrawal.
+
+All Presidents make mistakes. Most come to recognize and learn from them. Others double down. In this case, doubling down on retreat is doubling down on failure.
