@@ -3,12 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/business/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/business/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/2020/10/11/democracy-is-a-means-not-an-end/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/economics/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,12 +88,12 @@
   </url>
   
   <url>
-    <loc>/tags/sociology/</loc>
+    <loc>/categories/sociology/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/sociology/</loc>
+    <loc>/tags/sociology/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -118,12 +133,12 @@
   </url>
   
   <url>
-    <loc>/tags/book/</loc>
-    <lastmod>2020-10-10T00:00:00+00:00</lastmod>
+    <loc>/2020/10/11/18-quibi/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/economics/</loc>
+    <loc>/tags/book/</loc>
     <lastmod>2020-10-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -153,11 +168,6 @@
   </url>
   
   <url>
-    <loc>/tags/business/</loc>
-    <lastmod>2020-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/2020/09/28/discipline-equals-freedom/</loc>
     <lastmod>2020-09-28T00:00:00+00:00</lastmod>
   </url>
@@ -165,11 +175,6 @@
   <url>
     <loc>/2020/09/28/no-economic-mess-in-texas/</loc>
     <lastmod>2020-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/business/</loc>
-    <lastmod>2020-09-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
