@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/business/</loc>
+    <loc>/categories/business/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/business/</loc>
+    <loc>/tags/business/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,12 +23,12 @@
   </url>
   
   <url>
-    <loc>/tags/economics/</loc>
+    <loc>/categories/economics/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/economics/</loc>
+    <loc>/tags/economics/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -89,6 +89,11 @@
   
   <url>
     <loc>/tags/psychology/</loc>
+    <lastmod>2020-10-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2020/10/11/remember-the-common-law/</loc>
     <lastmod>2020-10-11T00:00:00+00:00</lastmod>
   </url>
   
@@ -208,12 +213,12 @@
   </url>
   
   <url>
-    <loc>/tags/geography/</loc>
+    <loc>/categories/geography/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/geography/</loc>
+    <loc>/tags/geography/</loc>
     <lastmod>2020-09-19T00:00:00+00:00</lastmod>
   </url>
   
