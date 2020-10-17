@@ -1,19 +1,20 @@
 ---
 title: No Economic Mess in Texas
-author: Guanghua Mao
+author: Wall Street Journal
 date: '2020-09-28'
-slug: no-economic-mess-in-texas
 categories:
   - Translation Articles
 tags:
-  - Economics
   - Business
+  - Economics
   - Politics
+  - America
+slug: no-economic-mess-in-texas
 ---
 
 # 德州经济安然无恙
 
-### Author: Wall Street Journal
+
 
 ### [Source](https://www.wsj.com/articles/no-economic-mess-in-texas-1437433836)
 

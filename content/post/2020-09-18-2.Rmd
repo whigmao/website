@@ -1,16 +1,15 @@
 ---
 title: 为什么智商高的人会缺少人情味？
-author: Guanghua Mao
+author: 南洋首富
 date: '2020-09-18'
-slug: '2'
 categories:
-  - Sociology
-  - Insights
   - Translation Articles
 tags:
   - Economics
-  - Sociology
   - Personal
+  - Sociology
+  - Chinese
+slug: '2'
 ---
 
 ### [Source](https://mp.weixin.qq.com/s?__biz=MzU2NTgwOTE0MQ==&mid=2247484705&idx=1&sn=6626584bd087c6cc49f88b37d145f5ab&chksm=fcb75fbbcbc0d6ad267908a0ddebe232d9a1d553e7e33b9b5c5b08061479fd33256185263895&scene=21#wechat_redirect)

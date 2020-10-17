@@ -2,15 +2,13 @@
 title: The Halo Effect
 author: Guanghua Mao
 date: '2020-09-17'
-slug: the-halo-effect
 categories:
-  - Business
-  - Insights
-  - Decision Theory
+  - Original Articles
 tags:
-  - Book
-  - Personal
+  - Book Review
   - Business
+  - Personal
+slug: the-halo-effect
 ---
 
 # Delusion One: The Halo Effect

@@ -2,12 +2,13 @@
 title: 'Economics: The Theory of Consumer Choice and Other Topics'
 author: Guanghua Mao
 date: '2020-03-14'
-slug: economics-the-theory-of-consumer-choice
 categories:
-  - Economics
+  - Original Articles
 tags:
-  - Economics
   - Consumer
+  - Economics
+  - English
+slug: economics-the-theory-of-consumer-choice
 ---
 
 # Consumer Choice

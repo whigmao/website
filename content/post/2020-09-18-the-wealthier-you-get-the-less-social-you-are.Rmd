@@ -1,21 +1,18 @@
 ---
 title: 'The wealthier you get, the less social you are. '
-author: Guanghua Mao
+author: Josh Rosenbl
 date: '2020-09-18'
-slug: the-wealthier-you-get-the-less-social-you-are
 categories:
   - Translation Articles
-  - Psychology
-  - Sociology
 tags:
-  - Psychology
-  - Sociology
   - Economics
   - Evolution
+  - Psychology
+  - Sociology
+  - English
+slug: the-wealthier-you-get-the-less-social-you-are
 ---
 
-
-### Author: Josh Rosenbl
 
 ### Source: https://www.vox.com/2016/5/5/11578994/income-friends-family
  

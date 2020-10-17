@@ -1,22 +1,21 @@
 ---
 title: Obama’s shameful Afghanistan retreat
-author: Guanghua Mao
+author: Frederick Kagan
 date: '2020-10-11'
-slug: obama-s-shameful-afghanistan-retreat
 categories:
   - Translation Articles
-  - Politics
-  - Sociology
 tags:
-  - Sociology
   - Politics
+  - Sociology
+  - English
+  - America
+slug: obama-s-shameful-afghanistan-retreat
 ---
 
 > Obama’s shameful Afghanistan retreat: This will embolden the Taliban, Al Qaeda and ISIS
 
 > 从阿富汗的耻辱撤退
 
-### Author: Frederick Kagan
 
 ### [Source](https://www.nydailynews.com/opinion/frederick-kagan-obama-shameful-afghanistan-retreat-article-1.2400776)
 

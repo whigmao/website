@@ -1,15 +1,14 @@
 ---
 title: No One Cares About You -- And That's Great
-author: Guanghua Mao
+author: Brent Beshore
 date: '2020-10-05'
-slug: no-one-cares-about-you-and-that-s-great
 categories:
   - Translation Articles
 tags:
   - Personal
+  - Insights
+slug: no-one-cares-about-you-and-that-s-great
 ---
-
-### Author: Brent Beshore
 
 ### [Source](https://www.forbes.com/sites/brentbeshore/2013/03/26/no-one-cares-about-you-and-thats-great/#715f517421d3)
 

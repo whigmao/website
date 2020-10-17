@@ -1,15 +1,15 @@
 ---
 title: 'Bitter Pill: Proving Causality in Pharmaceutical Cases Can Be Difficult'
-author: Guanghua Mao
+author: Reed Smith
 date: '2020-09-19'
-slug: bitter-pill-proving-causality-in-pharmaceutical-cases-can-be-difficult
 categories:
   - Translation Articles
-  - Insights
 tags:
   - Business
   - Economics
   - Evolution
+  - English
+slug: bitter-pill-proving-causality-in-pharmaceutical-cases-can-be-difficult
 ---
 
 ### [Source](https://www.reedsmith.com/en/perspectives/2001/12/bitter-pill--proving-causality-in-pharmaceutical-c)

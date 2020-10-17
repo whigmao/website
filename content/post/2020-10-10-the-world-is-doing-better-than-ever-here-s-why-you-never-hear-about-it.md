@@ -1,18 +1,17 @@
 ---
 title: The World Is Doing Better Than Ever. Here's Why You Never Hear About It
-author: Guanghua Mao
+author: Nick Gillespie; Ronald Bailey
 date: '2020-10-10'
-slug: the-world-is-doing-better-than-ever-here-s-why-you-never-hear-about-it
 categories:
   - Translation Articles
-  - Sociology
-  - Insights
 tags:
   - Book
   - Sociology
+  - English
+slug: the-world-is-doing-better-than-ever-here-s-why-you-never-hear-about-it
 ---
 
-### Author: Nick Gillespie; Ronald Bailey
+
 
 ### [Source](https://reason.com/video/the-world-is-doing-better-than-ever-heres-why-you-never-hear-about-it/#comments)
 

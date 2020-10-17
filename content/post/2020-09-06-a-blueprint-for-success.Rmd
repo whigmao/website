@@ -2,15 +2,15 @@
 title: A Blueprint for Success
 author: Jim Donovan
 date: '2020-09-06'
-slug: a-blueprint-for-success
 categories:
-  - Business
+  - Translation Articles
 tags:
   - Business
+  - Insights
   - Personal
+  - English
+slug: a-blueprint-for-success
 ---
-
-Author: Jim Donovan
 
 Source: UVMazazine, https://uvamagazine.org/articles/a_blueprint_for_success/
 

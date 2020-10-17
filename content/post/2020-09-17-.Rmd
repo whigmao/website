@@ -2,13 +2,13 @@
 title: 亿万富翁“生死劫”
 author: Guanghua Mao
 date: '2020-09-17'
-slug: ''
 categories:
   - Translation Articles
 tags:
-  - Personal
   - Business
   - Economics
+  - Personal
+  - Chinese
 ---
 
 >**只有在潮水退去的时候，你才知道谁在裸泳**

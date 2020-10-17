@@ -1,17 +1,15 @@
 ---
 title: Universal Suffrage Was A Mistake
-author: Guanghua Mao
+author: Chauncey Tinker
 date: '2020-09-19'
-slug: universal-suffrage-was-a-mistake
 categories:
   - Translation Articles
-  - Sociology
 tags:
   - Politics
   - Sociology
+  - English
+slug: universal-suffrage-was-a-mistake
 ---
-
-### Author: Chauncey Tinker
 
 ### [Source](https://chaunceytinker.wordpress.com/2016/04/14/universal-suffrage-was-a-mistake/)
 

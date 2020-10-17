@@ -1,20 +1,18 @@
 ---
 title: Democracy is a Means, Not an End
-author: Guanghua Mao
+author: Michael Munger
 date: '2020-10-11'
-slug: democracy-is-a-means-not-an-end
 categories:
-  - Politics
   - Translation Articles
-  - Insights
 tags:
-  - Sociology
   - Politics
+  - Sociology
+  - English
+slug: democracy-is-a-means-not-an-end
 ---
 
 > 很好，破除了对民主所有的幻觉
 
-### Author: Michael Munger
 
 ### [Source](https://www.econlib.org/library/Columns/y2005/Mungerdemocracy.html)
 

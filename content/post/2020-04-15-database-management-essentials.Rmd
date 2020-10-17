@@ -2,13 +2,13 @@
 title: Database Management Essentials
 author: Guanghua Mao
 date: '2020-04-15'
-slug: database-management-essentials
 categories:
-  - Database
+  - Original Articles
 tags:
   - Data Science
-  - Programming
   - SQL
+  - English
+slug: database-management-essentials
 ---
 
 # 1. Database System

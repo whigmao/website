@@ -1,19 +1,16 @@
 ---
 title: The Case Against Early Retirement
-author: Guanghua Mao
+author: Richard W. Johnson
 date: '2020-10-11'
-slug: the-case-against-early-retirement
 categories:
   - Translation Articles
-  - Sociology
-  - Economics
 tags:
-  - Sociology
-  - Psychology
   - Labor
+  - Psychology
+  - Sociology
+  - English
+slug: the-case-against-early-retirement
 ---
-
-### Author: Richard W. Johnson
 
 ### [Source](https://www.wsj.com/articles/the-case-against-early-retirement-11555899000)
 

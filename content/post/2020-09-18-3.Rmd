@@ -1,16 +1,15 @@
 ---
 title: 放弃精巧
-author: Guanghua Mao
+author: 南洋首富
 date: '2020-09-18'
-slug: '3'
 categories:
   - Translation Articles
-  - Sociology
-  - Insights
 tags:
+  - Economics
   - Personal
   - Sociology
-  - Economics
+  - Chinese
+slug: '3'
 ---
 
 ### [Source](https://mp.weixin.qq.com/s?__biz=MzU2NTgwOTE0MQ==&mid=2247484632&idx=1&sn=aebb7e0307abf23b6c03d44d3459c12b&chksm=fcb75e42cbc0d754be1cc434d2cb6af714e5e715c32de1519e87e90cf57fed8238804494c9a1&scene=21#wechat_redirect)

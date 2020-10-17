@@ -1,14 +1,14 @@
 ---
 title: China’s economy is overestimated
-author: Guanghua Mao
+author: Gabriel Wildau
 date: '2020-09-17'
-slug: china-s-economy-is-overestimated
 categories:
-  - Economics
   - Translation Articles
 tags:
-  - Economics
   - Business
+  - Economics
+  - English
+slug: china-s-economy-is-overestimated
 ---
 
 Source: https://www.ft.com/content/961b4b32-3fce-11e9-b896-fe36ec32aece

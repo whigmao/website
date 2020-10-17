@@ -1,18 +1,16 @@
 ---
 title: Paying the price for breakdown of the country's bourgeois culture
-author: Guanghua Mao
+author: Amy Wax; Larry Alexander
 date: '2020-10-12'
-slug: paying-the-price-for-breakdown-of-the-country-s-bourgeois-culture
 categories:
   - Translation Articles
-  - Sociology
 tags:
   - Sociology
   - Welfare
+  - Culture
+slug: paying-the-price-for-breakdown-of-the-country-s-bourgeois-culture
 ---
 
-
-### Author: Amy Wax; Larry Alexander
 
 ### [Source](https://www.inquirer.com/philly/opinion/commentary/paying-the-price-for-breakdown-of-the-countrys-bourgeois-culture-20170809.html)
 

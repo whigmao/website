@@ -1,15 +1,18 @@
 ---
 title: Remember the Common Law
-author: Guanghua Mao
+author: Jim Harper
 date: '2020-10-11'
-slug: remember-the-common-law
 categories:
   - Translation Articles
-  - Sociology
 tags:
-  - Sociology
   - Evolution
+  - Sociology
+  - English
+  - Common Law
+slug: remember-the-common-law
 ---
+
+### [Source](https://www.cato.org/policy-report/marchapril-2016/remember-common-law)
 
 > 勿忘普通法
 

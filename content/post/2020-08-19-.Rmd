@@ -2,12 +2,13 @@
 title: 进化算法与可行解
 author: Guanghua Mao
 date: '2020-08-19'
-slug: ''
 categories:
-  - Insights
+  - Original Articles
 tags:
   - Evolution
   - Personal
+  - Chinese
+  - Insights
 ---
 
 # 保守为什么是对的

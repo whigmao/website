@@ -1,13 +1,15 @@
 ---
-title: 'Book Review: R for Data Science'
+title: R for Data Science
 author: Guanghua Mao
 date: '2020-01-02'
-slug: book-review-r-for-data-science
 categories:
-  - R
+  - Original Articles
 tags:
-  - R
+  - Book Review
   - Data Science
+  - R
+  - English
+slug: book-review-r-for-data-science
 ---
 
 After reading the book: *[R for Data Science](https://r4ds.had.co.nz/)*, I plan to write a book review to summary some important skills I learned from the book and shed new light on the future study direction. The book helps me understand the whole diagram about data science, and what role R plays in the diagram. However, the book is not a definitive guide. These are a lot of important topics, such as TensorFlow, model building and non-rectangular data, not appearing in the book. What motivates me to write the book review is that although the authors provide a clear workflow about data science, the book doesn't follow the workflow, also, there is too much redundant content which will burden readers. Thus, I am going to reorganize the structure and briefly and concisely summary the important information.

@@ -2,13 +2,14 @@
 title: Firm Behavior and the Organization of Industry
 author: Guanghua Mao
 date: '2020-03-13'
-slug: firm-behavior-and-the-organization-of-industry
 categories:
-  - Economics
+  - Original Articles
 tags:
   - Economics
-  - Industrial Organization
   - Firm Behavior
+  - Industrial Organization
+  - English
+slug: firm-behavior-and-the-organization-of-industry
 ---
 
 # The Costs of Production

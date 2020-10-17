@@ -1,18 +1,16 @@
 ---
 title: 职业经验价值和知识含量
-author: Guanghua Mao
+author: FreeTrader
 date: '2020-09-19'
-slug: '1'
 categories:
-  - Economics
   - Translation Articles
 tags:
-  - Personal
   - Business
   - Economics
+  - Personal
+  - Chinese
+slug: '1'
 ---
-
-### Author: FreeTrader
 
 ### Source: https://www.ezwxc.com/topic/career/438348
 

@@ -1,21 +1,17 @@
 ---
 title: A Case against Child Labor Prohibitions
-author: Guanghua Mao
+author: Benjamin Powell
 date: '2020-09-19'
-slug: a-case-against-child-labor-prohibitions
 categories:
   - Translation Articles
-  - Sociology
-  - Economics
-  - Insights
 tags:
   - Business
   - Economics
   - Labor
   - Sociology
+  - English
+slug: a-case-against-child-labor-prohibitions
 ---
-
-### Author:Benjamin Powell
 
 ### [Source](https://www.cato.org/publications/economic-development-bulletin/case-against-child-labor-prohibitions)
 

@@ -1,21 +1,20 @@
 ---
 title: 'We need a new approach to teaching modern Chinese history: we have lazily
   repeated false narratives for too long'
-author: Guanghua Mao
+author: James A. Millward
 date: '2020-10-10'
-slug: we-need-a-new-approach-to-teaching-modern-chinese-history-we-have-lazily-repeated-false-narratives-for-too-long
 categories:
   - Translation Articles
-  - History
 tags:
   - History
   - Politics
+  - English
+slug: we-need-a-new-approach-to-teaching-modern-chinese-history-we-have-lazily-repeated-false-narratives-for-too-long
 ---
 
 > A review of Klaus Mühlhahn, Making China Modern: From the Great Qing to Xi Jinping. Harvard University Press, 736 pp, £31.95, January 2019, ISBN 9780674737358.
 
 
-### Author: James A. Millward
 
 ### [Source](https://medium.com/@millwarj/we-need-a-new-approach-to-teaching-modern-chinese-history-we-have-lazily-repeated-false-d24983bd7ef2)
 

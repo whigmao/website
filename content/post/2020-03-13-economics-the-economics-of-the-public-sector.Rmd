@@ -2,11 +2,12 @@
 title: 'Economics: The Economics of the Public Sector'
 author: Guanghua Mao
 date: '2020-03-13'
-slug: economics-the-economics-of-the-public-sector
 categories:
-  - Economics
+  - Original Articles
 tags:
   - Economics
+  - English
+slug: economics-the-economics-of-the-public-sector
 ---
 
 # Externalities

@@ -1,14 +1,15 @@
 ---
 title: America The Weird
-author: Guanghua Mao
+author: Victor Davis Hanson
 date: '2020-09-17'
-slug: america-the-weird
 categories:
-  - Economics
   - Translation Articles
 tags:
-  - Politics
   - Economics
+  - Politics
+  - America
+  - English
+slug: america-the-weird
 ---
 
 #### Author: Victor Davis Hanson

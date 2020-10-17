@@ -1,18 +1,19 @@
 ---
 title: Discipline Equals Freedom.
-author: Guanghua Mao
+author: Jocko Willink
 date: '2020-09-28'
-slug: discipline-equals-freedom
 categories:
   - Translation Articles
 tags:
   - Personal
   - Psychology
+  - Chinese
+  - English
+slug: discipline-equals-freedom
 ---
 
 # 自律等于自由
 
-### Author:  Jocko Willink
 
 ### [Source1](https://mp.weixin.qq.com/s/QxMwZIC8He-pPkJBMPEpbg)
 
