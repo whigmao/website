@@ -4,10 +4,10 @@ author: Ronald Bailey
 date: '2019-12-23'
 categories:
   - Translation Articles
-  - English
-  - Chinese
 tags:
   - Evolution
+  - English
+  - Chinese
 slug: good-news-is-unplanned
 ---
 
