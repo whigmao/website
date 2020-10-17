@@ -1,16 +1,15 @@
 ---
 title: Good News Is Unplanned
-author: Guanghua Mao
+author: Ronald Bailey
 date: '2019-12-23'
 categories:
   - Translation Articles
+  - English
+  - Chinese
 tags:
   - Evolution
 slug: good-news-is-unplanned
 ---
-Author: Ronald Bailey
-
-Translator: Guanghua Mao
 
 Source: Reason, https://reason.com/archives/2015/10/30/good-news-is-unplanned
 
