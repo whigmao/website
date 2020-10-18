@@ -353,4 +353,10 @@ code {
   background-color: #43347d;
   border: 1px solid #43347d;
   color: #fff;
+  text-decoration: none !important;
+  transition: background-color .5s;
+}
+
+.article-meta a:hover {
+  background-color: gold;
 }
