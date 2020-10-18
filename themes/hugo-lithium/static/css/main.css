@@ -344,7 +344,9 @@ code {
 /* metadata of content */
 
 .article-meta {
-  color: #1e8016
+  color: #727070;
+  font-size: 15px;
+  margin-top: 30px;
 }
 
 /* add background color to tags and categories */
