@@ -1,0 +1,57 @@
+---
+title: Business Model Generation
+author: Guanghua Mao
+date: '2020-10-18'
+slug: business-model-generation
+categories:
+  - Original Articles
+tags:
+  - Book Review
+  - Business
+  - Economics
+  - Decision
+---
+
+```{r setup,include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, results = T)
+library(DiagrammeR)
+```
+
+
+> A Handbook for Visionaries, Game Changers, and Challengers
+
+A few month ago, I wrote some articles about economics which provided some essential tools to analyze how people made decisions, how people interacted with each other and how market ran as a whole. The tools can help us understand why free market is the best way to allocate scarce resources, why capitalism works, and what are equilibrium and marginal utilities. However, for individuals, if we want to analyze a company or create a company to earn money. Economics cannot provide enough tools.
+
+*[Business Model Generation](https://www.goodreads.com/book/show/7723797-business-model-generation)* provides a lot of useful tools to analyze companies and how to create your business. In this article, I am going to introduce these tools.
+
+
+---
+
+# Canvas
+
+> A shared language for describing, visualizing, assessing, and changing business models
+
+## Business Model
+
+> A business model describes the rationale of how an organization creates, delivers, and captures value
+
+Business model is composed  of **nine basic building blocks** that show the logic of how a company intends to make money. The nine blocks cover the four main areas of a business: customers, offer, infrastructure, and financial viability. The business model is like a blueprint for a strategy to be implemented through organizational structures, processes, and systems.
+
+## The 9 Building Blocks
+
+1. Customer Segments
+
+
+
+
+# Patterns
+
+
+# Design
+
+# Strategy
+
+# Process
+
+# Outlook
+
