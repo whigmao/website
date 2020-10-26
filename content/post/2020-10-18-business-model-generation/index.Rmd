@@ -39,13 +39,47 @@ Business model is composed  of **nine basic building blocks** that show the logi
 
 ## The 9 Building Blocks
 
-1. Customer Segments
+1. **Customer Segments**：An organization serves one or several Customer Segments.
+
+2. **Value Propositions**：It seeks to solve customer problems and satisfy customer needs with value propositions.
+
+3. **Channels**: Value propositions are delivered to customers through communication, distribution, and sales Channels.
+
+4. **Customer Relationships**: Customer relationships are established and maintained with each Customer Segment.
+
+5. **Revenue Streams**: Revenue streams result from value propositions successfully offered to customers.
+
+6. **Key Resources**: Key resources are the assets required to offer and deliver the previously described elements …
+
+7. **Key Activities**: … by performing a number of Key Activities.
+
+8. **Key Partnerships**: Some activities are outsourced and some resources are acquired outside the enterprise.
+
+9. **Cost Structure**: The business model elements result in the cost structure.
 
 
+---
 
 
 # Patterns
 
+> Pattern in architecture is the idea of capturing architectural design ideas as archetypal and reusable descriptions.
+
+## Un-Bundling Business Models
+
+The concept of the “unbundled” corporation holds that there are three fundamentally different types of businesses: Customer Relationship businesses, product innovation businesses, and infrastructure businesses. Each type has different economic, competitive, and cultural imperatives. The three types may co-exist within a single corporation, but ideally they are “unbundled” into separate entities in order to avoid conflicts or undesirable trade-offs.
+
+## The Long Tail
+
+long tail business models are about selling less of more: They focus on offering a large number of niche products, each of which sells relatively infrequently. Aggregate sales of niche items can be as lucrative as the traditional model whereby a small number of bestsellers account for most revenues. Long Tail business models require low inventory costs and strong platforms to make niche content readily available to interested buyers.
+
+## Multi-Sided Platforms
+
+Multi-sided platforms bring together two or more distinct but interdependent groups of customers. • Such platforms are of value to one group of customers only if the other groups of customers are also present. The platform creates value by facilitating interactions between the different groups. A multi-sided platform grows in value to the extent that it attracts more users, a phenomenon known as the network effect.
+
+## FREE as a Business Model
+
+In the free business model at least one substantial Customer Segment is able to continuously benefit from a free-of-charge offer. Different patterns make the free offer possible. Non-paying customers are financed by another part of the business model or by another Customer Segment.
 
 # Design
 
