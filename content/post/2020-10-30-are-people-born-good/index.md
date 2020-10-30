@@ -1,0 +1,33 @@
+---
+title: Are People Born Good?
+author: Dennis Prager
+date: '2020-10-30'
+slug: are-people-born-good
+categories:
+  - Translation Articles
+tags:
+  - Sociology
+  - Psychology
+---
+
+### [Source](https://www.youtube.com/watch?v=phwHEE-Zz_A)
+
+### [人生而为暴徒](https://headsalon.org/archives/7034.html)
+
+### [我们时代的和平](https://headsalon.org/archives/6045.html)
+
+### [战争如何推动社会合作](https://headsalon.org/archives/7615.html)
+
+### [特殊价值](http://headsalon.org/archives/7228.html#comments)
+
+Are people basically good? Your answer to the question will just shape all of your moral, social and political views. 
+You may have heard the phrase "Poverty causes crime". If you believe people are basically good, you are likely to believe that poverty or bigotry or some other outside force causes people to commit violent crime. That is the only way you can make sense of the fact that some people commit crimes despite their basically good nature. Something drove them to it. But if you don't believe people are basically good, you are far more likely to blame the criminals themselves, not outside forces for their actions. One more example, in a society where it is believed that people are basically good, parents and society don't devote great efforts toward making good people. After all, if we are born good, why do you have to teach goodness? On the other hands, those who don't believe we are born not that good understand that parents and society have to undertake major efforts to make children into good adults.
+
+Okay then, are people basically good? As I will show given humanities history, the answer should be obvious. Of course, human nature isn't basically good. Now, this doesn't mean people are basically bad, we are born with real potential to do good, but we are not basically good. Take babies. Babies are lovable and innocent, but they are not good. They are entirely self-centered, as they have to be in order to survive. "I want mommy, I want milk, I want to be held, I want to be comforted" and if you don't do all the things immediately, I will ruin your life. That is not goodness. That is narcissism. We are born narcissists, preoccupied with number one, ourselves. And if you have ever worked with kids, you know how cruel, how bullying they can be. And don't parents have to tell their children tens of thousands of times "Say thank you!". Now why is that? If we are basically good, wouldn't feeling and expressing gratitude come naturally? 
+
+And then, there is historical record. evils, huge evils, affecting much of human race have been the norm. Here goes, just a few examples. The Ottoman Turks targeted millions of Armenian Christians for death during World War One. The German Nazi regime murdered 6 million Jews, two out of every three European Jews. The Soviet Communist regime slaughtered about 5 million Ukrainians and 25 million other innocents. The Chinese Communists killed about 70 million Chinese and enslaved the rest of the Chinese people. The North Korean Communist regime has built what one day only call the world's largest concentration camp. Most of North Korea.
+
+And let me ask you this, if people are basically good, why does every civilization have so many laws to control human behavior?
+
+Knowing all this, those who believe that people are basically good have simply made a decision to believe that and ignore all the evidence. Why do people commit evil? Because it is easy to, it is tempting to, and yes, because it often accords with human nature. That is why figuring out how to make people is the simple most important project in all of human life. But, first, you have to believe it is necessary.
+
