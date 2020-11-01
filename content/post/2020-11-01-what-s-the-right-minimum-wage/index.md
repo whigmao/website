@@ -1,0 +1,29 @@
+---
+title: What's the Right Minimum Wage?
+author: David Henderson
+date: '2020-11-01'
+slug: what-s-the-right-minimum-wage
+categories:
+  - Translation Articles
+tags:
+  - Economics
+  - Welfare
+---
+
+### [Source](https://www.youtube.com/watch?v=4j01L69eXdI)
+
+"The Right Minimum Wage: $0.00." That was the headline of an editorial in one of America's most prestigious newspapers. Can you guess which one? The Wall Street Journal, perhaps? Right city; wrong paper. This editorial appeared in the New York Times in 1987. "There's a virtual consensus among economists," the Times wrote,
+"that the minimum wage is an idea whose time has passed." So, economists and the liberal paper were on the same page (pun intended). Why? Because they understood that a minimum wage does not guarantee jobs. It guarantees only
+that those who get jobs will be paid at least that minimum. And that leads to two bad outcomes: unemployment and higher prices. I can best explain this by asking a simple question: What is a wage? A wage is the price of labor. Now, what happens if the price of labor rises, not because workers have become more productive, not because a business must pay higher wages to hold on to valuable employees, but only because the government requires it? When the minimum wage rises, employers will adjust. They will use less labor. They'll fire current employees or cut back on their hours. They will also raise prices for their goods or services. These are undesirable consequences.
+But let's also consider another bad effect Businesses will hire fewer workers, especially those with little or no job experience.
+
+Suppose you're young and haven't worked many jobs before. Maybe you've never had a job and are trying to land your first one. The work you can offer an employer may be worth only, say, $7 an hour. You agree. He agrees. And you have your first job. But what if the minimum wage set by the government is higher than $7? What if it's $10 or more? Well, you won't get the job. You may be willing to work for $7 an hour, but under minimum wage laws, it would be illegal for you to do so. This very point was made by Paul Samuelson, one of the leading economists of the twentieth century, and a prominent liberal. I paraphrase from his classic textbook Economics: "What good does it do a black youth to know that an employer must pay him a minimum wage if the fact that he must be paid that wage keeps him from getting a job?" And, that young person loses more than a paycheck. He also loses valuable work experience:
+learning to accept responsibility, dealing with a boss, getting along with co-workers -- all the things that demonstrate to an employer that he made the right choice in hiring; and all the things that will help that young person get a better paying job down the road.
+
+A recent study found that in some cities the unemployment rate for teens without a high school diploma approached 50%. Pricing these teens out of the labor market does them no favors. It's not doing the rest of society any favors, either. Teenagers who can't find jobs often find trouble. Advocates of a higher minimum wage argue that,
+while some young people might be priced out of the job market, this is outweighed by the fact that those who have minimum wage jobs will get a wage increase. But that doesn't mean they'd be better off. It's true that the government can force business owners to pay its minimum wage workers more per hour, but it can't force these business owners to pay them more per week. According to the Los Angeles Times, after Connecticut raised its minimum wage to $10.10 an hour, a 20 year old woman who worked at a donut shop in Hartford was soon disappointed when her hours were cut from 35 per week to 27.
+
+Employers will look for other ways to cut costs. The Economic Policy Institute, a union-funded organization that pushes for higher minimum wages, admits this. "Employers," they write on their website, "may be able to absorb some of the costs of a wage increase through higher productivity, lower recruiting and training costs, decreased absenteeism, and increased worker morale." How would an employer get higher productivity? By working the employees harder. How would an employer cut training costs? By training them less. So, let's summarize. Raising the minimum wage makes it harder for young and inexperienced workers to get jobs, to get on that crucial first rung of the employment ladder. And many of those who do benefit from a wage increase will likely find those benefits undone.
+They will work fewer hours, will work harder per hour, and will get less training.
+
+Sounds like the New York Times had it right back in 1987.
