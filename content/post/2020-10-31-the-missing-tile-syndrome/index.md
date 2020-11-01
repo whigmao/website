@@ -1,0 +1,32 @@
+---
+title: The Missing Tile Syndrome
+author: Dennis Prager
+date: '2020-10-31'
+slug: the-missing-tile-syndrome
+categories:
+  - Translation Articles
+tags:
+  - Insights
+  - Psychology
+---
+
+
+### [Source](https://www.youtube.com/watch?v=1qanDVZHliw)
+
+
+I would like you to imagine sitting in a room, looking up at a tiled ceiling. And you notice that one tile is missing - just one. What would you concentrate your vision on? What would you look at the most? The answer of course, is the missing tile.
+
+Now, that's fine for ceilings, in fact it's actually good because we can replace a ceiling's missing tile and once again have a perfect ceiling. Ceilings, after all, can be perfect. But this doesn't apply to life. Most of what is missing in our lives, or what we think is missing, cannot be replaced. Unlike a ceiling, life can never be made perfect.
+
+For that reason, concentrating on the missing tiles in your life is a big problem. Let me give you the example that taught me this great lesson about what I call The Missing Tile Syndrome.
+
+A bald man once said to me, "You know, Dennis, whenever I walk into a room with people, all I see is hair. When I heard this I immediately realized in this regard this man sees the world completely differently from how I do. Because I have all my hair, when I walk into a room I don't even notice hair. It's not a missing tile for me. But for this person, hair is what he sees. This applies, in some way, to everyone. When a woman who thinks she has imperfect legs walks into a room, all she sees are perfect legs. Or take the example of the woman who once said to me, "Wherever I go, all I see are pregnant women." Now how could that be? The vast majority of women, even those young enough to be pregnant, are not pregnant at any given time. But that was all she saw because she wanted to get pregnant and wasn't able to. Her missing tile was not having a child.
+
+That's the way human nature is: we focus on what's missing in our lives. The Missing Tile Syndrome is a very big obstacle to happiness. So big, in fact, that it makes happiness almost impossible. There will always be something missing in your life. When you see other people's kids, you'll think you see tiles that are missing in your own children. "Gee, why can't my kids study as hard, or be as polite, or be as bright, or be as good looking, or be as athletic." The same holds true regarding our spouses, our work, our looks. The list is endless.
+
+I'll give one more example; when I was a single and looking to find the "right woman", I wanted to first identify the most important trait to look for in my future wife. So after almost every date I would call my best friend, Joseph, and announce, "Joseph, tonight I identified the most important trait in a woman." And he would always say, "Okay, Dennis, what is it?" and then patiently listen. One night I would tell him that it was intelligence; another night that it was looks; another night, personality; and yet on another night, kindness.
+
+One night, as usual, I called him up after an evening out and said, "Joseph, I finally figured out what the most important trait in a woman is." But this time he didn't say, "Okay, Dennis, what is it?" Instead he said, "Don't tell me, I'll tell you!" Perplexed I asked, "How do you know? You don't even know the woman I went out with." "It doesn't matter," he said, "Whatever trait tonight's woman was missing, that's the one you decided
+is the most important trait in a woman." I could say nothing. He was right. Whatever that night's date was missing was what I would declare the most important trait in a woman.
+
+I hadn't yet come up with the term Missing Tile Syndrome, but that is exactly what I was suffering from. That's the way we play tricks on ourselves and undermine our happiness; by concentrating on the missing tiles every one of us has. So we really have a simple choice: do we focus on the rest of the ceiling, on all the tiles we do have, or do we focus on the ones we're missing, To a large extent, the answer to that question will determine how happy you will be.
