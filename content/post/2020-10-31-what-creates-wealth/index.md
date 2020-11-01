@@ -1,0 +1,27 @@
+---
+title: What Creates Wealth?
+author: ' George Gilder'
+date: '2020-10-31'
+slug: what-creates-wealth
+categories:
+  - Translation Articles
+tags:
+  - Economics
+  - Sociology
+---
+
+### [Source](https://www.youtube.com/watch?v=661TPEvCCTU)
+
+Let me begin with what sounds like a very simple question: What is the most essential ingredient in wealth creation and economic growth? Almost everyone would answer: Money. Or having a lot of natural resources. But the real answer is **knowledge**.
+
+It's easy to prove. What is the difference between us and a cave man? The only difference is that we know a lot more. Biologically we're the same. The neurons in our brains are the same. The physical world is the same. But our lives are infinitely better. Why? Because of knowledge. You don't have to go back to the cave man to prove this point. You could go back fifty years. New knowledge, say the discovery of penicillin or new algorithms that leads to a better search engines -- always comes as a surprise. We call these surprises innovation because they are inherently unpredictable. New products burst on the scene seemingly out of nowhere. Suddenly, there's electric light or an automobile or an iPhone. Now, of course, these products didn't come from nowhere; they came from the synthesis of accumulated knowledge which led to these innovations, these surprises.
+
+By definition, then, innovation can't be planned, it involves dislocation. The makers of buggy whips did not have a great future when Henry Ford introduced the first Model T and it always points to the future. Innovation -- new knowledge -- leads to not only new products but new companies, and whole new industries. And innovation creates wealth; wealth that is ultimately distributed all through an economy.
+
+Here's how it works. More freedom, more knowledge, more innovation. And more innovation leads to dynamic economic growth. Less freedom, less knowledge, less innovation, -- less economic growth. So, if freedom promotes knowledge and innovation, which leads to economic growth, why don't all people and governments embrace it? To understand that we have to return to what I said earlier about innovation being a surprise, being unpredictable.
+
+This unpredictability makes many people uncomfortable. Their goal is to eliminate surprise. One finds this is in all Utopian visions from communism to socialism to the belief that through complex insurance packages bankers could protect themselves from a catastrophic mortgage meltdown. In Europe with its failing welfare states and more and more in the U.S., we see this desire to eliminate surprise in the ever expanding role played by government, bigger bureaucracies, more rules, more regulations. Every new crisis, real or imagined, brings ever more laws.
+
+A corrupt energy conglomerate, Enron, implodes in 2001. A year later the Sarbanes-Oxley Act is passed, adding thousands of new pages of regulations to the federal registry. In 2011, the 2,300-page Dodd-Frank Act is written in response to the 2008 financial crises. It has since grown to more than 8,000 pages. Most of these new regulations simply impede freedom and the therefore impede the growth and distribution of knowledge. They divert the entrepreneur's energy and resources away from innovation and toward compliance. They create uncertainty about the future. And they raise the barriers of entry for new entrepreneurs. Ironically, the ones who most benefit from all these regulations are big corporations and their teams of lawyers, lobbyists and accountants -- they're the only ones who have the resources to untangle the mess and survive in it. But this drift away from freedom can be reversed, and quickly; within a matter of a few years, in fact. There are numerous recent examples: in the United States during the Reagan Administration, in Chile in the nineteen seventies, in Eastern Europe after the fall of Communism, in New Zealand and Israel in the nineteen eighties, in China and India in the nineteen nineties, in Canada in the first decade of the 21st century. Because it's an economy of mind, the future can change as fast as minds can change.
+
+Whenever intrusive government retreats, knowledge expands and new prosperity follows. The opportunity for dynamic growth exists not only in the United States, but all over the world if we are only courageous enough and free enough to seize it.
