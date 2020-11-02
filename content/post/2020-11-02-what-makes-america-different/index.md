@@ -1,0 +1,28 @@
+---
+title: What Makes America Different?
+author: 'Nick Adams '
+date: '2020-11-02'
+slug: what-makes-america-different
+categories:
+  - Translation Articles
+tags:
+  - America
+  - History
+---
+
+### [Source](https://www.youtube.com/watch?v=TiJIYdgkF9M)
+
+As an outsider, I have a unique perspective from which to view America. As an American friend said to me: "Sometimes it takes someone on the outside to remind us what we are like on the inside."
+
+I'm an Australian -- you might have already guessed that -- and I love my home country. And I am proud that my nation has long been a reliable American ally. But I know that Australia is not America, and that my country has not achieved what America has achieved. No country in human history has.
+
+What makes America different?
+
+There are many answers, but start with one you might not have thought of. Most people think America is all about success. I see it a little differently. I think America is all about failing. Most people in the world don't get the chance to fail. But Americans take it for granted. Only Americans say, "If at first you don't succeed, try, try again." There's even an academic study to prove this. According to a study by Harvard Business School professor
+Steven Rogers, most entrepreneurs fail four times before they succeed. Success takes timing, and hard work, some good luck and many other factors. But to succeed you must be given the chance to fail -- and you must accept responsibility if you do. I love that about Americans. At their best they don't blame others; they learn from their mistakes and do better the next time. And in America there is almost always a next time. Nowhere else are you as free to take entrepreneurial risks. Talk to someone who has tried to start a small business in Germany or Brazil and you'll see what I mean. From the outside looking in, I can only admire this. And I'm not the only one. Just take a look at the CEOs of major Silicon Valley companies. You will see the names of entrepreneurs from all over the world -- India, Pakistan, Russia, Israel -- you name the country. Why did they come to America to innovate? Because there's a lot of money here? Yes, of course, that's part of it. But there's a lot of money in London, and Berlin, and Tokyo, as well. They came to America because America gave them the chance to fail...and therefore the best chance in the world to succeed. And the rest of the world can thank their lucky stars for America's economic success. Not only is America by far the world's largest economy, it is also the world's largest consumer. And the world's economy depends on being able to sell to America. It would also be perfectly natural for Americans to want to keep all this wealth to themselves. But they don't. Just the opposite, in fact. America has been the most selfless nation in the history of the world -- yet another way in which America is different.
+
+What other nation fights for the freedom of others? In Europe in two world wars, in Korea, in Vietnam and, yes, in Iraq. In all those wars, America had very little or nothing to gain economically. Whenever there is a humanitarian crisis anywhere in the world -- Haiti after a hurricane, Indonesia after a tsunami -- who is the first to rush aid to these places? No matter where the calamity is, at home or abroad, Americans invariably raise millions of dollars, almost instantly, to send food and clothing and supplies to people in distress they don't know and will never meet. Who else does that?
+
+I love that America is different. What worries me about America is that I see her increasingly trying to act like other nations. It worries me to see that so many Americans are drawn to the ossified ideas of Europe. That's the old world. It was old in 1776 even, when America broke away from it. Why would America want to reverse its own Revolution? Why would Americans want to follow the economic and social model of a continent that they can see is failing economically and socially? Do Americans really want to emulate France? Or Greece? It worries me to see so many Americans wallowing in victim status blaming "outside forces" for their predicament rather than accepting responsibility and seeking to improve themselves. It worries me to see American schools debasing America's own glorious history. It worries me to see America's debt and government grow larger while its military and its personal freedoms shrink. It worries me because a weak, self-doubting America is bad for everyone everywhere who loves freedom.
+
+But these worries never last long. Because each time I visit America I encounter a people who are confident, competitive, courageous, faithful, idealistic, innovative, inspirational, charitable, and optimistic. It's like no other place in the world. I pray it stays that way.
