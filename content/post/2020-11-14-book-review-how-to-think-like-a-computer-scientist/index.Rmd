@@ -1,0 +1,558 @@
+---
+title: 'Book Review: How to Think Like a Computer Scientist'
+author: Guanghua Mao
+date: '2020-11-14'
+slug: book-review-how-to-think-like-a-computer-scientist
+categories:
+  - Original Articles
+tags:
+  - Programming
+  - Book Review
+---
+
+## 1.  The way of the program
+
+This way of thinking combines some of the best features of mathematics, engineering, and natural science. Like mathematicians, computer scientists use formal languages to denote ideas (specifically computations). Like engineers, they design things, assembling components into systems and evaluating trade-offs among alternatives. Like scientists, they observe the behavior of complex systems, form hypotheses, and test predictions.
+
+The single most important skill for a computer scientist is problem solving. Problem solving means the ability to formulate problems, think creatively about solutions, and express a solution clearly and accurately. As it turns out, the process of learning to program is an excellent opportunity to practice problem-solving skills. 
+
+A program is a sequence of instructions that specifies how to perform a computation. 
+
+Syntax rules come in two flavors, pertaining to tokens and structure. Tokens are the basic elements of the language, such as words, numbers, parentheses, commas, and so on. The second type of syntax rule pertains to the structure of a statement— that is, the way the tokens are arranged.
+
+Algorithm: A set of specific steps for solving a category of problems.
+
+---
+
+## 2. Variables, expressions and statements
+
+A value is one of the fundamental things — like a letter or a number — that a program manipulates. 
+
+These values are classified into different classes, or data types.
+
+An expression is a combination of values, variables, operators, and calls to functions.
+
+One of the most powerful features of a programming language is the ability to manipulate variables. A variable is a name that refers to a value.
+
+A statement is an instruction that the Python interpreter can execute. We have only seen the assignment statement so far. Some other kinds of statements that we’ll see shortly are `while` statements, `for` statements, `if` statements, and `import` statements.
+
+So far, we have looked at the elements of a program — variables, expressions, statements, and function calls — in isolation, without talking about how to combine them.
+
+---
+
+## 3. Hello, little turtles!
+
+There are many modules in Python that provide very powerful features that we can use in our own programs. Some of these can send email, or fetch web pages. 
+
+So a basic building block of all programs is to be able to repeat some code, over and over again.
+
+Python’s for loop solves this for us
+
+---
+
+## 4. Functions
+
+In Python, a function is a named sequence of statements that belong together. Their primary purpose is to help us organize programs into chunks that match how we think about the problem.
+
+Creating a new function gives us an opportunity to name a group of statements. Functions can simplify a program by hiding a complex computation behind a single command. The function (including its name) can capture our mental chunking, or abstraction, of the problem.
+
+Creating a new function can make a program smaller by eliminating repetitive code.
+
+A function that returns a value is called a fruitful function.
+
+The opposite of a fruitful function is void function.
+
+We can use `return` statement to make function fruitful.
+
+---
+
+## 5. Conditionals
+
+Programs get really interesting when we can test conditions and change the program behavior depending on the outcome of the tests.
+
+In Python, the two Boolean values are True and False (the capitalization must be exactly as shown), and the Python type is `bool`.
+
+There are three logical operators, `and`, `or`, and `not`, that allow us to build more complex Boolean expressions from simpler Boolean expressions. The semantics (meaning) of these operators is similar to their meaning in English.
+
+A set of rules for simplifying and rearranging expressions is called an `algebra`.
+
+In order to write useful programs, we almost always need the ability to check conditions and change the behavior of the program accordingly. **Conditional statements** give us this ability. The simplest form is the `if` statement.
+
+Sometimes there are more than two possibilities and we need more than two branches. One way to express a computation like that is a `chained conditional`.
+
+The `return` statement, with or without a value, depending on whether the function is fruitful or void, allows us to terminate the execution of a function before (or when) we reach the end.
+
+---
+
+## 6. Fruitful functions
+
+The built-in functions we have used, such as `abs`, `pow`, `int`, `max`, and `range`, have produced results. Calling each of these functions generates a value, which we usually assign to a variable or use as part of an expression.
+
+We have seen the `return` statement before, but in a fruitful function the `return` statement includes a return value. This statement means: evaluate the return expression, and then return it immediately as the result (the fruit) of this function.
+
+To deal with increasingly complex programs, we are going to suggest a technique called incremental development.
+
+It is a common best practice in software development to include automatic unit testing of source code. Unit testing provides a way to automatically verify that individual pieces of code, such as functions, are working properly. This makes it possible to change the implementation of a function at a later time and quickly test that it still does what it was intended to do.
+
+---
+
+# 7. Iteration
+
+Computers are often used to automate repetitive tasks. Repeating identical or similar tasks without making errors is something that computers do well and people do poorly.
+
+Repeated execution of a set of statements is called iteration. Because iteration is so common, Python provides several language features to make it easier. We’ve already seen the `for` statement in chapter 3. This the the form of iteration you’ll likely be using most often. But in this chapter we’ve going to look at the `while` statement — another way to have your program do iteration, useful in slightly different circumstances.
+
+Use a `for` loop if you know, before you start looping, the maximum number of times that you’ll need to execute the body. Or if you need to print the 12 times table, we know right away how many times the loop will need to run.
+
+By contrast, if you are required to repeat some computation until some condition is met, and you cannot calculate in advance when (of if) this will happen, you’ll need a `while` loop.
+
+To write effective computer programs, and to build a good conceptual model of program execution, a programmer needs to develop the ability to **trace** the execution of a computer program. Tracing involves becoming the computer and following the flow of execution through a sample program run, recording the state of all variables and any output the program generates after each instruction is executed.
+
+Tracing a program is, of course, related to single-stepping through your code and being able to inspect the variables. Using the computer to single-step for you is less error prone and more convenient. Also, as your programs get more complex, they might execute many millions of steps before they get to the code that you’re really interested in, so manual tracing becomes impossible. Being able to set a **breakpoint** where you need one is far more powerful.
+
+The string `"\t"` represents a **tab character**. The backslash character in `"\t"` indicates the beginning of an **escape sequence**. Escape sequences are used to represent invisible characters like tabs and newlines. The sequence `\n` represents a **newline**.
+
+Encapsulation is the process of wrapping a piece of code in a function, allowing you to take advantage of all the things functions are good for.
+
+Generalization means taking something specific, and making it more general.
+
+The `break` statement is used to immediately leave the body of its loop.
+
+`for` and `while` loops do their tests at the start, before executing any part of the body. They’re called **pre-test** loops, because the test happens before (pre) the body. `break` and `return` are our tools for adapting this standard behavior.
+
+Sometimes we’d like to have the middle-test loop with the exit test in the middle of the body, rather than at the beginning or at the end. Or a **post-test** loop that puts its exit test as the last thing in the body. Other languages have different syntax and keywords for these different flavors, but Python just uses a combination of `while` and `if condition: break` to get the job done.
+
+Once you’ve recognized that you need a loop to repeat something, think about its terminating condition — when will I want to stop iterating? Then figure out whether you need to do the test before starting the first (and every other) iteration, or at the end of the first (and every other) iteration, or perhaps in the middle of each iteration. Interactive programs that require input from the user or read from files often need to exit their loops in the middle or at the end of an iteration, when it becomes clear that there is no more data to process, or the user doesn’t want to play our game anymore.
+
+This is a control flow statement that causes the program to immediately skip the processing of the rest of the body of the loop, for the current iteration.
+
+A few times now, we have mentioned all the things functions are good for. By now, you might be wondering what exactly those things are. Here are some of them:
+
+1. Capturing your mental chunking. Breaking your complex tasks into sub-tasks, and giving the sub-tasks a meaningful name is a powerful mental technique. Look back at the example that illustrated the post-test loop: we assumed that we had a function called `play_the_game_once`. This chunking allowed us to put aside the details of the particular game — is it a card game, or noughts and crosses, or a role playing game — and simply focus on one isolated part of our program logic — letting the player choose whether they want to play again.
+
+2. Dividing a long program into functions allows you to separate parts of the program, debug them in isolation, and then compose them into a whole.
+
+3. Functions facilitate the use of iteration.
+
+4. Well-designed functions are often useful for many programs. Once you write and debug one, you can reuse it.
+
+Loops are often used in programs that compute numerical results by starting with an approximate answer and iteratively improving it. One of the amazing properties of this particular algorithm is how quickly it converges to an accurate answer — a great advantage for doing it manually. By using a loop and repeating this formula until the better approximation gets close enough to the previous one, we can write a function for computing the square root.
+
+**Algorithm**: it is a mechanical process for solving a category of problems.
+
+One of the characteristics of algorithms is that they do not require any intelligence to carry out. They are mechanical processes in which each step follows from the last according to a simple set of rules. And they’re designed to solve a general class or category of problems, not just a single problem.
+
+Understanding that hard problems can be solved by step-by-step algorithmic processes (and having technology to execute these algorithms for us) is one of the major breakthroughs that has had enormous benefits. So while the execution of the algorithm may be boring and may require no intelligence, algorithmic or computational thinking — i.e. using algorithms and automation as the basis for approaching problems — is rapidly transforming our society. Some claim that this shift towards algorithmic thinking and processes is going to have even more impact on our society than the invention of the printing press. And the process of designing algorithms is interesting, intellectually challenging, and a central part of what we call programming.
+
+Some of the things that people do naturally, without difficulty or conscious thought, are the hardest to express algorithmically. Understanding natural language is a good example. We all do it, but so far no one has been able to explain how we do it, at least not in the form of a step-by-step mechanical algorithm.
+
+---
+
+## 8. Strings
+
+So far we have seen built-in types like `int`, `float`, `bool`, `str` and we’ve seen lists and pairs. Strings, lists, and pairs are qualitatively different from the others because they are made up of smaller pieces. In the case of strings, they’re made up of smaller strings each containing one **character**.
+
+Types that comprise smaller pieces are called **compound data types**. Depending on what we are doing, we may want to treat a compound data type as a single thing, or we may want to access its parts. This ambiguity is useful. So each string instance has its own attributes and methods.
+
+The indexing operator (Python uses square brackets to enclose the index) selects a single character substring from a string.
+
+The `in` operator tests for membership. When both of the arguments to in are strings, in checks whether the left argument is a substring of the right argument.
+
+The `not in` operator returns the logical opposite results of `in`.
+
+The easiest and most powerful way to format a string in Python 3 is to use the `format` method.
+
+The template string contains place holders, `... {0} ... {1} ... {2} ...` etc. The `format` method substitutes its arguments into the place holders. The numbers in the place holders are indexes that determine which argument gets substituted.
+
+---
+
+## 9. Tuples
+
+Tuples are used for grouping data. Generalizing this, a tuple can be used to group any number of items into a single compound value. Syntactically, a tuple is a comma-separated sequence of values. Although it is not necessary, it is conventional to enclose tuples in parentheses.
+
+like strings, tuples are immutable. Once Python has created a tuple in memory, it cannot be changed.
+
+Python has a very powerful tuple assignment feature that allows a tuple of variables on the left of an assignment to be assigned values from a tuple on the right of the assignment.
+
+---
+
+## 10. Event-Driven Programming
+
+Most programs and devices like a cellphone respond to events — things that happen. For example, you might move your mouse, and the computer responds. Or you click a button, and the program does something interesting. In this chapter we’ll touch very briefly on how event-driven programming works.
+
+Keypress events: `wn.onkey()`, `wn.listen()` and `wn.mainloop()`.
+
+Mouse events: A mouse event is a bit different from a keypress event because its handler needs two parameters to receive x,y coordinate information telling us where the mouse was when the event occurred.
+`wn.onclick()` and `wn.mainloop()`.
+
+Automatic events from a timer: `wn.ontimer`
+
+
+* bind: We bind a function (or associate it) with an event, meaning that when the event occurs, the function is called to handle it.
+
+* event: Something that happens “outside” the normal control flow of our program, usually from some user action. Typical events are mouse operations and keypresses. We’ve also seen that a timer can be primed to create an event.
+
+* handler: A function that is called in response to an event.
+
+---
+
+## 11. Lists
+
+A list is an ordered collection of values. The values that make up a list are called its elements, or its items. We will use the term element or item to mean the same thing. Lists are similar to strings, which are ordered collections of characters, except that the elements of a list can be of any type. Lists and strings — and other collections that maintain the order of their items — are called sequences.
+
+There are several ways to create a new list; the simplest is to enclose the elements in square brackets (`[` and `]`)
+
+* Lists are mutable
+
+* List deletion: `del List_name[]`
+
+* List methods: `append`, `insert`, `count`, `extend`, `index`, `reverse`, `sort`, `remove`.
+
+Functions which take lists as arguments and change them during execution are called modifiers and the changes they make are called side effects. A pure function does not produce side effects. It communicates with the calling program only through parameters, which it does not modify, and a return value.
+
+Anything that can be done with modifiers can also be done with **pure functions**. In fact, some programming languages only allow pure functions. There is some evidence that programs that use pure functions are faster to develop and less error-prone than programs that use modifiers. Nevertheless, modifiers are convenient at times, and in some cases, functional programs are less efficient. In general, we recommend that you write pure functions whenever it is reasonable to do so and resort to modifiers only if there is a compelling advantage. This approach might be called a functional programming style.
+
+Whenever you need to write a function that creates and returns a list, the pattern is usually:
+
+```
+initialize a result variable to be an empty list
+loop
+   create a new element
+   append it to result
+return the result
+```
+
+Nested lists are often used to represent matrices.
+
+---
+
+## 12. Modules
+
+A **module** is a file containing Python definitions and statements intended for use in other Python programs. There are many Python modules that come with Python as part of the standard library. `random`, `time` and `math` are famous modules in Python.
+
+All we need to do to create our own modules is to save our script as a file with a `.py` extension.
+
+We do not include the `.py` file extension when importing. Python expects the file names of Python modules to end in `.py`, so the file extension is not included in the import statement.
+
+A **namespace** is a collection of identifiers that belong to a module, or to a function, (and as we will see soon, in classes too). Generally, we like a namespace to hold “related” things.
+
+Python has a convenient and simplifying one-to-one mapping, one module per file, giving rise to one namespace. Also, Python takes the module name from the file name, and this becomes the name of the namespace. `math.py` is a filename, the module is called `math`, and its namespace is `math`. So in Python the concepts are more or less interchangeable.
+
+The **scope** of an identifier is the region of program code in which the identifier can be accessed, or used.
+
+There are three important scopes in Python:
+
+1. **Local scope** refers to identifiers declared within a function. These identifiers are kept in the namespace that belongs to the function, and each function has its own namespace.
+
+2. **Global scope** refers to all the identifiers declared within the current module, or file.
+
+3. **Built-in scope** refers to all the identifiers built into Python — those like `range` and `min` that can be used without having to import anything, and are (almost) always available.
+
+Python (like most other computer languages) uses precedence rules: the same name could occur in more than one of these scopes, but the innermost, or local scope, will always take precedence over the global scope, and the global scope always gets used in preference to the built-in scope.
+
+Variables defined inside a module are called attributes of the module. We’ve seen that objects have attributes too: for example, most objects have a `__doc__` attribute, some functions have a `__annotations__` attribute. Attributes are accessed using the dot operator `(.)`.
+
+Modules contain functions as well as attributes, and the dot operator is used to access them in the same way. 
+
+Here are three different ways to import names into the current namespace, and to use them:
+
+1.  `import module`, `module.function/attribute`
+
+2. `from module import functions`, `function`
+
+3. `import module as m`, `m.function/attribute`
+
+---
+
+## 13. Files
+
+While a program is running, its data is stored in *random access memory (RAM)*. RAM is fast and inexpensive, but it is also volatile, which means that when the program ends, or the computer shuts down, data in RAM disappears. To make data available the next time the computer is turned on and the program is started, it has to be written to a non-volatile storage medium, such a hard drive, usb drive, or CD-RW.
+
+Data on non-volatile storage media is stored in named locations on the media called files. By reading and writing files, programs can save information between program runs.
+
+Working with files is a lot like working with a notebook. To use a notebook, it has to be opened. When done, it has to be closed. While the notebook is open, it can either be read from or written to. In either case, the notebook holder knows where they are. They can read the whole notebook in its natural order or they can skip around.
+
+All of this applies to files as well. To open a file, we specify its name and indicate whether we want to read or write.
+
+1. Writing files
+
+2. Reading a file line-at-a-time
+
+3. Turning a file into a list of lines
+
+4. Reading the whole file at once
+
+5. Working with binary files
+
+6. Fetching something from the web
+
+---
+
+## 14. List Algorithms (read twice)
+
+We’re going to focus on the program development process, and some algorithms that work with lists.
+
+Early in our *Fruitful functions* chapter we introduced the idea of *incremental development*, where we added small fragments of code to slowly build up the whole, so that we could easily find problems early. Later in that same chapter we introduced unit testing and gave code for our testing framework so that we could capture, in code, appropriate tests for the functions we were writing.
+
+Test-driven development (TDD) is a software development practice which takes these practices one step further. The key idea is that automated tests should be written first. This technique is called test-driven because — if we are to believe the extremists — non-testing code should only be written when there is a failing test to make pass.
+
+---
+
+## 15. Classes and Objects — the Basics
+
+Python is an object-oriented programming language, which means that it provides features that support object-oriented programming (OOP).
+
+Object-oriented programming has its roots in the 1960s, but it wasn’t until the mid 1980s that it became the main programming paradigm used in the creation of new software. It was developed as a way to handle the rapidly increasing size and complexity of software systems, and to make it easier to modify these large and complex systems over time.
+
+Up to now, most of the programs we have been writing use a procedural programming paradigm. In procedural programming the focus is on writing functions or procedures which operate on data. In object-oriented programming the focus is on the creation of objects which contain both data and functionality together. (We have seen turtle objects, string objects, and random number generators, to name a few places where we’ve already worked with objects.)
+
+We’ve already seen classes like `str`, `int`, `float` and `Turtle`. We are now ready to create our own user-defined class: the `Point`.
+
+```
+class Point:
+    """ Point class represents and manipulates x,y coords. """
+
+    def __init__(self):
+        """ Create a new point at the origin """
+        self.x = 0
+        self.y = 0
+```
+
+Class definitions can appear anywhere in a program, but they are usually near the beginning (after the import statements). Some programmers and languages prefer to put every class in a module of its own.
+
+If the first line after the class header is a string, it becomes the docstring of the class, and will be recognized by various tools.
+
+Every class should have a method with the special name `__init__`. This **initializer method** is automatically called whenever a new instance of Point is created. It gives the programmer the opportunity to set up the attributes required within the new instance by giving them their initial state/values. The `self` parameter (we could choose any other name, but `self` is the convention) is automatically set to reference the newly created object that needs to be initialized.
+
+It may be helpful to think of a class as a **factory** for making objects. The class itself isn’t an instance of a point, but it contains the machinery to make point instances. Every time we call the constructor, we’re asking the factory to make us a new object. As the object comes off the production line, its initialization method is executed to get the object properly set up with its factory default settings.
+
+The combined process of “make me a new object” and “get its settings initialized to the factory default settings” is called **instantiation**.
+
+Like real world objects, object instances have both attributes and methods.
+
+Both modules and instances create their own namespaces, and the syntax for accessing names contained in each, called **attributes**, is the same. In this case the attribute we are selecting is a data item from an instance.
+
+We can make our class constructor more general by placing extra parameters into the __init__ method, as shown in this example:
+
+```
+class Point:
+    """ Point class represents and manipulates x,y coords. """
+
+    def __init__(self, x=0, y=0):
+        """ Create a new point at x, y """
+        self.x = x
+        self.y = y
+```
+
+If we are really fussy, we would argue that the `__init__` method’s docstring is inaccurate. `__init__` doesn’t create the object (i.e. set aside memory for it), — it just initializes the object to its factory-default settings after its creation.
+
+The key advantage of using a class like `Point` rather than a simple `tuple (6, 7)` now becomes apparent. We can add methods to the Point class that are sensible operations for points.
+
+Functions and methods can return instances.
+
+This change in perspective might be more polite, but it may not initially be obvious that it is useful. But sometimes shifting responsibility from the functions onto the objects makes it possible to write more versatile functions, and makes it easier to maintain and reuse code.
+
+he most important advantage of the object-oriented style is that it fits our mental chunking and real-life experience more accurately. In real life our `cook` method is part of our microwave oven — we don’t have a `cook` function sitting in the corner of the kitchen, into which we pass the microwave! Similarly, we use the cellphone’s own methods to send an sms, or to change its state to silent. The functionality of real-world objects tends to be tightly bound up inside the objects themselves. OOP allows us to accurately mirror this when we organize our programs.
+
+---
+
+## 16. Classes and Objects — Digging a little deeper
+
+Objects are mutable. We can change the state of an object by making an assignment to one of its attributes.
+
+```
+class Rectangle:
+    """ A class to manufacture rectangle objects """
+
+    def __init__(self, posn, w, h):
+        """ Initialize rectangle at posn, with width w, height h """
+        self.corner = posn
+        self.width = w
+        self.height = h
+
+    def __str__(self):
+        return  "({0}, {1}, {2})"
+                  .format(self.corner, self.width, self.height)
+    def grow(self, delta_width, delta_height):
+        """ Grow (or shrink) this object by the deltas """
+        self.width += delta_width
+        self.height += delta_height
+
+    def move(self, dx, dy):
+        """ Move this object by the deltas """
+        self.corner.x += dx
+        self.corner.y += dy
+```
+
+The meaning of the word “same” seems perfectly clear until we give it some thought, and then we realize there is more to it than we initially expected.
+
+Two different objects that contain the same data, they are not same.
+
+If the two variables refer to the same object, they have both **shallow** and **deep equality**.
+
+So we conclude that even though the two lists (or tuples, etc.) are distinct objects with different memory addresses, for lists the == operator tests for deep equality, while in the case of points it makes a shallow test.
+
+Aliasing can make a program difficult to read because changes made in one place might have unexpected effects in another place. It is hard to keep track of all the variables that might refer to a given object.
+
+```
+>>> import copy
+>>> p1 = Point(3, 4)
+>>> p2 = copy.copy(p1)
+>>> p1 is p2
+False
+>>> same_coordinates(p1, p2)
+True
+```
+
+To copy a simple object like a `Point`, which doesn’t contain any embedded objects, copy is sufficient. This is called **shallow copying**.
+
+```
+>>> b2 = copy.deepcopy(b1)
+```
+Now b1 and b2 are completely separate objects.
+
+1. deep copy: To copy the contents of an object as well as any embedded objects, and any objects embedded in them, and so on; implemented by the deepcopy function in the copy module.
+
+2. deep equality: Equality of values, or two references that point to objects that have the same value.
+
+3. shallow copy: To copy the contents of an object, including any references to embedded objects; implemented by the copy function in the copy module.
+
+4. shallow equality: Equality of references, or two references that point to the same object.
+
+---
+
+## 17. PyGame
+
+---
+
+## 18. Recursion
+
+---
+
+## 19. Exceptions
+
+Whenever a runtime error occurs, it creates an exception object. The program stops running at this point and Python prints out the traceback, which ends with a message describing the exception that occurred.
+
+In each case, the error message on the last line has two parts: the type of error before the colon, and specifics about the error after the colon.
+
+Sometimes we want to execute an operation that might cause an exception, but we don’t want the program to stop. We can handle the exception using the try statement to “wrap” a region of code.
+
+```
+filename = input("Enter a file name: ")
+try:
+    f = open(filename, "r")
+except:
+    print("There is no file named", filename)
+```
+
+The `try` statement has three separate clauses, or parts, introduced by the keywords `try ... except ... finally`. Either the `except` or the `finally` clauses can be omitted, so the above code considers the most common version of the `try` statement first.
+
+The `try` statement executes and monitors the statements in the first block. If no exceptions occur, it skips the block under the `except` clause. If any exception occurs, it executes the statements in the `except` clause and then continues.
+
+We can use multiple `except` clauses to handle different kinds of exceptions. So the program could do one thing if the file does not exist, but do something else if the file was in use by another program.
+
+Can our program deliberately cause its own exceptions? If our program detects an error condition, we can `raise` an exception.
+
+```
+def get_age():
+    age = int(input("Please enter your age: "))
+    if age < 0:
+        # Create a new instance of an exception
+        my_error = ValueError("{0} is not a valid age".format(age))
+        raise my_error
+    return age
+```
+
+In this case, a `ValueError` object, which encapsulates specific information about the error.
+
+A common programming pattern is to grab a resource of some kind, or we may open a file for writing. Then we perform some computation which may raise an exception, or may work without any problems.
+
+Whatever happens, we want to “clean up” the resources we grabbed. The `finally` clause of the `try` statement is the way to do just this.
+
+---
+
+## 20. Dictionaries
+
+All of the compound data types we have studied in detail so far — strings, lists, and tuples — are sequence types, which use integers as indices to access the values they contain within them.
+
+**Dictionaries** are yet another kind of compound type. They are Python’s built-in **mapping type**. They map **keys**, which can be any immutable type, to values, which can be any type (heterogeneous), just like the elements of a list or tuple. In other languages, they are called associative arrays since they associate a key with a value.
+
+One way to create a dictionary is to start with the empty dictionary and add key:value pairs. The empty dictionary is denoted `{}`.
+
+You also might wonder why we use dictionaries at all when the same concept of mapping a key to a value could be implemented using a list of tuples. 
+
+The reason is dictionaries are very fast, implemented using a technique called hashing, which allows us to access a value very quickly. By contrast, the list of tuples implementation is slow. If we wanted to find a value associated with a key, we would have to iterate over every tuple, checking the 0th element. 
+
+Lists, tuples, and strings have been called sequences, because their items occur in order. The dictionary is the first compound type that we’ve seen that is not a sequence, so we can’t index or slice a dictionary.
+
+Dictionaries have a number of useful built-in methods.
+
+1. The `keys` method returns what Python 3 calls a view of its underlying keys
+
+2. The `values` method is similar; it returns a view object which can be turned into a list
+
+---
+
+## 21. Even more OOP
+
+---
+
+## 22. Collections of objects
+
+By now, we have seen several examples of composition. One of the first examples was using a method invocation as part of an expression. Another example is the nested structure of statements; we can put an if statement within a while loop, within another if statement, and so on.
+
+Having seen this pattern, and having learned about lists and objects, we should not be surprised to learn that we can create lists of objects. We can also create objects that contain lists (as attributes); we can create lists that contain lists; we can create objects that contain objects; and so on.
+
+---
+
+## 23. Inheritance
+
+The language feature most often associated with object-oriented programming is inheritance. Inheritance is the ability to define a new class that is a modified version of an existing class.
+
+The primary advantage of this feature is that you can add new methods to a class without modifying the existing class. It is called inheritance because the new class inherits all of the methods of the existing class. Extending this metaphor, the existing class is sometimes called the parent class. The new class may be called the child class or sometimes subclass.
+
+Inheritance is a powerful feature. Some programs that would be complicated without inheritance can be written concisely and simply with it. Also, inheritance can facilitate code reuse, since you can customize the behavior of parent classes without having to modify them. In some cases, the inheritance structure reflects the natural structure of the problem, which makes the program easier to understand.
+
+On the other hand, inheritance can make programs difficult to read. When a method is invoked, it is sometimes not clear where to find its definition. The relevant code may be scattered among several modules. Also, many of the things that can be done using inheritance can be done as elegantly (or more so) without it. If the natural structure of the problem does not lend itself to inheritance, this style of programming can do more harm than good.
+
+---
+
+## 24. Linked lists
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
