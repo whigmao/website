@@ -1,0 +1,20 @@
+---
+title: Computer Science illuminated
+author: Guanghua Mao
+date: '2020-12-06'
+slug: computer-science-illumated
+categories:
+  - Original Articles
+tags:
+  - Programming
+---
+
+## 1. Laying the Groundwork
+
+We will examine the different layers that make up a computing system, beginning with the information layer and ending with the communication layer. Our goal is to give you an appreciation and understanding of all aspects of computing systems.
+
+![The layers of a computing system](/2020-12-06-computer-science-illumated/index_files/Screen Shot 2020-12-06 at 8.59.43 PM.png)
+
+![The layers of software surrounding the hardware continue to grow](/2020-12-06-computer-science-illumated/index_files/Screen Shot 2020-12-06 at 9.04.24 PM.png)
+
+---
