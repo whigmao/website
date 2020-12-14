@@ -12,80 +12,264 @@ tags:
   - Decision
 ---
 
-```{r setup,include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, results = T)
-library(DiagrammeR)
-```
+> 目前为止，看过的最好的商业模式分析框架
 
-
-> A Handbook for Visionaries, Game Changers, and Challengers
-
-A few month ago, I wrote some articles about economics which provided some essential tools to analyze how people made decisions, how people interacted with each other and how market ran as a whole. The tools can help us understand why free market is the best way to allocate scarce resources, why capitalism works, and what are equilibrium and marginal utilities. However, for individuals, if we want to analyze a company or create a company to earn money. Economics cannot provide enough tools.
-
-*[Business Model Generation](https://www.goodreads.com/book/show/7723797-business-model-generation)* provides a lot of useful tools to analyze companies and how to create your business. In this article, I am going to introduce these tools.
-
-
----
-
-# Canvas
-
-> A shared language for describing, visualizing, assessing, and changing business models
-
-## Business Model
-
-> A business model describes the rationale of how an organization creates, delivers, and captures value
-
-Business model is composed  of **nine basic building blocks** that show the logic of how a company intends to make money. The nine blocks cover the four main areas of a business: customers, offer, infrastructure, and financial viability. The business model is like a blueprint for a strategy to be implemented through organizational structures, processes, and systems.
-
-## The 9 Building Blocks
-
-1. **Customer Segments**：An organization serves one or several Customer Segments.
-
-2. **Value Propositions**：It seeks to solve customer problems and satisfy customer needs with value propositions.
-
-3. **Channels**: Value propositions are delivered to customers through communication, distribution, and sales Channels.
-
-4. **Customer Relationships**: Customer relationships are established and maintained with each Customer Segment.
-
-5. **Revenue Streams**: Revenue streams result from value propositions successfully offered to customers.
-
-6. **Key Resources**: Key resources are the assets required to offer and deliver the previously described elements …
-
-7. **Key Activities**: … by performing a number of Key Activities.
-
-8. **Key Partnerships**: Some activities are outsourced and some resources are acquired outside the enterprise.
-
-9. **Cost Structure**: The business model elements result in the cost structure.
-
+作者在书中谈到了从9个商业模式的组成模块，到常见的商业模式分析，如何设计自己的商业模式，和商业战略最终落脚到设计商业模式的整个流程。我并不打算完全复述作者的想法和思路，而是而是顺着从战略到战术，一个自上而下的流程来展开。每一个分析框架中的小节都可以展开为好几篇分析文章。
 
 ---
 
 
-# Patterns
 
-> Pattern in architecture is the idea of capturing architectural design ideas as archetypal and reusable descriptions.
 
-## Un-Bundling Business Models
+## Strategy
 
-The concept of the “unbundled” corporation holds that there are three fundamentally different types of businesses: Customer Relationship businesses, product innovation businesses, and infrastructure businesses. Each type has different economic, competitive, and cultural imperatives. The three types may co-exist within a single corporation, but ideally they are “unbundled” into separate entities in order to avoid conflicts or undesirable trade-offs.
+### Environment
 
-## The Long Tail
+- Industry Forces
 
-long tail business models are about selling less of more: They focus on offering a large number of niche products, each of which sells relatively infrequently. Aggregate sales of niche items can be as lucrative as the traditional model whereby a small number of bestsellers account for most revenues. Long Tail business models require low inventory costs and strong platforms to make niche content readily available to interested buyers.
+	- Suppliers and Other Value Chain Actors
 
-## Multi-Sided Platforms
+	- Stakeholders
 
-Multi-sided platforms bring together two or more distinct but interdependent groups of customers. • Such platforms are of value to one group of customers only if the other groups of customers are also present. The platform creates value by facilitating interactions between the different groups. A multi-sided platform grows in value to the extent that it attracts more users, a phenomenon known as the network effect.
+	- Competitors
 
-## FREE as a Business Model
+	- New Entrants
 
-In the free business model at least one substantial Customer Segment is able to continuously benefit from a free-of-charge offer. Different patterns make the free offer possible. Non-paying customers are financed by another part of the business model or by another Customer Segment.
+	- Substitute Products and Services 
 
-# Design
+- Macro-Economic Forces
 
-# Strategy
+	- Global Market Conditions
 
-# Process
+	- Capital Markets
 
-# Outlook
+	- Commodities and Other resources
+
+	- Economic Infrastructure
+
+- Market Forces
+
+	- Market Segments
+
+	- Needs and Demands
+
+	- Market Issues
+
+	- Switching Cost
+
+	- Revenue Attractiveness
+
+	- Network Effect
+
+- Key Trends
+
+	- Technology Trends
+
+	- Regulatory Trends
+
+	- Societal & Cultural Trends
+
+	- Socioeconomic Trends
+
+### SWOT
+
+- Strengths
+
+- Weaknesses
+
+- Opportunities
+
+- Treats
+
+### Blue Ocean Strategy
+
+- Eliminate
+
+- Rase
+
+- Reduce
+
+- Create
+
+---
+
+## Business Model Blocks
+
+### Customer Segments
+
+- Mass Market
+
+- Niche Market
+
+- Segmented
+
+- Diversified
+
+- Platform
+
+### Value Propositions
+
+- Newness
+
+- Performance
+
+- Customization
+
+- Getting the job done
+
+- Design
+
+- Status
+
+- Price
+
+- Cost Deduction
+
+- Risk Deduction
+
+- Accessibility
+
+- Convenience
+
+- Scalable
+
+### Channels
+
+- Awareness
+
+- Evaluation
+
+- Purchase
+
+- Delivery
+
+- After Sales
+
+### Customers Relationships
+
+- Customer Acquisition
+
+- Customer Retention
+
+- Boosting Sales
+
+### Revenue Streams
+
+- Asset Sales
+
+- Usage Fees
+
+- Subscribing Fees
+
+- Lending
+
+- Licensing
+
+- Brokerage Fees
+
+- Adversing
+
+### Key Resources
+
+- Physical
+
+- Intellectual
+
+- Human
+
+- Financial
+
+### Key Activities
+
+- Production
+
+- Problem Solving
+
+- Platform
+
+### Key Partners
+
+- Optimization and economy of scale
+
+- Reduction of risk and uncertainty
+
+- Acquisition of particular resources and activities
+
+### Cost Structure
+
+- Cost-driven
+
+- Value-driven
+
+- Fixed Cost
+
+- Variable Cost
+
+- Economy of Scale
+
+- Economy of Scope
+
+---
+
+## Business Plans
+
+### The Team
+
+- Management Profile
+
+- Why We Are a Winning Team
+
+### The Business Model
+
+- Vision, Mission, and Values
+
+- How Our Business Model Works
+
+- Value Proposition
+
+- Target Markets
+
+- Marketing Plan
+
+- Key Resources and Activities
+
+### Financial Analysis
+
+- Breakeven Analysis
+
+- Sales Scenarios and Projections
+
+- Capital Spending
+
+- Operating Costs
+
+- Funding Requirements
+
+### External Environment
+
+- The Economy
+
+- Market Analysis and Key Trends
+
+- Competitor Analysis
+
+- Competitive Advantages of Our Business Model
+
+### Implementation Roadmap
+
+- Projects
+
+- Milestones
+
+- Roadmap
+
+### Risk Analysis
+
+- Limiting Factors and Obstacles
+
+- Critical Success Factors
+
+- Specific Risks and Countermeasures
+
+
 
