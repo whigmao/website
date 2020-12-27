@@ -1,5 +1,5 @@
 ---
-title: 气候变迁中的历史
+title: 气候变迁中的历史启迪
 author: Guanghua Mao
 date: '2020-12-23'
 slug: '1'
