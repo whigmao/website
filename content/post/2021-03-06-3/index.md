@@ -1,10 +1,10 @@
 ---
-title: 神兽之间
+title: 人口压力与人类文明
 author: Guanghua Mao
 date: '2021-03-06'
 categories:
-  - Translation Articles
   - Original Articles
+  - Translation Articles
 tags:
   - Culture
   - Demography
