@@ -9,6 +9,10 @@ tags:
   - Economics
   - English
 slug: economics-the-theory-of-consumer-choice
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 # Consumer Choice
