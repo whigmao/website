@@ -8,13 +8,17 @@ tags:
   - Economics
   - English
 slug: economics-how-market-works
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 # The Market Forces of Supply and Demand
 
 Economists use the model of supply and demand to analyze **competitive markets**. In a competitive market, there are many buyers and sellers, each of whom has little or no influence on the market price.
 
-## 1. The Demand Curve
+## The Demand Curve
 
 The demand curve shows how the quantity of a good demanded depends on the price. According to the law of demand, as the price of a good falls, the quantity demanded rises. Therefore, the demand curve slopes downward.
 
@@ -22,13 +26,13 @@ In addition to price, other determinants of how much consumers want to buy inclu
 
 The demand curve is also different between normal goods and inferior good.
 
-## 2. The Supply Curve
+## The Supply Curve
 
 The supply curve shows how the quantity of a good supplied depends on the price. According to the law of supply, as the price of a good rises, the quantity supplied rises. Therefore, the supply curve slopes upward. 
 
 In addition to price, other determinants of how much producers want to sell include input prices, technology, expectations, and the number of sellers. If one of these factors changes, the supply curve shifts.
 
-## 3. Equilibrium
+## Equilibrium
 
 The intersection of the supply and demand curves determines the market equilibrium. At the equilibrium
 price, the quantity demanded equals the quantity supplied.
@@ -43,7 +47,7 @@ In market economies, prices are the signals that guide economic decisions and th
 
 # Elasticity and Its Application
 
-## 1. The price elasticity of demand
+## The price elasticity of demand
 
 The price elasticity of demand measures how much the quantity demanded responds to changes in the price. Demand tends to be more elastic if close substitutes are available, if the good is a luxury rather than a necessity, if the market is narrowly defined, or if buyers have substantial time to react to a price change.
 
@@ -51,11 +55,11 @@ The price elasticity of demand is calculated as the percentage change in quantit
 
 Total revenue, the total amount paid for a good, equals the price of the good times the quantity sold. For inelastic demand curves, total revenue moves in the same direction as the price. For elastic demand curves, total revenue moves in the opposite direction as the price.
 
-## 2. The income elasticity of demand
+## The income elasticity of demand
 
 The income elasticity of demand measures how much the quantity demanded responds to changes in consumers’ income. The cross-price elasticity of demand measures how much the quantity demanded of one good responds to changes in the price of another good.
 
-## 3. The price elasticity of supply
+## The price elasticity of supply
 
 The price elasticity of supply measures how much the quantity supplied responds to changes in the price. This elasticity often depends on the time horizon under consideration. In most markets, supply is more elastic in the long run than in the short run.
 
@@ -63,7 +67,7 @@ The price elasticity of supply is calculated as the percentage change in quantit
 
 The tools of supply and demand can be applied in many different kinds of markets, not only in competitive market.
 
-## 4. Application
+## Application
 
 For any given price of wheat, it is better to use the new hybrid to produce and sell more wheat. Yet when all farmers do this, the supply of wheat increases, the price falls, and farmers are worse off.
 
@@ -75,15 +79,15 @@ This analysis of the market for farm products also explains a seeming paradox of
 
 # Supply, Demand, and Government Policies
 
-## 1. Price Ceiling
+##  Price Ceiling
 
 A price ceiling is a legal maximum on the price of a good or service. An example is **rent control**. If the price ceiling is below the equilibrium price, then the price ceiling is binding, and the quantity demanded exceeds the quantity supplied. Because of the resulting shortage, sellers must in some way ration the good or service among buyers.
 
-## 2. price floor
+## price floor
 
 A price floor is a legal minimum on the price of a good or service. An example is the **minimum wage**. If the price floor is above the equilibrium price, then the price floor is binding, and the quantity supplied exceeds the quantity demanded. Because of the resulting surplus, buyers’ demands for the good or service must in some way be rationed among sellers.
 
-## 3. Tax
+## Tax
 
 When the government levies a tax on a good, the equilibrium quantity of the good falls. That is, a tax on a market shrinks the size of the market.
 
@@ -91,7 +95,7 @@ A tax on a good places a wedge between the price paid by buyers and the price re
 
 The incidence of a tax depends on the price elasticities of supply and demand. Most of the burden falls on the side of the market that is less elastic because that side of the market cannot respond as easily to the tax by changing the quantity bought or sold.
 
-## 4. Application: WHO PAYS THE LUXURY TAX?
+## Application: WHO PAYS THE LUXURY TAX?
 
 In 1990, Congress adopted a new luxury tax on items such as yachts, private airplanes, furs, jewelry, and expensive cars. The goal of the tax was to raise revenue from those who could most easily afford to pay. Because only the rich could afford to buy such extravagances, taxing luxuries seemed a logical way of taxing the rich.
 

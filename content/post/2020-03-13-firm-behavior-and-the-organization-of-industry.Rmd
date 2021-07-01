@@ -10,6 +10,10 @@ tags:
   - Industrial Organization
   - English
 slug: firm-behavior-and-the-organization-of-industry
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 # The Costs of Production

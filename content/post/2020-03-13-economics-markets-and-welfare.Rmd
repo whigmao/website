@@ -9,19 +9,23 @@ tags:
   - Welfare
   - English
 slug: economics-markets-and-welfare
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 # Consumers, Producers, and the Efficiency of Markets
 
-## 1. Consumer Surplus
+## Consumer Surplus
 
 Consumer surplus equals buyers’ willingness to pay for a good minus the amount they actually pay, and it measures the benefit buyers get from participating in a market. Consumer surplus can be computed by finding the area below the demand curve and above the price.
 
-## 2. Producer Surplus
+## Producer Surplus
 
 Producer surplus equals the amount sellers receive for their goods minus their costs of production, and it measures the benefit sellers get from participating in a market. Producer surplus can be computed by finding the area below the price and above the supply curve.
 
-## 3. Efficience and Equality
+## Efficience and Equality
 
 An allocation of resources that maximizes total surplus (the sum of consumer and producer surplus) is said to be efficient. Policymakers are often concerned with the efficiency, as well as the equality, of economic outcomes.  
 
