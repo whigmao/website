@@ -9,12 +9,33 @@ tags:
   - SQL
   - English
 slug: database-management-essentials
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
+<div id="TOC">
+<ul>
+<li><a href="#database-system"><span class="toc-section-number">1</span> Database System</a></li>
+<li><a href="#data-models"><span class="toc-section-number">2</span> Data Models</a></li>
+<li><a href="#database-and-database-users"><span class="toc-section-number">3</span> Database and Database Users</a><ul>
+<li><a href="#typical-dbms-functionality"><span class="toc-section-number">3.1</span> Typical DBMS Functionality</a></li>
+<li><a href="#database-system-concepts-and-architecture"><span class="toc-section-number">3.2</span> Database System Concepts and Architecture</a></li>
+</ul></li>
+<li><a href="#data-modeling-using-the-er-model"><span class="toc-section-number">4</span> Data Modeling Using the ER Model</a><ul>
+<li><a href="#er-model-concepts"><span class="toc-section-number">4.1</span> ER Model Concepts</a></li>
+<li><a href="#eer-model-concepts"><span class="toc-section-number">4.2</span> EER Model Concepts</a></li>
+</ul></li>
+<li><a href="#normalization"><span class="toc-section-number">5</span> Normalization</a></li>
+</ul>
+</div>
 
 <div id="database-system" class="section level1">
-<h1>1. Database System</h1>
+<h1><span class="header-section-number">1</span> Database System</h1>
 <p>Good decisions require good information derived from raw facts. Users can manage data efficiently when it is stored in database in term of size, security, accuracy, ease of updating and redundance.</p>
 <p>Databases are shared, integrated computer structure that stores a collection of data.</p>
 <ul>
@@ -26,7 +47,7 @@ slug: database-management-essentials
 <hr />
 </div>
 <div id="data-models" class="section level1">
-<h1>2. Data Models</h1>
+<h1><span class="header-section-number">2</span> Data Models</h1>
 <p>Data models are relatively simple representations of complex real-world data structures (often graphical).</p>
 <p>Entity, attribute, relationship and constraint are data model basic building blocks.</p>
 <p>Business rules:</p>
@@ -47,13 +68,13 @@ slug: database-management-essentials
 <hr />
 </div>
 <div id="database-and-database-users" class="section level1">
-<h1>3. Database and Database Users</h1>
+<h1><span class="header-section-number">3</span> Database and Database Users</h1>
 <div class="figure">
 <img src="/post/2020-04-15-database-management-essentials_files/Simplified%20database%20system%20environment.png" alt="" />
 <p class="caption">Simplified database system environment</p>
 </div>
 <div id="typical-dbms-functionality" class="section level2">
-<h2>3.1 Typical DBMS Functionality</h2>
+<h2><span class="header-section-number">3.1</span> Typical DBMS Functionality</h2>
 <ol style="list-style-type: decimal">
 <li><p>Define a particular database in terms of its data types, structures, and constraints</p></li>
 <li><p>Construct or Load the initial database contents on a secondary storage medium</p></li>
@@ -69,7 +90,7 @@ slug: database-management-essentials
 </ol>
 </div>
 <div id="database-system-concepts-and-architecture" class="section level2">
-<h2>3.2 Database System Concepts and Architecture</h2>
+<h2><span class="header-section-number">3.2</span> Database System Concepts and Architecture</h2>
 <ul>
 <li><p>Data Definition Language (DDL):</p>
 <ul>
@@ -95,9 +116,9 @@ slug: database-management-essentials
 </div>
 </div>
 <div id="data-modeling-using-the-er-model" class="section level1">
-<h1>4. Data Modeling Using the ER Model</h1>
+<h1><span class="header-section-number">4</span> Data Modeling Using the ER Model</h1>
 <div id="er-model-concepts" class="section level2">
-<h2>4.1 ER Model Concepts</h2>
+<h2><span class="header-section-number">4.1</span> ER Model Concepts</h2>
 <p>Entity is a basic concept for the ER model. Entities are specific things or objects in the mini-world that are represented in the database.</p>
 <p>Attributes are properties used to describe an entity. There are three types of attributes: simple, composite and multi-valued.</p>
 <p>A specific entity will have a value for each of its attributes.</p>
@@ -118,14 +139,14 @@ slug: database-management-essentials
 <p>Recursive relationship: both participations are same entity type in different roles.</p>
 </div>
 <div id="eer-model-concepts" class="section level2">
-<h2>4.2 EER Model Concepts</h2>
+<h2><span class="header-section-number">4.2</span> EER Model Concepts</h2>
 <p>EER Model Concepts includes all modeling concepts of basic ER.</p>
 <p>Additional concept are subclasses/superclasses, specialization/generalization, categories (UNION types), attribute and relationship inheritance and constraints on Specialization/Generalization.</p>
 <hr />
 </div>
 </div>
 <div id="normalization" class="section level1">
-<h1>5. Normalization</h1>
+<h1><span class="header-section-number">5</span> Normalization</h1>
 <p>The process of decomposing unsatisfactory “bad” relations by breaking up their attributes into smaller relations.</p>
 <p><a href="http://www.phlonx.com/resources/nf3/#intro">Normalization Process</a></p>
 <hr />

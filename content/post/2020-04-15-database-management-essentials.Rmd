@@ -9,9 +9,13 @@ tags:
   - SQL
   - English
 slug: database-management-essentials
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
-# 1. Database System
+#  Database System
 
 Good decisions require good information derived from raw facts. Users can manage data efficiently when it is stored in database in term of size, security, accuracy, ease of updating and redundance. 
 
@@ -29,7 +33,7 @@ Database system: defines and regulates the collection, storage, management, use 
 
 ---
 
-# 2. Data Models
+# Data Models
 
 Data models are relatively simple representations of complex real-world data structures (often graphical).
 
@@ -59,12 +63,12 @@ For most RDBMS, the query language is Structured Query Language (**SQL**) which 
 
 ---
 
-# 3. Database and Database Users
+# Database and Database Users
 
 ![Simplified database system environment](/post/2020-04-15-database-management-essentials_files/Simplified database system environment.png)
 
 
-## 3.1 Typical DBMS Functionality
+## Typical DBMS Functionality
 
 1. Define a particular database in terms of its data types, structures, and constraints
 
@@ -79,7 +83,7 @@ For most RDBMS, the query language is Structured Query Language (**SQL**) which 
 4. Processing and Sharing by a set of concurrent users and application programs – yet, keeping all data valid and consistent
 
 
-## 3.2 Database System Concepts and Architecture
+## Database System Concepts and Architecture
 
 * Data Definition Language (DDL): 
 
@@ -106,9 +110,9 @@ For most RDBMS, the query language is Structured Query Language (**SQL**) which 
 
 ---
 
-# 4. Data Modeling Using the ER Model
+# Data Modeling Using the ER Model
 
-## 4.1 ER Model Concepts
+##  ER Model Concepts
 
 Entity is a basic concept for the ER model. Entities are specific things or objects in the mini-world that are represented in the database.
 
@@ -134,7 +138,7 @@ Constraints on Relationship Types (Also known as ratio constraints)
   
 Recursive relationship: both participations are same entity type in different roles.
 
-## 4.2 EER Model Concepts
+## EER Model Concepts
 
 EER Model Concepts includes all modeling concepts of basic ER.
 
@@ -143,7 +147,7 @@ Additional concept are subclasses/superclasses, specialization/generalization, c
 
 ---
 
-# 5. Normalization
+# Normalization
 
 The process of decomposing unsatisfactory "bad" relations by breaking up their attributes into smaller relations.
 
