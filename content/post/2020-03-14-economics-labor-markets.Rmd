@@ -9,6 +9,10 @@ tags:
   - Labor
   - English
 slug: economics-labor-markets
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 # The Markets for the Factors of Production
