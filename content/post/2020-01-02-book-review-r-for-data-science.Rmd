@@ -10,13 +10,17 @@ tags:
   - R
   - English
 slug: book-review-r-for-data-science
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 After reading the book: *[R for Data Science](https://r4ds.had.co.nz/)*, I plan to write a book review to summary some important skills I learned from the book and shed new light on the future study direction. The book helps me understand the whole diagram about data science, and what role R plays in the diagram. However, the book is not a definitive guide. These are a lot of important topics, such as TensorFlow, model building and non-rectangular data, not appearing in the book. What motivates me to write the book review is that although the authors provide a clear workflow about data science, the book doesn't follow the workflow, also, there is too much redundant content which will burden readers. Thus, I am going to reorganize the structure and briefly and concisely summary the important information.
 
 ---
 
-# 0. Saving Your Time
+# Saving Your Time
 
 Workflow | Mission | Argument & Parameter
 -------- | ------- | --------------------
@@ -38,17 +42,17 @@ Data Visualization | visulaising your data | **read the last code chunk**
 
 ---
 
-# 1. The Workflow
+# The Workflow
 
 ![Data Science Workflow](/post/2020-01-02-book-review-r-for-data-science_files/Data Science Workflow.png)
 
 ---
 
-# 2. Data Import
+#  Data Import
 
 In the section, I have learned how to read external data and parse a file.
 
-## 1. Read External Data
+##  Read External Data
 In most case, we will import *CSV* file.
 
 ```{r}
@@ -70,7 +74,7 @@ This is all you need to know to read $75$% of *CSV* files that you’ll encounte
 
 Why I am not using `read.csv()` is the base R function will not produce tibble which is better than data frame and work less productive than `read_csv()`.
 
-## 2. Parsing a file
+## Parsing a file
 
 `Parse_*()` functions take a character vertor and return a more specialised vector like a logical, integer, or date.
 
@@ -143,7 +147,7 @@ Now, it is correct.
 
 ---
 
-# 3. Tidy Data
+# Tidy Data
 This chapter will give you a practical introduction to tidy data and the accompanying tools in the *tidyr* package. 
 
 There are three interrelated rules which make a dataset tidy:
@@ -211,7 +215,7 @@ You can use `na.rm=TRUE` to remove *NA* values.
 
 ---
 
-# 4. Data Transformation
+# Data Transformation
 
 Often we will need to create some new variables or summaries, or maybe you just want to rename the variables or reorder the observations in order to make the data a little easier to work with. I will use *dplyr* packages.
 
@@ -256,13 +260,13 @@ recode(a,'a'='apple')
 
 ---
 
-# 5. Data Visualization
+# Data Visualization
 
 >“The simple graph has brought more information to the data analyst’s mind than any other device.” — John Tukey
 
 This chapter will teach you how to visualise your data using *ggplot2*. This chapter will teach you how to visualise your data using *ggplot2*. I will briefly cover key features of ggplot2. Later, I will introduce ggplot2 in detail.
 
-## 1. Aesthetic mappings
+## Aesthetic mappings
 
 ```{r aes}
 ggplot(mpg, aes(x=displ, y=hwy)) +
@@ -273,7 +277,7 @@ ggplot(mpg, aes(x=displ, y=hwy)) +
 #pay attention to their difference
 ```
 
-## 2. Facets
+## Facets
 
 ```{r facets}
 ggplot(data = mpg) + 
@@ -286,7 +290,7 @@ ggplot(data = mpg) +
   facet_grid(drv ~ cyl)
 ```
 
-## 3. Geometric objects
+## Geometric objects
 
 ```{r geometric}
 ggplot(data = mpg) + 
@@ -294,14 +298,14 @@ ggplot(data = mpg) +
     geom_smooth(mapping = aes(x = displ, y = hwy),se=FALSE)
 ```
 
-## 4. Position adjustments
+## Position adjustments
 
 ```{r position}
 ggplot(data = diamonds) + 
   geom_bar(mapping = aes(x = cut, fill = clarity), position = "dodge")
 ```
 
-## 5. Coordinate system
+## Coordinate system
 
 ```{r coordinate}
 bar <- ggplot(data = diamonds) + 
@@ -317,7 +321,7 @@ bar + coord_flip()
 bar + coord_polar()
 ```
 
-## 6. Conclusion
+## Conclusion
 ```{r eval=FALSE}
 ggplot(data = <DATA>) + 
   <GEOM_FUNCTION>(
@@ -329,7 +333,7 @@ ggplot(data = <DATA>) +
   <FACET_FUNCTION>
 ```
 
-# 6. Model
+# Model
 The book doesn't include too much content about modelling, so I will find more resources to extend the part.
 
 

@@ -10,14 +10,41 @@ tags:
   - R
   - English
 slug: book-review-r-for-data-science
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
+<link href="/rmarkdown-libs/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="/rmarkdown-libs/anchor-sections/anchor-sections.js"></script>
 
+<div id="TOC">
+<ul>
+<li><a href="#saving-your-time"><span class="toc-section-number">1</span> Saving Your Time</a></li>
+<li><a href="#the-workflow"><span class="toc-section-number">2</span> The Workflow</a></li>
+<li><a href="#data-import"><span class="toc-section-number">3</span> Data Import</a><ul>
+<li><a href="#read-external-data"><span class="toc-section-number">3.1</span> Read External Data</a></li>
+<li><a href="#parsing-a-file"><span class="toc-section-number">3.2</span> Parsing a file</a></li>
+</ul></li>
+<li><a href="#tidy-data"><span class="toc-section-number">4</span> Tidy Data</a></li>
+<li><a href="#data-transformation"><span class="toc-section-number">5</span> Data Transformation</a></li>
+<li><a href="#data-visualization"><span class="toc-section-number">6</span> Data Visualization</a><ul>
+<li><a href="#aesthetic-mappings"><span class="toc-section-number">6.1</span> Aesthetic mappings</a></li>
+<li><a href="#facets"><span class="toc-section-number">6.2</span> Facets</a></li>
+<li><a href="#geometric-objects"><span class="toc-section-number">6.3</span> Geometric objects</a></li>
+<li><a href="#position-adjustments"><span class="toc-section-number">6.4</span> Position adjustments</a></li>
+<li><a href="#coordinate-system"><span class="toc-section-number">6.5</span> Coordinate system</a></li>
+<li><a href="#conclusion"><span class="toc-section-number">6.6</span> Conclusion</a></li>
+</ul></li>
+<li><a href="#model"><span class="toc-section-number">7</span> Model</a></li>
+</ul>
+</div>
 
 <p>After reading the book: <em><a href="https://r4ds.had.co.nz/">R for Data Science</a></em>, I plan to write a book review to summary some important skills I learned from the book and shed new light on the future study direction. The book helps me understand the whole diagram about data science, and what role R plays in the diagram. However, the book is not a definitive guide. These are a lot of important topics, such as TensorFlow, model building and non-rectangular data, not appearing in the book. What motivates me to write the book review is that although the authors provide a clear workflow about data science, the book doesn’t follow the workflow, also, there is too much redundant content which will burden readers. Thus, I am going to reorganize the structure and briefly and concisely summary the important information.</p>
 <hr />
 <div id="saving-your-time" class="section level1">
-<h1>0. Saving Your Time</h1>
+<h1><span class="header-section-number">1</span> Saving Your Time</h1>
 <table>
 <colgroup>
 <col width="22%" />
@@ -107,7 +134,7 @@ slug: book-review-r-for-data-science
 <hr />
 </div>
 <div id="the-workflow" class="section level1">
-<h1>1. The Workflow</h1>
+<h1><span class="header-section-number">2</span> The Workflow</h1>
 <div class="figure">
 <img src="/post/2020-01-02-book-review-r-for-data-science_files/Data%20Science%20Workflow.png" alt="" />
 <p class="caption">Data Science Workflow</p>
@@ -115,10 +142,10 @@ slug: book-review-r-for-data-science
 <hr />
 </div>
 <div id="data-import" class="section level1">
-<h1>2. Data Import</h1>
+<h1><span class="header-section-number">3</span> Data Import</h1>
 <p>In the section, I have learned how to read external data and parse a file.</p>
 <div id="read-external-data" class="section level2">
-<h2>1. Read External Data</h2>
+<h2><span class="header-section-number">3.1</span> Read External Data</h2>
 <p>In most case, we will import <em>CSV</em> file.</p>
 <pre class="r"><code>library(tidyverse)</code></pre>
 <pre><code>## ── Attaching packages ─────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
@@ -151,7 +178,7 @@ height</code></pre>
 <p>Why I am not using <code>read.csv()</code> is the base R function will not produce tibble which is better than data frame and work less productive than <code>read_csv()</code>.</p>
 </div>
 <div id="parsing-a-file" class="section level2">
-<h2>2. Parsing a file</h2>
+<h2><span class="header-section-number">3.2</span> Parsing a file</h2>
 <p><code>Parse_*()</code> functions take a character vertor and return a more specialised vector like a logical, integer, or date.</p>
 <pre class="r"><code>str(parse_logical(c(&quot;TRUE&quot;,&quot;FALSE&quot;,&quot;NA&quot;)))</code></pre>
 <pre><code>##  logi [1:3] TRUE FALSE NA</code></pre>
@@ -252,7 +279,7 @@ tail(challenge)</code></pre>
 </div>
 </div>
 <div id="tidy-data" class="section level1">
-<h1>3. Tidy Data</h1>
+<h1><span class="header-section-number">4</span> Tidy Data</h1>
 <p>This chapter will give you a practical introduction to tidy data and the accompanying tools in the <em>tidyr</em> package.</p>
 <p>There are three interrelated rules which make a dataset tidy:</p>
 <ol style="list-style-type: decimal">
@@ -406,7 +433,7 @@ table5 %&gt;%
 <hr />
 </div>
 <div id="data-transformation" class="section level1">
-<h1>4. Data Transformation</h1>
+<h1><span class="header-section-number">5</span> Data Transformation</h1>
 <p>Often we will need to create some new variables or summaries, or maybe you just want to rename the variables or reorder the observations in order to make the data a little easier to work with. I will use <em>dplyr</em> packages.</p>
 <table>
 <colgroup>
@@ -594,13 +621,13 @@ recode(a,&#39;a&#39;=&#39;apple&#39;)</code></pre>
 <hr />
 </div>
 <div id="data-visualization" class="section level1">
-<h1>5. Data Visualization</h1>
+<h1><span class="header-section-number">6</span> Data Visualization</h1>
 <blockquote>
 <p>“The simple graph has brought more information to the data analyst’s mind than any other device.” — John Tukey</p>
 </blockquote>
 <p>This chapter will teach you how to visualise your data using <em>ggplot2</em>. This chapter will teach you how to visualise your data using <em>ggplot2</em>. I will briefly cover key features of ggplot2. Later, I will introduce ggplot2 in detail.</p>
 <div id="aesthetic-mappings" class="section level2">
-<h2>1. Aesthetic mappings</h2>
+<h2><span class="header-section-number">6.1</span> Aesthetic mappings</h2>
 <pre class="r"><code>ggplot(mpg, aes(x=displ, y=hwy)) +
   geom_point(aes(color=class))</code></pre>
 <p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/aes-1.png" width="672" /></p>
@@ -611,7 +638,7 @@ ggplot(mpg, aes(x=displ, y=hwy)) +
 <pre class="r"><code>#pay attention to their difference</code></pre>
 </div>
 <div id="facets" class="section level2">
-<h2>2. Facets</h2>
+<h2><span class="header-section-number">6.2</span> Facets</h2>
 <pre class="r"><code>ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy,color=class)) + 
   facet_wrap(~ class, nrow = 2)</code></pre>
@@ -622,7 +649,7 @@ ggplot(mpg, aes(x=displ, y=hwy)) +
 <p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/facets-2.png" width="672" /></p>
 </div>
 <div id="geometric-objects" class="section level2">
-<h2>3. Geometric objects</h2>
+<h2><span class="header-section-number">6.3</span> Geometric objects</h2>
 <pre class="r"><code>ggplot(data = mpg) + 
   geom_point(mapping = aes(x = displ, y = hwy,color=class)) +
     geom_smooth(mapping = aes(x = displ, y = hwy),se=FALSE)</code></pre>
@@ -630,13 +657,13 @@ ggplot(mpg, aes(x=displ, y=hwy)) +
 <p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/geometric-1.png" width="672" /></p>
 </div>
 <div id="position-adjustments" class="section level2">
-<h2>4. Position adjustments</h2>
+<h2><span class="header-section-number">6.4</span> Position adjustments</h2>
 <pre class="r"><code>ggplot(data = diamonds) + 
   geom_bar(mapping = aes(x = cut, fill = clarity), position = &quot;dodge&quot;)</code></pre>
 <p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/position-1.png" width="672" /></p>
 </div>
 <div id="coordinate-system" class="section level2">
-<h2>5. Coordinate system</h2>
+<h2><span class="header-section-number">6.5</span> Coordinate system</h2>
 <pre class="r"><code>bar &lt;- ggplot(data = diamonds) + 
   geom_bar(
     mapping = aes(x = cut, fill = cut), 
@@ -652,7 +679,7 @@ bar + coord_flip()</code></pre>
 <p><img src="/post/2020-01-02-book-review-r-for-data-science_files/figure-html/coordinate-2.png" width="672" /></p>
 </div>
 <div id="conclusion" class="section level2">
-<h2>6. Conclusion</h2>
+<h2><span class="header-section-number">6.6</span> Conclusion</h2>
 <pre class="r"><code>ggplot(data = &lt;DATA&gt;) + 
   &lt;GEOM_FUNCTION&gt;(
      mapping = aes(&lt;MAPPINGS&gt;),
@@ -664,6 +691,6 @@ bar + coord_flip()</code></pre>
 </div>
 </div>
 <div id="model" class="section level1">
-<h1>6. Model</h1>
+<h1><span class="header-section-number">7</span> Model</h1>
 <p>The book doesn’t include too much content about modelling, so I will find more resources to extend the part.</p>
 </div>
