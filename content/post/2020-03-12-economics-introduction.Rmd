@@ -9,6 +9,10 @@ tags:
   - Economics
   - English
 slug: economics-introduction
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 When I started learning economics, I thought economics can teach me to make more money because the word 'economics' implied money in my first look. Undoubtablely, my thought is wrong. Therefore, when I decide to write the introduction article, I need to illustrate what is economics indeed.
@@ -78,7 +82,7 @@ The fundamental lessons about the economy as a whole are that productivity is th
 
 ---
 
-# 2. Think Like an Economist
+# Think Like an Economist
 
 Economists try to address their subject with a scientist’s objectivity. Like all scientists, they make appropriate assumptions and build simplified models to understand the world around them. Two simple economic models are the circular-flow diagram and the production possibilities frontier.
 
@@ -90,7 +94,7 @@ Economists who advise policymakers sometimes offer conflicting advice either bec
 
 ---
 
-# 3. Interdependence and The Gain from Trade
+# Interdependence and The Gain from Trade
 
 Each person consumes goods and services produced by many other people both in the United States and around the world. Interdependence and trade are desirable because they allow everyone to enjoy a greater quantity and variety of goods and services.  
 
