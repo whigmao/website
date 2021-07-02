@@ -8,7 +8,7 @@ tags:
   - Economics
   - Psychology
   - English
-slug: be-the-best-gold-digger-you-can-be
+slug: '27'
 ---
 
 

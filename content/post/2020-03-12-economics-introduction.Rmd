@@ -8,7 +8,7 @@ tags:
   - Book Review
   - Economics
   - English
-slug: economics-introduction
+slug: '3'
 output:
   blogdown::html_page:
     toc: true

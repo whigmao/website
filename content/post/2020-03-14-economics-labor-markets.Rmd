@@ -8,7 +8,7 @@ tags:
   - Economics
   - Labor
   - English
-slug: economics-labor-markets
+slug: '10'
 output:
   blogdown::html_page:
     toc: true

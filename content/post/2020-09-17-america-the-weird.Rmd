@@ -9,7 +9,7 @@ tags:
   - Politics
   - America
   - English
-slug: america-the-weird
+slug: '20'
 ---
 
 #### Author: Victor Davis Hanson

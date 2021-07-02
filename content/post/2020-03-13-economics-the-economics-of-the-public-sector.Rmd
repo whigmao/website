@@ -7,7 +7,7 @@ categories:
 tags:
   - Economics
   - English
-slug: economics-the-economics-of-the-public-sector
+slug: '7'
 output:
   blogdown::html_page:
     toc: true

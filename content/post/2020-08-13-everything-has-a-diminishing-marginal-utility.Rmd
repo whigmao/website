@@ -9,7 +9,7 @@ tags:
   - Evolution
   - Labor
   - English
-slug: everything-has-a-diminishing-marginal-utility
+slug: '15'
 ---
 
 As an popular economic concept, diminishing marginal utility is not new. We all know that utility deriving from a product or commodity reduces as more and more we consume of it.

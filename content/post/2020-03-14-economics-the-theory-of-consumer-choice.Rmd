@@ -8,7 +8,7 @@ tags:
   - Consumer
   - Economics
   - English
-slug: economics-the-theory-of-consumer-choice
+slug: '11'
 output:
   blogdown::html_page:
     toc: true

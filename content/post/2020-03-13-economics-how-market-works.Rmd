@@ -7,7 +7,7 @@ categories:
 tags:
   - Economics
   - English
-slug: economics-how-market-works
+slug: '5'
 output:
   blogdown::html_page:
     toc: true

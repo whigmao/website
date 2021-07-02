@@ -8,7 +8,7 @@ tags:
   - Personal
   - Insights
   - Chinese
-slug: 2020-3
+slug: '4'
 ---
 
 1. 无论是短期还是长期，都不要做损害现金流的事情

@@ -9,7 +9,7 @@ tags:
   - Firm Behavior
   - Industrial Organization
   - English
-slug: firm-behavior-and-the-organization-of-industry
+slug: '8'
 output:
   blogdown::html_page:
     toc: true

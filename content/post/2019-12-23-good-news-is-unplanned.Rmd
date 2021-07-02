@@ -8,7 +8,7 @@ tags:
   - Evolution
   - English
   - Chinese
-slug: good-news-is-unplanned
+slug: '1'
 ---
 
 Source: Reason, https://reason.com/archives/2015/10/30/good-news-is-unplanned

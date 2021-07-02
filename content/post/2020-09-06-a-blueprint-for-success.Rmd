@@ -9,7 +9,7 @@ tags:
   - Insights
   - Personal
   - English
-slug: a-blueprint-for-success
+slug: '18'
 ---
 
 Source: UVMazazine, https://uvamagazine.org/articles/a_blueprint_for_success/

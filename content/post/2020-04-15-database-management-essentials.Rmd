@@ -8,7 +8,7 @@ tags:
   - Data Science
   - SQL
   - English
-slug: database-management-essentials
+slug: '12'
 output:
   blogdown::html_page:
     toc: true

@@ -10,11 +10,15 @@ tags:
   - Psychology
   - Sociology
   - English
-slug: the-wealthier-you-get-the-less-social-you-are
+slug: '28'
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 
-### Source: https://www.vox.com/2016/5/5/11578994/income-friends-family
+[Source](https://www.vox.com/2016/5/5/11578994/income-friends-family)
  
 Rich Americans aren't only getting richer. They're becoming more isolated from the rest of America, too.
 
