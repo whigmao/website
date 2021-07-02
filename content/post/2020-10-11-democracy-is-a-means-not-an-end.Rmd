@@ -1,0 +1,82 @@
+---
+title: Democracy is a Means, Not an End
+author: Michael Munger
+date: '2020-10-11'
+categories:
+  - Translation Articles
+tags:
+  - Politics
+  - Sociology
+  - English
+slug: '55'
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
+---
+
+> 很好，破除了对民主所有的幻觉
+
+
+[Source](https://www.econlib.org/library/Columns/y2005/Mungerdemocracy.html)
+
+Everyone loves democracy. Ask an American if there is a better form of government, and they’ll be insulted. You believe in democracy, don’t you? And what exactly is it that you believe in? What people mean by “democracy” is some vague combination of good government, protection of individual rights, extremely broad political participation, and widely shared economic prosperity. One might as well throw in an ideal body mass index and a great latke recipe. It’s all good, but doesn’t mean much, and few people like to think about what democracy really means.
+
+It is fine to celebrate the great achievements of democracies, once they are firmly established. But such celebrations confuse cause and effect. The reason democratic nations have personal liberties, property rights, and rule of law is not that they are democracies. Rather, nations that have those things embody the entire package of the Western tradition of good government. Requiring that government actions hinge on the consent of the governed is the ribbon that holds that bundle together, but it is not the bundle itself. Fareed Zakaria identified this “bundle” problem perfectly.
+
+> For people in the West, democracy means “liberal democracy”: a political system marked not only by free and fair elections but also by the rule of law, a separation of powers, and the protection of basic liberties of speech, assembly, religion, and property. But this bundle of freedoms—what might be termed “constitutional liberalism”—has nothing intrinsically to do with democracy and the two have not always gone together, even in the West. After all, Adolf Hitler became chancellor of Germany via free elections. (The Future of Freedom, p. 17, emphasis mine).
+
+So—just what is democracy? In our mental potpourri, good government leads the list. But then what is ‘good government?’ A starting point could be voting and majority rule: most people can choose for all of us, and majorities can impose their will on minorities.
+
+Such blanket endorsements of majority rule make me wonder whether democracy is a fraud or just a conceit. As William Riker pointed out in his 1982 book, Liberalism Against Populism, the claim that “fair” processes always, or even often, lead to “good” outcomes ignores much of what is known about institutions and institutional change. If people disagree, and if there are several choices, democracy is manipulable, even dictatorial. For modern political science, this is called the “Arrow Problem,” after [Kenneth Arrow](https://www.econlib.org/library/Enc/bios/Arrow.html).
+
+If all we mean by democracy is a civil myth, a conceit, it could be useful. The idea of democracy honors common people, calming the mind and pleasing the agora. If democracy is a fraud, however, then we are in bleaker and more sinister terrain. The pretense that in the multitude we find rectitude is dangerous: many of us would love to impose our “wisdom” on others. Saluting the collective wisdom is simply a way to hold other citizens down whilst we steal their purses, or pack their children off to war.
+
+And it has ever been thus. As Polybius tells us:
+
+> The Athenian [democracy] is always in the position of a ship without a commander. In such a ship, if fear of the enemy, or the occurrence of a storm induce the crew to be of one mind and to obey the helmsman, everything goes well; but if they recover from this fear, and begin to treat their officers with contempt, and to quarrel with each other because they are no longer all of one mind,—one party wishing to continue the voyage, and the other urging the steersman to bring the ship to anchor; some letting out the sheets, and others hauling them in, and ordering the sails to be furled,—their discord and quarrels make a sorry show to lookers on; and the position of affairs is full of risk to those on board engaged on the same voyage; and the result has often been that, after escaping the dangers of the widest seas, and the most violent storms, they wreck their ship in harbour and close to shore.—Polybius, Histories, Book VI, Chapter 44, ca. 130 B.C. (Translated by Evelyn S. Shuckburgh, 1889).
+
+This is not a call for dictatorship, however. The core of the Arrow problem is that societies choose between two evils: the tyranny of a Hitler or the potential for incoherence described by Polybius. My thesis is that “democracy” without the safeguards of constitutional liberalism is both tyrannical and incoherent, the worst system imaginable.
+
+---
+
+# The U.S. is Not a Democracy
+
+None of this was news to the American founders. Elections helped citizens control elected officials, and little more. This early skepticism is plain, as in this passage from Federalist #10:
+
+> …a pure democracy, by which I mean a society consisting of a small number of citizens, who assemble and administer the government in person, can admit of no cure for the mischiefs of faction. A common passion or interest will, in almost every case, be felt by a majority of the whole; a communication and concert result from the form of government itself; and there is nothing to check the inducements to sacrifice the weaker party or an obnoxious individual. Hence it is that such democracies have ever been spectacles of turbulence and contention; have ever been found incompatible with personal security or the rights of property; and have in general been as short in their lives as they have been violent in their deaths. Theoretic politicians, who have patronized this species of government, have erroneously supposed that by reducing mankind to a perfect equality in their political rights, they would, at the same time, be perfectly equalized and assimilated in their possessions, their opinions, and their passions.
+
+America is a federal republic, with horizontal separation of powers among executive, legislature, and judiciary, and vertical separation of powers between the central government and the states. The Declaration of Independence is straightforward: the American system is based on the claim that all citizens have rights, and “That to secure these Rights, Governments are instituted among Men, deriving their just Powers from the Consent of the Governed…” That means that elections are still important. We need elections, literally depend on them to make the whole system work. But elections are not the ends of government, just the means by which citizens can withhold consent.
+
+The problem is that the rules, procedures, and the basic “machinery” of electoral choice as a means have not kept up with the faith people seem to have in democracy as an end. We try to divine the will of the people, their “intent,” on complex questions. Who can forget Florida in 2000, where officials held ballots over their heads, trying to see light through partially detached bits of cardstock chads?
+
+Elections cannot work this way, not in a nation four times zones wide (not even counting Alaska or Hawaii). Even though in other aspects of our lives we demand instant information, electoral fairness requires that the states withhold information until all the polls are closed. Voting precincts must sacrifice efficiency (which new paperless voting technologies would appear to offer) for legitimacy, where paper receipts are available and where recounts involve actual physical checks of ballots, one by one.
+
+But you knew about this problem, which is mostly technical. I am trying to argue that there is a different problem, at least as important: we don’t just demand too little of our democratic procedures, we are expecting too much of our democratic process. The educational system in the U.S. has failed students, because we don’t know the limits of unlimited democratic choice. We teach that consensus as a value in itself, even though we know that true consensus appears only in dictatorships or narrowly defined decisions. As [James Buchanan](https://www.econlib.org/library/Enc/bios/Buchanan.html), Kenneth Arrow, and a host of public choice scholars have shown, groups cannot be thought to have preferences in the same way that individuals do. To put it another way, it is perfectly possible, and legitimate, for reasonable people to disagree. The role of democracy is not to banish disagreement, but rather to prevent political disagreements from devolving into armed conflict.
+
+But then in what sense does government depend on “the consent of the governed”? The American system seems cumbersome, but it combines the notion of a republic, where policy choice is indirect, with separation of powers of legislation, where an overlapping consensus is required. A majority of the population is required to pass the House, but a majority in a majority of the states is required to pass the Senate. Then the President, whose constituency is the entire nation, must separately consent before the bill becomes law. The result is far removed from “democracy,” but the system does ensure the fundamental democratic principle: government can’t do things to us unless we the governed give our consent. Elections are a check on tyranny, not a conjuring of the will of the people.
+
+---
+
+# Where Do We Go From Here?
+
+Policy makers must understand the twin anachronisms that complicate the failures of voting institutions and democratic ideologies in the U.S. There really are two distinct anachronisms, each of which requires immediate attention.
+
+First, our technology of democracy is too old, and prone to abuse or at least distrust. We must bring voting technology into the 21st century, because we accept much less than is possible. We must immediately solve the problem of guaranteeing mechanisms for recording and counting votes that are beyond reproach. As the election of 2004 shows, we are nearly out of time.
+
+Second, our ideology of democracy, our notion of what democracy can accomplish, is anachronistic also. But in this case, the anachronism is not out of the past, but out of a utopian science fiction future. So, we must also take voting ideology back to the 19th century, where it belongs. We have come to expect much more than is possible from democracy, and democratic institutions.
+
+This essay may make me sound like an enemy of democracy, some kind of elitist nut. Well, that’s not entirely wrong. But describing democracy’s flaws is not the same as arguing the virtues of elitism or dictatorship. I just want to foster an humble skepticism about what democracy really is and what it can actually accomplish. Many policy conflicts hinge on whether the public can tell individuals what to do. There is a subtlety that is often missed in policy debate: there is a difference between public decisions and collective decisions. Public decisions affect everyone by the nature of the choice itself: we can only have one defense budget; polluting rivers befouls not just my water, but yours.
+
+Collective decisions, on the other hand, affect us all only because the majority is empowered to force its will on everyone. There need be no true public aspects to the decision as a policy outcome; we have just chosen to take the decision out of individuals’ hands and put the power in the hands of the mob.
+
+Now, it may very well be the case that lots of collective decisions are also public. But we need to see the line dividing private and collective choices, and to defend it fiercely. As P. J. O’Rourke notes, the fact that a majority likes something doesn’t mean that the majority should get to choose that something for everyone.
+
+> Now, majority rule is a precious, sacred thing worth dying for. But—like other precious, sacred things, such as the home and the family—it’s not only worth dying for; it can make you wish you were dead. Imagine if all of life were determined by majority rule. Every meal would be a pizza. Every pair of pants, even those in a Brooks Brothers suit, would be stone-washed denim. Celebrity diets and exercise books would be the only thing on the shelves at the library. And—since women are a majority of the population, we’d all be married to Mel Gibson. (O’Rourke, Parliament of Whores, 1991, p. 5).
+
+
+The real key to freedom is to secure people from tyranny by the majority, or freedom from democracy. The problem, then, is what Fareed Zakaria has called “illiberal democracy.” The metaphor we use to understand ourselves matters, because it figures in how we try to advise others.
+
+> For much of modern history, what characterized governments in Europe and North America, and differentiated them from those around the world, was not democracy but constitutional liberalism. The “Western model of government” is best symbolized not by the mass plebiscite but the impartial judge. (Fareed Zakaria, The Future of Freedom, p. 20.)
+
+The framers of the U.S. Constitution fully recognized that there is nothing, nothing at all, inherent in democracy that ensures the freedom of persons or property. When we advise other nations about how to devise better systems of government, our own historical skepticism about the power of pure democracy can be neglected only at our peril. When we help a developing nation design its government, we need unashamedly to advocate something like the U.S. model. Thomas Hobbes said “Covenants, without the Sword, are but words.” The modern equivalent might be this: “Democracy, without the Bill of Rights, is but tyranny.”

@@ -2,19 +2,35 @@
 title: Computer Science illuminated
 author: Guanghua Mao
 date: '2020-12-06'
-slug: computer-science-illuminated
+slug: '100'
 categories:
   - Original Articles
 tags:
   - Programming
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 <link href="index_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
 <script src="index_files/anchor-sections/anchor-sections.js"></script>
 
+<div id="TOC">
+<ul>
+<li><a href="#laying-the-groundwork"><span class="toc-section-number">1</span> Laying the Groundwork</a></li>
+<li><a href="#information-layer"><span class="toc-section-number">2</span> Information Layer</a></li>
+<li><a href="#hardware-layer"><span class="toc-section-number">3</span> Hardware Layer</a></li>
+<li><a href="#programming-layer"><span class="toc-section-number">4</span> Programming Layer</a></li>
+<li><a href="#operating-system-layer"><span class="toc-section-number">5</span> Operating System Layer</a></li>
+<li><a href="#applications-layer"><span class="toc-section-number">6</span> Applications Layer</a></li>
+<li><a href="#communications-layer"><span class="toc-section-number">7</span> Communications Layer</a></li>
+<li><a href="#conclusion"><span class="toc-section-number">8</span> Conclusion</a></li>
+</ul>
+</div>
 
-<div id="laying-the-groundwork" class="section level2">
-<h2>1. Laying the Groundwork</h2>
+<div id="laying-the-groundwork" class="section level1">
+<h1><span class="header-section-number">1</span> Laying the Groundwork</h1>
 <p>We will examine the different layers that make up a computing system, beginning with the information layer and ending with the communication layer. Our goal is to give you an appreciation and understanding of all aspects of computing systems.</p>
 <p>Six layers:</p>
 <ol style="list-style-type: decimal">
@@ -27,8 +43,8 @@ tags:
 </ol>
 <hr />
 </div>
-<div id="information-layer" class="section level2">
-<h2>2. Information Layer</h2>
+<div id="information-layer" class="section level1">
+<h1><span class="header-section-number">2</span> Information Layer</h1>
 <p>Binary values is the way in which computer hardware represents and manages information.</p>
 <p>Computers are multimedia devices that manipulate data varying in form from numbers to graphics to video. Because a computer can manipulate only binary values, all forms of data must be represented in binary form. Data is classified as being either continuous (analog) or discrete (digital).</p>
 <p>Integer values are represented by their binary equivalent using one of several techniques for representing negative numbers, such as a signed-magnitude or two’s complement. Real numbers are represented by a triple made up of the sign, the digits in the number, and an exponent that specifies the radix point.</p>
@@ -36,8 +52,8 @@ tags:
 <p>Audio information is represented as digitized sound waves. Color is represented by three values that represent the contributions of red, blue, and green, respectively. Two basic techniques are used for representing pictures, bitmaps, and vector graphics. Video is broken up into a series of still images, each of which is represented as a picture.</p>
 <hr />
 </div>
-<div id="hardware-layer" class="section level2">
-<h2>3. Hardware Layer</h2>
+<div id="hardware-layer" class="section level1">
+<h1><span class="header-section-number">3</span> Hardware Layer</h1>
 <p>A computer operates at its lowest level by controlling the flow of electricity. Because we are dealing with digital computers that use binary information, we concern ourselves with only two voltage ranges, which we interpret as binary 1 or 0. The flow of electricity is guided by electronic devices called gates, which perform basic logical operations such as NOT, AND, and OR. A gate is created by using one or more transistors, an invention that revolutionized computing.</p>
 <p>Gates can be combined into circuits, in which the output of one gate serves as an input to another gate. By designing these circuits carefully, we can create devices that perform more complex tasks such as adding, multiplexing, and storing data. Collections of gates, or complete circuits, are often embedded into a single integrated circuit, or chip, which leads to the concept of a central processing unit (CPU).</p>
 <p>The components that make up a computer cover a wide range of devices. Each component has characteristics that dictate how fast, large, and efficient it is. Furthermore, each component plays an integral role in the overall processing of the machine.</p>
@@ -49,8 +65,8 @@ tags:
 <p>Although von Neumann machines are by far the most common, other computer architectures have emerged. For example, there are machines with more than one processor so that calculations can be done in parallel, thereby speeding up the processing.</p>
 <hr />
 </div>
-<div id="programming-layer" class="section level2">
-<h2>4. Programming Layer</h2>
+<div id="programming-layer" class="section level1">
+<h1><span class="header-section-number">4</span> Programming Layer</h1>
 <p>Now the emphasis changes from what a computer system is to how to use one.</p>
 <p>A computer can store, retrieve, and process data. A user can enter data into the machine, and the machine can display data so that the user can see it. At the lowest level of abstraction, instructions to the machine directly relate to these five operations.</p>
 <p>A computer’s machine language is the set of instructions that the machine’s hardware is built to recognize and execute. Machine-language programs are written by entering a series of these instructions in their binary form. The Pep/8 is a virtual computer with an A register and two-part instructions. One part of the instruction tells which action the instruction performs, and the other part specifies where the data to be used (if any) can be found. Programs written using the Pep/8 instruction set can be run using a simulator—a program that behaves like the Pep/8 computer.</p>
@@ -91,8 +107,8 @@ tags:
 </ul>
 <hr />
 </div>
-<div id="operating-system-layer" class="section level2">
-<h2>5. Operating System Layer</h2>
+<div id="operating-system-layer" class="section level1">
+<h1><span class="header-section-number">5</span> Operating System Layer</h1>
 <p>To understand a computer system, you must understand the software that manages and coordinates its pieces. The operating system of a computer is the glue that holds the hardware and software together. It is the software foundation on which all other software rests, allowing us to write programs that interact with the machine. This chapter and the next one explore the way in which an operating system manages computer resources. Just as a policeman organizes the efficient flow of cars through an intersection, an operating system organizes the efficient flow of programs through a computer system.</p>
 <p>An operating system is the part of the system software that manages resources on a computer. It serves as moderator among human users, application software, and the hardware devices in the system.</p>
 <p>Multiprogramming is the technique for keeping multiple programs in memory at the same time, contending for time on the CPU. A process is a program in execution. The operating system must perform careful CPU scheduling, memory management, and process management to ensure fair access to the CPU.</p>
@@ -108,8 +124,8 @@ tags:
 <p>Disk-scheduling algorithms determine the order in which pending disk requests are processed. First-come, first-served disk scheduling takes all requests in order but is not very efficient. Shortest-seek-time-first disk scheduling is more efficient but could suffer from starvation. SCAN disk scheduling employs the same strategy as an elevator, sweeping from one end of the disk to the other.</p>
 <hr />
 </div>
-<div id="applications-layer" class="section level2">
-<h2>6. Applications Layer</h2>
+<div id="applications-layer" class="section level1">
+<h1><span class="header-section-number">6</span> Applications Layer</h1>
 <p>Computers exist to manage and analyze data. Today they affect almost all aspects of our lives. We use general information systems to manage everything from sports statistics to payroll data. Likewise, cash registers and ATMs are supported by large information systems. In this chapter we examine general-purpose software, particularly spreadsheets and database management systems; these help us organize and analyze the huge amounts of data with which we must deal.</p>
 <p>An information system is application software that allows the user to organize and manage data. General information system software includes spreadsheets and database management systems. Other domain areas, such as artificial intelligence, have their own specific techniques and support for data management.</p>
 <p>A spreadsheet is a software application that sets up a grid of cells to organize data and the formulas used to compute new values. Cells are referenced by their row and column designations, such as A5 or B7. Formulas usually refer to the values in other cells and may rely on built-in functions to compute their result. In addition, formulas may use data across a range of cells. When a formula is stored in a spreadsheet cell, the value computed by the formula is actually shown in the cell. It is important that formulas in a spreadsheet avoid circular references, in which two or more cells rely on one another to compute their results.</p>
@@ -134,8 +150,8 @@ tags:
 <p>Computer gaming is the simulation of a virtual world within which the players can interact with the system and with each other. A game engine is a software system within which game developers, designers, and programmers create a game’s virtual world.</p>
 <hr />
 </div>
-<div id="communications-layer" class="section level2">
-<h2>7. Communications Layer</h2>
+<div id="communications-layer" class="section level1">
+<h1><span class="header-section-number">7</span> Communications Layer</h1>
 <p>For many years, computers have played as important a role in communication as they do in computation. This communication is accomplished using computer networks. Like complex highway systems that connect roads in various ways to allow cars to travel from their origin to their destination, computer networks form an infrastructure that allows data to travel from some source computer to a destination. The computer receiving the data may be around the corner or around the world. This chapter explores some of the details of computer networks.</p>
 <p>A network is a collection of computers connected to share resources and data. Network technologies must concern themselves with underlying protocols and data transfer speeds. The client/server model has emerged as an important software technology given our ever-increasing reliance on networks.</p>
 <p>Networks are often classified by their scope. A local-area network (LAN) covers a small geographic area and a relatively small number of connected devices. A wide-area network (WAN) embraces the concept of internetworking, connecting one network to another, and covers a large geographic area. A metropolitan-area network (MAN) is specially designed for large cities. LAN topologies include ring, star, and bus networks. Ethernet has become a standard topology for local-area networks.</p>
@@ -176,8 +192,8 @@ tags:
 <p>WikiLeaks is an organization that publishes secret and classified documents on the Web, while protecting the sources of that information from government retaliation. It operates in ways that make it difficult for anyone to influence its practices. While WikiLeaks promotes the need for transparency in a free society, their practices raise concerns, especially in the U.S. military. Furthermore, WikiLeaks was itself recently a target of an online attack that allowed a huge cache of unredacted U.S. State Department documents to be available for download.</p>
 <hr />
 </div>
-<div id="conclusion" class="section level2">
-<h2>8. Conclusion</h2>
+<div id="conclusion" class="section level1">
+<h1><span class="header-section-number">8</span> Conclusion</h1>
 <p>Limits are imposed on computer problem-solving by the hardware, the software, and the nature of the problems to be solved. Numbers are infinite, but their representation within a computer is finite. This limitation can cause errors to creep into arithmetic calculations, giving incorrect results. Hardware components can wear out, and information can be lost during intercomputer and intracomputer data transfers.</p>
 <p>The sheer size and complexity of large software projects almost guarantee that errors will occur. Testing a program can demonstrate errors, but it cannot prove the absence of errors. The best way to build good software is to pay attention to quality from the first day of the project, applying the principles of software engineering.</p>
 <p>Problems vary from those that are very simple to solve to those that cannot be solved at all. Big-O analysis provides a metric that allows us to compare algorithms in terms of the growth rate of a size factor in the algorithm. Polynomial-time algorithms are those algorithms whose Big-O complexity can be expressed as a polynomial in the size factor. Class P problems can be solved with one processor in polynomial time. Class NP problems can be solved in polynomial time with an unlimited number of processors. As proved by Turing, the halting problem does not have a solution.</p>

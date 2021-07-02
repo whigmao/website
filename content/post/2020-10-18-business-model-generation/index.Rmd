@@ -2,7 +2,7 @@
 title: Business Model Generation
 author: Guanghua Mao
 date: '2020-10-18'
-slug: business-model-generation
+slug: '66'
 categories:
   - Original Articles
 tags:
@@ -10,6 +10,10 @@ tags:
   - Business
   - Economics
   - Decision
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 > 目前为止，看过的最好的商业模式分析框架
@@ -21,9 +25,9 @@ tags:
 
 
 
-## Strategy
+# Strategy
 
-### Environment
+## Environment
 
 - Industry Forces
 
@@ -71,7 +75,7 @@ tags:
 
 	- Socioeconomic Trends
 
-### SWOT
+## SWOT
 
 - Strengths
 
@@ -81,7 +85,7 @@ tags:
 
 - Treats
 
-### Blue Ocean Strategy
+## Blue Ocean Strategy
 
 - Eliminate
 
@@ -93,9 +97,9 @@ tags:
 
 ---
 
-## Business Model Blocks
+# Business Model Blocks
 
-### Customer Segments
+## Customer Segments
 
 - Mass Market
 
@@ -107,7 +111,7 @@ tags:
 
 - Platform
 
-### Value Propositions
+## Value Propositions
 
 - Newness
 
@@ -133,7 +137,7 @@ tags:
 
 - Scalable
 
-### Channels
+## Channels
 
 - Awareness
 
@@ -145,7 +149,7 @@ tags:
 
 - After Sales
 
-### Customers Relationships
+## Customers Relationships
 
 - Customer Acquisition
 
@@ -153,7 +157,7 @@ tags:
 
 - Boosting Sales
 
-### Revenue Streams
+## Revenue Streams
 
 - Asset Sales
 
@@ -169,7 +173,7 @@ tags:
 
 - Adversing
 
-### Key Resources
+## Key Resources
 
 - Physical
 
@@ -179,7 +183,7 @@ tags:
 
 - Financial
 
-### Key Activities
+## Key Activities
 
 - Production
 
@@ -187,7 +191,7 @@ tags:
 
 - Platform
 
-### Key Partners
+## Key Partners
 
 - Optimization and economy of scale
 
@@ -195,7 +199,7 @@ tags:
 
 - Acquisition of particular resources and activities
 
-### Cost Structure
+## Cost Structure
 
 - Cost-driven
 
@@ -211,15 +215,15 @@ tags:
 
 ---
 
-## Business Plans
+# Business Plans
 
-### The Team
+## The Team
 
 - Management Profile
 
 - Why We Are a Winning Team
 
-### The Business Model
+## The Business Model
 
 - Vision, Mission, and Values
 
@@ -233,7 +237,7 @@ tags:
 
 - Key Resources and Activities
 
-### Financial Analysis
+## Financial Analysis
 
 - Breakeven Analysis
 
@@ -245,7 +249,7 @@ tags:
 
 - Funding Requirements
 
-### External Environment
+## External Environment
 
 - The Economy
 
@@ -255,7 +259,7 @@ tags:
 
 - Competitive Advantages of Our Business Model
 
-### Implementation Roadmap
+## Implementation Roadmap
 
 - Projects
 
@@ -263,7 +267,7 @@ tags:
 
 - Roadmap
 
-### Risk Analysis
+## Risk Analysis
 
 - Limiting Factors and Obstacles
 

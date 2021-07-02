@@ -2,14 +2,18 @@
 title: Computer Science illuminated
 author: Guanghua Mao
 date: '2020-12-06'
-slug: computer-science-illuminated
+slug: '100'
 categories:
   - Original Articles
 tags:
   - Programming
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
-## 1. Laying the Groundwork
+# Laying the Groundwork
 
 We will examine the different layers that make up a computing system, beginning with the information layer and ending with the communication layer. Our goal is to give you an appreciation and understanding of all aspects of computing systems.
 
@@ -29,7 +33,7 @@ Six layers:
 
 ---
 
-## 2. Information Layer
+# Information Layer
 
 Binary values is the way in which computer hardware represents and manages information.
 
@@ -43,7 +47,7 @@ Audio information is represented as digitized sound waves. Color is represented 
 
 ---
 
-## 3. Hardware Layer
+# Hardware Layer
 
 A computer operates at its lowest level by controlling the flow of electricity. Because we are dealing with digital computers that use binary information, we concern ourselves with only two voltage ranges, which we interpret as binary 1 or 0. The flow of electricity is guided by electronic devices called gates, which perform basic logical operations such as NOT, AND, and OR. A gate is created by using one or more transistors, an invention that revolutionized computing.
 
@@ -65,7 +69,7 @@ Although von Neumann machines are by far the most common, other computer archite
 
 ---
 
-## 4. Programming Layer
+# Programming Layer
 
 Now the emphasis changes from what a computer system is to how to use one.
 
@@ -138,7 +142,7 @@ Object-oriented programs are characterized by the following constructs:
 
 ---
 
-## 5. Operating System Layer
+# Operating System Layer
 
 To understand a computer system, you must understand the software that manages and coordinates its pieces. The operating system of a computer is the glue that holds the hardware and software together. It is the software foundation on which all other software rests, allowing us to write programs that interact with the machine. This chapter and the next one explore the way in which an operating system manages computer resources. Just as a policeman organizes the efficient flow of cars through an intersection, an operating system organizes the efficient flow of programs through a computer system.
 
@@ -168,7 +172,7 @@ Disk-scheduling algorithms determine the order in which pending disk requests ar
 
 ---
 
-## 6. Applications Layer
+# Applications Layer
 
 Computers exist to manage and analyze data. Today they affect almost all aspects of our lives. We use general information systems to manage everything from sports statistics to payroll data. Likewise, cash registers and ATMs are supported by large information systems. In this chapter we examine general-purpose software, particularly spreadsheets and database management systems; these help us organize and analyze the huge amounts of data with which we must deal.
 
@@ -216,7 +220,7 @@ Computer gaming is the simulation of a virtual world within which the players ca
 
 ---
 
-## 7. Communications Layer
+# Communications Layer
 
 For many years, computers have played as important a role in communication as they do in computation. This communication is accomplished using computer networks. Like complex highway systems that connect roads in various ways to allow cars to travel from their origin to their destination, computer networks form an infrastructure that allows data to travel from some source computer to a destination. The computer receiving the data may be around the corner or around the world. This chapter explores some of the details of computer networks.
 
@@ -296,7 +300,7 @@ WikiLeaks is an organization that publishes secret and classified documents on t
 
 ---
 
-## 8. Conclusion
+# Conclusion
 
 Limits are imposed on computer problem-solving by the hardware, the software, and the nature of the problems to be solved. Numbers are infinite, but their representation within a computer is finite. This limitation can cause errors to creep into arithmetic calculations, giving incorrect results. Hardware components can wear out, and information can be lost during intercomputer and intracomputer data transfers.
 

@@ -1,0 +1,34 @@
+---
+title: When China Opens Markets and Customers Don't Arrive
+author: Mike Bird
+date: '2020-10-17'
+slug: '65'
+categories:
+  - Translation Articles
+tags:
+  - China
+  - English
+  - Economics
+---
+
+[Source](https://www.wsj.com/articles/when-china-opens-markets-and-customers-dont-arrive-11601970805)
+
+For years, the idea of insatiable, pent-up foreign appetite for Chinese assets was taken as a given--as was the idea that further opening Chinese markets would lead to a flood of ravenous investors.
+
+But it's increasingly unclear that the would-be patrons are that hungry at all--outside of the very safest Chinese assets issued by the central government.
+
+China's State Administration of Foreign Exchange stopped publishing monthly data on the amount of money invested through the Qualified Foreign Institutional Investor program after May, when the amounts were officially uncapped after years of carefully-managed limits. That hides a potentially awkward truth--with $116.26 billion invested in May, volumes were far below the previous $300 billion limit.
+
+The slowdown in investment via QFII has been attributed in large part to the Stock Connect--which allows investors to access mainland markets through Hong Kong and has become an increasingly popular way to invest in Chinese equities.
+
+But with less than three months left in 2020, and with foreigners having sold assets through the Stock Connect in August and September, net inflows through the platform for the year could easily run below half of what they were last year. A portion of that can be blamed on the pandemic, but not all of it--and certainly not recent outflows, since China's economy has been outperforming most major competitors.
+
+Appetite for China's bonds has been far stronger, and with good reason. The country's government and policy-bank bonds are some of the best sources of uncorrelated returns on an investment basically without credit risk, given that other major sovereign-debt markets either track one another or are functionally frozen in place like Japan.
+
+But that logic also reveals the limits of such investment: The government and policy-bank bonds make up a third of the country's $16.4 trillion bond market, but more than 80% of the foreign holdings of onshore bonds. The remaining two thirds is made up of the less attractive corporate, financial and local-government debt markets, where investors face murky political and credit risks.
+
+There is an additional major complication in assessing international investment in Chinese assets: Hong Kong is treated as a separate jurisdiction, as noted by Alicia Garcia-Herrero, chief economist for Asia-Pacific at French bank Natixis. To some extent that makes sense: An American fund-management firm with a Hong Kong headquarters would be recorded, sensibly, as a foreign buyer.
+
+But it also means that a Chinese asset-management company purchasing Chinese assets from a Hong Kong office is counted as a foreign purchase. It is impossible to tell from official data how much portfolio investment from abroad is actually Chinese investment booked in Hong Kong.
+
+Adding Chinese assets to global indexes will boost demand for the country's assets abroad, but it cannot do all the work itself. With fewer investment restrictions than ever before, there are limited signs of a broad wave of demand for Chinese assets.

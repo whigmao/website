@@ -2,15 +2,19 @@
 title: 'Book Review: How to Think Like a Computer Scientist'
 author: Guanghua Mao
 date: '2020-11-14'
-slug: book-review-how-to-think-like-a-computer-scientist
+slug: '93'
 categories:
   - Original Articles
 tags:
   - Programming
   - Book Review
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
-## 1.  The way of the program
+#  The way of the program
 
 This way of thinking combines some of the best features of mathematics, engineering, and natural science. Like mathematicians, computer scientists use formal languages to denote ideas (specifically computations). Like engineers, they design things, assembling components into systems and evaluating trade-offs among alternatives. Like scientists, they observe the behavior of complex systems, form hypotheses, and test predictions.
 
@@ -24,7 +28,7 @@ Algorithm: A set of specific steps for solving a category of problems.
 
 ---
 
-## 2. Variables, expressions and statements
+# Variables, expressions and statements
 
 A value is one of the fundamental things — like a letter or a number — that a program manipulates. 
 
@@ -40,7 +44,7 @@ So far, we have looked at the elements of a program — variables, expressions, 
 
 ---
 
-## 3. Hello, little turtles!
+# Hello, little turtles!
 
 There are many modules in Python that provide very powerful features that we can use in our own programs. Some of these can send email, or fetch web pages. 
 
@@ -50,7 +54,7 @@ Python’s for loop solves this for us
 
 ---
 
-## 4. Functions
+# Functions
 
 In Python, a function is a named sequence of statements that belong together. Their primary purpose is to help us organize programs into chunks that match how we think about the problem.
 
@@ -66,7 +70,7 @@ We can use `return` statement to make function fruitful.
 
 ---
 
-## 5. Conditionals
+# Conditionals
 
 Programs get really interesting when we can test conditions and change the program behavior depending on the outcome of the tests.
 
@@ -84,7 +88,7 @@ The `return` statement, with or without a value, depending on whether the functi
 
 ---
 
-## 6. Fruitful functions
+# Fruitful functions
 
 The built-in functions we have used, such as `abs`, `pow`, `int`, `max`, and `range`, have produced results. Calling each of these functions generates a value, which we usually assign to a variable or use as part of an expression.
 
@@ -96,7 +100,7 @@ It is a common best practice in software development to include automatic unit t
 
 ---
 
-# 7. Iteration
+#  Iteration
 
 Computers are often used to automate repetitive tasks. Repeating identical or similar tasks without making errors is something that computers do well and people do poorly.
 
@@ -148,7 +152,7 @@ Some of the things that people do naturally, without difficulty or conscious tho
 
 ---
 
-## 8. Strings
+# Strings
 
 So far we have seen built-in types like `int`, `float`, `bool`, `str` and we’ve seen lists and pairs. Strings, lists, and pairs are qualitatively different from the others because they are made up of smaller pieces. In the case of strings, they’re made up of smaller strings each containing one **character**.
 
@@ -166,7 +170,7 @@ The template string contains place holders, `... {0} ... {1} ... {2} ...` etc. T
 
 ---
 
-## 9. Tuples
+# Tuples
 
 Tuples are used for grouping data. Generalizing this, a tuple can be used to group any number of items into a single compound value. Syntactically, a tuple is a comma-separated sequence of values. Although it is not necessary, it is conventional to enclose tuples in parentheses.
 
@@ -176,7 +180,7 @@ Python has a very powerful tuple assignment feature that allows a tuple of varia
 
 ---
 
-## 10. Event-Driven Programming
+# Event-Driven Programming
 
 Most programs and devices like a cellphone respond to events — things that happen. For example, you might move your mouse, and the computer responds. Or you click a button, and the program does something interesting. In this chapter we’ll touch very briefly on how event-driven programming works.
 
@@ -196,7 +200,7 @@ Automatic events from a timer: `wn.ontimer`
 
 ---
 
-## 11. Lists
+# Lists
 
 A list is an ordered collection of values. The values that make up a list are called its elements, or its items. We will use the term element or item to mean the same thing. Lists are similar to strings, which are ordered collections of characters, except that the elements of a list can be of any type. Lists and strings — and other collections that maintain the order of their items — are called sequences.
 
@@ -226,7 +230,7 @@ Nested lists are often used to represent matrices.
 
 ---
 
-## 12. Modules
+# Modules
 
 A **module** is a file containing Python definitions and statements intended for use in other Python programs. There are many Python modules that come with Python as part of the standard library. `random`, `time` and `math` are famous modules in Python.
 
@@ -264,7 +268,7 @@ Here are three different ways to import names into the current namespace, and to
 
 ---
 
-## 13. Files
+# Files
 
 While a program is running, its data is stored in *random access memory (RAM)*. RAM is fast and inexpensive, but it is also volatile, which means that when the program ends, or the computer shuts down, data in RAM disappears. To make data available the next time the computer is turned on and the program is started, it has to be written to a non-volatile storage medium, such a hard drive, usb drive, or CD-RW.
 
@@ -288,7 +292,7 @@ All of this applies to files as well. To open a file, we specify its name and in
 
 ---
 
-## 14. List Algorithms (read twice)
+# List Algorithms (read twice)
 
 We’re going to focus on the program development process, and some algorithms that work with lists.
 
@@ -298,7 +302,7 @@ Test-driven development (TDD) is a software development practice which takes the
 
 ---
 
-## 15. Classes and Objects — the Basics
+# Classes and Objects — the Basics
 
 Python is an object-oriented programming language, which means that it provides features that support object-oriented programming (OOP).
 
@@ -356,7 +360,7 @@ he most important advantage of the object-oriented style is that it fits our men
 
 ---
 
-## 16. Classes and Objects — Digging a little deeper
+# Classes and Objects — Digging a little deeper
 
 Objects are mutable. We can change the state of an object by making an assignment to one of its attributes.
 
@@ -421,15 +425,15 @@ Now b1 and b2 are completely separate objects.
 
 ---
 
-## 17. PyGame
+# PyGame
 
 ---
 
-## 18. Recursion
+# Recursion
 
 ---
 
-## 19. Exceptions
+# Exceptions
 
 Whenever a runtime error occurs, it creates an exception object. The program stops running at this point and Python prints out the traceback, which ends with a message describing the exception that occurred.
 
@@ -471,7 +475,7 @@ Whatever happens, we want to “clean up” the resources we grabbed. The `final
 
 ---
 
-## 20. Dictionaries
+# Dictionaries
 
 All of the compound data types we have studied in detail so far — strings, lists, and tuples — are sequence types, which use integers as indices to access the values they contain within them.
 
@@ -493,11 +497,11 @@ Dictionaries have a number of useful built-in methods.
 
 ---
 
-## 21. Even more OOP
+# Even more OOP
 
 ---
 
-## 22. Collections of objects
+# Collections of objects
 
 By now, we have seen several examples of composition. One of the first examples was using a method invocation as part of an expression. Another example is the nested structure of statements; we can put an if statement within a while loop, within another if statement, and so on.
 
@@ -505,7 +509,7 @@ Having seen this pattern, and having learned about lists and objects, we should 
 
 ---
 
-## 23. Inheritance
+# Inheritance
 
 The language feature most often associated with object-oriented programming is inheritance. Inheritance is the ability to define a new class that is a modified version of an existing class.
 
@@ -517,7 +521,7 @@ On the other hand, inheritance can make programs difficult to read. When a metho
 
 ---
 
-## 24. Linked lists
+# Linked lists
 
 
 

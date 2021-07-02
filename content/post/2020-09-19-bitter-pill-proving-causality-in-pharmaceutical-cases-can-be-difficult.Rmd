@@ -9,10 +9,10 @@ tags:
   - Economics
   - Evolution
   - English
-slug: bitter-pill-proving-causality-in-pharmaceutical-cases-can-be-difficult
+slug: '62'
 ---
 
-### [Source](https://www.reedsmith.com/en/perspectives/2001/12/bitter-pill--proving-causality-in-pharmaceutical-c)
+[Source](https://www.reedsmith.com/en/perspectives/2001/12/bitter-pill--proving-causality-in-pharmaceutical-c)
 
 
 
