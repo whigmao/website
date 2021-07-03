@@ -1,0 +1,70 @@
+---
+title: 12 reasons not to get a PhD
+author: LYNN O'SHAUGHNESSY
+date: '2021-07-03'
+slug: '239'
+categories:
+  - Translation Articles
+tags:
+  - Decision
+  - Insights
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
+---
+
+[Source](https://www.cbsnews.com/news/12-reasons-not-to-get-a-phd/)
+
+(CBS Moneywatch) COMMENTARY [Earning a doctorate](https://www.economist.com/christmas-specials/2010/12/16/the-disposable-academic) is widely considered to be an excellent way to boost a person's lifetime earnings potential. But even if you can hack the academic rigor required to [get a PhD](http://www.firstthings.com/blogs/firstthoughts/2010/10/29/so-you-want-to-get-a-phd-in-the-humanities/), there may be good reason not to pursue such a degree:
+
+# A PhD takes twice as long as a bachelor's degree to complete
+
+The average student takes 8.2 years to slog through a PhD program and is 33 years old before earning that top diploma. By that age, most Americans with mere bachelor's degree are well into establishing themselves professionally.
+
+# Professors will exploit you
+
+It takes forever to earn a doctorate degree because graduate students are routinely treated like slaves. Grad students perform the grunt work that professors find distasteful, such as teaching undergraduates, grading papers, holding office hours, and playing mother hen to undergrads. And it's hard to say no to a professors' unreasonable demands because grad students needs faculty members on their side.
+
+# You could drop out
+
+Only about 57 percent of doctoral students will [get their PhD](https://orgtheory.wordpress.com/category/grad-school-rulz/) within 10 years of [starting graduate school](http://www.leavingacademia.com/?__cf_chl_managed_tk__=14f226b15ea6e53ab95c890954ef34d8829b2d2b-1625330507-0-ATeEKK7uc9InD8E2hA5uDoSlCVqnW6djv5xMKhoGQs_N1TFlj-5S3ZV6C5s6J7pJtHBowZI6oAabmxADwe1r13xXP6vi4mwyR4U5elXKKeFv3C9-7HIwH5xIiTCxs8VF2AETHkgRMnEsVIb_M1zzqt8jXELKEJZHsEiZkEFWZ4IK6beBNFaw43EAtK2vH4y9aRHDYbaun2sGjCmxjLAYV_XudohqUvBuoG_iFVdZ7eGsrFKWBSZMVF1irYjT7j4cL_oXN94G0u46QKtLJ-O8lIJVAu__nMJVOsHqXjxthhMoPxj_wQ-ZKa3cR-NUbQe0O17ssAXRNT01sANAAV3O4Ba9-trdbvVztpBxAmMj1RRYQg5TZ2vI-PMEQpKATXlyniM2T4B7vu4lfw02dbVPRNvLx9y9PEuS6EEnNhHr5qEock9pTitPrs7WTQ9I3DJa94v-Z1wcM7f5VBkL5wro-7YKs6ek9qHnlxTfMng96UhmmEk5txlYDwHGu86mEnHh37d2lLjd3uoViTja5TB7C1aHDOs0FN4wx2NByWsPps7vUM__7TMHNqJ7dUy5y8V5too3UlZwYhZeQbBU5c2XcNH7dRTuLOwLkQMOWFm1A417). 
+
+# You might end up on food stamps
+
+In the three years since the 2008-09 recession, the number of PhD's who filed for [food stamps](https://finance.yahoo.com/news/even-a-phd-couldn-t-keep-this-man-off-food-stamps.html) tripled to more than 33,655 in 2010, according to The Chronicle of Higher Education's Urban Institute. In part that's because part-time professors, who are paid by the class, can earn less than university secretaries.
+
+# Academic jobs are tough to find
+
+According to the authors of the book "[Higher Education?](https://www.goodreads.com/book/show/8497456-higher-education?from_search=true&from_srp=true&qid=PIze3TTj34&rank=10)," America produced more than 100,000 doctoral degrees between 2005 and 2009. During that period, however, only 16,000 new professorships were created. Here's another grim stat from the National Science Foundation: Only 14 percent of Americans with a doctorate in biology and the life sciences are landing an academic position within five years of graduating.
+
+# It could cost you
+
+About 40 percent of [PhD candidates](https://versatilephd.com/) borrow money to obtain their degrees, with the average debt nearly $37,000, according to FinAid.org. This debt would be on top of any loans a student assumed as an undergraduate.
+
+# You probably won't get tenure
+
+The old model of academics paying their dues and ultimately securing tenure for life at a tree-lined campus is archaic. Non-tenure-track jobs now account for [68 percent of all faculty appointments](https://www.aaup.org/issues/contingency/background-facts) in the U.S., according to the [American Association of University Professors](https://www.aaup.org/).
+
+# College presidents would eliminate tenure if they could
+
+In a Pew Research Center survey, less than a quarter of college presidents said they favor having most of their faculty as [full-time tenured professors](http://chronicle.com/article/Most-Presidents-Favor-No/127526/).
+
+# More than 50 percent of faculty are part-timers
+
+[Part-time faculty](https://www.aaup.org/AAUP/comm/rep/teachertenure.htm) usually don't have access to health insurance, retirement plans, and other benefits.
+
+
+#  Jobs can also be scarce outside academia
+
+[PhD holders](https://www.cbsnews.com/news/12-reasons-not-to-get-a-phd/%20%20http://www.escapetheivorytower.com/?doing_wp_cron=1341863463.2619750499725341796875) in the humanities have long struggled to find jobs related to their expertise, but it's also become challenging in the sciences. For instance, the pharmaceutical industry was once a job haven for PhD grads in chemistry and biology, but that pipeline has largely dried up as the industry has consolidated and moved jobs outside the U.S.
+
+# Graduate schools play with the numbers
+
+It's hard to find graduate schools that provide meaningful job placement information about their alums. If schools don't track where their PhD's end up, they won't have to share their dreadful track records.
+
+# Unfortunately, you can't eat prestige
+
+But you can write obscure papers that only a handful of people will read.
+
+The bottom line: If you are smart enough to earn a PhD, you are smart enough not to pursue one.
