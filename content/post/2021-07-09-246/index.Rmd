@@ -1,0 +1,16 @@
+---
+title: 'Decision Making Bias: Introduction'
+author: Guanghua Mao
+date: '2021-07-09'
+slug: '246'
+categories:
+  - Original Articles
+tags:
+  - Decision
+---
+
+Since graduating from GMU, I have found a few books that teach us improving our decision making process. I have wrote some articles related to the topic. This year, I found a famous and professional book, [JUDGMENT IN MANAGERIAL DECISION MAKING](https://www.goodreads.com/book/show/89161.Judgment_in_Managerial_Decision_Making?ac=1&from_search=true&qid=oRnoOh5EWc&rank=1). I will introduce the book via a series articles in the next few days.
+
+The book will introduce a number of cognitive bias that are likely to affect the judgment of all types of professionals. I believe everyone are likely to recognize your own tendencies in the research results that I’ll cover. The strategies that the book suggest for overcoming these biases will give you the skills you need to become a better decision maker and to protect yourself, your family, and your organization from avoidable mistakes.
+
+Usually, when we apply a  "rational" decision-making process, there are six steps we should take:
