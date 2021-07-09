@@ -1,12 +1,12 @@
 ---
 title: 你身边生化环材的博士混的最惨的现在都在干什么？
 author: 知乎
-date: '180'
-slug: gsm
+date: '2021-03-28'
 categories:
   - Translation Articles
 tags:
   - Personal
+slug: '180'
 ---
 
 [Source](https://bh.sb/post/47943/)
