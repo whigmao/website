@@ -1,0 +1,47 @@
+---
+title: The Importance of Doing Useless Things
+author: Richard Dawkins
+date: '2021-07-19'
+slug: '258'
+categories:
+  - Translation Articles
+tags:
+  - Culture
+  - Insights
+  - Evolution
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
+---
+
+[Source](https://www.youtube.com/watch?v=gWRumo75pgc&list=WL&index=80)
+
+>解答了我的诸多疑惑，而且我还有必要看一看人性：策略的遗骸这一篇文章。
+
+# Why do humans engage in so many impractical activities?
+
+There are many things that humans do that have nothing to do with contributing to the survival of the individual, at least nothing
+obvious to do with it.
+
+So when we do mathematics and when we do poetry and when we do ballet dancing and all the things that make life worth living, it's very hard to make the case that this contributes to individual survival; it clearly doesn't.
+
+
+What you can make a case for is that the possession of the kind of brain that's capable of doing those things contributed to individual survival in our ancestral past.
+
+So it's not the mathematics itself; it's not that doing algebra helps anybody to survive. But having the kind of big brain that incidentally
+proves itself capable of doing algebra -- having that kind of big brain probably did improve our survival, whether because it literally made us better at -- I don't know -- catching prey or finding nuts or something of that sort.
+
+Or whether, in accordance with the sexual selection theory you just mentioned, it's attractive to the opposite sex.
+
+# Can you elaborate on the theory of sexual selection?
+
+This is a theory of a man called Geoffrey Miller, who is a very interesting evolutionary psychologist. And he -- we do have a bit of a puzzle as
+to why the human brain did get so big, really rather suddenly; it's actually one of the more rapid pieces of evolution that we know.
+
+ver the last three million years or so the human brain has swelled up enormously. And there are various theories as to why this should be. Geoffrey Miller's theory is that, as you say, the mind is a kind of human peacock's tail, and "being clever is sexy" would be one way to put it. But it would manifest itself in the ability to -- I don't know -- remember epic poetry or something of that sort.
+
+I mean, there are all sorts of different ways in which, in particular cultures, it might manifest itself.
+
+
+
