@@ -8,6 +8,10 @@ categories:
 tags:
   - Propaganda
   - Epistemology
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 [Source](https://theconversation.com/how-do-you-know-that-what-you-know-is-true-thats-epistemology-63884)
