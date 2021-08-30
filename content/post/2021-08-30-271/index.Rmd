@@ -9,6 +9,10 @@ tags:
   - Business
   - Economics
   - Firm Behavior
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 [Source](https://www.msn.cn/zh-cn/news/national/%e2%80%9c%e8%91%a1%e8%90%84%e7%95%8c%e7%88%b1%e9%a9%ac%e4%bb%95%e2%80%9d%e8%b7%8c%e8%90%bd%e7%a5%9e%e5%9d%9b%ef%bc%9f6%e5%b9%b4%ef%bc%8c%e4%bb%8e%e6%af%8f%e6%96%a4300%e5%85%83%e8%b7%8c%e8%87%b3%e6%af%8f%e6%96%a410%e5%85%83-%e2%80%9c%e9%98%b3%e5%85%89%e7%8e%ab%e7%91%b0%e2%80%9d%e6%80%8e%e4%b9%88%e4%ba%86%e2%80%a6/ar-AANBArR?ocid=mmx)
