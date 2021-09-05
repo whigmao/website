@@ -1,0 +1,14 @@
+---
+title: 张一鸣微博言论合集
+author: 张一鸣
+date: '2021-09-06'
+slug: '301'
+categories:
+  - Translation Articles
+tags:
+  - Insights
+---
+
+![张一鸣](1.png){width=80%}
+
+![张一鸣](2.png){width=80%}

@@ -1,0 +1,12 @@
+---
+title: 李想言论
+author: 李想
+date: '2021-09-06'
+slug: '302'
+categories:
+  - Translation Articles
+tags:
+  - Insights
+---
+
+![李想](1.png){width=80%}
