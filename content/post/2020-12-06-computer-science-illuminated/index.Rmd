@@ -13,6 +13,12 @@ output:
     number_sections: true
 ---
 
+
+![1](1.png){width=80%}
+
+![2](2.png){width=80%}
+
+
 # Laying the Groundwork
 
 We will examine the different layers that make up a computing system, beginning with the information layer and ending with the communication layer. Our goal is to give you an appreciation and understanding of all aspects of computing systems.

@@ -13,7 +13,7 @@ tags:
   - Politics
 ---
 
-![Pompeo's Twitter](1.png)
+![Pompeo's Twitter](1.png){width=80%}
 
 [Source](https://aclj.org/foreign-policy/the-chinese-communist-partys-anniversary-marks-100-years-of-bloodshed-and-broken-promises)
 

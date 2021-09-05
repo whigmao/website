@@ -21,7 +21,7 @@ output:
 
 >图片与内容无关，最近 Rmarkdown 和 Blogdown 有点问题，测试一下能不能上传成功。
 
-![测试](测试.jpg)
+![测试](测试.jpg){width=80%}
 
 我在硅谷生活多年，亲眼目睹了Google、Facebook、特斯拉、Twitter、Uber、AirBnB 等著名硅谷科技公司的崛起，也很幸运地加入 Google 和特斯拉的人力资源部，亲身经历了两家公司的腾飞过程。
 

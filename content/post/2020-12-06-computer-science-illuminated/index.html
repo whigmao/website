@@ -13,8 +13,7 @@ output:
     number_sections: true
 ---
 
-<link href="index_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
-<script src="index_files/anchor-sections/anchor-sections.js"></script>
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
 
 <div id="TOC">
 <ul>
@@ -29,7 +28,15 @@ output:
 </ul>
 </div>
 
-<div id="laying-the-groundwork" class="section level1">
+<div class="figure">
+<img src="1.png" style="width:80.0%" alt="" />
+<p class="caption">1</p>
+</div>
+<div class="figure">
+<img src="2.png" style="width:80.0%" alt="" />
+<p class="caption">2</p>
+</div>
+<div id="laying-the-groundwork" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Laying the Groundwork</h1>
 <p>We will examine the different layers that make up a computing system, beginning with the information layer and ending with the communication layer. Our goal is to give you an appreciation and understanding of all aspects of computing systems.</p>
 <p>Six layers:</p>
@@ -43,7 +50,7 @@ output:
 </ol>
 <hr />
 </div>
-<div id="information-layer" class="section level1">
+<div id="information-layer" class="section level1" number="2">
 <h1><span class="header-section-number">2</span> Information Layer</h1>
 <p>Binary values is the way in which computer hardware represents and manages information.</p>
 <p>Computers are multimedia devices that manipulate data varying in form from numbers to graphics to video. Because a computer can manipulate only binary values, all forms of data must be represented in binary form. Data is classified as being either continuous (analog) or discrete (digital).</p>
@@ -52,7 +59,7 @@ output:
 <p>Audio information is represented as digitized sound waves. Color is represented by three values that represent the contributions of red, blue, and green, respectively. Two basic techniques are used for representing pictures, bitmaps, and vector graphics. Video is broken up into a series of still images, each of which is represented as a picture.</p>
 <hr />
 </div>
-<div id="hardware-layer" class="section level1">
+<div id="hardware-layer" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Hardware Layer</h1>
 <p>A computer operates at its lowest level by controlling the flow of electricity. Because we are dealing with digital computers that use binary information, we concern ourselves with only two voltage ranges, which we interpret as binary 1 or 0. The flow of electricity is guided by electronic devices called gates, which perform basic logical operations such as NOT, AND, and OR. A gate is created by using one or more transistors, an invention that revolutionized computing.</p>
 <p>Gates can be combined into circuits, in which the output of one gate serves as an input to another gate. By designing these circuits carefully, we can create devices that perform more complex tasks such as adding, multiplexing, and storing data. Collections of gates, or complete circuits, are often embedded into a single integrated circuit, or chip, which leads to the concept of a central processing unit (CPU).</p>
@@ -65,7 +72,7 @@ output:
 <p>Although von Neumann machines are by far the most common, other computer architectures have emerged. For example, there are machines with more than one processor so that calculations can be done in parallel, thereby speeding up the processing.</p>
 <hr />
 </div>
-<div id="programming-layer" class="section level1">
+<div id="programming-layer" class="section level1" number="4">
 <h1><span class="header-section-number">4</span> Programming Layer</h1>
 <p>Now the emphasis changes from what a computer system is to how to use one.</p>
 <p>A computer can store, retrieve, and process data. A user can enter data into the machine, and the machine can display data so that the user can see it. At the lowest level of abstraction, instructions to the machine directly relate to these five operations.</p>
@@ -107,7 +114,7 @@ output:
 </ul>
 <hr />
 </div>
-<div id="operating-system-layer" class="section level1">
+<div id="operating-system-layer" class="section level1" number="5">
 <h1><span class="header-section-number">5</span> Operating System Layer</h1>
 <p>To understand a computer system, you must understand the software that manages and coordinates its pieces. The operating system of a computer is the glue that holds the hardware and software together. It is the software foundation on which all other software rests, allowing us to write programs that interact with the machine. This chapter and the next one explore the way in which an operating system manages computer resources. Just as a policeman organizes the efficient flow of cars through an intersection, an operating system organizes the efficient flow of programs through a computer system.</p>
 <p>An operating system is the part of the system software that manages resources on a computer. It serves as moderator among human users, application software, and the hardware devices in the system.</p>
@@ -124,7 +131,7 @@ output:
 <p>Disk-scheduling algorithms determine the order in which pending disk requests are processed. First-come, first-served disk scheduling takes all requests in order but is not very efficient. Shortest-seek-time-first disk scheduling is more efficient but could suffer from starvation. SCAN disk scheduling employs the same strategy as an elevator, sweeping from one end of the disk to the other.</p>
 <hr />
 </div>
-<div id="applications-layer" class="section level1">
+<div id="applications-layer" class="section level1" number="6">
 <h1><span class="header-section-number">6</span> Applications Layer</h1>
 <p>Computers exist to manage and analyze data. Today they affect almost all aspects of our lives. We use general information systems to manage everything from sports statistics to payroll data. Likewise, cash registers and ATMs are supported by large information systems. In this chapter we examine general-purpose software, particularly spreadsheets and database management systems; these help us organize and analyze the huge amounts of data with which we must deal.</p>
 <p>An information system is application software that allows the user to organize and manage data. General information system software includes spreadsheets and database management systems. Other domain areas, such as artificial intelligence, have their own specific techniques and support for data management.</p>
@@ -150,7 +157,7 @@ output:
 <p>Computer gaming is the simulation of a virtual world within which the players can interact with the system and with each other. A game engine is a software system within which game developers, designers, and programmers create a game’s virtual world.</p>
 <hr />
 </div>
-<div id="communications-layer" class="section level1">
+<div id="communications-layer" class="section level1" number="7">
 <h1><span class="header-section-number">7</span> Communications Layer</h1>
 <p>For many years, computers have played as important a role in communication as they do in computation. This communication is accomplished using computer networks. Like complex highway systems that connect roads in various ways to allow cars to travel from their origin to their destination, computer networks form an infrastructure that allows data to travel from some source computer to a destination. The computer receiving the data may be around the corner or around the world. This chapter explores some of the details of computer networks.</p>
 <p>A network is a collection of computers connected to share resources and data. Network technologies must concern themselves with underlying protocols and data transfer speeds. The client/server model has emerged as an important software technology given our ever-increasing reliance on networks.</p>
@@ -192,7 +199,7 @@ output:
 <p>WikiLeaks is an organization that publishes secret and classified documents on the Web, while protecting the sources of that information from government retaliation. It operates in ways that make it difficult for anyone to influence its practices. While WikiLeaks promotes the need for transparency in a free society, their practices raise concerns, especially in the U.S. military. Furthermore, WikiLeaks was itself recently a target of an online attack that allowed a huge cache of unredacted U.S. State Department documents to be available for download.</p>
 <hr />
 </div>
-<div id="conclusion" class="section level1">
+<div id="conclusion" class="section level1" number="8">
 <h1><span class="header-section-number">8</span> Conclusion</h1>
 <p>Limits are imposed on computer problem-solving by the hardware, the software, and the nature of the problems to be solved. Numbers are infinite, but their representation within a computer is finite. This limitation can cause errors to creep into arithmetic calculations, giving incorrect results. Hardware components can wear out, and information can be lost during intercomputer and intracomputer data transfers.</p>
 <p>The sheer size and complexity of large software projects almost guarantee that errors will occur. Testing a program can demonstrate errors, but it cannot prove the absence of errors. The best way to build good software is to pay attention to quality from the first day of the project, applying the principles of software engineering.</p>
