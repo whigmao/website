@@ -1,0 +1,14 @@
+---
+title: '1'
+author: Guanghua Mao
+date: '2021-09-06'
+slug: '777'
+categories:
+  - Original Articles
+tags:
+  - R
+---
+
+1
+2
+3
