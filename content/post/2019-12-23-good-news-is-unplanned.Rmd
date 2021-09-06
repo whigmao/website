@@ -13,6 +13,8 @@ slug: '1'
 
 Source: Reason, https://reason.com/archives/2015/10/30/good-news-is-unplanned
 
+>这是一切的起点，也是我最喜欢的文章之一
+
 # 好事无需规划
 
 Incremental, bottom-up, trial-and-error innovation yields moral progress, superior technologies, and greater wealth. Top-down mandates from centralized authorities are more likely to produce ethical disasters, technological stagnation, and persistent poverty. “Bad news is man-made, top-down, purposed stuff, imposed on history,” **Matt Ridley** writes in *The Evolution of Everything*. “Good news is accidental, unplanned, emergent stuff that gradually evolves.”
