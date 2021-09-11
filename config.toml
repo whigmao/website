@@ -3,8 +3,10 @@ languageCode = "en-us"
 title = "Guanghua Mao's website"
 theme = "hugo-lithium"
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "guanghuamao"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
