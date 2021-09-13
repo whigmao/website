@@ -1,0 +1,134 @@
+---
+title: 'Introduction to statistical learning 01'
+author: Guanghua Mao
+date: '2021-09-13'
+slug: '306'
+categories:
+  - Translation Articles
+tags:
+  - Book
+  - Book Review
+  - Statistical
+  - Programming
+  - Prediction
+  - Nonlinear system
+  - Data Science
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
+
+---
+
+> 此书第二版初次发行于2021年8月4号，能够及时看到这本书实乃人生之幸，救我个人的求学经验来看，几乎没有人有这样的耐心和毅力看完这本书。
+
+
+
+# An Overview of Statistical Learning
+
+Statistical learning refers to a vast set of tools for understanding data. These
+tools can be classified as supervised or unsupervised. Broadly speaking,
+**supervised statistical learning** involves building a statistical model for predicting, or estimating, an output based on one or more inputs. Problems of
+this nature occur in fields as diverse as business, medicine, astrophysics, and
+public policy. With **unsupervised statistical learning**, there are inputs but
+no supervising output; nevertheless we can learn relationships and structure from such data.
+
+>In this section, the author introduced the basic knowledge about statistical learning and three dataset we would use in the rest of the book.
+
+# A Brief History of Statistical Learning
+
+* 19th century, linear regression.
+
+* 1936, linear discriminant analysis
+
+* 1940s, logistic regression
+
+* 1970s, generalized linear model
+
+By the end of the 1970s, many more techniques for learning from data
+were available. However, they were almost exclusively linear methods because fitting non-linear relationships was computationally difficult at the
+time.
+
+
+* 1980s, classification, regression trees, generalized additive models and neural networks
+
+* 1990s, support vector machines
+
+
+ISL is based on the following four premises.
+
+1. Many statistical learning methods are relevant and useful in a wide
+range of academic and non-academic disciplines, beyond just the statistical sciences.
+
+2. Statistical learning should not be viewed as a series of black boxes.
+
+3. While it is important to know what job is performed by each cog, it
+is not necessary to have the skills to construct the machine inside the
+box!
+
+
+4. We presume that the reader is interested in applying statistical learning methods to real-world problems.
+
+
+In this section, the authors told us the history of statistical learning from 19th century till now.
+
+
+
+# Organization of This Book
+
+* Chapter 2 introduces the basic terminology and concepts behind statistical learning, also, $K$-nearest neighbor classifier.
+
+
+* Chapter 3 reviews linear regression, the fundamental starting point for all regression method
+
+
+* Chapter 4 they discuss two of the
+most important classical classification methods, logistic regression and linear discriminant analysis.
+
+* Chapter 5 they introduce cross-validation and the bootstrap, which can be used to estimate the
+accuracy of a number of different methods in order to choose the best one.
+
+* Chapter 6 we consider a host of linear methods, both
+classical and more modern, which offer potential improvements over standard linear regression. These include stepwise selection, ridge regression,
+principal components regression, and the lasso.
+
+
+**The remaining chapters move into the world of non-linear statistical
+learning.**
+
+* Chapter 7 introduces a number of non-linear methods that work well for problems with a single input variable. We then
+show how these methods can be used to fit non-linear additive models for
+which there is more than one input. 
+
+* Chapter 8 investigates tree-based
+methods, including bagging, boosting, and random forests. 
+
+* Chapter 9 discussed support vector
+machines, a set of approaches for performing both linear and non-linear
+classification.
+
+
+* Chapter 10 covers deep learning, an approach for non-linear regression and classification.
+
+* Chapter 11 explores survival
+analysis, a regression approach that is specialized to the setting in which
+the output variable is censored
+
+
+* Chapter 12 considers the unsupervised setting in which we have
+input variables but no output variable. In particular, we present principal components analysis, K-means clustering, and hierarchical clustering.
+
+
+* Chapter 13 covers the very important topic of multiple hypothesis testing.
+ 
+
+
+
+---
+
+The introduction chapter covers lots of topics. As far as I am concerned, the three chapters, which cover the overview, history of statistical learning and the whole structure of the book, are important for readers.
+
+
+
+
+
