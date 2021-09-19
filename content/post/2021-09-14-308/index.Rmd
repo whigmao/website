@@ -1,0 +1,475 @@
+---
+title: 'Introduction to statistical learning 03---Linear Regression'
+author: Guanghua Mao
+date: '2021-09-13'
+slug: '308'
+categories:
+  - Translation Articles
+tags:
+  - Book
+  - Book Review
+  - Statistical
+  - Programming
+  - Prediction
+  - Nonlinear system
+  - Data Science
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
+---
+
+This chapter is about linear regression, a very simple approach for supervised learning. In particular, linear regression is a useful tool for predicting
+a quantitative response. It serves as a good jumping-off point for
+newer approaches: as we will see in later chapters, many fancy statistical
+learning approaches can be seen as generalizations or extensions of linear
+regression. Consequently, the importance of having a good understanding
+of linear regression before studying more complex learning methods cannot
+be overstated.
+
+# Simple Linear Regression
+
+Simple linear regression lives up to its name: it is a very straightforward approach for predicting a quantitative response $Y$ on the basis of a single predictor variable $X$. It assumes that there is approximately a linear
+relationship between $X$ and $Y$ . Mathematically, we can write this linear
+relationship as
+
+
+<center> $Y \approx \beta_0+\beta_1X$ </center>
+
+In the equation, $\beta_0$ and $\beta_1X$ are two unknown constants that represent
+the intercept and slope terms in the linear model. Together, $\beta_0$ and $\beta_1X$ are
+known as the model coefficients or parameters.
+
+## Estimating the Coefficients
+
+In practice, $\beta_0$ and $\beta_1X$ are unknown. So before we can use the equation to make
+predictions, we must use data to estimate the coefficients. We want to find an intercept  and a slope  such
+that the resulting line is as close as possible to our training data points. There are a number of ways of measuring closeness. However, by far the
+most common approach involves minimizing the least squares criterion.
+
+Let $\hat{y}_i=\hat{\beta}_0+\hat{\beta}_1x_i$ be the prediction for $Y$ based on the $i$th value of $X$.
+Then $e_i = y_i −\hat{y}i$ represents the $i$th residual---this is the difference between the $i$th observed response value and the $i$th response value that is predicted
+by our linear model. We define the residual sum of squares (RSS) as
+
+<center> $RSS = e_1^2+e_2^2+……+e_n^2$ </center>
+
+The least squares approach chooses $\hat{\beta}_0$ and $\hat{\beta}_1$ to minimize the RSS.
+
+
+
+
+## Assessing the Accuracy of the Coefficient Estimates
+
+
+The error term is a catch-all for what we miss with this
+simple model: the true relationship is probably not linear, there may be
+other variables that cause variation in $Y$ , and there may be measurement
+error. We typically assume that the error term is independent of $X$.
+
+The population regression line is the best linear approximation to the true relationship between $X$ and
+$Y$.
+
+At first glance, the difference between the population regression line and
+the least squares line may seem subtle and confusing. We only have one
+data set, and so what does it mean that two different lines describe the
+relationship between the predictor and the response? Fundamentally, the
+concept of these two lines is a natural extension of the standard statistical approach of using information from a sample to estimate characteristics of a
+large population. 
+
+The analogy between linear regression and estimation of the mean of a
+random variable is an apt one based on the concept of bias.
+
+We continue the analogy with the estimation of the population mean
+$\mu$ of a random variable $Y$ . A natural question is as follows: how accurate
+is the sample mean $\hat{\mu}$ as an estimate of $\mu$? We have established that the
+average of $\hat{\mu}$’s over many data sets will be very close to $\mu$, but that a
+single estimate $\hat{\mu}$ may be a substantial underestimate or overestimate of $\mu$.
+How far off will that single estimate of $\hat{\mu}$ be? In general, we answer this
+question by computing the standard error of $\hat{\mu}$, written as $SE(\hat{\mu})$. We have
+
+<center> $Var(\hat{\mu})=SE(\hat{\mu})^2=\frac{\sigma^2}{n}$
+
+>This formula holds provided that the n observations are uncorrelated
+
+Standard errors can be used to compute confidence intervals. A 95 %
+confidence
+confidence interval is defined as a range of values such that with 95 % interval
+probability, the range will contain the true unknown value of the parameter. The range is defined in terms of lower and upper limits computed
+from the sample of data. A 95% confidence interval has the following property: if we take repeated samples and construct the confidence interval for
+each sample, 95% of the intervals will contain the true unknown value of
+the parameter.
+
+Standard errors can also be used to perform hypothesis tests on the coefficients. The most common hypothesis test involves testing the null hypothesis of:
+
+$H_0$ : There is no relationship between $X$ and $Y$.
+
+versus the alternative hypothesis
+
+$H_a$ : There is some relationship between $X$ and $Y$.
+
+Roughly speaking, we interpret the p-value as follows: a small $p$-value indicates that it is unlikely to observe such a substantial association between the predictor and the response due to chance, in the absence of
+any real association between the predictor and the response. Hence, if we see a small $p$-value, then we can infer that there is an association between
+the predictor and the response. We reject the null hypothesis—that is, we
+declare a relationship to exist between $X$ and $Y$ —if the $p$-value is small
+enough. 
+
+## Assessing the Accuracy of the Model
+
+Once we have rejected the null hypothesis in favor of the alternative
+hypothesis, it is natural to want to quantify the extent to which the
+model fits the data. The quality of a linear regression fit is typically assessed
+using two related quantities: the residual standard error (RSE) and the $R^2$ statistic.
+
+### Residual Standard Error
+
+RSE is the average amount that the response
+will deviate from the true regression line. 
+
+The RSE is considered a measure of the lack of fit of the model to
+the data. If the predictions obtained using the model are very close to the
+true outcome values, and we can conclude that the model fits the data very well. On
+the other hand, if $\hat{y}_i$ is very far from $y_i$ for one or more observations, then
+the RSE may be quite large, indicating that the model doesn’t fit the data
+well.
+
+> We can compute $\frac{RSE}{AVG(Y_i)}$
+
+
+### $R^2$ Statistic
+
+$R^2$ measures the proportion of
+variability in $Y$ that can be explained using $X$. An $R^2$ statistic that is close
+to 1 indicates that a large proportion of the variability in the response is
+explained by the regression. A number near 0 indicates that the regression
+does not explain much of the variability in the response. However, it can
+still be challenging to determine what is a good $R^2$ value, and in general,
+this will depend on the application.
+
+The $R^2$ statistic is a measure of the linear relationship between $X$ and
+$Y$ . Recall that correlation is also a measure of the linear relationship between $X$ and $Y$. In fact, it can be shown that in the simple
+linear regression setting, $R^2 = r^2$. However, in the next section we will
+discuss the multiple linear regression problem, in which we use several predictors simultaneously to predict the response. The concept of correlation
+between the predictors and the response does not extend automatically to
+this setting, since correlation quantifies the association between a single
+pair of variables rather than between a larger number of variables. We will
+see that $R^2$ fills this role.
+
+---
+
+# Multiple Linear Regression
+
+Simple linear regression is a useful approach for predicting a response on the
+basis of a single predictor variable. However, in practice we often have more
+than one predictor. The approach of fitting a separate simple linear regression model
+for each predictor is not entirely satisfactory. First of all, it is unclear how to
+make a single prediction of sales given the three advertising media budgets,
+since each of the budgets is associated with a separate regression equation.
+Second, each of the three regression equations ignores the other two media
+in forming estimates for the regression coefficients.  Instead of fitting a separate simple linear regression model for each predictor, a better approach is to extend the simple linear regression model so that it can directly accommodate multiple predictors. We can do
+this by giving each predictor a separate slope coefficient in a single model
+
+
+## Estimating the Regression Coefficients
+
+The parameters are estimated using the same least squares approach .
+
+## Some Important Questions
+
+When we perform multiple linear regression, we usually are interested in
+answering a few important questions.
+
+### Is There a Relationship Between the Response and Predictors?
+
+As in the simple linear regression
+setting, we use a hypothesis test to answer this question. We test the null
+hypothesis,
+
+<center> $H_0 = \beta_0+\beta_1+……+\beta_P=0$ </center>
+
+versus the alternative
+
+<center> $H_a$ = at least one $\beta_j$ is non-zero </center> 
+
+
+This hypothesis test is performed by computing the $F -statistic$, the
+large $F-statistic$ suggests that at least one of the predictors must
+be related to response. How large does the $F$-statistic need to be before we can reject $H_0$ and
+conclude that there is a relationship? It turns out that the answer depends
+on the values of $n$ and $p$. When $n$ is large, an $F$-statistic that is just a
+little larger than 1 might still provide evidence against $H_0$. In contrast,
+a larger $F$-statistic is needed to reject $H_0$ if $n$ is small. For any given value of $n$ and $p$, any statistical software
+package can be used to compute the $p$-value associated with the $F$-statistic
+using this distribution. Based on this $p$-value, we can determine whether
+or not to reject $H_0$.
+
+Given these individual $p$-values for each variable, why do we need to look
+at the overall $F$ -statistic? After all, it seems likely that if any one of the
+$p$-values for the individual variables is very small, then at least one of the
+predictors is related to the response. However, this logic is flawed, especially
+when the number of predictors $p$ is large.
+
+We expect to see approximately five small $p$-values even in the absence of
+any true association between the predictors and the response. In fact, it
+is likely that we will observe at least one $p$-value below 0.05 by chance.
+
+Hence, if we use the individual t-statistics and associated $p$-values in order
+to decide whether or not there is any association between the variables and
+the response, there is a very high chance that we will incorrectly conclude
+that there is a relationship. However, the $F$ -statistic does not suffer from
+this problem because it adjusts for the number of predictors. Hence, if $H_0$
+is true, there is only a 5 % chance that the $F$ -statistic will result in a $p$-value below 0.05, regardless of the number of predictors or the number of
+observations.
+
+> So the $F$-statistic is so useful.
+
+The approach of using an $F$-statistic to test for any association between
+the predictors and the response works when $p$ is relatively small, and certainly small compared to $n$. However, sometimes we have a very large number of variables. If $p$ > $n$ then there are more coefficients $\beta_j$ to estimate
+than observations from which to estimate them. In this case we cannot
+even fit the multiple linear regression model using least squares, so the $F$-statistic cannot be used, and neither can most of the other concepts that
+we have seen so far in this chapter. When $p$ is large, some of the approaches
+discussed in the next section, such as $forward$ $selection$, can be used. This
+high-dimensional setting is discussed in greater detail in later chapter.
+
+### Deciding on Important Variables
+
+As discussed in the previous section, the first step in a multiple regression
+analysis is to compute the $F$-statistic and to examine the associated $p$-value. If we conclude on the basis of that $p$-value that at least one of the
+predictors is related to the response, then it is natural to wonder which are
+the guilty ones! We could look at the individual $p$-values,
+but as discussed, if $p$ is large we
+are likely to make some false discoveries.
+
+It is possible that all of the predictors are associated with the response,
+but it is more often the case that the response is only associated with
+a subset of the predictors. The task of determining which predictors are
+associated with the response, in order to fit a single model involving only
+those predictors, is referred to as *variable selection*. 
+
+Ideally, we would like to perform variable selection by trying out a lot of
+different models, each containing a different subset of the predictors. For
+instance, if $p$ = 2, then we can consider four models: (1) a model containing no variables, (2) a model containing $X_1$ only, (3) a model containing
+$X_2$ only, and (4) a model containing both $X_1$ and $X_2$. We can then select the best model out of all of the models that we have considered. How
+do we determine which model is best? Various statistics can be used to
+judge the quality of a model. These include Mallow’s Cp, Akaike information criterion (AIC), Bayesian information criterion (BIC), and adjusted $R^2$. We can also determine which model is best by plotting various model outputs, such as the residuals, in order to search for patterns.
+
+Unfortunately, there are a total of $2^p$ models that contain subsets of $p$ variables. This means that even for moderate $p$, trying out every possible subset of the predictors is infeasible. Therefore, unless p is very
+small, we cannot consider all $2^p$ models, and instead we need an automated and efficient approach to choose a smaller set of models to consider. There
+are three classical approaches for this task:
+
+* Forward selection. We begin with the null model—a model that contains an intercept but no predictors. We then fit $p$ simple linear regressions and add to the null model the variable that results in the
+lowest RSS. We then add to that model the variable that results
+in the lowest RSS for the new two-variable model. This approach is
+continued until some stopping rule is satisfied.
+
+* Backward selection. We start with all variables in the model, and
+remove the variable with the largest $p$-value—that is, the variable selection
+that is the least statistically significant. The new $(p − 1)$-variable
+model is fit, and the variable with the largest p-value is removed. This
+procedure continues until a stopping rule is reached. For instance, we
+may stop when all remaining variables have a p-value below some
+threshold.
+
+* Mixed selection. This is a combination of forward and backward selection. We start with no variables in the model, and as with forward selection, we add the variable that provides the best fit. We continue to add variables one-by-one.
+
+
+Backward selection cannot be used if $p > n$, while forward selection can
+always be used. Forward selection is a greedy approach, and might include
+variables early that later become redundant. Mixed selection can remedy
+this.
+
+### Model Fit
+
+Two of the most common numerical measures of model fit are the RSE and
+$R^2$, the fraction of variance explained. These quantities are computed and
+interpreted in the same fashion as for simple linear regression.
+
+An $R^2$ value close to 1 indicates that the model explains a large portion
+of the variance in the response variable.
+
+Models with
+more variables can have higher RSE if the decrease in RSS is small relative
+to the increase in $p$.
+
+### Predictions
+
+Once we have fit the multiple regression model, it is straightforward to
+apply our model in order to predict the response $Y$ on the basis of a set of
+values for the predictors. However, there are three sorts of
+uncertainty associated with this prediction.
+
+1. The coefficient estimates $\hat{\beta}_0, \hat{\beta}_1, ……, \hat{\beta}_p$ are estimates for $\beta_0, \beta_1, ……, \beta_p$. is only an estimate for the true population regression plane. The inaccuracy in the coefficient estimates is related to the reducible
+error. We can compute a confidence interval 
+
+2. Of course, in practice assuming a linear model for $f(X)$ is almost
+always an approximation of reality, so there is an additional source of
+potentially reducible error which we call model bias. So when we use a
+linear model, we are in fact estimating the best linear approximation
+to the true surface. However, here we will ignore this discrepancy,
+and operate as if the linear model were correct
+
+3. Even if we knew $f(X)$—that is, even if we knew the true values
+for $\beta_0, \beta_1, ……, \beta_p$—the response value cannot be predicted perfectly
+because of the random error $\epsilon$ in the model. We
+referred to this as the irreducible error. How much will $Y$ vary from
+$\hat{Y}$ ? We use prediction intervals to answer this question. Prediction
+intervals are always wider than confidence intervals, because they
+incorporate both the error in the estimate for $f(X)$ (the reducible
+error) and the uncertainty as to how much an individual point will
+differ from the population regression plane (the irreducible error).
+
+---
+
+# Other Considerations in the Regression Model
+
+## Qualitative Predictors
+
+In our discussion so far, we have assumed that all variables in our linear
+regression model are quantitative. But in practice, this is not necessarily
+the case; often some predictors are qualitative.
+
+In our discussion so far, we have assumed that all variables in our linear
+regression model are quantitative. But in practice, this is not necessarily
+the case; often some predictors are qualitative.
+
+### Predictors with Only Two Levels
+
+
+If a qualitative predictor (also known as a factor) only has two levels, or possible values, then incorporating it into a regression model is very simple. We simply create an indicator or dummy variable that takes on two possible numerical values and use this variable as a predictor in the regression equation.
+
+> In the machine learning community, the creation of dummy variables to handle
+qualitative predictors is known as “one-hot encoding”.
+
+The decision to code owners as 1 and non-owners as 0 is arbitrary, and has no effect on the regression fit, but does alter the interpretation of the coefficients. 
+
+
+### Qualitative Predictors with More than Two Levels
+
+When a qualitative predictor has more than two levels, a single dummy
+variable cannot represent all possible values. In this situation, we can create
+additional dummy variables.
+
+ There will always be one fewer dummy variable than the number
+of levels. The level with no dummy variable is
+known as the baseline.
+
+Using this dummy variable approach presents no difficulties when incorporating both quantitative and qualitative predictors.
+
+There are many different ways of coding qualitative variables besides
+the dummy variable approach taken here. All of these approaches lead to
+equivalent model fits, but the coefficients are different and have different
+interpretations, and are designed to measure particular contrasts.
+
+## Extensions of the Linear Model
+
+The standard linear regression model provides interpretable results
+and works quite well on many real-world problems. However, it makes several highly restrictive assumptions that are often violated in practice. Two
+of the most important assumptions state that the relationship between the
+predictors and response are additive and linear.  The additivity assumption
+additive
+means that the association between a predictor $X_j$ and the response $Y$ does linear
+not depend on the values of the other predictors. The linearity assumption
+states that the change in the response $Y$ associated with a one-unit change
+in $X_j$ is constant, regardless of the value of $X_j$.
+
+In later chapters, we examine a number of sophisticated methods that relax these two
+assumptions. Here, we briefly examine some common classical approaches
+for extending the linear model.
+
+### Removing the Additive Assumption
+
+
+In marketing, this is known as a synergy effect,
+and in statistics it is referred to as an interaction effect. 
+
+Consider the standard linear regression model with two variables,
+
+<center> $Y = \beta_0+\beta_1X_1+\beta_2X_2+\epsilon$ </center>
+
+According to this model, a one-unit increase in $X_1$ is associated with an
+average increase in $Y$ of $\beta_1$ units. Notice that the presence of $X_2$ does
+not alter this statement—that is, regardless of the value of $X_2$, a one-unit increase in $X_1$ is associated with a $\beta_1$-unit increase in $Y$ . One way of
+extending this model is to include a third predictor, called an interaction
+term, which is constructed by computing the product of $X_1$ and $X_2$. This
+results in the model
+
+<center> $Y = \beta_0+\beta_1X_1+\beta_2X_2+\beta_3X_1X_2+\epsilon$ </center>
+
+The hierarchical principle states that if we include an interaction in a model, we should also include the main effects, even if the $p$-values associated with heir coefficients are not significant. In other words, if the interaction between $X_1$ and $X_2$ seems important, then we should include both $X_1$ and
+$X_2$ in the model even if their coefficient estimates have large $p$-values. The
+rationale for this principle is that if $X_1 × X_2$ is related to the response,
+then whether or not the coefficients of $X_1$ or X2 are exactly zero is of little interest. Also $X_1$ × $X_2$ is typically correlated with $X_1$ and $X_2$, and so
+leaving them out tends to alter the meaning of the interaction. 
+
+The concept of
+interactions applies just as well to qualitative variables, or to a combination
+of quantitative and qualitative variables. In fact, an interaction between
+a qualitative variable and a quantitative variable has a particularly nice
+interpretation. 
+
+![Left: The model was fit. There is no interaction between income and student. Right: The
+model was fit. There is an interaction term between income and student.](1.png)
+
+### Non-linear Relationships
+
+As discussed previously, the linear regression model assumes a linear
+relationship between the response and predictors. But in some cases, the
+true relationship between the response and the predictors may be nonlinear. Here we present a very simple way to directly extend the linear model
+to accommodate non-linear relationships, using *polynomial regression*. In later chapters, we will present more complex approaches for performing non-linear fits in more general settings.
+
+A simple
+approach for incorporating non-linear associations in a linear model is to
+include transformed versions of the predictors. 
+
+The approach that we have just described for extending the linear model
+to accommodate non-linear relationships is known as polynomial regression, since we have included polynomial functions of the predictors in the
+regression model.
+
+The approach that we have just described for extending the linear model
+to accommodate non-linear relationships is known as polynomial regression, since we have included polynomial functions of the predictors in the
+regression model.
+
+We need to use $R^2$ and $p$-value to check whethe the non-linear model is a better fit.
+
+## Potential Problems
+
+When we fit a linear regression model to a particular data set, many problems may occur. Most common among these are the following:
+
+1. Non-linearity of the response-predictor relationships.
+
+2. Correlation of error terms.
+
+3. Non-constant variance of error terms
+
+4. Outliers.
+
+5. High-leverage points
+
+6. Collinearity.
+
+###  Non-linearity of the Data
+
+The linear regression model assumes that there is a straight-line relationship between the predictors and the response. If the true relationship
+is far from linear, then virtually all of the conclusions that we draw from
+the fit are suspect. In addition, the prediction accuracy of the model can
+be significantly reduced.
+
+Residual plots are a useful graphical tool for identifying non-linearity.
+
+If the residual plot indicates that there are non-linear associations in the
+data, then a simple approach is to use non-linear transformations of the
+predictors, such as $log X, \sqrt{X}, and X^2,$ in the regression model. In the
+later chapters, we will discuss other more advanced non-linear
+approaches for addressing this issue.
+
+
+### Correlation of Error Terms
+
+> 未完待续
+
+## The Marketing Plan
+
+Excellent Analysis.
+
+## 
+
+

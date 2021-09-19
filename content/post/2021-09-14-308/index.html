@@ -1,0 +1,421 @@
+---
+title: 'Introduction to statistical learning 03---Linear Regression'
+author: Guanghua Mao
+date: '2021-09-13'
+slug: '308'
+categories:
+  - Translation Articles
+tags:
+  - Book
+  - Book Review
+  - Statistical
+  - Programming
+  - Prediction
+  - Nonlinear system
+  - Data Science
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
+---
+
+<script src="{{< blogdown/postref >}}index_files/header-attrs/header-attrs.js"></script>
+
+<div id="TOC">
+<ul>
+<li><a href="#simple-linear-regression"><span class="toc-section-number">1</span> Simple Linear Regression</a>
+<ul>
+<li><a href="#estimating-the-coefficients"><span class="toc-section-number">1.1</span> Estimating the Coefficients</a></li>
+<li><a href="#assessing-the-accuracy-of-the-coefficient-estimates"><span class="toc-section-number">1.2</span> Assessing the Accuracy of the Coefficient Estimates</a></li>
+<li><a href="#assessing-the-accuracy-of-the-model"><span class="toc-section-number">1.3</span> Assessing the Accuracy of the Model</a>
+<ul>
+<li><a href="#residual-standard-error"><span class="toc-section-number">1.3.1</span> Residual Standard Error</a></li>
+<li><a href="#r2-statistic"><span class="toc-section-number">1.3.2</span> <span class="math inline">\(R^2\)</span> Statistic</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#multiple-linear-regression"><span class="toc-section-number">2</span> Multiple Linear Regression</a>
+<ul>
+<li><a href="#estimating-the-regression-coefficients"><span class="toc-section-number">2.1</span> Estimating the Regression Coefficients</a></li>
+<li><a href="#some-important-questions"><span class="toc-section-number">2.2</span> Some Important Questions</a>
+<ul>
+<li><a href="#is-there-a-relationship-between-the-response-and-predictors"><span class="toc-section-number">2.2.1</span> Is There a Relationship Between the Response and Predictors?</a></li>
+<li><a href="#deciding-on-important-variables"><span class="toc-section-number">2.2.2</span> Deciding on Important Variables</a></li>
+<li><a href="#model-fit"><span class="toc-section-number">2.2.3</span> Model Fit</a></li>
+<li><a href="#predictions"><span class="toc-section-number">2.2.4</span> Predictions</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#other-considerations-in-the-regression-model"><span class="toc-section-number">3</span> Other Considerations in the Regression Model</a>
+<ul>
+<li><a href="#qualitative-predictors"><span class="toc-section-number">3.1</span> Qualitative Predictors</a>
+<ul>
+<li><a href="#predictors-with-only-two-levels"><span class="toc-section-number">3.1.1</span> Predictors with Only Two Levels</a></li>
+<li><a href="#qualitative-predictors-with-more-than-two-levels"><span class="toc-section-number">3.1.2</span> Qualitative Predictors with More than Two Levels</a></li>
+</ul></li>
+<li><a href="#extensions-of-the-linear-model"><span class="toc-section-number">3.2</span> Extensions of the Linear Model</a>
+<ul>
+<li><a href="#removing-the-additive-assumption"><span class="toc-section-number">3.2.1</span> Removing the Additive Assumption</a></li>
+<li><a href="#non-linear-relationships"><span class="toc-section-number">3.2.2</span> Non-linear Relationships</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</div>
+
+<p>This chapter is about linear regression, a very simple approach for supervised learning. In particular, linear regression is a useful tool for predicting
+a quantitative response. It serves as a good jumping-off point for
+newer approaches: as we will see in later chapters, many fancy statistical
+learning approaches can be seen as generalizations or extensions of linear
+regression. Consequently, the importance of having a good understanding
+of linear regression before studying more complex learning methods cannot
+be overstated.</p>
+<div id="simple-linear-regression" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Simple Linear Regression</h1>
+<p>Simple linear regression lives up to its name: it is a very straightforward approach for predicting a quantitative response <span class="math inline">\(Y\)</span> on the basis of a single predictor variable <span class="math inline">\(X\)</span>. It assumes that there is approximately a linear
+relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> . Mathematically, we can write this linear
+relationship as</p>
+<center>
+<span class="math inline">\(Y \approx \beta_0+\beta_1X\)</span>
+</center>
+<p>In the equation, <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1X\)</span> are two unknown constants that represent
+the intercept and slope terms in the linear model. Together, <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1X\)</span> are
+known as the model coefficients or parameters.</p>
+<div id="estimating-the-coefficients" class="section level2" number="1.1">
+<h2><span class="header-section-number">1.1</span> Estimating the Coefficients</h2>
+<p>In practice, <span class="math inline">\(\beta_0\)</span> and <span class="math inline">\(\beta_1X\)</span> are unknown. So before we can use the equation to make
+predictions, we must use data to estimate the coefficients. We want to find an intercept and a slope such
+that the resulting line is as close as possible to our training data points. There are a number of ways of measuring closeness. However, by far the
+most common approach involves minimizing the least squares criterion.</p>
+<p>Let <span class="math inline">\(\hat{y}_i=\hat{\beta}_0+\hat{\beta}_1x_i\)</span> be the prediction for <span class="math inline">\(Y\)</span> based on the <span class="math inline">\(i\)</span>th value of <span class="math inline">\(X\)</span>.
+Then <span class="math inline">\(e_i = y_i −\hat{y}i\)</span> represents the <span class="math inline">\(i\)</span>th residual—this is the difference between the <span class="math inline">\(i\)</span>th observed response value and the <span class="math inline">\(i\)</span>th response value that is predicted
+by our linear model. We define the residual sum of squares (RSS) as</p>
+<center>
+<span class="math inline">\(RSS = e_1^2+e_2^2+……+e_n^2\)</span>
+</center>
+<p>The least squares approach chooses <span class="math inline">\(\hat{\beta}_0\)</span> and <span class="math inline">\(\hat{\beta}_1\)</span> to minimize the RSS.</p>
+</div>
+<div id="assessing-the-accuracy-of-the-coefficient-estimates" class="section level2" number="1.2">
+<h2><span class="header-section-number">1.2</span> Assessing the Accuracy of the Coefficient Estimates</h2>
+<p>The error term is a catch-all for what we miss with this
+simple model: the true relationship is probably not linear, there may be
+other variables that cause variation in <span class="math inline">\(Y\)</span> , and there may be measurement
+error. We typically assume that the error term is independent of <span class="math inline">\(X\)</span>.</p>
+<p>The population regression line is the best linear approximation to the true relationship between <span class="math inline">\(X\)</span> and
+<span class="math inline">\(Y\)</span>.</p>
+<p>At first glance, the difference between the population regression line and
+the least squares line may seem subtle and confusing. We only have one
+data set, and so what does it mean that two different lines describe the
+relationship between the predictor and the response? Fundamentally, the
+concept of these two lines is a natural extension of the standard statistical approach of using information from a sample to estimate characteristics of a
+large population.</p>
+<p>The analogy between linear regression and estimation of the mean of a
+random variable is an apt one based on the concept of bias.</p>
+<p>We continue the analogy with the estimation of the population mean
+<span class="math inline">\(\mu\)</span> of a random variable <span class="math inline">\(Y\)</span> . A natural question is as follows: how accurate
+is the sample mean <span class="math inline">\(\hat{\mu}\)</span> as an estimate of <span class="math inline">\(\mu\)</span>? We have established that the
+average of <span class="math inline">\(\hat{\mu}\)</span>’s over many data sets will be very close to <span class="math inline">\(\mu\)</span>, but that a
+single estimate <span class="math inline">\(\hat{\mu}\)</span> may be a substantial underestimate or overestimate of <span class="math inline">\(\mu\)</span>.
+How far off will that single estimate of <span class="math inline">\(\hat{\mu}\)</span> be? In general, we answer this
+question by computing the standard error of <span class="math inline">\(\hat{\mu}\)</span>, written as <span class="math inline">\(SE(\hat{\mu})\)</span>. We have</p>
+<center>
+<p><span class="math inline">\(Var(\hat{\mu})=SE(\hat{\mu})^2=\frac{\sigma^2}{n}\)</span></p>
+<blockquote>
+<p>This formula holds provided that the n observations are uncorrelated</p>
+</blockquote>
+<p>Standard errors can be used to compute confidence intervals. A 95 %
+confidence
+confidence interval is defined as a range of values such that with 95 % interval
+probability, the range will contain the true unknown value of the parameter. The range is defined in terms of lower and upper limits computed
+from the sample of data. A 95% confidence interval has the following property: if we take repeated samples and construct the confidence interval for
+each sample, 95% of the intervals will contain the true unknown value of
+the parameter.</p>
+<p>Standard errors can also be used to perform hypothesis tests on the coefficients. The most common hypothesis test involves testing the null hypothesis of:</p>
+<p><span class="math inline">\(H_0\)</span> : There is no relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>.</p>
+<p>versus the alternative hypothesis</p>
+<p><span class="math inline">\(H_a\)</span> : There is some relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>.</p>
+<p>Roughly speaking, we interpret the p-value as follows: a small <span class="math inline">\(p\)</span>-value indicates that it is unlikely to observe such a substantial association between the predictor and the response due to chance, in the absence of
+any real association between the predictor and the response. Hence, if we see a small <span class="math inline">\(p\)</span>-value, then we can infer that there is an association between
+the predictor and the response. We reject the null hypothesis—that is, we
+declare a relationship to exist between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> —if the <span class="math inline">\(p\)</span>-value is small
+enough.</p>
+</div>
+<div id="assessing-the-accuracy-of-the-model" class="section level2" number="1.3">
+<h2><span class="header-section-number">1.3</span> Assessing the Accuracy of the Model</h2>
+<p>Once we have rejected the null hypothesis in favor of the alternative
+hypothesis, it is natural to want to quantify the extent to which the
+model fits the data. The quality of a linear regression fit is typically assessed
+using two related quantities: the residual standard error (RSE) and the <span class="math inline">\(R^2\)</span> statistic.</p>
+<div id="residual-standard-error" class="section level3" number="1.3.1">
+<h3><span class="header-section-number">1.3.1</span> Residual Standard Error</h3>
+<p>RSE is the average amount that the response
+will deviate from the true regression line.</p>
+<p>The RSE is considered a measure of the lack of fit of the model to
+the data. If the predictions obtained using the model are very close to the
+true outcome values, and we can conclude that the model fits the data very well. On
+the other hand, if <span class="math inline">\(\hat{y}_i\)</span> is very far from <span class="math inline">\(y_i\)</span> for one or more observations, then
+the RSE may be quite large, indicating that the model doesn’t fit the data
+well.</p>
+<blockquote>
+<p>We can compute <span class="math inline">\(\frac{RSE}{AVG(Y_i)}\)</span></p>
+</blockquote>
+</div>
+<div id="r2-statistic" class="section level3" number="1.3.2">
+<h3><span class="header-section-number">1.3.2</span> <span class="math inline">\(R^2\)</span> Statistic</h3>
+<p><span class="math inline">\(R^2\)</span> measures the proportion of
+variability in <span class="math inline">\(Y\)</span> that can be explained using <span class="math inline">\(X\)</span>. An <span class="math inline">\(R^2\)</span> statistic that is close
+to 1 indicates that a large proportion of the variability in the response is
+explained by the regression. A number near 0 indicates that the regression
+does not explain much of the variability in the response. However, it can
+still be challenging to determine what is a good <span class="math inline">\(R^2\)</span> value, and in general,
+this will depend on the application.</p>
+<p>The <span class="math inline">\(R^2\)</span> statistic is a measure of the linear relationship between <span class="math inline">\(X\)</span> and
+<span class="math inline">\(Y\)</span> . Recall that correlation is also a measure of the linear relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>. In fact, it can be shown that in the simple
+linear regression setting, <span class="math inline">\(R^2 = r^2\)</span>. However, in the next section we will
+discuss the multiple linear regression problem, in which we use several predictors simultaneously to predict the response. The concept of correlation
+between the predictors and the response does not extend automatically to
+this setting, since correlation quantifies the association between a single
+pair of variables rather than between a larger number of variables. We will
+see that <span class="math inline">\(R^2\)</span> fills this role.</p>
+<hr />
+</div>
+</div>
+</div>
+<div id="multiple-linear-regression" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Multiple Linear Regression</h1>
+<p>Simple linear regression is a useful approach for predicting a response on the
+basis of a single predictor variable. However, in practice we often have more
+than one predictor. The approach of fitting a separate simple linear regression model
+for each predictor is not entirely satisfactory. First of all, it is unclear how to
+make a single prediction of sales given the three advertising media budgets,
+since each of the budgets is associated with a separate regression equation.
+Second, each of the three regression equations ignores the other two media
+in forming estimates for the regression coefficients. Instead of fitting a separate simple linear regression model for each predictor, a better approach is to extend the simple linear regression model so that it can directly accommodate multiple predictors. We can do
+this by giving each predictor a separate slope coefficient in a single model</p>
+<div id="estimating-the-regression-coefficients" class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Estimating the Regression Coefficients</h2>
+<p>The parameters are estimated using the same least squares approach .</p>
+</div>
+<div id="some-important-questions" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> Some Important Questions</h2>
+<p>When we perform multiple linear regression, we usually are interested in
+answering a few important questions.</p>
+<div id="is-there-a-relationship-between-the-response-and-predictors" class="section level3" number="2.2.1">
+<h3><span class="header-section-number">2.2.1</span> Is There a Relationship Between the Response and Predictors?</h3>
+<p>As in the simple linear regression
+setting, we use a hypothesis test to answer this question. We test the null
+hypothesis,</p>
+<center>
+<span class="math inline">\(H_0 = \beta_0+\beta_1+……+\beta_P=0\)</span>
+</center>
+<p>versus the alternative</p>
+<center>
+<span class="math inline">\(H_a\)</span> = at least one <span class="math inline">\(\beta_j\)</span> is non-zero
+</center>
+<p>This hypothesis test is performed by computing the <span class="math inline">\(F -statistic\)</span>, the
+large <span class="math inline">\(F-statistic\)</span> suggests that at least one of the predictors must
+be related to response. How large does the <span class="math inline">\(F\)</span>-statistic need to be before we can reject <span class="math inline">\(H_0\)</span> and
+conclude that there is a relationship? It turns out that the answer depends
+on the values of <span class="math inline">\(n\)</span> and <span class="math inline">\(p\)</span>. When <span class="math inline">\(n\)</span> is large, an <span class="math inline">\(F\)</span>-statistic that is just a
+little larger than 1 might still provide evidence against <span class="math inline">\(H_0\)</span>. In contrast,
+a larger <span class="math inline">\(F\)</span>-statistic is needed to reject <span class="math inline">\(H_0\)</span> if <span class="math inline">\(n\)</span> is small. For any given value of <span class="math inline">\(n\)</span> and <span class="math inline">\(p\)</span>, any statistical software
+package can be used to compute the <span class="math inline">\(p\)</span>-value associated with the <span class="math inline">\(F\)</span>-statistic
+using this distribution. Based on this <span class="math inline">\(p\)</span>-value, we can determine whether
+or not to reject <span class="math inline">\(H_0\)</span>.</p>
+<p>Given these individual <span class="math inline">\(p\)</span>-values for each variable, why do we need to look
+at the overall <span class="math inline">\(F\)</span> -statistic? After all, it seems likely that if any one of the
+<span class="math inline">\(p\)</span>-values for the individual variables is very small, then at least one of the
+predictors is related to the response. However, this logic is flawed, especially
+when the number of predictors <span class="math inline">\(p\)</span> is large.</p>
+<p>We expect to see approximately five small <span class="math inline">\(p\)</span>-values even in the absence of
+any true association between the predictors and the response. In fact, it
+is likely that we will observe at least one <span class="math inline">\(p\)</span>-value below 0.05 by chance.</p>
+<p>Hence, if we use the individual t-statistics and associated <span class="math inline">\(p\)</span>-values in order
+to decide whether or not there is any association between the variables and
+the response, there is a very high chance that we will incorrectly conclude
+that there is a relationship. However, the <span class="math inline">\(F\)</span> -statistic does not suffer from
+this problem because it adjusts for the number of predictors. Hence, if <span class="math inline">\(H_0\)</span>
+is true, there is only a 5 % chance that the <span class="math inline">\(F\)</span> -statistic will result in a <span class="math inline">\(p\)</span>-value below 0.05, regardless of the number of predictors or the number of
+observations.</p>
+<blockquote>
+<p>So the <span class="math inline">\(F\)</span>-statistic is so useful.</p>
+</blockquote>
+<p>The approach of using an <span class="math inline">\(F\)</span>-statistic to test for any association between
+the predictors and the response works when <span class="math inline">\(p\)</span> is relatively small, and certainly small compared to <span class="math inline">\(n\)</span>. However, sometimes we have a very large number of variables. If <span class="math inline">\(p\)</span> &gt; <span class="math inline">\(n\)</span> then there are more coefficients <span class="math inline">\(\beta_j\)</span> to estimate
+than observations from which to estimate them. In this case we cannot
+even fit the multiple linear regression model using least squares, so the <span class="math inline">\(F\)</span>-statistic cannot be used, and neither can most of the other concepts that
+we have seen so far in this chapter. When <span class="math inline">\(p\)</span> is large, some of the approaches
+discussed in the next section, such as <span class="math inline">\(forward\)</span> <span class="math inline">\(selection\)</span>, can be used. This
+high-dimensional setting is discussed in greater detail in later chapter.</p>
+</div>
+<div id="deciding-on-important-variables" class="section level3" number="2.2.2">
+<h3><span class="header-section-number">2.2.2</span> Deciding on Important Variables</h3>
+<p>As discussed in the previous section, the first step in a multiple regression
+analysis is to compute the <span class="math inline">\(F\)</span>-statistic and to examine the associated <span class="math inline">\(p\)</span>-value. If we conclude on the basis of that <span class="math inline">\(p\)</span>-value that at least one of the
+predictors is related to the response, then it is natural to wonder which are
+the guilty ones! We could look at the individual <span class="math inline">\(p\)</span>-values,
+but as discussed, if <span class="math inline">\(p\)</span> is large we
+are likely to make some false discoveries.</p>
+<p>It is possible that all of the predictors are associated with the response,
+but it is more often the case that the response is only associated with
+a subset of the predictors. The task of determining which predictors are
+associated with the response, in order to fit a single model involving only
+those predictors, is referred to as <em>variable selection</em>.</p>
+<p>Ideally, we would like to perform variable selection by trying out a lot of
+different models, each containing a different subset of the predictors. For
+instance, if <span class="math inline">\(p\)</span> = 2, then we can consider four models: (1) a model containing no variables, (2) a model containing <span class="math inline">\(X_1\)</span> only, (3) a model containing
+<span class="math inline">\(X_2\)</span> only, and (4) a model containing both <span class="math inline">\(X_1\)</span> and <span class="math inline">\(X_2\)</span>. We can then select the best model out of all of the models that we have considered. How
+do we determine which model is best? Various statistics can be used to
+judge the quality of a model. These include Mallow’s Cp, Akaike information criterion (AIC), Bayesian information criterion (BIC), and adjusted <span class="math inline">\(R^2\)</span>. We can also determine which model is best by plotting various model outputs, such as the residuals, in order to search for patterns.</p>
+<p>Unfortunately, there are a total of <span class="math inline">\(2^p\)</span> models that contain subsets of <span class="math inline">\(p\)</span> variables. This means that even for moderate <span class="math inline">\(p\)</span>, trying out every possible subset of the predictors is infeasible. Therefore, unless p is very
+small, we cannot consider all <span class="math inline">\(2^p\)</span> models, and instead we need an automated and efficient approach to choose a smaller set of models to consider. There
+are three classical approaches for this task:</p>
+<ul>
+<li><p>Forward selection. We begin with the null model—a model that contains an intercept but no predictors. We then fit <span class="math inline">\(p\)</span> simple linear regressions and add to the null model the variable that results in the
+lowest RSS. We then add to that model the variable that results
+in the lowest RSS for the new two-variable model. This approach is
+continued until some stopping rule is satisfied.</p></li>
+<li><p>Backward selection. We start with all variables in the model, and
+remove the variable with the largest <span class="math inline">\(p\)</span>-value—that is, the variable selection
+that is the least statistically significant. The new <span class="math inline">\((p − 1)\)</span>-variable
+model is fit, and the variable with the largest p-value is removed. This
+procedure continues until a stopping rule is reached. For instance, we
+may stop when all remaining variables have a p-value below some
+threshold.</p></li>
+<li><p>Mixed selection. This is a combination of forward and backward selection. We start with no variables in the model, and as with forward selection, we add the variable that provides the best fit. We continue to add variables one-by-one.</p></li>
+</ul>
+<p>Backward selection cannot be used if <span class="math inline">\(p &gt; n\)</span>, while forward selection can
+always be used. Forward selection is a greedy approach, and might include
+variables early that later become redundant. Mixed selection can remedy
+this.</p>
+</div>
+<div id="model-fit" class="section level3" number="2.2.3">
+<h3><span class="header-section-number">2.2.3</span> Model Fit</h3>
+<p>Two of the most common numerical measures of model fit are the RSE and
+<span class="math inline">\(R^2\)</span>, the fraction of variance explained. These quantities are computed and
+interpreted in the same fashion as for simple linear regression.</p>
+<p>An <span class="math inline">\(R^2\)</span> value close to 1 indicates that the model explains a large portion
+of the variance in the response variable.</p>
+<p>Models with
+more variables can have higher RSE if the decrease in RSS is small relative
+to the increase in <span class="math inline">\(p\)</span>.</p>
+</div>
+<div id="predictions" class="section level3" number="2.2.4">
+<h3><span class="header-section-number">2.2.4</span> Predictions</h3>
+<p>Once we have fit the multiple regression model, it is straightforward to
+apply our model in order to predict the response <span class="math inline">\(Y\)</span> on the basis of a set of
+values for the predictors. However, there are three sorts of
+uncertainty associated with this prediction.</p>
+<ol style="list-style-type: decimal">
+<li><p>The coefficient estimates <span class="math inline">\(\hat{\beta}_0, \hat{\beta}_1, ……, \hat{\beta}_p\)</span> are estimates for <span class="math inline">\(\beta_0, \beta_1, ……, \beta_p\)</span>. is only an estimate for the true population regression plane. The inaccuracy in the coefficient estimates is related to the reducible
+error. We can compute a confidence interval</p></li>
+<li><p>Of course, in practice assuming a linear model for <span class="math inline">\(f(X)\)</span> is almost
+always an approximation of reality, so there is an additional source of
+potentially reducible error which we call model bias. So when we use a
+linear model, we are in fact estimating the best linear approximation
+to the true surface. However, here we will ignore this discrepancy,
+and operate as if the linear model were correct</p></li>
+<li><p>Even if we knew <span class="math inline">\(f(X)\)</span>—that is, even if we knew the true values
+for <span class="math inline">\(\beta_0, \beta_1, ……, \beta_p\)</span>—the response value cannot be predicted perfectly
+because of the random error <span class="math inline">\(\epsilon\)</span> in the model. We
+referred to this as the irreducible error. How much will <span class="math inline">\(Y\)</span> vary from
+<span class="math inline">\(\hat{Y}\)</span> ? We use prediction intervals to answer this question. Prediction
+intervals are always wider than confidence intervals, because they
+incorporate both the error in the estimate for <span class="math inline">\(f(X)\)</span> (the reducible
+error) and the uncertainty as to how much an individual point will
+differ from the population regression plane (the irreducible error).</p></li>
+</ol>
+<hr />
+</div>
+</div>
+</div>
+<div id="other-considerations-in-the-regression-model" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Other Considerations in the Regression Model</h1>
+<div id="qualitative-predictors" class="section level2" number="3.1">
+<h2><span class="header-section-number">3.1</span> Qualitative Predictors</h2>
+<p>In our discussion so far, we have assumed that all variables in our linear
+regression model are quantitative. But in practice, this is not necessarily
+the case; often some predictors are qualitative.</p>
+<p>In our discussion so far, we have assumed that all variables in our linear
+regression model are quantitative. But in practice, this is not necessarily
+the case; often some predictors are qualitative.</p>
+<div id="predictors-with-only-two-levels" class="section level3" number="3.1.1">
+<h3><span class="header-section-number">3.1.1</span> Predictors with Only Two Levels</h3>
+<p>If a qualitative predictor (also known as a factor) only has two levels, or possible values, then incorporating it into a regression model is very simple. We simply create an indicator or dummy variable that takes on two possible numerical values and use this variable as a predictor in the regression equation.</p>
+<blockquote>
+<p>In the machine learning community, the creation of dummy variables to handle
+qualitative predictors is known as “one-hot encoding”.</p>
+</blockquote>
+<p>The decision to code owners as 1 and non-owners as 0 is arbitrary, and has no effect on the regression fit, but does alter the interpretation of the coefficients.</p>
+</div>
+<div id="qualitative-predictors-with-more-than-two-levels" class="section level3" number="3.1.2">
+<h3><span class="header-section-number">3.1.2</span> Qualitative Predictors with More than Two Levels</h3>
+<p>When a qualitative predictor has more than two levels, a single dummy
+variable cannot represent all possible values. In this situation, we can create
+additional dummy variables.</p>
+<p>There will always be one fewer dummy variable than the number
+of levels. The level with no dummy variable is
+known as the baseline.</p>
+<p>Using this dummy variable approach presents no difficulties when incorporating both quantitative and qualitative predictors.</p>
+<p>There are many different ways of coding qualitative variables besides
+the dummy variable approach taken here. All of these approaches lead to
+equivalent model fits, but the coefficients are different and have different
+interpretations, and are designed to measure particular contrasts.</p>
+</div>
+</div>
+<div id="extensions-of-the-linear-model" class="section level2" number="3.2">
+<h2><span class="header-section-number">3.2</span> Extensions of the Linear Model</h2>
+<p>The standard linear regression model provides interpretable results
+and works quite well on many real-world problems. However, it makes several highly restrictive assumptions that are often violated in practice. Two
+of the most important assumptions state that the relationship between the
+predictors and response are additive and linear. The additivity assumption
+additive
+means that the association between a predictor <span class="math inline">\(X_j\)</span> and the response <span class="math inline">\(Y\)</span> does linear
+not depend on the values of the other predictors. The linearity assumption
+states that the change in the response <span class="math inline">\(Y\)</span> associated with a one-unit change
+in <span class="math inline">\(X_j\)</span> is constant, regardless of the value of <span class="math inline">\(X_j\)</span>.</p>
+<p>In later chapters, we examine a number of sophisticated methods that relax these two
+assumptions. Here, we briefly examine some common classical approaches
+for extending the linear model.</p>
+<div id="removing-the-additive-assumption" class="section level3" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Removing the Additive Assumption</h3>
+<p>In marketing, this is known as a synergy effect,
+and in statistics it is referred to as an interaction effect.</p>
+<p>Consider the standard linear regression model with two variables,</p>
+<center>
+<span class="math inline">\(Y = \beta_0+\beta_1X_1+\beta_2X_2+\epsilon\)</span>
+</center>
+<p>According to this model, a one-unit increase in <span class="math inline">\(X_1\)</span> is associated with an
+average increase in <span class="math inline">\(Y\)</span> of <span class="math inline">\(\beta_1\)</span> units. Notice that the presence of <span class="math inline">\(X_2\)</span> does
+not alter this statement—that is, regardless of the value of <span class="math inline">\(X_2\)</span>, a one-unit increase in <span class="math inline">\(X_1\)</span> is associated with a <span class="math inline">\(\beta_1\)</span>-unit increase in <span class="math inline">\(Y\)</span> . One way of
+extending this model is to include a third predictor, called an interaction
+term, which is constructed by computing the product of <span class="math inline">\(X_1\)</span> and <span class="math inline">\(X_2\)</span>. This
+results in the model</p>
+<center>
+<span class="math inline">\(Y = \beta_0+\beta_1X_1+\beta_2X_2+\beta_3X_1X_2+\epsilon\)</span>
+</center>
+<p>The hierarchical principle states that if we include an interaction in a model, we should also include the main effects, even if the <span class="math inline">\(p\)</span>-values associated with heir coefficients are not significant. In other words, if the interaction between <span class="math inline">\(X_1\)</span> and <span class="math inline">\(X_2\)</span> seems important, then we should include both <span class="math inline">\(X_1\)</span> and
+<span class="math inline">\(X_2\)</span> in the model even if their coefficient estimates have large <span class="math inline">\(p\)</span>-values. The
+rationale for this principle is that if <span class="math inline">\(X_1 × X_2\)</span> is related to the response,
+then whether or not the coefficients of <span class="math inline">\(X_1\)</span> or X2 are exactly zero is of little interest. Also <span class="math inline">\(X_1\)</span> × <span class="math inline">\(X_2\)</span> is typically correlated with <span class="math inline">\(X_1\)</span> and <span class="math inline">\(X_2\)</span>, and so
+leaving them out tends to alter the meaning of the interaction.</p>
+<p>The concept of
+interactions applies just as well to qualitative variables, or to a combination
+of quantitative and qualitative variables. In fact, an interaction between
+a qualitative variable and a quantitative variable has a particularly nice
+interpretation.</p>
+<div class="figure">
+<img src="1.png" alt="" />
+<p class="caption">Left: The model was fit. There is no interaction between income and student. Right: The
+model was fit. There is an interaction term between income and student.</p>
+</div>
+</div>
+<div id="non-linear-relationships" class="section level3" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Non-linear Relationships</h3>
+<p>As discussed previously, the linear regression model assumes a linear
+relationship between the response and predictors. But in some cases, the
+true relationship between the response and the predictors may be nonlinear. Here we present a very simple way to directly extend the linear model
+to accommodate non-linear relationships, using <em>polynomial regression</em>. In later chapters, we will present more complex approaches for performing non-linear fits in more general settings.</p>
+<p>A simple
+approach for incorporating non-linear associations in a linear model is to
+include transformed versions of the predictors.</p>
+</div>
+</div>
+</div>
