@@ -9,6 +9,7 @@ title: Search
 
 <script src="/js/jquery-2.1.3.min.js"></script>
 <script src="/js/lunr.js"></script>
+<script src="/js/lunr-zh.js"></script>
 <script>
   var lunrIndex,
       $results,
