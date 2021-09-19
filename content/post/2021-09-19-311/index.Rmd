@@ -1,0 +1,35 @@
+---
+title: 谁是中国人民的敌人---千古罪人
+author: Guanghua Mao
+date: '2021-09-19'
+slug: '311'
+categories:
+  - Original Articles
+tags:
+  - China
+  - Propaganda
+  - Politics
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
+---
+
+# 最完美的奴隶
+
+![最完美的奴隶](2.jpg){width=90%}
+
+# 毛泽东与蒋介石
+
+
+![毛泽东与蒋介石](1.jpg){width=90%}
+
+
+# 历史巨人
+
+![；历史巨人](3.jpg){width=90%}
+
+
+# 毛泽东与希特勒
+
+![毛泽东与希特勒](4.jpg){width=90%}

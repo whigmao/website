@@ -1,0 +1,12 @@
+---
+title: 政治宣传一览
+author: Guanghua Mao
+date: '2021-09-19'
+slug: '310'
+categories:
+  - Original Articles
+tags:
+  - China
+  - Propaganda
+  - Politics
+---
