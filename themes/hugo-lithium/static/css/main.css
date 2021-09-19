@@ -370,7 +370,7 @@ p.caption {
   margin-top: -0.5rem;
   margin-bottom: 0.5rem;
   font-size: smaller;
-  background-color: red;
-  color: yellow;
+  background-color: lightgray;
+  color: slategray;
   font-weight: bold;
 }
