@@ -56,7 +56,14 @@ output:
 <li><a href="#removing-the-additive-assumption"><span class="toc-section-number">3.2.1</span> Removing the Additive Assumption</a></li>
 <li><a href="#non-linear-relationships"><span class="toc-section-number">3.2.2</span> Non-linear Relationships</a></li>
 </ul></li>
+<li><a href="#potential-problems"><span class="toc-section-number">3.3</span> Potential Problems</a>
+<ul>
+<li><a href="#non-linearity-of-the-data"><span class="toc-section-number">3.3.1</span> Non-linearity of the Data</a></li>
+<li><a href="#correlation-of-error-terms"><span class="toc-section-number">3.3.2</span> Correlation of Error Terms</a></li>
 </ul></li>
+</ul></li>
+<li><a href="#the-marketing-plan"><span class="toc-section-number">4</span> The Marketing Plan</a></li>
+<li><a href="#comparison-of-linear-regression-with-k-nearest-neighbors"><span class="toc-section-number">5</span> Comparison of Linear Regression with K-Nearest Neighbors</a></li>
 </ul>
 </div>
 
@@ -402,7 +409,7 @@ of quantitative and qualitative variables. In fact, an interaction between
 a qualitative variable and a quantitative variable has a particularly nice
 interpretation.</p>
 <div class="figure">
-<img src="1.png" alt="" />
+<img src="1.png" style="width:90.0%" alt="" />
 <p class="caption">Left: The model was fit. There is no interaction between income and student. Right: The
 model was fit. There is an interaction term between income and student.</p>
 </div>
@@ -416,6 +423,125 @@ to accommodate non-linear relationships, using <em>polynomial regression</em>. I
 <p>A simple
 approach for incorporating non-linear associations in a linear model is to
 include transformed versions of the predictors.</p>
+<p>The approach that we have just described for extending the linear model
+to accommodate non-linear relationships is known as polynomial regression, since we have included polynomial functions of the predictors in the
+regression model.</p>
+<p>The approach that we have just described for extending the linear model
+to accommodate non-linear relationships is known as polynomial regression, since we have included polynomial functions of the predictors in the
+regression model.</p>
+<p>We need to use <span class="math inline">\(R^2\)</span> and <span class="math inline">\(p\)</span>-value to check whethe the non-linear model is a better fit.</p>
 </div>
 </div>
+<div id="potential-problems" class="section level2" number="3.3">
+<h2><span class="header-section-number">3.3</span> Potential Problems</h2>
+<p>When we fit a linear regression model to a particular data set, many problems may occur. Most common among these are the following:</p>
+<ol style="list-style-type: decimal">
+<li><p>Non-linearity of the response-predictor relationships.</p></li>
+<li><p>Correlation of error terms.</p></li>
+<li><p>Non-constant variance of error terms</p></li>
+<li><p>Outliers.</p></li>
+<li><p>High-leverage points</p></li>
+<li><p>Collinearity.</p></li>
+</ol>
+<div id="non-linearity-of-the-data" class="section level3" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Non-linearity of the Data</h3>
+<p>The linear regression model assumes that there is a straight-line relationship between the predictors and the response. If the true relationship
+is far from linear, then virtually all of the conclusions that we draw from
+the fit are suspect. In addition, the prediction accuracy of the model can
+be significantly reduced.</p>
+<p>Residual plots are a useful graphical tool for identifying non-linearity.</p>
+<p>If the residual plot indicates that there are non-linear associations in the
+data, then a simple approach is to use non-linear transformations of the
+predictors, such as <span class="math inline">\(log X, \sqrt{X}, and X^2,\)</span> in the regression model. In the
+later chapters, we will discuss other more advanced non-linear
+approaches for addressing this issue.</p>
+</div>
+<div id="correlation-of-error-terms" class="section level3" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Correlation of Error Terms</h3>
+<blockquote>
+<p>未完待续</p>
+</blockquote>
+</div>
+</div>
+</div>
+<div id="the-marketing-plan" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> The Marketing Plan</h1>
+<p>Excellent Analysis.</p>
+</div>
+<div id="comparison-of-linear-regression-with-k-nearest-neighbors" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Comparison of Linear Regression with K-Nearest Neighbors</h1>
+<p>Linear regression is an example of a parametric
+approach because it assumes a linear functional form for <span class="math inline">\(f(X)\)</span>. Parametric
+methods have several advantages. They are often easy to fit, because one
+need estimate only a small number of coefficients. In the case of linear regression, the coefficients have simple interpretations, and tests of statistical
+significance can be easily performed. But parametric methods do have a
+disadvantage: by construction, they make strong assumptions about the
+form of <span class="math inline">\(f(X)\)</span>. If the specified functional form is far from the truth, and
+prediction accuracy is our goal, then the parametric method will perform
+poorly. For instance, if we assume a linear relationship between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>
+but the true relationship is far from linear, then the resulting model will
+provide a poor fit to the data, and any conclusions drawn from it will be
+suspect.</p>
+<p>In contrast, non-parametric methods do not explicitly assume a parametric form for <span class="math inline">\(f(X)\)</span>, and thereby provide an alternative and more flexible approach for performing regression. Here we consider one of the simplest and best-known
+non-parametric methods, <span class="math inline">\(K\)</span>-nearest neighbors regression (KNN regression). The KNN regression method is closely related to the KNN classifier. Given a value for <span class="math inline">\(K\)</span> and a prediction point <span class="math inline">\(x_0\)</span>, KNN regression first identifies the <span class="math inline">\(K\)</span> training observations that are closest to <span class="math inline">\(x_0\)</span>, represented by <span class="math inline">\(N_0\)</span>. It then estimates <span class="math inline">\(f(x_0)\)</span> using the average of all the
+training responses in <span class="math inline">\(N_0\)</span>.</p>
+<center>
+<span class="math inline">\(\hat{f}(x_0)=\frac{1}{k}\sum_{x_i \in N_0}y_i\)</span>
+</center>
+<div class="figure">
+<img src="2.png" style="width:90.0%" alt="" />
+<p class="caption">Plots of <span class="math inline">\(\hat{f}(x)\)</span> using KNN regression on a two-dimensional data
+set with 64 observations (orange dots). Left: K = 1 results in a rough step function fit. Right: K = 9 produces a much smoother fit.</p>
+</div>
+<p>In general, the optimal value for <span class="math inline">\(K\)</span> will depend on the bias-variance tradeoff.A small value for <span class="math inline">\(K\)</span> provides the most flexible fit, which will
+have low bias but high variance. This variance is due to the fact that the
+prediction in a given region is entirely dependent on just one observation.
+In contrast, larger values of <span class="math inline">\(K\)</span> provide a smoother and less variable fit; the
+prediction in a region is an average of several points, and so changing one
+observation has a smaller effect. However, the smoothing may cause bias by
+masking some of the structure in <span class="math inline">\(f(X)\)</span>. In Chapter 5, we introduce several
+approaches for estimating test error rates. These methods can be used to
+identify the optimal value of <span class="math inline">\(K\)</span> in KNN regression.</p>
+<p>In what setting will a parametric approach such as least squares linear regression outperform a non-parametric approach such as KNN regression?
+The answer is simple: the parametric approach will outperform the nonparametric approach if the parametric form that has been selected is close
+to the true form of <span class="math inline">\(f\)</span>.</p>
+<p>Since the true
+relationship is linear, it is hard for a non-parametric approach to compete
+with linear regression: a non-parametric approach incurs a cost in variance
+that is not offset by a reduction in bias.</p>
+<p>In practice, the true relationship between X and Y is rarely exactly linear. Figure 3.19 examines the relative performances of least squares regression and KNN under increasing levels of non-linearity in the relationship
+between <span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span> . In the top row, the true relationship is nearly linear.
+In this case we see that the test MSE for linear regression is still superior
+to that of KNN for low values of <span class="math inline">\(K\)</span>. However, for <span class="math inline">\(K \geq 4\)</span>, KNN outperforms linear regression. The second row illustrates a more substantial
+deviation from linearity. In this situation, KNN substantially outperforms
+linear regression for all values of <span class="math inline">\(K\)</span>. Note that as the extent of non-linearity
+increases, there is little change in the test set MSE for the non-parametric
+KNN method, but there is a large increase in the test set MSE of linear
+regression.</p>
+<p>In a real life situation
+in which the true relationship is unknown, one might suspect that KNN
+should be favored over linear regression because it will at worst be slightly
+inferior to linear regression if the true relationship is linear, and may give
+substantially better results if the true relationship is non-linear. But in reality, even when the true relationship is highly non-linear, KNN may still
+provide inferior results to linear regression. But in higher dimensions,
+KNN often performs worse than linear regression.</p>
+<p>When <span class="math inline">\(p\)</span> = 1 or <span class="math inline">\(p\)</span> = 2,
+KNN outperforms linear regression. But for <span class="math inline">\(p\)</span> = 3 the results are mixed,
+and for <span class="math inline">\(p \geq 4\)</span> linear regression is superior to KNN. In fact, the increase in
+dimension has only caused a small deterioration in the linear regression test
+set MSE, but it has caused more than a ten-fold increase in the MSE for
+KNN. This decrease in performance as the dimension increases is a common
+problem for KNN, and results from the fact that in higher dimensions
+there is effectively a reduction in sample size. In this data set there are
+50 training observations; when <span class="math inline">\(p\)</span> = 1, this provides enough information to
+accurately estimate <span class="math inline">\(f(X)\)</span>. However, spreading 50 observations over <span class="math inline">\(p\)</span> = 20
+dimensions results in a phenomenon in which a given observation has no
+nearby neighbors—this is the so-called curse of dimensionality. That is the <span class="math inline">\(K\)</span> observations that are nearest to a given test observation <span class="math inline">\(x_0\)</span> may be very far away from <span class="math inline">\(x_0\)</span> in <span class="math inline">\(p\)</span>-dimensional space when <span class="math inline">\(p\)</span> is large, leading to a very poor prediction of <span class="math inline">\(f(x_0)\)</span> and hence a poor KNN fit. As a general rule, parametric methods will tend to outperform non-parametric approaches
+when there is a small number of observations per predictor.</p>
+<p>Even when the dimension is small, we might prefer linear regression to
+KNN from an interpretability standpoint. If the test MSE of KNN is only
+slightly lower than that of linear regression, we might be willing to forego
+a little bit of prediction accuracy for the sake of a simple model that can
+be described in terms of just a few coefficients, and for which <span class="math inline">\(p\)</span>-values are
+available.</p>
 </div>

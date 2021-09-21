@@ -407,7 +407,7 @@ a qualitative variable and a quantitative variable has a particularly nice
 interpretation. 
 
 ![Left: The model was fit. There is no interaction between income and student. Right: The
-model was fit. There is an interaction term between income and student.](1.png)
+model was fit. There is an interaction term between income and student.](1.png){width=90%}
 
 ### Non-linear Relationships
 
@@ -466,10 +466,89 @@ approaches for addressing this issue.
 
 > 未完待续
 
-## The Marketing Plan
+# The Marketing Plan
 
 Excellent Analysis.
 
-## 
+# Comparison of Linear Regression with K-Nearest Neighbors
+
+Linear regression is an example of a parametric
+approach because it assumes a linear functional form for $f(X)$. Parametric
+methods have several advantages. They are often easy to fit, because one
+need estimate only a small number of coefficients. In the case of linear regression, the coefficients have simple interpretations, and tests of statistical
+significance can be easily performed. But parametric methods do have a
+disadvantage: by construction, they make strong assumptions about the
+form of $f(X)$. If the specified functional form is far from the truth, and
+prediction accuracy is our goal, then the parametric method will perform
+poorly. For instance, if we assume a linear relationship between $X$ and $Y$
+but the true relationship is far from linear, then the resulting model will
+provide a poor fit to the data, and any conclusions drawn from it will be
+suspect. 
+
+In contrast, non-parametric methods do not explicitly assume a parametric form for $f(X)$, and thereby provide an alternative and more flexible approach for performing regression. Here we consider one of the simplest and best-known
+non-parametric methods, $K$-nearest neighbors regression (KNN regression). The KNN regression method is closely related to the KNN classifier. Given a value for $K$ and a prediction point $x_0$, KNN regression first identifies the $K$ training observations that are closest to $x_0$, represented by $N_0$. It then estimates $f(x_0)$ using the average of all the
+training responses in $N_0$.
+
+<center> $\hat{f}(x_0)=\frac{1}{k}\sum_{x_i \in N_0}y_i$ </center>
 
 
+![ Plots of $\hat{f}(x)$ using KNN regression on a two-dimensional data
+set with 64 observations (orange dots). Left: K = 1 results in a rough step function fit. Right: K = 9 produces a much smoother fit.](2.png){width=90%}
+
+In general, the optimal value for $K$ will depend on the bias-variance tradeoff.A small value for $K$ provides the most flexible fit, which will
+have low bias but high variance. This variance is due to the fact that the
+prediction in a given region is entirely dependent on just one observation.
+In contrast, larger values of $K$ provide a smoother and less variable fit; the
+prediction in a region is an average of several points, and so changing one
+observation has a smaller effect. However, the smoothing may cause bias by
+masking some of the structure in $f(X)$. In Chapter 5, we introduce several
+approaches for estimating test error rates. These methods can be used to
+identify the optimal value of $K$ in KNN regression.
+
+In what setting will a parametric approach such as least squares linear regression outperform a non-parametric approach such as KNN regression?
+The answer is simple: the parametric approach will outperform the nonparametric approach if the parametric form that has been selected is close
+to the true form of $f$.
+
+Since the true
+relationship is linear, it is hard for a non-parametric approach to compete
+with linear regression: a non-parametric approach incurs a cost in variance
+that is not offset by a reduction in bias. 
+
+In practice, the true relationship between X and Y is rarely exactly linear. Figure 3.19 examines the relative performances of least squares regression and KNN under increasing levels of non-linearity in the relationship
+between $X$ and $Y$ . In the top row, the true relationship is nearly linear.
+In this case we see that the test MSE for linear regression is still superior
+to that of KNN for low values of $K$. However, for $K \geq 4$, KNN outperforms linear regression. The second row illustrates a more substantial
+deviation from linearity. In this situation, KNN substantially outperforms
+linear regression for all values of $K$. Note that as the extent of non-linearity
+increases, there is little change in the test set MSE for the non-parametric
+KNN method, but there is a large increase in the test set MSE of linear
+regression.
+
+ In a real life situation
+in which the true relationship is unknown, one might suspect that KNN
+should be favored over linear regression because it will at worst be slightly
+inferior to linear regression if the true relationship is linear, and may give
+substantially better results if the true relationship is non-linear. But in reality, even when the true relationship is highly non-linear, KNN may still
+provide inferior results to linear regression. But in higher dimensions,
+KNN often performs worse than linear regression.
+
+When $p$ = 1 or $p$ = 2,
+KNN outperforms linear regression. But for $p$ = 3 the results are mixed,
+and for $p \geq 4$ linear regression is superior to KNN. In fact, the increase in
+dimension has only caused a small deterioration in the linear regression test
+set MSE, but it has caused more than a ten-fold increase in the MSE for
+KNN. This decrease in performance as the dimension increases is a common
+problem for KNN, and results from the fact that in higher dimensions
+there is effectively a reduction in sample size. In this data set there are
+50 training observations; when $p$ = 1, this provides enough information to
+accurately estimate $f(X)$. However, spreading 50 observations over $p$ = 20
+dimensions results in a phenomenon in which a given observation has no
+nearby neighbors—this is the so-called curse of dimensionality. That is the $K$ observations that are nearest to a given test observation $x_0$ may be very far away from $x_0$ in $p$-dimensional space when $p$ is large, leading to a very poor prediction of $f(x_0)$ and hence a poor KNN fit. As a general rule, parametric methods will tend to outperform non-parametric approaches
+when there is a small number of observations per predictor.
+
+Even when the dimension is small, we might prefer linear regression to
+KNN from an interpretability standpoint. If the test MSE of KNN is only
+slightly lower than that of linear regression, we might be willing to forego
+a little bit of prediction accuracy for the sake of a simple model that can
+be described in terms of just a few coefficients, and for which $p$-values are
+available.
