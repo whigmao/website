@@ -1,0 +1,15 @@
+---
+title: 成为赢家
+author: 拉瓦铀
+date: '2021-10-25'
+slug: '327'
+categories:
+  - Translation Articles
+tags:
+  - Insights
+  - Investment
+---
+
+> 通读二十四史可以改成学习经得起考验的人文和科技知识，这样能够从技能、人际、思维三个方面全面提升自己，对我来讲还有一件很重要的事---计算机技术。
+
+![觉悟与赢家](1.jpg){width=80%}
