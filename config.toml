@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Guanghua Mao's website"
 theme = "hugo-lithium"
 googleAnalytics = ""
-disqusShortname = "guanghuamao"
+disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 
