@@ -2,7 +2,7 @@
 title: State Collapse and Nation Building in Afghanistan
 author: Peter Turchin
 date: '2021-12-12'
-slug: '367'
+slug: '347'
 categories:
   - Translation Articles
 tags:

@@ -2,7 +2,7 @@
 title: 中共英雄的历史真相，谁说了算？
 author: 洪振快
 date: '2021-12-12'
-slug: '368'
+slug: '348'
 categories:
   - Translation Articles
 tags:
