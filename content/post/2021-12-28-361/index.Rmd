@@ -1,0 +1,622 @@
+---
+title: 'Book Review: Left Brain, Right Stuff'
+author: Guanghua Mao
+date: '2021-12-28'
+slug: '361'
+categories:
+  - Original Articles
+tags:
+  - Book Review
+  - Business
+  - Decision
+---
+
+# 第一部分
+
+作者首先讲述了一家建筑公司在竞标一个价值超 10 亿美元的商务活动的过程中所面临的困境：1. 自己的出价要低于对方的最高出价；2. 自己的价格要低于竞争对手的价格；3. 要保证有利润。最终这家建筑公司在经过详尽的分析之后给出了自己的价格。
+
+我们普通人在生活中不会做一个价值 10 亿美元的决定，但这个案例其实非常典型（在商业、政治、体育、军事）：决定本身复杂、影响深远、充满不确定性。学会做出更加明智的选择拥有最高优先级。
+
+近几十年来，认知科学的发展，让我们了解到了很多关于人类认知偏误的知识: 过度自信、确认偏误、幸存者偏差、控制偏差、寻找模式偏差、归因偏差等等，不一而足。
+
+>The standard advice for making better decisions is to be aware of
+our tendency for common biases and to find ways to avoid them.
+That makes sense for many kinds of decisions. But as we’ll see, it’s
+not sufficient for others, including many of great importance.
+
+作者后来采访了建筑公司的高管，他发现在高管做决定的过程中，他们的确犯了很多认知偏误，但是又在情理之中，为何？
+
+1. 确认偏误，高管的确找了很多支持自己做这个决定的证据，但不想做和做不到的证据不是更容易找吗？
+
+2. 过度自信，高管的确认为自己的决定能够满足所有利益相关方的要求，只是在执行中需要更有效率。
+
+
+3. 赢家的诅咒，如果不敢于突破自己、挑战极限，那就别想赢过竞争对手。
+
+作者自此发现了在实验室中的认知科学研究与现实世界的决策有着多维度的不同：
+
+1. 第一个区别，能否施加影响。实验室中的研究只是从几个选项中选出最优选项，现实世界中我们可以增加选项，甚至改变选项，或者有能力利用不同的选项。
+
+
+2. 第二个区别，涉及自己还是团队。实验室的研究通常只涉及到个人的决策，现实世界中通常是我们作为公司的领导和高管做决策。
+
+3. 第三个区别，需不需要和他人竞争。
+
+4. 第四个区别，是不是需要马上做出决定且不能根据形势的发展而更改。
+
+5. 第五个区别，决策的后果是否立马可见、可衡量。实验室中的研究是做出决定后马上就能知道结果的好坏，但是在现实世界中决策的后果通常要很长时间才能显性，而且很难有一套量化指标来衡量结果的好坏（比如殖民主义与反殖民主义）。
+
+实验室中的研究假设所有人面临的状况和处理状况的能力都相同，而且没有外部因素可以干扰此项决定。他们不用关心我们是个人做出决定，还是作为团队成员做出决定，不用担心我们会如何被我们的同行和合作伙伴看待，不需要担心今天的决定和之前的决定是否一致。
+
+>For social scientists, experiments are like microscopes or strobe lights, magnifying and illuminating the complex, multiple forces that simultaneously exert their
+influences on us. They help us slow human behavior to a frame-byframe narration of events, isolate individual factors, and examine
+them carefully and in more detail
+
+毫无疑问，实验室中的研究对于我们理解消费者决策、商家的宣传和政治宣传有着重要意义。他们都包含了个人决策、在固有的选项中做出选择、无需考虑竞争，从个人的养老计划到买哪支股票，莫不如此。
+
+回看一下建筑商面临的决策环境：1. 他们有能力影响选项（自己可以报价）；2. 需要比竞争对手报价更低；3. 需要很长时间才能知道结果（几年之后才知道能不能盈利）；4. 高管代表一个组织做决定。
+
+>Much mischief can be wrought by
+transplanting this hypothesis-testing logic, which flourishes in controlled lab settings, into the hurly-burly of real-world settings where
+ceteris paribus never is, and never can be, satisfied.
+
+我们对于消费者决策、公共政策、金融投资的决策研究已经很多，但对于真实世界中的复杂决策了解得很少。
+
+这本书的核心是结合了认知科学的研究，加上现实复杂因素的考量来进行决策，简言之就是 left brain, right stuff.
+
+1. Left brain (deliberate and analytical approach to problem solving):  
+
+  1.1 knowing the difference between what we can control and what we cannot, between action and prediction
+  
+  1.2 knowing the difference between absolute and relative performance, between times when we need to do well and when we must do better than others
+  
+  1.3 sensing whether it’s better to err on the side of taking action and failing, or better not to act; that is, between what we call Type I and Type II errors
+  
+  1.4 determining whether we are acting as lone individuals or as leaders in an organizational setting and inspiring others to achieve high performance
+  
+  1.5 recognizing when models can help us make better decisions, but also being aware of their limits
+  
+但是，仅仅只有仔细的分析是不够的，伟大的决策需要面对危机，挑战极限、探索未知、成为先驱的意愿，这就是 right stuff。
+
+>the right stuff wasn’t just a
+willingness to risk one’s neck. Any fool could do that. Rather, it
+meant “to have the ability to go up in a hurtling piece of machinery and put his hide on the line and have the moxie, the reflexes,
+the experience, the coolness, to pull it back at the last yawning
+moment.”15 The right stuff was about the intelligent management
+of risk
+
+2. right stuff:
+
+  2.1 summoning high levels of confidence, even levels that might seem excessive, but that are useful to achieve high performance
+  
+  2.2 going beyond past performance and pushing the envelope to seek levels that are unprecedented
+  
+  2.3 instilling in others the willingness to take appropriate risks
+  
+这两样东西看上去貌似互相对立，但其实是互补的。伟大的决策既需要仔细和周全的考虑，同时也要有意愿去承担额外的风险。
+
+接下来，第二章和第九章和 left brain 有关:
+
+1. Chapter Two makes
+the fundamental distinction between decisions for which we cannot
+control outcomes and those for which we can. For the former, there
+is little benefit to wishful thinking or optimism, but when we can
+shape outcomes, positive thinking can be powerful. 
+
+
+2. Chapter Three
+introduces the dimension of relative performance, in which it’s not
+enough to do well, but essential to do better than one’s rivals. Many
+studies of judgment and choice omit any competitive dimension, but
+when we have to do better than others, the need to think strategically is crucial.
+
+
+
+3. Chapter Four combines these first two dimensions,
+showing what happens when an ability to influence outcomes and
+the need to outperform others are both present. Far from being a rare
+or special case, such situations are very common. When it comes to
+strategic management, they might even be considered the norm.
+
+
+4.  Chapter Five examines perhaps the most widely
+cited of all errors, overconfidence, and presents a radically different
+interpretation. On closer inspection, what seems like a simple
+idea—that people are prone to overconfidence—turns out to be
+much more complex. In competitive situations, not only is a very
+high level of confidence often useful, but it can be essential. 
+
+
+
+5. Chapter Six looks at another well-known error, the base rate bias. The
+basic finding—that people tend to overlook population base
+rates—is correct, but the common advice—that we should heed
+base rates—is incomplete. There are instances when not only can
+we go beyond what has been done before, but competitive circumstances dictate that we must. Far from being reckless, however, we
+can find ways of limiting risk, using the left brain in service of the
+right stuff
+
+
+6. Chapter Seven adds the temporal dimension and makes the
+vital distinction between decisions for which feedback is rapid
+and tangible, and those for which it is slow. For the former it may
+be possible to learn through deliberate practice, but for the latter
+it is more important to get the decision right the first time.
+
+
+
+7. Chapter Eight moves beyond decisions made by individuals acting alone
+to consider decisions by leaders in organizations. Now it may be
+essential to inspire others to go beyond what might seem justified,
+which forces us to take a fresh look at concepts like transparency,
+authenticity, and sincerity. 
+
+8. Chapter Nine focuses on decision models, a topic of current interest given the rise of Big Data. Models
+can be very powerful and often provide remarkably accurate predictions. Yet in our embrace of decision models, we have sometimes
+applied them incorrectly. Knowing when models are useful, but
+respecting their limitations, is also vital
+
+9. Chapter Ten
+explores competitive bidding and takes a fresh look at another
+well-known error, the winner’s curse. 
+
+
+10. Chapter Eleven addresses
+entrepreneurship and new venture creation, once again replacing
+current ideas about decision biases with a more realistic and nuanced understanding of how people can and should make decisions
+in the real world.
+
+
+11. Chapter Twelve summarizes the key lessons for making
+great decisions, not in routine settings of consumer choice or
+investments—for which we neither can influence outcomes nor
+need to outperform rivals—but in complex real-world settings.
+
+
+---
+
+# 第二部分 控制
+
+作者发现很多顶尖的高尔夫运动员在挑战高难度动作的时候总是会极度自信，这种盲目地自信带给他们的不是灾难，而是更好的成绩。后来，有科学家也在实验室中检测了这一发现，视觉上认为高尔夫更大的那一组命中率高于视觉上更小的那一组。拥有更为积极的态度，哪怕有时候显得有些自负，对于结果的改善也是很有意义的。
+
+传统的智慧告诫我们，不要过度乐观，不要自以为是，在我们不能改变的事情上，力求准确是十分必要的，但是，那些由我们来决定那些事情可能发生的情况下，传统的智慧依然可靠吗？
+
+>Athletic performance is shaped by many factors, from proper technique to good
+conditioning to smart nutrition, but a positive mind-set is also vital. 
+
+在体育界的无数例子告诉我们，积极的心态、自信对于成功非常重要。
+
+接下来的问题是，这种“错觉”在何种情况下才是健康的呢？
+
+>Not far more capable, of course; we’re not suggesting that delusions of grandeur are healthy. But for many activities, in which we don’t just make predictions about things we cannot influence but
+have a hand in shaping outcomes, positive thinking matters
+
+在基础能力都不扎实的情况下，积极心态不一定健康。“普信男”
+
+>Positive illusions lead people to
+take the initiative rather than accept the status quo. They help us
+cope with adversity and survive tough times. They make us more
+resilient and less willing to concede defeat. Positive thinking stimulates people to be more creative, to look for new ways of doing
+things, and to persevere in the face of competition
+
+>people who display positive
+illusions tend to have more friends and create stronger social
+bonds, both of which are important ingredients of happiness. 
+
+
+>enviable capacity to distort reality （现实扭曲场）
+
+None of this should let us conclude that a positive attitude can overcome any obstacle, or surmount all odds, or any other such New Age motivational nonsense. For things that we cannot influence, there’s not much to be gained from positive thinking. As Dr. Thompson’s cycling experiment showed, improvements are demonstrable but hardly unlimited. Yet the general rule holds. When we can influence outcomes, positive thinking—even holding views that are somewhat exaggerated—can be beneficial.
+
+尽管积极的心态由如此多的好处，但如何分辨什么是可以影响的，什么是不可以影响的，这是关键。对于可以影响的，人们能够准确评估自己影响的能力。
+
+>When there’s no way to exert control, the best approach is usually sober and detached judgment. It’s smart to identify and ward off common biases. But when we can get things
+done—when we can influence outcomes—positive thinking is
+highly useful
+
+大量的研究显示，人们通常会表现得能够去控制他们无法控制的事情。基于此，专家会建议：你们能控制的其实比你们想象得要少。它有一个专有的名词：控制偏误。但作者认为这不是故事的全部。
+
+这些证明人类有控制偏误的例子都从随机的，不可控制的事情出发，只要人们稍加控制，于是就产生了控制偏误，如果对于人们有能力控制的事物（从强到弱），人们是会选择高估还是低估自己的控制能力呢？
+
+多个实验证明：
+
+>people do not consistently overestimate their level of control. A simpler explanation
+is that people have an imperfect understanding of how much control they can exert. When control is low they tend to overestimate,
+but when it’s high they tend to underestimate.
+
+For the past decades we have favored a dramatic conclusion—that people suffer from an illusion of control—
+rather than a less surprising but more accurate one: that people can
+and do err in both directions.
+
+在衡量自己的控制能力方面，人们同时存在高估或低估的倾向，那么哪一个倾向更常见，后果更严重呢？
+
+Whereas decision research has warned us against the illusion of excessive control, for many activities the more important lesson is exactly the opposite: we should try not to underestimate our control.
+
+>The availability heuristic, a mental shortcut whereby people place too much
+importance on information that is readily available, causes doctors
+to mistakenly diagnose diseases that come easily to mind while
+overlooking diseases that are less common. 
+
+>The confirmation bias, a
+tendency to look for evidence that supports an initial hunch, prevents doctors from probing thoroughly for evidence that might
+contradict that hunch.
+
+
+>The anchoring effect is also important, as
+initial data become an anchor that’s usually not modified sufficiently by subsequent information. 
+
+A recent article in
+the Annals of Behavioral Medicine summarized eighty-three studies
+that examined illnesses ranging from cancer to cardiovascular disease, and found a strong relationship between patient optimism and
+good health.
+
+当然并不是说积极心态能解决所有问题。
+
+The need to exhibit versatility, to think simultaneously in a
+dispassionate and unbiased way while conveying optimism and
+positive thinking when outcomes can be influenced, is one reason
+health care is such a demanding profession
+
+The essence of management is to exercise control and influence events. Of course managers don’t have complete control over outcomes,
+any more than a doctor has total control over patient health. They
+are buffeted by events outside their control: macroeconomic factors, changes in technology, actions of rivals, and so forth. Yet it’s a
+mistake to conclude that managers suffer from a pervasive illusion
+of control. The greater danger is the opposite: that they will underestimate the extent of control they truly have.
+
+>[G]ambling contains elements of
+uncertainty and positive or negative outcomes. Managerial decision
+making is (hopefully) based on an educated guess of what is most
+likely to happen and what can be done to remedy a negative outcome. That is, decision making is a continuous process in which
+each decision is dependent on previous decisions. Gambling has
+only two outcomes—win or lose, and each decision and outcome is
+independent of others.
+
+>Decision
+theory puts all the emphasis on the analysis leading to the moment
+of choice. While it is definitely important, my experience taught me
+that my ability to influence whatever goes on after the moment of
+choice is perhaps even more important.
+
+
+Far from suffering from an illusion of control, managers are more likely to underestimate their ability
+to influence outcomes. They often can achieve more, influence more,
+and bring about more change than they imagine.
+
+自此，我们已经知道了在商业决策和日常决策的众多场景中，通过施加影响，扩充自己的选项，增加自己的胜率或者在行动过程中调整自己的决策是很重要的，但是在生活中，我们很难分清楚那些可以控制，哪些不可以，如果人不得不在这件事情上犯错，那么我们是应该高估还是低估自己的控制能力呢？
+
+>Of course we’d all like to have the wisdom to know the difference
+between what we can change and what we can’t, but often we
+don’t. That leads to more questions: When we don’t know for sure,
+is it better to err on one side or the other? Is it better to imagine we
+have more control than we really do, or better to be mistaken in
+the other direction?
+
+![CONTROL, BELIEF AND REALITY](1.png){width=80%}
+
+
+Of course we would like to minimize the chance of error, and
+often gather information to improve the accuracy of our beliefs. But
+even so, some uncertainty remains. That’s why we still need to consider the consequences of error. Is it better to act as if we have
+control (and run the risk of a Type I error), or is it better to assume
+we don’t have control (and run the risk of Type II error)? By thinking about the consequences of each, we can try to avoid the more
+serious of the two.
+
+As a rule of thumb, it’s better to
+err on the side of thinking we can get things done rather than assuming we cannot. The upside is greater and the downside less.
+
+>当然这最终还是要看那一个后果更严重（损失 vs 收益，概率 vs 程度）。收益概率高，且收益大，则高估；反之，低估。
+
+总结，大多数实验室中的实验以及古老的智慧总是告诫我们不要高估自己对事情的影响力，可这只是事情的一面，另一方面，人们其实常常低估了自己对事情的影响力。只是由于分析哪些事情可以施加影响，哪些事情不能施加影响很难分析，如果不得不犯错误，那么犯哪一种错误更好？
+
+1. 首先区分哪些可以控制，哪些不可以？
+
+2. 然后缜密分析，对于不可控制的谨慎选择，对于可控制的要保持积极心态，甚至有必要盲目乐观。
+
+3. 对于无法确定的，在综合分析收益和成本的前提下，尤其是最坏的结果也能够承担，收益非常丰厚的前提下，要选择施加影响，但是在最坏结果无法承担的情况下，只依据事实做出判断，不要盲目自信。
+
+>还是想起来官店酒店的事情，还是老妈手段毒辣，做几次生意都从成本最小化，损失最小化入手，没吃什么大亏。
+
+> 这和方丈所说的，承认自己能力有限很矛盾啊，也许后面几章能解答我的困惑。
+
+---
+
+# 第三部分 相对表现还是绝对表现
+
+要做出好决策的第二个关键在于我们是要做得更好，还是要比别人好。
+
+>When it comes to managing your finances, decision research
+offers many useful lessons. For starters, you should bear in mind
+that stocks move in random patterns, and that several days of gains
+neither mean the next day will bring another uptick, nor that a
+correction is due. Don’t monitor your portfolio every day, because
+people feel losses more acutely than gains, so the fluctuations of
+the market will only add to your anxiety. And don’t try to time the
+market, looking for the exact moment to jump in or cash out, because no one can time the market with accuracy. Rather, you should
+periodically review the allocation of your assets and make adjustments. Invest for the long term and follow a strategy of buy-andhold, with index funds that track the market while charging low
+expenses. Do all these things, and you’ll very likely generate solid
+long-term gains.
+
+
+ Managing your personal investment portfolio is
+a matter of absolute performance. You keep what you earn, regardless
+of what anyone else does. There’s no element of competition. The
+National MBA Stock Market Competition is purely about relative
+performance. It’s not enough to do well; all that matters is doing
+better than the rest
+
+那么我们要怎么做才能胜过我们的竞争对手呢？
+
+目前大量的研究只教会了我们如何做出适合自己的判断，无需考虑其他人。在竞争的环境中，我们使用这些策略就要非常谨慎。
+
+>the
+art of outdoing an adversary, knowing that the adversary is trying
+to do the same to you.
+
+在确定了相对表现和绝对表现之后，接下来的问题是：回报的分布。
+
+![DISTRIBUTION OF PAYOFFS AND EXAMPLES OF SKEW](2.png){width = 80%}
+
+It becomes very important to do better than rivals.
+
+As a rule, the greater the skew, the more important it is to outperform rivals—and the more extreme chances you’re likely to take.
+
+>作者只考虑了收益吗？没有考虑损失吗？损失如果会非常严重，一定不要做。
+
+目前绝大多数的竞争环境都是有一个明确的中止点和具体的回报，且是一个有限游戏，特别是在体育领域。
+
+The combination of highly skewed payoffs and a clear end point makes for highly dramatic competitions.
+
+但是在很多领域，竞争是相对的，但是回报却是不确定的。
+
+>In many competitive settings performance is relative, but the nature of the payoffs isn’t clear. There are no clearly stated rules with
+payoffs that are known to all, no standings posted in clear view so all
+can see how they are doing, and no game show host to read the
+questions and immediately judge the replies. There may not even be
+a clear end point, making it difficult to know how much to bet.
+Competition is complex and fraught with uncertainties. Or there may be multiple end points, with rivals aiming at somewhat different objectives. 
+
+我们通常会认为总统选举是相对表现的一个例子---相对票数要多、回报丰厚、有一个明确的中止点，但是很多参加总统选举的人很多情况下是在各自玩不同的游戏。
+
+那么商业表现呢？
+
+>Game shows, sporting events, and elections are designed to produce
+dramatic tension, with highly skewed payoffs and clear end points. In other kinds of competition, however, there’s neither a clear end
+point nor an explicit payoff distribution.
+
+商业世界中，相对表现当然很重要，但是每一个行业、每一家公司的回报却是不知道的，餐馆、互联网企业、电影公司的回报分布不同。
+
+In other industries direct competition can be so intense that
+there’s room for only a few successful companies. Any that are too
+small to enjoy economies of scale or that fail to gain sufficient market share may fail. In some cases the lion’s share of profits may accrue to just a few companies.
+
+商业世界没有一个明确的中止点，竞争不会停止。
+
+As for end points, competition in business is typically ongoing and
+open ended. Of course companies seek to outperform their rivals, and often
+compete aggressively. But rarely is competition so intense that it’s
+necessary to be the single best performer on a given date. Success is
+often a matter of achieving high performance over the long term.
+Here again, industries differ a great deal. For such highly dynamic industries, a new phrase has entered the lexicon: Red Queen competition.
+
+In Red Queen competition, companies
+are constantly under pressure to outdo one another—to introduce
+new and improved products, to find new ways to bring value to customers, and to experiment with new business models—all to gain an advantage over rivals. Red Queen competition means that a
+company can run faster but fall further behind at the same time.10
+Recent empirical research suggests that in many industries competitive advantage is difficult to maintain, and that the speed of regression toward the mean is becoming faster.11 The reasons are clear.
+Technology change accelerates. Customers can easily find alternatives. Rivals imitate leaders. Consulting firms spread best practices. Employees move from one firm to another, leveling advantages. All
+of this means that companies cannot afford to stand pat, because
+those that do face an inevitable erosion of performance。
+
+> 有些产业受技术影响小，比如糖果、白酒，多年来都是老大哥主导，但是很多产业，技术的更新换代非常快，比如手机、互联网，暂时的领先很容易被颠覆。
+
+For business executives, devising a successful strategy requires
+more than knowing the end point, understanding the distribution
+of payoffs, and deciding how much risk to take. The first task is to
+assess the nature of performance. How intense is the rivalry? How
+skewed are the payoffs, both at present and over time? There may
+be moments when it’s important to be among the very few top players, because otherwise we stand a good chance of going out of business in a process known as shakeout, when many companies lose
+out and only a few remain.
+
+In the face of this uncertainty, managers often rely on a rule of
+thumb that involves two points: the aspiration point and the survival
+point. The aspiration point asks: What’s the best I can do? Can I
+make a bold move that, if successful, will place me at the top of the
+pack, at least for a while? Is it worth making a risky bet that could
+bring great benefits? The survival point asks: What’s the least I need
+to do in order to stay alive? What must I do to avoid being eliminated, so that at a minimum I can live to fight another day? Managers often make decisions with an eye to these two points, hoping
+to reach the aspiration point but at least making sure they pass the
+survival point.
+
+
+能够区分相对表现与绝对表现的智慧
+
+在无需竞争的情况下，分享自己绝对表现良好的经验无伤大雅，但是，在衡量相对表现时，闷声才能发大财。
+
+>在商业中，帮助人们提高绝对表现的商业很难赚大钱，但是，能够帮助人们提高相对表现，而且赢家高回报，有一个明确的截止点的生意很好赚钱，比如学校培训和公务员培训。
+
+ You wouldn’t mind if your doctor
+shared information about your medical history to help other patients.
+Your recovery is unrelated to theirs. If anything, you’d probably be
+glad to help out. Business is entirely different. Firm performance—
+whether measured in terms of market share, revenues, or profits—is
+not only relative but often highly skewed, such that the success of
+one company often comes at the expense of others. In these circumstances it’s not just irresponsible to share information, but dangerous.
+What is sensible when performance is absolute may be suicidal when
+performance is relative and payoffs are highly skewed
+
+
+
+接下来的问题是我们并不是总有智慧去分辨相对表现还是绝对表现，如果非要犯错，犯那种错更好呢？
+
+We can now pose a question like the one in Chapter Two: When it
+comes to absolute and relative performance, on which side would
+you rather err? Of course, you want to know when performance is
+relative and payoffs highly skewed so that you can take appropriate
+actions, much like the University of Alberta students. You’ll also
+want to know when performance is absolute and payoffs have low
+skew so you can act accordingly.
+
+![PAYOFFS, BELIEF AND REALITY](3.png){width=80%}
+
+If you believe
+there’s an intense pressure to outperform rivals when that’s not the
+case, you might prefer a Type I error. You might take action sooner
+than necessary or act more aggressively when the better approach
+would be to wait and observe. The risks can be considerable, but
+perhaps not fatal. On the other hand, if performance is not only
+relative but payoffs are highly skewed, and you don’t make every
+effort to outperform rivals, you’ll make a Type II error. Here the
+consequences can be much more severe. Fail now, and you may
+never get another chance to succeed. By this logic, the greater error
+is to underestimate the intensity of competition. It’s to be too passive in the face of what could be a mortal threat. When in doubt, the smart move is to err on the side of taking strong action.
+
+当我们分不清回报的分布时，最好的选择是用尽全力。
+
+最后我们再回想一下表现。
+
+在只需要考虑绝对表现的时候，传统的决策理论是部分有效的。
+
+In many fields, however, performance is best understood as relative. In business, politics, sports, and more, many of the most important decisions are made with an eye to rivalry. The aim isn’t to
+just do well, but to do better than others. Sometimes the distribution of payoffs is clearly stated, but often the intensity of rivalry, the
+nature of payoffs, and whether competition is open or closed ended,
+is unknown. Very often we have to make crucial decisions without
+all the information we need.
+
+The most consequential managerial decisions are fundamentally different from those that have often been studied, and in two
+crucial ways. Not only can managers often exert control over outcomes, but they also have to outperform rivals. And as the next
+chapter will show, when these two factors are combined, some
+conventional ideas about decision making are turned on their heads.
+
+很多时候，我们难以分辨那些强调相对表现、那些强调绝对表现，回报的分布一开始也很难搞清楚，竞争到底有没有终点也不确定，各方参与竞争的目的也不甚明朗。如果非要犯错，那么还是看收益和损失，哪一方犯错的收益巨大，损失可接受，就选择哪一方。一般而言，选择用尽全力，相信竞争没有终点，认为大多数事物要衡量绝对表现是比较好的。
+
+
+---
+
+# 第四部分 赢的代价
+
+>IN TIMES OF CHANGE, MANAGERS ALMOST ALWAYS KNOW WHICH
+DIRECTION THEY SHOULD GO IN, BUT USUALLY ACT TOO LATE AND
+DO TOO LITTLE. CORRECT FOR THIS TENDENCY: ADVANCE THE PACE
+OF YOUR ACTIONS AND INCREASE THEIR MAGNITUDE. YOU’LL FIND
+THAT YOU’RE MORE LIKELY TO BE CLOSE TO RIGHT.
+
+
+Combine the ability to exert control with the need to outperform
+rivals, and what happens? Now it’s not just possible to influence
+outcomes, but often necessary.
+
+在主动体育项目中，兴奋剂的使用大致可以提高运动员 5% 的赛场表现，这虽然不多，但对于一个高度竞争的体育赛事来说，这是赢得成功的关键。
+
+>There would have been no way to win such a
+competitive race without using all means at his disposal. The sad fact
+is that Armstrong was probably correct, although by doping he exacerbated the problem, making it impossible for others to ride clean.
+
+高度竞争的环境中可能任何人都不得不用一定的见不得人的手段。
+
+> 依稀记得这位运动员还被当做励志典型呢，不了解实际情况的人所作出的归因简直不能信。
+
+even a small improvement in absolute performance can make an
+outsize difference in relative performance, in effect between winning and losing.
+
+作者用蒙特卡洛实验方法最终发现，一点点提升，对于成为最后赢家的概率会大幅增高。
+
+The lesson is clear: in a competitive setting, even a modest improvement in absolute performance can have a huge impact on
+relative performance. And conversely, failing to use all possible
+advantages to improve absolute performance has a crippling effect
+on the likelihood of winning. Under these circumstances, finding a
+way to do better isn’t just nice to have. For all intents and purposes,
+it’s essential.
+
+
+The distribution of payoffs in business is rarely stated explicitly,
+with fixed prizes for first, second, and third place. Nor is there usually a precise end point when a company needs to be among the
+leaders or face elimination.
+
+Yet for all these differences, business nevertheless shares many of
+the same competitive dynamics. Although there may not be a
+clearly defined payoff structure, payoffs in business are often highly
+skewed, with a great disparity between top and low performers.
+There may be no precise end point, but that’s not necessarily a
+source of comfort, because the threat of elimination can be constant. Furthermore, unlike sports, in which the rules are known to
+all and the standings are clear for all to see, competition in business
+has many sources of uncertainty. Technologies can change suddenly
+and dramatically, new competitors can enter the fray at any time,
+consumer preferences can shift from one week to the next, and rivals can merge or form alliances. If anything, competition in business is more dynamic and less forgiving than in sports. Not
+surprisingly, there is incessant pressure to find ways of doing better,
+whether through innovative technology, new products and services,
+or simply better execution. Only by taking chances, by pushing the
+envelope, can companies hope to stay ahead of rivals. Michael Raynor of Deloitte Consulting calls this “the strategy paradox”: that
+strategies with the greatest possibility of success also run the greatest chance of failure. “Behaviorally, at least,” Raynor observes, “the
+opposite of success isn’t failure, but mediocrity. . . . Who dares
+wins . . . or loses.”6 A commitment to bold action may not be sufficient to guarantee success, but when performance is relative and
+payoffs are highly skewed, one thing is assured: playing it safe will almost guarantee failure. You’re bound to be overtaken by rivals
+who are willing to take big risks to come out ahead.
+
+>李嘉诚所说的，稳健不忘发展，发展不忘稳健。忘我地投入，但不要让自己一旦失败就无法生活。
+
+The importance of taking action in business—who dares wins—
+isn’t a new idea.
+
+In the highly competitive industries in which Branson operated, such as retail and airlines, the willingness to take bold action was a necessity. Standing
+pat would inevitably lead to failure. Heike Bruch and Sumantra
+Ghoshal, in A Bias for Action, took this thinking one step further: “While experimentation and flexibility are important for companies,
+in our observation the most critical challenge for companies is exactly
+the opposite: determined, persistent, and relentless action-taking to
+achieve a purpose, against all odds.”9 Why “against all odds”? Because in a competitive game with skewed payoffs, only those who
+are willing to defy the odds will be in a position to win.
+
+In strategic management, a bias for action simply means a preference for action over inaction. Such a preference arises from the recognition that when performance is relative and payoffs are highly
+skewed, only those who take outsize risks will be in a position to win.
+The University of Alberta team displayed a bias for risk taking when
+it pursued what it admitted was “aggressive and sometimes extremely
+risky strategy.” They weren’t wrong. Their bias for taking risks reflected an astute understanding of the competitive context.
+
+为什么说通常来讲在商业中积极采取行动是好的
+
+>和方丈说的又有点不同，方丈是说多思考、少行动。也许内核一致，字面意思不一致。
+
+Put them together, and not only can we improve outcomes by
+taking action, but given the nature of competitive forces we’re
+much better off erring on the side of action. That’s what Intel
+chairman Andy Grove meant by the title of his book, Only the
+Paranoid Survive. Grove didn’t say that all who are paranoid will be
+sure to survive. He made no claim that paranoia leads predictably
+to survival. His point was merely that in the highly competitive
+industry he knew best—semiconductors—only companies that
+push themselves to be among the very best and are willing to take
+risks will have a chance of living to see another day. The choice of
+words was deliberate. Grove knew from experience that paranoia
+may not ensure success, but any companies that survive will have
+exhibited something resembling paranoia.
+
+> 这一章的很多理论还是要结合方丈的言论和市场失灵来看。腾讯、微软、谷歌和苹果不太需要这样做，但小米、比亚迪和特斯拉则不得不这样做。另外新产品邢台的出现会使得品牌、规模没有意义（诺基亚）。但是，一定要找到自己擅长和喜欢的事情，忘我地、长时间地投入。
+
+谁才是哪个特俗案例？
+
+Unfortunately, in our desire to conduct careful research that
+conforms to the norms of social science, with its rigorous controls,
+we have sometimes generalized findings to situations that are markedly different. 
+
+Their desire, as the program title suggests, is to
+achieve better strategic management of their companies. In recent
+years two of my colleagues have added sessions about decision making. The finance professor showed how financial decisions are often
+distorted by cognitive biases, and the marketing professor did the
+same for consumer choices. That’s not a bad thing. Executives are
+surely better off knowing about common errors, and no doubt they
+enjoyed the sessions. But understanding decisions in finance and
+marketing does not adequately capture what is distinctive about strategic decisions. For a program about strategic management, we should
+consider situations in which executives can influence outcomes, and
+in which performance is not only relative but highly skewed.
+
+其实作者与方丈的很多想法不谋而合，商业战略相较于实验室做决定的区别：我们能施加影响、扩充选项；我要需要竞争、比对手更好；回报分布有些明朗、有些不明朗；没有具体的规则；没有一个明显的中止点。这都要求我们要有积极的心态、勇于采取行动、专注、用尽全力、找到自己擅长的事情、细节的改善往往会导致巨大的差别。大公司和伟大公司的区别在于：伟大公司知道专注和简洁、少即是多；大公司则是产品多、策略多、繁杂。这也是根目录思维和树型目录思维所带来的巨大差别。
+
+
+
+
+
+
+
+
+
+
+
