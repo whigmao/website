@@ -611,12 +611,389 @@ in which performance is not only relative but highly skewed.
 其实作者与方丈的很多想法不谋而合，商业战略相较于实验室做决定的区别：我们能施加影响、扩充选项；我要需要竞争、比对手更好；回报分布有些明朗、有些不明朗；没有具体的规则；没有一个明显的中止点。这都要求我们要有积极的心态、勇于采取行动、专注、用尽全力、找到自己擅长的事情、细节的改善往往会导致巨大的差别。大公司和伟大公司的区别在于：伟大公司知道专注和简洁、少即是多；大公司则是产品多、策略多、繁杂。这也是根目录思维和树型目录思维所带来的巨大差别。
 
 
+---
+
+# 第五部分 自信与过度自信
+
+We need to ask: If overconfident means too confident, too confident compared to what? If overconfidence means greater confidence than
+circumstances warrant, which circumstances are we talking about?
+Very soon, what seems like a simple idea becomes much more
+complicated.
+
+To help make great decisions, we
+need to take a new look at what we mean by confidence . . . and
+what we mean by overconfidence.
+
+那么在日常生活中，人们是如何使用 overconfident 的呢？大家是在用结果来倒退的吗？
+
+Overconfidence is a common explanation any time something turns out badly, and not just in politics.
+
+We know that athletes understand the importance of confidence.
+Quite naturally, when they’re victorious they give credit to their
+high confidence, and when they’re defeated are quick to blame
+overconfidence. 
+
+Perhaps nowhere is failure blamed on overconfidence as often as
+in the business world.
+
+人们以结果来评判是否过度自信：成功了---自信，意气风发；失败了---过度自信
+
+In all of these examples, from politics to natural disasters to
+sports to business, overconfidence offers a satisfying narrative device. Take any success, and we can find reasons to explain it as the result of healthy confidence. We nod approvingly: They were
+confident—that’s why they did so well. Take any failure, and we shake
+our heads: They were overconfident—that’s why they did poorly. If they
+hadn’t been so sure of themselves, they might have done better.
+
+First, not everything that turns out badly is due to an error. We live in a world of
+uncertainty, in which there’s an imperfect link between actions and
+outcomes. Even good decisions sometimes turn out badly, but that
+doesn’t necessarily mean anyone made an error. Second, not every
+error is the result of overconfidence. There are many kinds of error: errors of calculation, errors of memory, simple motor errors,
+tactical errors, and so forth. 
+
+Those first two flaws lead to the third. It might be convenient to
+blame bad outcomes on overconfidence, but the logic doesn’t add
+up. Even worse, the effect is to dilute overconfidence to the point
+where it’s all but meaningless. When any failure can be attributed
+to overconfidence, the term means nothing at all.
+
+There’s another danger when we attribute failures to overconfidence, and it’s potentially the most serious of all. Accusations of
+overconfidence carry a moral overtone. When we charge people
+with overconfidence, we suggest that they contributed to their own
+demise. We imply that they at least partially deserved their fate.
+They committed one of the seven deadly sins, sometimes called
+pride or vainglory. We think: They were too sure of themselves. They
+should have known better. They got what they had coming.
+
+It’s only after things turn out badly that
+we hear the term. We’ll never learn from the errors of others if we
+attribute them to overconfidence. We end up fooling ourselves.
+
+如果说过度自信只是一种错误的事后解释的话，那么这些决策研究有意义吗？幸运的是，我们有办法用第三方的客观指标来衡量一个人是否过度自信。
+
+the single word—overconfidence—has been used to mean
+three very different things, which they call overprecision, overestimation, and overplacement
+
+1. Overprecision is the tendency to be too certain that our judgment is correct.
+
+2. Overestimation, the second kind of overconfidence, is a belief
+that we can perform at a level beyond what is objectively warranted. When golfers believe they can sink 90 percent of their sixfoot putts, that’s overestimation. When we believe we can complete
+a task in a shorter period of time than we can, that’s overestimation.
+Overestimation is an absolute evaluation; it depends on an assessment of ourselves and no one else
+
+>The evidence for overestimation isn’t nearly as strong as the
+evidence for overprecision. For many ordinary tasks, there’s good
+evidence that people believe they can do better than they really
+can. 
+
+most people also believe the future will be
+better than the present. But there are limits. When it comes to difficult tasks, many people believe they won’t do very well and at times
+even underestimate how well they can do. Overall, it’s a stretch to
+claim that people have a general tendency to overestimate.
+
+>高估与低估同时存在
+
+
+3. Overplacement, the third kind of overconfidence, is a belief that
+we can perform better than others. It’s not an absolute judgment,
+but a relative one. When it comes to overplacement, much of what we have come
+to believe isn’t just exaggerated but actually incorrect.
+
+
+>Most people
+think they’re below average. Little do they realize that almost everyone else has the same view.
+
+That’s not what we’d expect if people really had a persistent tendency for overplacement. A simpler explanation is that
+the way we place ourselves depends on the difficulty of the task and
+the information we have.
+
+>复杂系统中，考虑他人的情况是非常重要的。
+
+Once we break down overconfidence into its different parts and
+take a close look at each one, we shouldn’t conclude that people
+see themselves as superior to others, period. We’re not overconfidence machines at all. Responses depend on the specific skill in
+question and on the information we have.33 Rather than claim people are biased, it might be more accurate to say they’re myopic.
+They see themselves clearly, but have less information about others, and generally make sensible inferences accordingly.
+
+As for health-care reform, if the Obama administration had expressed high confidence about the chances of successful reform,
+that would be overestimation. But studies of drivers and teachers
+who overplace and computer executives who are overprecise hardly
+let us conclude that health-care reform is tainted by overestimation.
+In fact, if health-care reform is difficult—and by all indications it
+may be very difficult to carry out successfully—the error may be in
+the opposite direction. We may actually underestimate our ability to
+bring about this sort of change. Far from undertaking too many
+difficult projects, we may in fact initiate too few complicated and
+ambitious projects.
+
+那么为了更好地决策，自信的正确水平是多少呢？
+
+So far we have seen that it’s not helpful merely to infer overconfidence after the fact, when things have gone wrong. Nor is it correct
+to use one word for three very different things. There’s little reason
+to suggest that overconfidence is as prevalent as is often claimed.
+
+We saw previously that positive illusions often help improve
+performance. Believing we can do something may help us do it
+well. In that case, is a somewhat exaggerated level of confidence
+really excessive?
+
+The way forward is to remember the topics of the previous chapters. First, can we exert control and influence outcomes, and second, is performance absolute or relative?
+
+For things we cannot influence—the roll of dice, the weather,
+or the S&P 500—there’s nothing to be gained from overestimation.
+
+1. When we can influence outcomes, it can be useful to hold
+opinions that are somewhat inflated—that is, to overestimate.
+
+
+2. When performance is relative, however, the desired level of confidence can only be understood in the context of competition.
+What’s the best level of confidence? It’s what we need to do better
+than our rivals.
+
+That’s not to say that a very high level of confidence will guarantee success. It won’t. The performance of our rivals matters, too.
+Still, when an ability to influence outcomes is combined with relative performance, only those who push themselves to go beyond
+what seems reasonable will be in a position to succeed. What might
+seem like an exaggerated level of confidence isn’t just useful, but in
+the context of competitive rivalry, it is essential.
+
+The problem is, identifying that level of confidence in advance
+is difficult. There’s no formula we can use, which is why we so often resort to ex-post inferences. When things turn out well, we conclude that our level of confidence was appropriate. We were brimming with healthy confidence. When things turn out poorly, we
+conclude it was inappropriate—either too much or too little. We
+suffered from overconfidence—or maybe insufficient confidence. Of
+course that’s really just an easy way out. Ex ante, things are never
+so clear. Determining the right level of confidence demands more
+than a simple comparison to past achievements. We need to consider whether we can exert control over outcomes and also the
+nature of competition. When performance is relative and highly
+skewed, a very high level of confidence is not excessive but
+essential.
+
+我们真的过度自信吗？
+
+Once we tease them apart, however, we
+find that overprecision is widespread, but overestimation and overplacement aren’t inevitable. In fact, when it comes to difficult
+tasks, people are more likely to underplace than to overplace. The
+common image of people as overconfident is justified for routine
+tasks, but not for many of the greater challenges we face.
+
+Far from people being “overconfidence machines,” I suspect a different interpretation is more accurate. As Henry David Thoreau observed, most people lead lives of quiet desperation. Glance at airport
+bookshelves, and you’d never guess that people suffer from overconfidence. Much more common are books that encourage us to raise our
+level of confidence. 
+
+Why has it been reported so consistently that people are overconfident? One problem has to do with the design of experiments.
+If we ask for ranges that require 90 percent confidence, we shouldn’t
+be surprised to find that most errors are in the direction of too
+much confidence, not too little. If we ask about routine tasks like
+driving, we find people tend to overplace. When we run experiments with unbalanced designs, we shouldn’t be surprised that the
+errors are mostly in one direction. The more serious bias isn’t with
+the answers that are given, but with the questions that are asked.
+
+There is another reason, too. Some of the most important research about decision making has been conducted by cognitive
+psychologists, who have been interested in understanding basic
+mental processes, but to whom questions about competition among
+companies are not of central interest. We shouldn’t expect psychologists to ask when confidence might be excessive by one definition
+but useful for competitive purposes.  Yet for those of us who are concerned with the world of management, questions of competition are central. We should be careful not to take findings that
+make sense in one domain and apply them to another—at least not
+without asking whether the circumstances are the same.
+
+> 绝对的金句，任何事情都有其发挥作用的条件，罔顾条件而生搬硬套是绝对行不通的，在社会科学尤其如此，当然在医疗领域也是如此。不同的病人、不同的发病情况，应该适用于不同的治疗方法。
+
+By now, claims of overconfidence
+have been repeated so often that they are accepted as fact. Many
+recent authors have simply repeated the same phrase without taking a critical look.
+
+>批判性思维
+
+I suggest we turn the phrase on its head:
+No concept in judgment and decision making has led to as much erroneous
+thinking as overconfidence. Sure, almost all failure can be blamed ex post
+on overconfidence, but that’s not saying much. We know to be skeptical about retrospective attributions. They make good stories, but aren’t
+valid explanations.
+
+In much of our
+lives, where we can exert control and influence outcomes, what
+seems to be an exaggerated level of confidence may be useful; and
+when we add the need to outperform rivals, such a level of confidence may even be essential.
+
+
+---
+
+# 第六部分 BASE RATES AND BREAKING BARRIERS
+
+> 指的好像就是条件概率
+
+when people make judgments under uncertainty, they tend to focus
+on the case at hand and overlook the composition of the broader
+population. 
+
+> If a test to detect a disease whose prevalence is 1/1000 has a false
+positive rate of 5 percent, what is the chance that a person found to
+have a positive result actually has the disease, assuming you know
+nothing about the person’s symptoms or signs?
+
+哈佛医学院的一道概率题
+
+Most people, whether ordinary folks or professionals, overlook the
+population base rates. They don’t think in terms of the effect of
+the probability of one event on the condition of another.
+
+By now, the base rate bias is often mentioned as one of the common errors that plague our thinking.6 It’s listed along with overconfidence, the confirmation bias, and others. To avoid the base rate
+bias, people are counseled to look at the broader population. They
+shouldn’t just focus on the case at hand, but should stand back and
+consider the larger context. They should develop a basic understanding of conditional probabilities.
+
+That’s a step in the right direction, of course. But if the lesson
+ends there, we have settled for too little. Like Richard Feynman
+asking about the miracle of Lourdes, we need to probe further and
+ask another set of questions.
+
+BASE RATES, GIVEN OR FOUND?
+
+
+In the experiments just described, it was easy to demonstrate the
+base rate bias because all relevant information was provided. 
+
+In the real world, however, base rates are rarely just given. They
+have to be found.
+
+If these seem like complications, that’s precisely the point. Recognizing the need to consider base rates is only a start. Using Bayes’s
+theorem to make a calculation isn’t much good if we don’t know
+which base rate to use.
+
+>帕金森症在中国被逐步发现的案例很有启发意义
+
+
+BASE RATES, FIXED OR CHANGING?
 
 
 
+In each of these examples, recognizing that people have a tendency to overlook base rates is only a starting point. More important is to pose the next set of questions. Are base rates given, or must
+they be found? Are they fixed, or do they change? And if the latter,
+what can be done to change them? When it comes to making decisions in the real world, these questions are ultimately more important than identifying the presence of a cognitive bias.
+
+>辉格关于论述统计学缺陷的那一篇文章与此章节有异曲同工之妙
+
+我们能在多大程度上提升表现
+
+When we have ability to shape events we confront a different challenge: making accurate estimates of future performance. The danger here is not one of overlooking the base rate of the broader
+population at a point in time, but neglecting lessons of the past and
+making a poor prediction of the future. Very often people place
+great importance on their (exaggerated) level of skills and motivation. The result is to make forecasts on what Kahneman and Tversky call the inside view. Unfortunately these projections, which
+ignore the experiences of others who have attempted similar tasks,
+often turn out to be wildly optimistic.
+
+A project may begin well—the first steps are often the
+easiest—leading members to extrapolate what seems like a realistic estimate for the entire project, but which often turns out to
+be wildly optimistic. They don’t see that future steps are likely to be more difficult than early ones, and almost never anticipate the
+myriad obstacles and complications that arise, as committee members changes jobs, as new assignments take priority, and so forth.
+
+> 想到了方丈所说的，把一件事情从 0 干到 60 是容易的，但是从 90 到 95 是很困难的。
+
+The way to avoid the perils of an overly optimistic inside view is
+to consider the past history of similar events, known as the outside
+view. We should ask: What have others done in comparable settings?
+What has been the record of a reference class population? How have
+others responded to challenges, and what makes us think we will be
+able to do any better? If we still maintain that we can do better than
+our predecessors, we should have to justify why we think so.
 
 
+What exactly is a “healthy” dose of optimism? How much is helpful, and at
+what point might optimism become harmful? If we’re not careful, of
+course, we might just make inferences based on outcomes. When
+things turn out well, we will conclude that optimism was at a
+healthy level; and when things turn out badly, we’ll infer it was
+unhealthy, whether excessive or insufficient.
+
+Rather than make ex-post inferences, we need to pose the question in advance. How optimistic should we be? If we commit to do
+better than historical base rates, by how much can we—must we—
+improve performance?
+
+When there is no way to control outcomes, feelings of
+optimism aren’t helpful. There is no point in optimism when we’re
+dealing with a purely random event, like betting on the spin of a
+roulette wheel. Far better is to have a clear understanding of probabilities and payoffs, and to have a good sense of our risk preference.
+On the other hand, when we can control outcomes, optimism can
+lead to higher performance. Setting goals that are demanding, but
+that can inspire our team, may stimulate higher performance.
+That’s the thinking behind “stretch targets.”
 
 
+GOING BEYOND BASE RATES
+
+Great outcomes surely involve
+some risk, but there are often ways to manage risk and reduce it to
+acceptable levels. It might be more helpful to observe that progress is due to men and women who engage both their capacity for
+analysis—left brain—as well as moments of daring—right stuff.
+Indeed, by carefully managing risk they can reduce the potential
+dangers.
+
+A number of good examples come from aviation. Over the course
+of human history, few things have had a more prohibitive base rate
+than human flight. From the tale of Icarus through the drawings of
+da Vinci, the dream of heavier-than-air flight was persistent yet
+unattainable. It wasn’t just a matter of low probability; the base rate
+was zero.
+
+The success of the Wright brothers was due in part to their
+inside view—they weren’t short on ambition or self-confidence—
+but also to the way they thought about the larger problem. They
+redefined their task from facing a single challenge with a prohibitive base rate, to addressing three component challenges with more
+feasible probabilities. Once they solved each of the components,
+the impossible became possible.
+
+>结构化思维
+
+自然障碍与工程障碍
+
+An extraordinary feat of skillful flying and courage? Definitely.
+But Yeager’s achievement was hardly a matter of bravado. You don’t
+take risks; you manage them. You move in small increments, make
+adjustments and find ways to reduce risk along the way. What
+seemed like an impossible barrier was broken into small chunks,
+each one solved through clear-eyed analysis plus a willingness to
+take a final step beyond what had been done before.
+
+> 人们在制造超音速飞机的过程中，如何将一个大问题分解，一步步解决问题，认真分析、控制风险、采取行动。
+
+Asked if he was chasing a pipe dream, Piccard explained: “My
+goal isn’t to go beyond physical limits. It’s to go beyond the limits
+we put on ourselves. Human beings prevent themselves from going
+beyond what they know, from putting themselves in situations
+where they risk losing control. Those are exactly the situations that
+interest me, where we venture into the unknown.”
+
+
+Bertrand Piccard, no less than his predecessors in aviation, embodies the right stuff—a willingness to go beyond what has been
+achieved before—but always governed by careful planning and the
+intelligent management of risk—elements of the left brain.
+
+THINKING ABOUT BASE RATES
+
+
+We know from experiments that most people suffer from the base
+rate bias. They don’t naturally think in terms of conditional probabilities. They tend to focus on the event before them, but often
+overlook important facts about the broader population.
+
+Of course, it’s good to be aware of the base rate bias, whether
+we’re trying to interpret the results of a medical test or to make some other judgment under uncertainty. Yet at least as important are a
+series of second-order questions. Of all the possible base rates we
+could consider, which is the most relevant for the purpose at hand?
+Is the base rate fixed, or does it change? If the latter, what causes it to
+change—and can we take action to change it?
+
+Similarly, it’s useful to know the difference between the inside
+view and the outside view, and to be aware that the view is often
+inflated by overestimation. It’s smart to consider the outside view
+in order to keep unrealistic the inside view in check. Yet it’s also
+important to consider whether optimism can be useful. To answer
+that question we not only have to know whether we can influence
+outcomes, but also need to sense whether performance is absolute
+or relative.
+
+Finally, although it makes a good story to claim that progress is
+due to the actions of unreasonable people, the truth is more complex. Going beyond what has been done before isn’t the province
+of the wild and the reckless. It calls for a combination of careful.
+analysis and management of risk—left brain—with the willingness
+to take a step into the unknown—right stuff.
 
 
