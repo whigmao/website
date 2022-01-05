@@ -1452,6 +1452,251 @@ what truly defines the decisions of a leader.
 
 ---
 
+# 第九部分 WHERE MODELS FEAR TO TREA
+
+We made the distinction between outcomes we can influence and those we cannot, between performance that is absolute and relative, between decisions that lend
+themselves to rapid feedback and those that do not, and between
+decisions made by individuals acting alone and those made
+by leaders.
+
+In coming chapters I’ll bring these elements together and look at
+a few comprehensive examples. But first let’s take a closer look at a
+topic of current interest: decision models.
+
+Models are accurate in part because they avoid common errors
+that plague humans. People suffer from the *recency bias*, placing too
+much weight on recent information while downplaying earlier
+data. They pay too much attention to information that is readily
+available. They’re also unreliable: give someone the same information on two different occasions, and he or she may reach two rather
+different decisions. Models have none of these problems. They can
+also crunch copious amounts of data accurately and reliably.
+
+>模型在招聘、放贷、入学等方面应用广泛，且比人类要好
+
+Better risk management and improved crop yields
+are the result.
+
+Models have shown remarkable power in fields that are usually
+considered the domain of experts. Models can even work well for seemingly subjective tasks. 
+
+> 在鉴别葡萄酒品质的问题上，模型的预测准确度也远超人类。
+
+Decision models, of course, don’t suffer from
+such biases. They weigh all data objectively and evenly. No wonder
+they do better than humans.
+
+So are decision models really “the new way to be smart”? Absolutely. At least for some kinds of decisions.
+
+But look back over our examples. In every case the goal was to
+make a prediction about something that could not be directly influenced. A model can estimate whether a loan will be repaid, but can’t
+change the likelihood that a given loan will be repaid on time. It
+won’t give the borrower any greater capacity to pay or make sure he
+doesn’t squander his money the week before payment is due. A model
+can predict the rainfall and days of sunshine on a given farm in central Iowa, but can’t change the weather. It can estimate how long a
+celebrity marriage might last, but won’t help one last longer or cause
+another to end sooner. A model can estimate the quality of a wine
+vintage, but won’t make the wine any better. It can’t reduce the acidity, improve the balance, or add a hint of vanilla or a note of cassis.
+
+
+For these sorts of situations, in which our aim is to make an accurate estimate of something we cannot influence, models can be
+enormously powerful. But when we can influence outcomes, the
+story changes. 
+
+
+MODELS AND MONEYBALL
+
+> 读研究生的时候还讲述过 moneyball 的故事
+
+The failure to distinguish between what we can control and what
+we cannot has led to quite a bit of confusion, and nowhere more so
+than in the application of statistics to baseball.
+
+A very, very large percentage of
+the things that the experts all knew to be true turned out, on examination, not to be true at all.
+
+
+Quants had already revolutionized finance and were now making their mark in baseball.
+
+>一个方法被证明有效之后会被各种人复制；数学和统计在入侵各个领域。
+
+As for the Oakland Athletics? A baseball team’s performance is
+relative, not absolute.* If Oakland was the only major league team
+to rely on statistics to evaluate players, it would enjoy—all else
+being equal—a clear advantage over the other twenty-nine teams.
+What would happen if a second team took the same approach? Very
+likely both teams might be able to find undervalued players, and
+both would have an edge over the other twenty-eight. But now
+suppose that six teams played “Moneyball,” or maybe twelve, or
+eventually twenty. The market price for undervalued players
+would go up, and what Michael Lewis described as an unfair game
+would become a fair market. At some point, when almost all teams
+played “Moneyball,” there would no longer be any relative advantage at all. True, any teams that still rejected the power of data
+analysis would perform worse than the rest, but the use of statistics
+wouldn’t be enough to ensure high performance. It would become
+necessary, but insufficient to win.
+
+> 上面这段话适用于所有商业领域，还包括读大学、考公务员、进大公司等事情。
+
+And that pretty much describes what happened to the Oakland
+Athletics, whose performance tapered off as they posted a losing record
+for five straight years, before returning to their winnings in 2012 and
+2013. In a 2009 interview—“No More Talk about Moneyball,
+Please”—Billy Beane expressed mild irritation at the continued
+attention paid to his earlier triumphs. He commented: “Listen, you
+can’t get stagnant in this business and we certainly haven’t. There
+are teams that are probably far beyond what we can imagine in this
+office based on their intelligence and their resourcefulness. . . . You
+can’t do the same things, in this case, seven years later. There are
+too many changes in the game and it’s more and more
+competitive.”
+
+Statistical analysis is a powerful tool, and by now it’s indispensable for baseball teams. But in baseball, as in so many other competitive arenas, absolute improvements don’t ensure relative
+success. **The bar keeps rising**.
+
+WHY BILLY BEANE AND JOE MORGAN ARE BOTH RIGHT
+
+But there was a deeper issue, one that touches on the difference
+between making predictions and influencing outcomes.
+
+When we stand back from the claims and counterclaims, Billy
+Beane and Joe Morgan are both right, just about different things.
+We come back to one of the central questions of great decision
+making: Am I predicting something I cannot influence, or can I
+exert control? The job of a general manager is to assemble a team
+that will perform well on the field. When he evaluates players,
+when he decides whom to sign and how much to pay, whom to
+promote and whom to trade, he does best by relying on dispassionate analysis. There’s nothing to be gained from wishful thinking or
+biased judgments.  Once the game begins, he’s powerless. The job of a player is entirely different. At that moment, an
+implemental mind-set with high self-confidence is vital.
+
+Between at bats, it’s important to shift to a deliberative mind. Then, when next standing in at the plate, deliberation
+gives way to implementation. Now, thinking that you can succeed
+is vital: believing that you can and will succeed now, against this
+pitcher.
+
+The
+‘Moneyball’ kind of stuff has its place, but so does the human. Really, the combination is the answer.
+
+Pitting baseball traditionalists against proponents of statistical
+analysis makes for a spirited debate, but it’s a false dichotomy. It’s
+not conducive to a better understanding. Both approaches have
+merit, but for different things.
+
+
+POLITICAL JUDGMENT . . . AND JUDGMENT ABOUT POLITICS
+
+The need to distinguish between making predictions and influencing outcomes is seen in fields other than sports.
+
+But predicting events is not the only kind of political judgment,
+nor necessarily even the most important. Political judgment is not
+the same thing as judgment about politics. The mark of a skilled politician isn’t the ability to forecast events but to shape them.
+
+That calls for leadership, which means influencing people to bring
+about desired results. Political leaders don’t just
+predict what will happen.  They have to get things done. 
+
+Good political judgment means using power and persuasion and levers of influence to shape the course of events.
+
+INFLUENCE, DIRECT AND INDIRECT
+
+
+Decision models can be very accurate at predicting things we cannot influence, like Supreme Court decisions and wine vintages. For
+the person who actually has to get things done, models are far from
+sufficient. There’s also a third category between direct influence
+and no influence: indirect influence. If a model’s prediction is communicated in a way that changes someone’s behavior, we may still be
+able to shape outcomes. Indirect influence can take two forms. If it
+increases the chance of an event occurring, that’s a self-fulfilling
+prediction. If it lowers the chance of an event occurring, that’s a
+self-negating prediction.
+
+The paradox, of course, is that
+efforts at persuasion will be most effective when they are able to
+disguise their true intentions—that is, when they appear to be
+purely objective and impartial.
+
+NOT JUST A ONE-TERM WONDER
+
+
+Morris confirmed
+one of the less savory principles of punditry: it’s better to be outrageously wrong and get lots of attention than to be correct but blend
+into the crowd.
+He underscored another truth as well: not all
+predictions are created equal.
+
+BAYESIAN MODELS, USED WISELY
+
+Understanding the uses and limits of decision models brings us
+back to the topic of base rates, discussed in Chapter Six. We saw
+from the examples of the taxicabs and medical tests that people
+don’t naturally think in terms of conditional probabilities. They
+don’t often pay attention to the overall population when making
+judgments about specific events.
+
+In those examples, of course, all the relevant facts were provided to us, so that calculating conditional probabilities was just
+a matter of applying the formula and crunching the numbers. But
+as we know, very often data are not simply given but have to be
+found, and are not fixed but can change. In such cases, we can
+incorporate new information into our models through a process of
+Bayesian updating.
+
+Thinking of our models as works in progress, continually updated
+to become more accurate over time, makes good sense.
+
+But let’s be careful. What works so well for taking daily readings of the temperature, or predicting the performance of a basketball team, may not be especially useful for other kinds of
+events. The time frame is different, and our efforts to update the
+model may affect the event of interest
+
+The process works when we get new data quickly and
+accurately, and—crucially—when gathering that information
+doesn’t alter the probabilities of a future occurrence. After all, the
+weather doesn’t know what you predicted, nor do the Knicks know
+what your model estimated. There’s no question of influencing outcomes, whether directly or indirectly
+
+Things change, however, when it comes to finding mystery underwear. How exactly do you determine whether your partner is really
+having an affair, and then adjust the model to make a more accurate
+prediction, without altering the probability of a future event?
+
+Bayesian updating can be very
+powerful, but we should recognize its practical limits, as well.
+
+>对于不相互独立的事件，贝叶斯定理的预测能力有限
+
+THINKING ABOUT DECISION MODELS
+
+Decision models can be immensely useful, often making very accurate predictions with relatively little data, and they can help us
+avoid some of the common biases that undermine our judgments.
+In the past decade their use has expanded enormously, thanks to
+growing access to large databases. Models are becoming more important all the time.
+
+
+In our embrace of decision models, however, we have sometimes
+overlooked the need to use them well. Especially for things we cannot directly influence, there’s no benefit to anything other than
+accurate judgment. When we have direct influence, the challenge
+is different. Our task isn’t to predict what will happen, but to make
+it happen. Here, positive thinking can make the difference between
+success and failure.
+
+
+Decision models are often a way to be smart, but even more important is to be wise, which means understanding what models can
+and cannot do. To quote one blogger, the growing popularity of
+“technically-sophisticated, computationally-intensive statistical
+approaches” has an unfortunate side effect: to think less about what
+the numbers actually mean. There’s a “shut up and calculate the
+numbers” ethos, rather than one that promotes critical thinking.33
+When we use models without a clear understanding of when they
+are appropriate, we’re not going to make great decisions—no matter
+how big the data set or how sophisticated the model appears to be.
+
+We need also to acknowledge a third category: indirect influence. Even if we have no direct influence on a given outcome,
+we may communicate our model’s predictions in such a way that
+we can alter behaviors and ultimately shape events. Publicizing
+the results of a political opinion poll is but one example. In baseball,
+too, the results of statistical analysis can be used to encourage or
+motivate, indirectly affecting what happens on the diamond, but
+never in a way that replaces the need to swing the bat and throw
+the ball. Statistics don’t play the game; ballplayers do.
+
+
 
 
 
