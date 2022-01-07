@@ -1697,6 +1697,148 @@ never in a way that replaces the need to swing the bat and throw
 the ball. Statistics don’t play the game; ballplayers do.
 
 
+---
+
+# 第十部分 WHEN ARE WINNERS CURSED?
+
+Experiments offer a powerful way to isolate a single phenomenon
+while holding other things constant. Many real-world decisions,
+however, don’t oblige our wish to deal with one element at a
+time. They confront us with many elements, interlinked and interdependent. They often combine an ability to control outcomes with a need to outperform rivals, they often unfold over
+months and years, and they involve leaders in an organizational
+setting.
+
+> 第一点是至关重要的
+
+In these next two chapters I’ll look at two very different kinds of
+leadership decisions: making a high-stakes competitive bid and
+starting a new venture.  In both instances, we’ll see how a careful analysis and deliberation—left brain—is essential, but that winning
+decisions also call for moments of calculated risk—right stuff.
+
+>The winner's curse is a tendency for the winning bid in an auction to exceed the intrinsic value or true worth of an item.
+
+The story of the winner’s curse goes back to the 1960s, when
+managers at the Atlantic Refining Company noticed a worrying
+trend. Some years earlier, Atlantic (later known as Atlantic Richfield and then ARCO) had won several auctions to drill for oil in
+the Gulf of Mexico. Later, as the company reviewed the performance of those leases, it found that it was losing huge sums of
+money. Oil had been discovered, yes, but revenues weren’t enough
+to make the leases profitable. Winning bids had turned into losing
+investments.
+
+>共识很可怕，买的太贵了难以解套
+
+He discovered an insidious dynamic: when a large
+number of bidders place secret bids, it’s almost inevitable that the
+winning bid will be too high. Capen called this the winner’s curse.
+
+By the time everyone was through subtracting value, our bids were so low we didn’t buy anything.”3 Now
+Atlantic had a different problem: it had found a way to avoid losses
+from overbidding, but also precluded the possibility of any wins.
+
+>竞标的价格太高不挣钱，出价低了又没有标的
+
+Capen and his colleagues set out three rules: The larger the
+number of bidders, the lower you should bid. The less information
+you have relative to the information possessed by rival bidders, the
+lower you should bid. And the less certain you are about your information, the lower you should bid.
+
+people are often risk averse, and in this experiment there was
+nothing to be gained by erring on the high side.
+
+The larger the number of bidders, the
+greater the chance that at least one bid would be wildly high, and
+the less likely it was that an accurate bid could hope to win.
+
+Of course it’s good to be aware of the winner’s curse. Anyone thinking of taking part in an auction should understand the basic paradox that the apparent winner often ends up a loser. You don’t want
+to be drawn into a bidding war for some item on eBay when you
+can find it somewhere else and perhaps more cheaply. The winner’s
+curse is particularly important in the world of finance, where it
+poses a serious danger for investors in publicly traded assets. Because market analysts and investors have access to roughly the same
+information, anyone willing to pay more than the market price is
+very likely paying too much. The implication is sobering. Imagine
+you spot what seems like a bargain—a stock that you think can be
+bought on the cheap, for example. Rather than believe you know
+something that others don’t, it’s wiser to conclude that you’re
+wrong.
+
+Much more likely is that your generous valuation is in error. Seminars on behavioral finance teach investors to watch out
+for the winner’s curse and to avoid its ill effects.
+
+
+But let’s stand back for a moment. What do a nickel auction and
+buying a stock have in common? By now, I hope you have spotted
+the answer. In both cases, there’s no way to exert control over the
+value of the asset.
+
+In common value auctions, our bids reflect our estimates of the
+asset’s value. If you think the jar contains more nickels than I think
+it does, you’ll bid more than I will, simple as that. The same goes for
+a share of stock. For these sorts of assets, there’s nothing to be
+gained from anything other than careful and dispassionate
+assessment.
+
+There’s another reason you don’t want to overpay. If you need
+nickels you can always go to a bank and buy a roll of 40 for $2.
+There’s no reason to pay more. You wouldn’t worry about losing a
+nickel auction—or making a Type II error. Rather, you should worry
+about making a Type I error—winning the bid and realizing you
+have overpaid. The same is true for a share of Apple or GE. There’s
+a ready market with plenty of liquidity, and unless you’re planning
+to mount a takeover bid and want to accumulate a large block of
+shares, you can buy as many as you want without moving the market. Paying more than the market price makes no sense.
+
+Other auctions are very different. They’re known as private value
+auctions, in which the value for you and for me is not the same.
+Differences might be due to entirely subjective reasons, as with a
+collectible.
+
+Is making a bid based on anticipated improvements an example of overconfidence? By one definition, yes. It smacks of overestimation. It exceeds our current level of ability. But by another
+definition, betting on an annual improvement of 3 percent isn’t
+excessive at all. It’s in line with the historical rate of improvement. The problem is, your rivals are also likely to improve at a
+similar rate, meaning that betting on a 3 percent rate of improvement probably won’t be enough to win. It will only bring you to
+the midpoint of expected improvements.
+
+> 你在进步的同时你的对手也在进步
+
+To have a good chance of winning, you might want to make a
+bid that puts you in the top 10 percent, which means betting on an
+improvement of 51.6 percent over fifteen years. To stand a better
+chance, you might want to go still further—toward the high end of
+what could be justified by historical rates. An improvement of 52.3
+percent could be expected to occur one in twenty times. Such a bet
+would seem to be an example of overestimation, but even then you
+wouldn’t win the auction if a rival was willing to be even more
+ambitious. To have a very good chance of winning the auction, you
+might want to be in the top 1 percent, which means betting on an
+improvement of 53.7 percent.
+
+> 好是不够的，要好到前 1% 才行
+
+Put another way, anyone not willing to go
+out on a limb won’t stand much of a chance of winning.
+
+it’s a
+mistake to take a simple classroom experiment using a common
+value auction and apply its findings to private value auctions,
+where capabilities can improve over many years.
+
+When we can
+exert influence and improve outcomes, and in particular when we
+have many years in which to do so, a very different logic applies.
+Seeking to avoid losses and steer clear of dangers may seem prudent,
+but it will not lead to success. In addition to a clear understanding
+of base rates and a careful analysis of possible improvements, we
+also need to take calculated risks.
+
+>莽撞肯定不行，
+
+it’s a short step to suggesting that excessive bids
+stem from overconfidence. We point the finger at excessive
+optimism, perhaps due to the runaway ego of chief executives.
+That makes for a satisfying explanation, of course. We love to see
+the mighty fall. We’re pleased to see the rich and arrogant get
+their comeuppance. 
+
 
 
 
