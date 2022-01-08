@@ -1839,6 +1839,69 @@ That makes for a satisfying explanation, of course. We love to see
 the mighty fall. We’re pleased to see the rich and arrogant get
 their comeuppance. 
 
+But as we know, it’s too easy to make these
+sorts of judgments after the fact. As long as executives are successful, they’re likely to be described as bold and confident; it’s
+only when things go badly that we talk of overconfidence or hubris or arrogance. What’s a better way to explain the poor track record of acquisitions? Very likely there’s a combination of forces at work. One is
+overestimation. Even if it’s not as pervasive as often suggested,
+some managers surely do overestimate their ability to drive revenue growth and cost savings. Chief executives who are the most optimistic about the benefits they expect to achieve will be willing
+to pay much more than others. Second is the paradox that successful managers may be the worst offenders, having grown accustomed
+to past success and therefore imagining they will succeed in the
+future, even when attempting something much more difficult. They
+focus on their own personal rate of success—the inside view—and
+neglect the rate of success in the population—the outside view.
+Third is the problem of asymmetrical incentives. Chief executives
+may be willing to take a dubious chance if they know they will
+benefit handsomely for getting good results but will suffer little if
+things go poorly—or even walk away with a large severance payment if the deal goes badly. Heads I win, tails I win even more.
+
+To blame the poor performance of so many acquisitions on overconfidence and the winner’s curse diverts us from making important distinctions. Acquisitions are typically matters of private value,
+not common value. A company may be justified in paying more
+than another if it can identify potential gains that are unique to it.
+Furthermore, value isn’t captured at the point of acquisition, but is
+created over time, sometimes several years. For that, companies can
+influence outcomes.
+
+>公司并购的目的如果是为了节省成本，成功的概率很高，如果是为了增加收入，成功的概率很低，节省成本自身有更多的控制权，增加收入除了自身，还需要考虑市场环境，影响因素太多。人也是一样，改变自己的成功概率很高。
+
+By one definition, paying $15 per share for AT&T Wireless was
+an excessive bid. It surpassed what could be justified based on
+current calculations of costs and revenues. If the deal had failed
+to deliver value, Whitacre would surely have been castigated for
+hubris. Critics would have blamed the winner’s curse. But $15 per
+share was not excessive given that AT&T Wireless offered benefits that were unique in the landscape of telecommunications, and
+once lost might be gone forever. Ed Whitacre understood that in
+a competitive arena, where managers can shape outcomes, the
+only way to succeed is to take calculated risks—not just risks that
+lend themselves to precise analysis, taken out to several decimal
+points, but risks that are understood in broad brush strokes. Only
+those willing to take large and even outsize risks will be in a position to win.
+
+THINKING ABOUT COMPETITIVE BIDS
+
+
+Many complex decisions involve competitive bids, whether tendering a low bid to win a contract or making a high bid to acquire a
+property or a company. For anyone engaged in competitive bidding,
+familiarity with the winner’s curse is vital. 
+
+Yet once again, we sometimes generalize the lessons from one
+situation without understanding important differences. Classroom
+demonstrations about the winner’s curse are a good way to illustrate
+the perils of common value auctions, but we need to be careful
+when we apply them to private value auctions, let alone to situations in which we can influence value and performance is relative.
+Very different circumstances call for a different mind-set.
+
+When we can influence outcomes and drive gains, especially when the time horizon is long, we can and should bid beyond
+what is currently justified. And where competitive dynamics are
+crucial, it may be essential to do so. We must consider not only the
+dangers of paying too much—a Type I error—but also to the consequences of failing to push aggressively—a Type II error.
+
+The real curse is to apply lessons blindly, without understanding
+how decisions differ. When we can exert control, when we must
+outperform rivals, when there are vital strategic considerations, the
+greater real danger is to fail to make a bold move. Acquisitions always involve uncertainty, and risks are often considerable. There’s
+no formula to avoid the chance of losses. Wisdom calls for combining clear and detached thinking—properties of the left brain—with
+the willingness to take bold action—the hallmark of the right stuff.
+
 
 
 
