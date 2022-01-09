@@ -1902,6 +1902,308 @@ greater real danger is to fail to make a bold move. Acquisitions always involve 
 no formula to avoid the chance of losses. Wisdom calls for combining clear and detached thinking—properties of the left brain—with
 the willingness to take bold action—the hallmark of the right stuff.
 
+---
+
+# 第十一部分 STARTING UP, STEPPING OUT
+
+If most new ventures
+fail, why do people keep starting them? Economic theory offers a
+couple of explanations. Maybe enough new businesses succeed, and
+a few succeed so spectacularly, that starting one is still a good bet.
+In the language of economics, there’s a positive expected value. But
+unfortunately most studies don’t claim that a few large successes
+outweigh the many failures. The reason people keep starting new
+businesses must lie elsewhere.
+
+
+A second explanation looks to something called subjective expected utility. The idea is that people don’t make decisions based
+on financial returns alone. Entrepreneurs enjoy the thrill of starting a new business. They take satisfaction from running their own
+company and love to be their own boss. These non-financial benefits might be large enough to offset financial losses. In fact, according to this logic they must be, for otherwise rational
+individuals wouldn’t keep founding businesses. But this argument
+isn’t very persuasive, either. The thrill of starting a business won’t
+last long as the red ink piles up. Being your own boss wears thin
+when you’re losing money.
+
+Decision research offers a different explanation. Why do people
+continue to start new ventures despite a low chance of success?
+Because of errors in judgment. Two biases stand out, and by now we
+know them well: overconfidence and the base rate bias. People often
+overestimate their abilities, thinking they’re better than they really are, and they also overplace, believing themselves to be superior to
+others. They also disregard base rates and assume that the experience of others doesn’t apply to them. They emphasize the optimistic inside view and dismiss the more realistic outside view. Take
+these two biases together, and it’s no wonder that entrepreneurs
+launch new businesses despite the low chance of success.
+
+Camerer and Lovallo concluded that people tend to be
+overly optimistic about their chances of success, displaying reference group neglect. This bias, they suggest, explains why people
+continue to start new businesses that so often fail.
+
+If biases are to blame for so many failed businesses, presumably
+aspiring entrepreneurs should be advised to guard against these errors and refrain from starting so many new businesses. No doubt
+some aspiring entrepreneurs do suffer from delusions of success,
+and some harebrained schemes that stand little chance of success
+should be discouraged. But curiously, for all the fuss made about new business failure, it’s seldom suggested that the US economy
+suffers from an excess of new ventures, or that entrepreneurial activity is somehow destroying economic value. Indeed, other countries strive to emulate our record for new business creation. Of all
+the ills in American society—education, health care, crime, and so
+forth—the high rate of new venture creation is rarely mentioned.
+If anything, the vibrant climate for starting new companies is
+thought to be an asset of the US economy.
+
+How should we reconcile concerns about the high rate of entrepreneurial failure with a sense that overall it’s good to have lots of
+start-ups? One way to square the circle is to suggest that even if
+most new businesses go bust, there’s a spillover benefit for the economy at large. By this thinking, entrepreneurs are “optimistic martyrs” who sacrifice themselves for the greater good. Overconfidence
+may be harmful at the individual level, but it serves as an engine of
+capitalism and benefits the economy as a whole.
+
+Note the words: entrepreneurship isn’t about taking smart risks,
+but reckless ambition. Moreover, the resulting energy and ambition
+are a beautiful thing. Lewis goes on to suggest that if Jeff Bezos hadn’t
+been willing to take outsize risks against all odds, Amazon.com
+wouldn’t exist. We need more of this kind of beauty, not less.
+
+
+Similarly, Martha Lane Fox, cofounder of Internet start-up
+lastminute.com, recalls that she had believed so passionately in the
+success of her venture that she used the words of her doubters—
+those who pointed out that success was highly unlikely—as a source
+of motivation.
+
+>When you start a business, you have to have a blind faith that you
+can prove the critics wrong. If we had listened to the people who
+said it was rubbish, bankrupt, we’d have failed to get out of bed in
+the morning. So whether blindly, arrogantly, or whatever, we always thought we could make it work. . . . Anybody who starts their
+own business, you are going to constantly be told no, by people all
+along the whole journey, right from the word go. The first people we
+showed the business plan to, our parents, both said no one’s going
+to give you money for this idea, you’re crazy. You have to have that
+passion to carry you through it.
+
+
+Sure, many will fail, but that’s
+part of a healthy process of innovation and value creation. We’re
+all better off because of their willingness to push beyond what’s
+reasonable; society at large benefits from their reckless ambition and
+arrogance.
+
+So what explains the high rate of new business failure? On closer
+inspection, it’s not even clear that most new businesses fail. The
+very premise is questionable to begin with. True, a majority shut
+their doors in less than five years, but let’s be careful. If success
+means selling shares through an initial public offering, then less
+than 1 percent of all new ventures would be considered successful.
+Surely that cannot be the only yardstick. If, however, success means
+that a business closes with no debt, the rate of success after five
+years is much higher, estimated by some studies to be as high as 92
+percent! If that seems surprising, bear in mind that small businesses
+cease operation for all sorts of reasons: family circumstances change,
+better opportunities arise, and so forth. Many companies close
+down but are able to pay their debts and even have something left
+over—perhaps even enough to start another business. One study found that one in four companies that closes down actually made a
+profit. The fact that many businesses don’t last very long shouldn’t
+be taken as proof that most new businesses fail. Furthermore,
+many companies that end up in the red have losses that are quite
+modest, such that entrepreneurs state they would do it all again,
+which is not something we normally associate with failure. That’s
+not just a rationalization either. Losses are often modest and don’t
+pose a barrier to trying again.
+
+It makes a good story to begin with the premise that most businesses fail, observe the presence of cognitive biases, and then
+claim that one is the result of the other. But this syllogism doesn’t
+stand up to scrutiny. Even worse, by perpetuating the myth that
+cognitive biases are a major cause of failure, we divert our attention from understanding how entrepreneurs successfully manage
+risk, finding ways to take advantage of opportunities while limiting
+their losses.
+
+STEPPING INTO THE CLOUD
+
+
+The
+operative phrase during this early phase was fail fast. If the new product wasn’t going to work, they wanted to know quickly so they could
+call a halt and not waste lots of time and money. Accordingly, they
+stayed small, with just five employees, and kept costs to a minimum.
+Their first offices were in a modest suite above a cheese shop at the
+edge of a shopping plaza, hardly a hotbed of computer innovation.
+
+> 用最小的成本，最快的速度去试错，积累经验
+
+There’s no point doing something slightly different. You
+need to be extremely disruptive, need to be extremely “outside
+the box.” As we started VMware, we started with a clean sheet
+of paper, a lot of confidence, not a lot of knowledge of the issues
+ahead of us, but we knew where the mountain was and what
+peaks were ahead of us.
+
+Even in a small organization, you need to be able
+to rally people and give people confidence that we know what
+we’re doing, we have a path, even though the details are murky.”
+
+The truth is simpler but no less impressive.
+First, VMware’s founders were smart to identify a problem that was
+difficult enough to discourage all but the best computer scientists, yet
+was not impossible to solve. They also picked one that had the potential to be commercially successful, although the size of the market
+was unclear. But they were hardly reckless or imbued with blind faith.
+They kept an eye on what was within their control: solving a technological problem while risking as little as possible in terms of funds.
+Had they been unable to solve the technical challenge—a very distinct possibility—they would have closed their doors. They would
+have been listed among the many small businesses that fail, but really
+would not have been a failure at all. They would have risked only
+what was affordable. The gamble they made had a large upside, but
+they made sure to keep the downside small. They were smart and
+they were fortunate, but above all they were wise.
+
+> 绝对的经典语录
+
+MANAGING RISKS, SEEKING REWARDS
+
+The approach taken by VMware is fairly typical of many new ventures. Starting a company isn’t a one-time decision. Entrepreneurs
+don’t just make a bet and hope they can defy the odds. Their job is to manage risk, which means controlling what they can and finding
+ways to grasp the gains while guarding against losses.
+
+Brad Mattson explained that starting a new business demands
+clear analysis with an ability to manage risk. “What I tell entrepreneurs is, ‘Your job is risk management. If you can reduce or
+eliminate the key risk, you can succeed.’” New ventures face three
+kinds of risk: market, technical, and financial. The one I try to avoid is market risk. You can’t control
+markets. You can’t force customers to change. If your solution
+depends on the customer changing what they’re doing, you’re just
+adding risk. It makes little sense to pursue a speculative market
+where demand doesn’t already exist. Also beyond an entrepreneur’s control are the actions of competitors and government
+policy.
+
+Technical risk is a different matter. Not only is technology
+something we can influence, but improvements are very likely
+crucial for the new venture’s success. Only with superior technology is there a chance to prevail. For this it was essential to take large risks.
+
+>You can’t expect the market to
+adopt your product if it’s 5 percent better; it needs to be 20 percent
+better.
+
+The key to success is to set aggressive technical goals, then pursue them with confidence. The greatest danger is not to worry
+about an illusion of excessive control, but the reverse. It’s to set
+sights too low. Mattson described one company that successfully
+created the product it set out to build, but failed as a business because the product wasn’t ambitious enough. The company had
+reached its (absolute) target but ultimately collapsed because it fell
+short in relative terms. The moral: “*Don’t fail because you succeed.*”
+
+Of course there is no point in attempting what is clearly impossible. “Don’t try to invent unobtanium,” was Brad Mattson’s advice.
+“It can be demoralizing to find out something cannot be done.” Yet
+he also said, “I’ve never yet been disappointed with a technical
+team, to be creative and to come up with amazing things.”
+
+Regarding the role of the leader in a start-up, with so many uncertainties it is essential to identify the critical success factors and
+provide a road map for success, and then to communicate it with
+confidence.
+
+The third kind of risk is financial. Raising money is only part
+of the challenge; spending it wisely is just as important. Just as crucial was spending money at the right time.
+
+>Don’t spend lots of money in the first phase, because it doesn’t help you. You have to know the technology
+linchpins. Those usually don’t need lots of money. You don’t
+need 200 people or large facilities. When we develop a technology, what we need is a small number of people.
+
+During the early
+phase it is vital to focus on the technical challenge while keeping costs down, very much the approach at VMware. Yes, some
+companies will be unable to develop the new technology and
+will go out of business, but if they have kept costs low, any losses
+will be small. Engineers will move on to other ventures, often
+better for the experience.
+
+If the technical challenges can be solved and there is a viable
+product, the company enters a new phase. Now it is risky not to
+spend money. Many companies miss the transition point, Mattson
+said. Either they have too high a burn rate in the initial phase and
+run out of the money they’ll need later, or else they’re too slow to
+ramp up spending and fail to build a strong market presence.
+Managing a new venture is nothing like deciding to enter a game,
+with costs that are fixed and payoffs that are clearly stated. It’s all
+about influencing outcomes to achieve success.
+
+Even after a new venture is safely off the ground, success is not
+assured. The challenges facing a new business—exerting control
+over what we can, responding to what we cannot, while keeping an
+eye on competition—often continue for years. Many companies
+alter their products and adapt their business models in ways that
+would have been unimaginable at the outset.
+
+Managing a new venture often calls for a willingness to experiment,
+to try and see what works. Perseverance was crucial. not
+only because it takes a certain level of mental flexibility to understand what users want, but because the plan will probably change.
+People think startups grow out of some brilliant initial idea like a
+plant from a seed.”22 That view, so appealing to many, is wrong.
+
+>好事无需规划在商业层面的解释
+
+It’s not accurate to say that
+their initial efforts failed; rather, those early efforts opened doors
+that led in unexpected directions. Successful new ventures are less
+often those that insist on following a set vision or executing a
+precise business plan. They do well because they are able to adapt,
+learning from feedback to find new opportunities.
+
+ANOTHER LOOK AT LABORATORY EVIDENCE
+
+Managing a new business, of course, is different on all counts.
+There’s no fixed amount of profits to be distributed, nor is there a
+precise end-point when profits will be handed out. In fact, profits
+aren’t distributed but created—and the better we perform, the more
+value we can create. Nor did this experiment allow players to influence one of the most basic factors of all—their costs. They had to
+pay a fixed fee to enter, with no way to lower or delay those costs.
+The result is an elegantly crafted experiment with statistically significant findings, but which does not provide a valid explanation of the
+phenomenon of interest, namely an entrepreneur’s decision to start
+a business.
+
+And there’s more. In the aforementioned experiment, high performance came from doing well in a trivia contest about general
+knowledge or sports. That’s significant because, as we saw in Chapter Five, people tend to overplace for easy tasks (like driving) but
+underplace for hard tasks (like drawing). A trivia contest is likely to appear easy, leading many people to think they will outperform
+rivals. No wonder they tended to enter in excess numbers.
+
+>大家都觉得自己能干的生意，不能干。看起来热闹的生意不能碰。
+
+What would happen if the contest was perceived to be very
+difficult? Would we still observe excess entry? In “easy” industries there was evidence of excess entry, as people imagined they
+would do very well and entered in large numbers. In “difficult” industries the reverse occurred. Now people imagined they would be unlikely to succeed, and fewer decided to play. Moore and his colleagues
+commented: “Contrary to the conclusions of some entrepreneurship
+researchers, our findings imply that entrepreneurs are not universally
+overconfident. . . . Entry decisions result from an information search
+that relies too heavily on the most easily accessible data: information
+about one’s own and one’s firm’s capabilities. This tendency can lead
+to excess entry in some markets and insufficient entry in others.”
+
+When we think about new venture failure, the examples that
+come to mind are in industries that are easy to enter, like restaurants, retail shops, and beauty salons. Capital costs are low, and
+there’s little need for intellectual property. Many people think they
+have the skills to succeed and don’t appreciate that other people
+have just as much chance as they do. We should expect to find
+excess entry in those industries, and we do.
+
+In other industries success seems more difficult. Innovation is
+unpredictable, capital costs are high, and customer preferences
+change rapidly. Here, people may exaggerate the difficulties they
+expect to face and be reluctant to try their hand at a new business.
+Far from excess entry, the greater problem may be insufficient entry.
+
+> 我估计在男女关系上也是一样
+
+THINKING ABOUT NEW VENTURES
+
+It is vital to understand how
+people make decisions to start and grow companies. Unfortunately,
+this process is often misunderstood. It’s easy to look at the (alleged)
+high rate of start-up failure, connect that to (sometimes exaggerated) evidence of biases, and suggest that one is explained by the
+other. We can even construct laboratory simulations to provide
+supporting evidence. Managing a new venture is not a one-time decision to enter a
+game costs and payoffs are known.
+
+Far from suffering from an illusion of excessive control, we may fail to appreciate the control we have
+and underestimate our ability to shape and transform.
+
+Starting a new business involves many of the same elements we
+have seen in other winning decisions: an ability to distinguish between what we can control and what we cannot; a sense of relative
+performance and the need to do better than rivals; the temporal
+dimension, in which decisions do not always produce immediate
+feedback; and an awareness that decisions are made in a social context, in which leaders sometimes need to inspire others to go beyond what may seem possible. Together, these elements help new
+ventures get off to a winning start.
+
+---
+
+# 第十二部分 THE STUFF OF WINNING DECISIONS
 
 
 
