@@ -2205,6 +2205,200 @@ ventures get off to a winning start.
 
 # 第十二部分 THE STUFF OF WINNING DECISIONS
 
+DPR exhibited
+a combination of analysis and action, of calculation and courage,
+of left brain and right stuff
+
+From the days of Adam Smith, economic theory has rested on a
+cornerstone belief in rational behavior. Human beings were assumed to make consistent decisions given their best interests. In
+the language of economics, consumers optimized their utility, producers maximized their profits, and the invisible hand of the free
+market worked effortlessly to allocate resources in the best way.
+
+>人在追求自己主观认为的利益最大化。
+
+In the 1970s and 1980s, a series of path-breaking experiments,
+many of them ingenious in their simplicity, revealed that people
+often make judgments and choices in ways that run counter to the
+tenets of rationality. These were momentous findings that shook
+economic theory to its core. Yet to reach the other extreme, and
+to conclude that people are somehow irrational, is not quite right,
+either.
+
+ Rather
+than use binary terms—rational or irrational—we would do better
+to employ Herbert Simon’s phrase and recognize that people have
+bounded rationality.
+
+They may intend to be rational, and much of
+the time they meet the standards of rationality, but their abilities
+are limited. More accurate is to conclude that people often display
+systematic errors of judgment, or biases, a word with fewer negative
+connotations.
+
+By now a long and growing list of books has described many of
+the biases that affect our decisions. We have been told that our
+intuitions deceive us, that we suffer from blind spots, that we’re
+predictably irrational, that we’re not so smart, that we should learn
+the art of thinking clearly, and so forth. The appeal of such books is
+understandable. It’s fascinating to read about common errors, and
+sobering to acknowledge that we, too, exhibit those same tendencies. It’s useful to be aware when we’re entering a cognitive minefield, and it makes good sense to look for ways to reduce the
+likelihood of error.
+
+In many fields the contributions of decision research have been
+significant. But as noted, in other fields people seem not to heed
+the lessons. Business executives in particular seem not to have embraced the view that they suffer from common biases. 
+
+What’s missing is the recognition that strategic decisions are fundamentally different from most decisions made by many managers,
+policy makers or marketers. Strategic decisions don’t involve choices
+from a fixed set of options that cannot be altered, but allow us to
+influence outcomes. They aren’t primarily about absolute performance, but usually involve a competitive dimension requiring that
+we do better than rivals. Strategic decisions are not made by individuals acting alone, but are taken by executives acting within an
+organizational setting, who must mobilize others to achieve goals.
+Take these points together, and we shouldn’t be surprised that corporate strategists seem not to heed the lessons of decision research.
+Those lessons have not been adapted to address the realities that
+strategic decision makers face.
+
+For all the attention that has been paid to avoiding common biases,
+much less effort has been spent on identifying how decisions differ,
+and how the lessons that make sense for some kinds of decisions are
+less relevant or even beside the point for others.
+
+
+BETTER QUESTIONS FOR WINNING DECISIONS
+
+
+
+In the opening chapter, I quoted Richard Feynman about the
+importance of asking questions. His example about the miracle at
+Lourdes was a humorous way to make a serious point: that any
+proposition, even one based on the existence of divine powers, can
+and should be investigated. The same logic applies here.
+
+
+To make great decisions, we need above all to develop the capacity to question, to go beyond first-order observations and pose incisive second-order questions. An awareness of common errors and
+cognitive biases is only a start. Beyond that, we should ask:
+
+
+Are we making a decision about something we cannot control, or are
+we able to influence outcomes? Often we have studied the way people
+make choices from options they cannot alter and judgments about
+things they cannot change. That’s a fine way to isolate a single
+moment in time, as if captured by a strobe light. But many
+decisions—including some of the most important of all—are not
+choices made at a single moment in time. Furthermore, far from
+suffering from an illusion of excessive control, we often err in the
+other direction: we underestimate the amount of control we truly
+have. Overall, we’re often better off acting as if we can effect
+change, rather than accepting that we cannot.
+
+
+Are we seeking an absolute level of performance, or is performance
+relative? Do we need to do better than rivals, who themselves are
+trying to do better than us? If the latter, can we determine the way
+payoffs are distributed? Are they highly skewed or perhaps even
+winner-take-all? The level of risk we take will vary depending on
+answers to these questions. Furthermore, does competition have a
+clear end point, or is it open ended? Taking all of this into consideration, is it better to aim high and seek the aspiration point? Or is
+it better to play it safe and aim at the survival point, so we can stay
+in the game and try to do better in the future?
+
+
+Are we making a decision that lends itself to rapid feedback, so we can
+make adjustments and improve a next effort? If so, the technique of
+deliberate practice can be a useful way to gain expertise. Or are we
+making a unique decision, or one the results of which will take
+longer to be known? In such a case, the benefits of deliberate practice are not available. The imperative may be to make sure this
+decision is sound, because there’s little chance to make adjustments
+and improve for a next time.
+
+
+Are we making a decision as an individual or as a leader in a social
+setting? Much of what has been studied looks at individuals,
+whether consumers or investors or voters. Decisions by leaders,
+by contrast, impose many additional complexities. Questions of
+consistency, reputation, and fairness are important. Furthermore, because leaders at times need to help others achieve more
+than is objectively justified, a series of questions arise. How
+should we reconcile the desire for transparency with the need to
+inspire others? How can we balance authenticity and sincerity?
+For all we know about decisions made by individuals, we face
+additional complications when it comes to decisions made by
+leaders.
+
+
+Are we clear what we mean by overconfidence? The term is often
+used without sufficient clarity. Do we mean a level of confidence
+that seems to have been excessive given how things turned out?
+That’s the most common usage, very often found in our everyday
+conversations and in the press, but it’s problematic. Inferring overconfidence based on outcomes is little more than an ex-post rationalization. Or do we mean a level of confidence that’s excessive
+based on some objective criteria, measured in the here and now?
+That’s a step in the right direction, and is the way much decision
+research has used the term, but do we mean overprecision, overestimation, or overplacement? They are very different things, and
+evidence of one cannot be taken as evidence of another. As a third
+option, do we mean excessive confidence given competitive circumstances? When performance is relative and we have to do better
+than rivals, an elevated level of confidence may be necessary for
+success. At present, a single word is used to mean several entirely
+different things—and most people don’t even know it. Anyone using the word overconfidence should have to indicate the point of
+comparison: excessive compared to what? Otherwise we run the risk,
+as George Orwell put it, that slovenly language leads to foolish
+thoughts.
+
+
+Have we given careful thought to base rates, whether of the larger population at a point in time or historical rates of past events? We know that
+people often overlook information about the broader population and
+tend not to have an intuitive grasp of conditional probabilities, so an
+awareness of the base rate bias is useful. Just as important, however, is
+the ability to ask useful second-order questions. Where do base rates
+come from? Are they readily available, and if so, from a reliable
+source? Or must they be found? Next, are they steady over time or
+subject to change? If the latter, what causes them to change? Are we
+able to change them through our efforts? Furthermore, if we seek to go beyond what has been done before, can we break down a seemingly
+daunting base rate into components, each of which may be tractable?
+If so, what may seem impossible can sometimes be broken into manageable parts. Awareness of the tendancy to overlook base rates is only
+a first step. Thinking about them clearly, and recognizing how we can
+change them or overcome them is vital, too.
+
+
+As for decision models, are we aware of their limits as well as
+strengths? Models can be very useful to overcome common biases
+and analyze large amounts of data, and they are becoming much
+more powerful and more widely used. That’s all for the good. In
+our desire to embrace models, however, we have sometimes overlooked fundamental questions. Are we trying to predict things that
+are out of our control, or can we nudge the course of events? Do we
+recognize the third category of indirect influence, in which the
+findings of our model can indirectly change behavior? Decision
+models are a way to be smart, but even more important is to use
+them wisely.
+
+
+When the best course of action remains uncertain, do we have a sense
+of on which side we should err? Is it better to commit a Type I error
+and take action, even if we may be wrong? Or are we better off not
+to act and run the risk of a Type II error? Toward the end of Risk
+Taking: A Managerial Perspective, Zur Shapira counsels: “It might be
+preferable to have managers imagine (sometimes falsely) that they
+can control their fates, rather than suffer the consequences of imagining (sometimes falsely) that they cannot.”9 When we recognize
+that management typically combines an ability to influence outcomes with a need to outperform rivals, we understand why this
+statement is correct. Not only might it be preferable to err on the
+side of action; as a general rule it is. In much of life, in management
+but also in so many other settings, the greater danger is not that we
+suffer from an illusion of excessive control, but that we fail to take action. A desire to reduce errors of one kind leads us to commit
+others that are potentially more serious.
+
+
+ The tactician plays a competitive game, anticipating the way a given move may lead to a
+countermove and planning the best response. The psychologist
+knows how to shape outcomes by inspiring others, perhaps by setting goals or by offering encouragement or maybe with direct criticism. The riverboat gambler knows that outcomes aren’t just a
+matter of cold numbers and probabilities, but that it’s important
+to read an opponent so as to know when to raise the stakes, when
+to bluff, and when to fold. Winning decisions call for a combination of skills as well as the
+ability to shift among them. We may need to act first as a psychologist, then as a tactician, next as a riverboat gambler, and perhaps
+once again as a psychologist. In the real world, where we have to
+respond to challenges as they arise, one skill or another is insufficient; versatility is crucial.
+
+Even then success is never assured, not in the competitive arenas
+of business or sports or politics. Performance is often relative and
+consequences of failure are harsh. A better understanding of decision making, however, and an appreciation for the role of analysis as
+well as action, can improve the odds of success. It can help us win.
 
 
 
