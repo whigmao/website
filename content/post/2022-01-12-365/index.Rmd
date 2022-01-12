@@ -1,0 +1,33 @@
+---
+title: 'Book Review: Make it Stick'
+author: Guanghua Mao
+date: '2022-01-12'
+slug: '365'
+categories:
+  - Original Articles
+tags:
+  - Book Review
+  - Epistemology
+  - Learning
+---
+
+>在 Youtube 上看过这本书的讲解，同时结合自身的实际经验觉得此书甚好。
+
+A growing science of learning: highly
+effective, evidence- based strategies to replace less effective but
+widely accepted practices that are rooted in theory, lore, and
+intuition. But there’s a catch: the most effective learning strategies are not intuitive.
+
+WE apply two of the primary learning principles in the book: spaced
+repetition of key ideas, and the interleaving of different but
+related topics.
+
+If learners spread out their study of a topic,
+returning to it periodically over time, they remember it better.
+Similarly, if they interleave the study of different topics, they
+learn each better than if they had studied them one at a time in
+sequence. 
+
+While much remains to be known about learning and its
+neural underpinnings, a large body of research has yielded
+principles and practical strategies that can be put to work immediately, at no cost, and to great effect.
