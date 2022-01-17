@@ -9,6 +9,10 @@ tags:
   - Book Review
   - Business
   - Decision
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 # 第一部分
