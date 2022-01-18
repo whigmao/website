@@ -9,6 +9,7 @@ tags:
   - Book Review
   - Business
   - Decision
+  
 output:
   blogdown::html_page:
     toc: true
