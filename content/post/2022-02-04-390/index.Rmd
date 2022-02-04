@@ -1,0 +1,14 @@
+---
+title: 简易识别好公司，坏公司
+author: 方三文
+date: '2022-02-04'
+slug: '390'
+categories:
+  - Translation Articles
+tags:
+  - Investment
+---
+
+识别好公司和烂公司，是一辈子都学不完的投资学问。不过也有一些捷径可走，下面就是我发明的“方式简便识别法”，大家不要见笑啊：
+
+![好公司 vs 坏公司](1.jpg){width = 50%}
