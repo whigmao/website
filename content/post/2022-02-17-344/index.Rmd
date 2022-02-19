@@ -2,7 +2,7 @@
 title: 真知部落格---摘录
 author: 真知部落格
 date: '2022-02-17'
-slug: '344'
+slug: '404'
 categories:
   - Translation Articles
 tags:

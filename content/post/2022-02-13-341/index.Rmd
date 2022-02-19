@@ -2,7 +2,7 @@
 title: 方丈在雪球上关于苏宁的评价
 author: 方三文
 date: '2022-02-13'
-slug: '341'
+slug: '401'
 categories:
   - Translation Articles
 tags:

@@ -2,11 +2,15 @@
 title: 'Book Review: 《职场动物进化手册》'
 author: '雾满拦江 '
 date: '2022-02-15'
-slug: '343'
+slug: '403'
 categories:
   - Translation Articles
 tags:
   - Business
+output:
+  blogdown::html_page:
+    toc: true
+    number_sections: true
 ---
 
 # 人物分类

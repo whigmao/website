@@ -2,7 +2,7 @@
 title: 微言（22）
 author: Guanghua Mao
 date: '2022-02-06'
-slug: '340'
+slug: '400'
 categories:
   - Original Articles
 tags:

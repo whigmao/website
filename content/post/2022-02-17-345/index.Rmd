@@ -2,7 +2,7 @@
 title: 'Book Review: 影响力'
 author: Guanghua Mao
 date: '2022-02-17'
-slug: '345'
+slug: '405'
 categories:
   - Original Articles
 tags:
