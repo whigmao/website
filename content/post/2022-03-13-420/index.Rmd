@@ -1,0 +1,12 @@
+---
+title: Book Review：《见识》
+author: 吴军
+date: '2022-03-13'
+slug: '420'
+categories:
+  - Translation Articles
+tags:
+  - Investment
+---
+
+![思维导图](1.jpg){width = 50%}
